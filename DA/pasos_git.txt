@@ -1,0 +1,26 @@
+# Una vez instalado GIT
+# Abrimeros nuestra Terminal o Powershell
+git config --global user.name "Tu nombre"
+git config --global user.email "tu_email@ejemplo.com"
+
+# Creamos nuestro repo en GitHub
+# Una vez creado, vamos al botón de CODE -> Copiamos la URL
+# En el explorador de Windows crearemos una carpeta vacia
+# donde almacenaremos nuestros repositorios
+# Dentro de la carpeta, oprimimos la tecla Shift
+# y damos click derecho -> abrir terminal (o powershell)
+
+# y hacemos lo siguiente
+git clone <url_copiada_del_repo>
+
+
+# Ahora desde el explorador de Windows
+# entramos a la carpeta que se creo automáticamente de nuestro repo
+# y, de nuevo, shift + click derecho -> abrir terminal (o powershell)
+
+# Pegamos en la carpeta nuestros archivos cargados desde colab
+# y leugo desde la terminal o powershell
+
+git add .
+git commit -m "agrega tu mensaje"
+git push
