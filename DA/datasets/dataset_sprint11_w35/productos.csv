@@ -1,0 +1,81 @@
+producto_id,nombre_producto,categoria,subcategoria,precio_lista,costo_unitario
+PRD001,Smartphones_1,Electrónica,Smartphones,327.33,165.27
+PRD002,Smartphones_2,Electrónica,Smartphones,466.54,259.31
+PRD003,Smartphones_3,Electrónica,Smartphones,236.64,104.9
+PRD004,Smartphones_4,Electrónica,Smartphones,358.7,220.73
+PRD005,Smartphones_5,Electrónica,Smartphones,580.23,315.01
+PRD006,Laptops_6,Electrónica,Laptops,320.36,152.99
+PRD007,Laptops_7,Electrónica,Laptops,547.23,236.92
+PRD008,Laptops_8,Electrónica,Laptops,479.3,267.26
+PRD009,Laptops_9,Electrónica,Laptops,49.35,25.07
+PRD010,Laptops_10,Electrónica,Laptops,266.02,168.31
+PRD011,Accesorios_11,Electrónica,Accesorios,423.52,257.25
+PRD012,Accesorios_12,Electrónica,Accesorios,592.23,374.71
+PRD013,Accesorios_13,Electrónica,Accesorios,283.15,132.52
+PRD014,Accesorios_14,Electrónica,Accesorios,69.28,40.04
+PRD015,Accesorios_15,Electrónica,Accesorios,343.78,161.25
+PRD016,Audio_16,Electrónica,Audio,89.04,56.4
+PRD017,Audio_17,Electrónica,Audio,454.64,197.48
+PRD018,Audio_18,Electrónica,Audio,311.99,137.62
+PRD019,Audio_19,Electrónica,Audio,438.21,275.09
+PRD020,Audio_20,Electrónica,Audio,523.58,337.22
+PRD021,Muebles_21,Hogar,Muebles,382.93,243.52
+PRD022,Muebles_22,Hogar,Muebles,373.28,162.97
+PRD023,Muebles_23,Hogar,Muebles,456.42,269.89
+PRD024,Muebles_24,Hogar,Muebles,507.84,260.49
+PRD025,Muebles_25,Hogar,Muebles,523.4,284.44
+PRD026,Muebles_26,Hogar,Muebles,36.31,16.38
+PRD027,Decoración_27,Hogar,Decoración,340.37,179.64
+PRD028,Decoración_28,Hogar,Decoración,141.52,74.27
+PRD029,Decoración_29,Hogar,Decoración,518.3,208.73
+PRD030,Decoración_30,Hogar,Decoración,394.31,241.5
+PRD031,Decoración_31,Hogar,Decoración,260.83,115.37
+PRD032,Decoración_32,Hogar,Decoración,125.04,79.66
+PRD033,Cocina_33,Hogar,Cocina,213.33,113.19
+PRD034,Cocina_34,Hogar,Cocina,426.71,182.81
+PRD035,Cocina_35,Hogar,Cocina,134.55,65.08
+PRD036,Cocina_36,Hogar,Cocina,69.75,33.39
+PRD037,Cocina_37,Hogar,Cocina,534.5,312.24
+PRD038,Cocina_38,Hogar,Cocina,462.06,251.99
+PRD039,Ropa Hombre_39,Ropa,Ropa Hombre,131.88,73.64
+PRD040,Ropa Hombre_40,Ropa,Ropa Hombre,186.0,96.65
+PRD041,Ropa Hombre_41,Ropa,Ropa Hombre,583.66,311.93
+PRD042,Ropa Hombre_42,Ropa,Ropa Hombre,429.29,243.95
+PRD043,Ropa Hombre_43,Ropa,Ropa Hombre,372.16,213.48
+PRD044,Ropa Hombre_44,Ropa,Ropa Hombre,194.96,114.5
+PRD045,Ropa Mujer_45,Ropa,Ropa Mujer,189.99,106.15
+PRD046,Ropa Mujer_46,Ropa,Ropa Mujer,38.12,23.35
+PRD047,Ropa Mujer_47,Ropa,Ropa Mujer,441.16,190.57
+PRD048,Ropa Mujer_48,Ropa,Ropa Mujer,40.26,20.11
+PRD049,Ropa Mujer_49,Ropa,Ropa Mujer,17.84,11.0
+PRD050,Ropa Mujer_50,Ropa,Ropa Mujer,441.75,210.51
+PRD051,Calzado_51,Ropa,Calzado,570.09,249.75
+PRD052,Calzado_52,Ropa,Calzado,457.55,270.24
+PRD053,Calzado_53,Ropa,Calzado,290.91,178.14
+PRD054,Calzado_54,Ropa,Calzado,299.34,193.93
+PRD055,Calzado_55,Ropa,Calzado,270.14,172.4
+PRD056,Calzado_56,Ropa,Calzado,204.92,94.15
+PRD057,Fitness_57,Deportes,Fitness,320.2,129.11
+PRD058,Fitness_58,Deportes,Fitness,267.22,170.69
+PRD059,Fitness_59,Deportes,Fitness,364.93,168.96
+PRD060,Fitness_60,Deportes,Fitness,540.4,341.55
+PRD061,Fitness_61,Deportes,Fitness,597.08,299.71
+PRD062,Fitness_62,Deportes,Fitness,61.06,28.15
+PRD063,Outdoor_63,Deportes,Outdoor,240.04,134.47
+PRD064,Outdoor_64,Deportes,Outdoor,120.71,78.13
+PRD065,Outdoor_65,Deportes,Outdoor,220.99,110.76
+PRD066,Outdoor_66,Deportes,Outdoor,183.17,73.67
+PRD067,Outdoor_67,Deportes,Outdoor,117.1,68.57
+PRD068,Outdoor_68,Deportes,Outdoor,461.98,278.4
+PRD069,Ciclismo_69,Deportes,Ciclismo,305.33,189.0
+PRD070,Ciclismo_70,Deportes,Ciclismo,552.76,282.56
+PRD071,Ciclismo_71,Deportes,Ciclismo,34.07,17.07
+PRD072,Ciclismo_72,Deportes,Ciclismo,54.18,24.49
+PRD073,Ciclismo_73,Deportes,Ciclismo,250.92,115.86
+PRD074,Ciclismo_74,Deportes,Ciclismo,61.96,26.45
+PRD075,Accesorios_75,Electrónica,Accesorios,168.7,75.67
+PRD076,Accesorios_76,Electrónica,Accesorios,591.83,348.1
+PRD077,Accesorios_77,Electrónica,Accesorios,137.24,70.13
+PRD078,Accesorios_78,Electrónica,Accesorios,130.9,75.35
+PRD079,Accesorios_79,Electrónica,Accesorios,350.58,198.97
+PRD080,Accesorios_80,Electrónica,Accesorios,306.33,127.74

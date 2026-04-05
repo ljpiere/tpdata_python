@@ -1,0 +1,501 @@
+cliente_id,nombre,ciudad,segmento,genero,fecha_registro,edad
+CLI0001,Cliente_1,Barranquilla,Corporativo,M,2022-09-04,32
+CLI0002,Cliente_2,Medellín,PYME,F,2023-05-25,57
+CLI0003,Cliente_3,Cartagena,PYME,M,2021-12-04,19
+CLI0004,Cliente_4,Cali,Consumidor,M,2022-01-22,38
+CLI0005,Cliente_5,Bogotá,Consumidor,F,2023-01-10,55
+CLI0006,Cliente_6,Pereira,Corporativo,M,2022-04-06,62
+CLI0007,Cliente_7,Barranquilla,Consumidor,No especificado,2022-11-02,29
+CLI0008,Cliente_8,Barranquilla,PYME,M,2022-02-23,48
+CLI0009,Cliente_9,Bogotá,Consumidor,F,2021-07-16,26
+CLI0010,Cliente_10,Medellín,Consumidor,F,2022-11-10,23
+CLI0011,Cliente_11,Medellín,Consumidor,F,2021-04-30,34
+CLI0012,Cliente_12,Bucaramanga,PYME,F,2021-06-30,59
+CLI0013,Cliente_13,Cali,Consumidor,F,2022-07-25,50
+CLI0014,Cliente_14,Cartagena,Consumidor,No especificado,2022-11-12,40
+CLI0015,Cliente_15,Medellín,Consumidor,M,2023-03-26,31
+CLI0016,Cliente_16,Bogotá,Consumidor,M,2021-09-06,24
+CLI0017,Cliente_17,Cali,Consumidor,F,2021-04-11,30
+CLI0018,Cliente_18,Bogotá,Corporativo,F,2023-05-21,25
+CLI0019,Cliente_19,Cartagena,Consumidor,M,2021-05-21,26
+CLI0020,Cliente_20,Cali,PYME,M,2021-06-29,50
+CLI0021,Cliente_21,Barranquilla,PYME,F,2021-09-23,24
+CLI0022,Cliente_22,Medellín,Consumidor,F,2022-04-27,20
+CLI0023,Cliente_23,Pereira,Consumidor,No especificado,2023-03-15,43
+CLI0024,Cliente_24,Cartagena,Corporativo,F,2022-11-24,31
+CLI0025,Cliente_25,Barranquilla,Consumidor,F,2022-10-07,39
+CLI0026,Cliente_26,Bogotá,Consumidor,M,2021-06-09,24
+CLI0027,Cliente_27,Medellín,PYME,No especificado,2021-11-22,27
+CLI0028,Cliente_28,Bogotá,PYME,M,2022-03-12,38
+CLI0029,Cliente_29,Bogotá,Corporativo,F,2021-05-15,50
+CLI0030,Cliente_30,Cali,Consumidor,M,2021-09-06,37
+CLI0031,Cliente_31,Barranquilla,Corporativo,F,2021-10-08,43
+CLI0032,Cliente_32,Pereira,Corporativo,F,2021-04-26,42
+CLI0033,Cliente_33,Medellín,Consumidor,F,2022-05-16,30
+CLI0034,Cliente_34,Medellín,Corporativo,No especificado,2022-10-04,31
+CLI0035,Cliente_35,Medellín,Consumidor,M,2021-03-05,38
+CLI0036,Cliente_36,Bogotá,Consumidor,F,2022-03-14,19
+CLI0037,Cliente_37,Bogotá,Consumidor,M,2022-12-13,50
+CLI0038,Cliente_38,Medellín,Consumidor,M,2022-11-12,46
+CLI0039,Cliente_39,Bogotá,Consumidor,M,2023-01-12,32
+CLI0040,Cliente_40,Cali,PYME,M,2022-02-12,35
+CLI0041,Cliente_41,Medellín,PYME,M,2023-01-17,33
+CLI0042,Cliente_42,Cartagena,Corporativo,F,2021-08-08,48
+CLI0043,Cliente_43,Barranquilla,PYME,F,2021-11-25,53
+CLI0044,Cliente_44,Medellín,PYME,F,2021-06-10,23
+CLI0045,Cliente_45,Cartagena,Consumidor,M,2022-03-02,37
+CLI0046,Cliente_46,Barranquilla,Consumidor,M,2021-12-23,18
+CLI0047,Cliente_47,Medellín,Consumidor,M,2021-08-08,39
+CLI0048,Cliente_48,Bogotá,Consumidor,F,2022-11-16,29
+CLI0049,Cliente_49,Cali,Corporativo,F,2021-10-13,33
+CLI0050,Cliente_50,Bogotá,Consumidor,M,2021-09-06,39
+CLI0051,Cliente_51,Bogotá,Consumidor,F,2021-04-30,33
+CLI0052,Cliente_52,Bogotá,Consumidor,M,2022-02-04,36
+CLI0053,Cliente_53,Barranquilla,Consumidor,M,2021-10-03,53
+CLI0054,Cliente_54,Cali,PYME,M,2021-12-03,56
+CLI0055,Cliente_55,Barranquilla,Consumidor,M,2021-08-03,18
+CLI0056,Cliente_56,Barranquilla,Consumidor,F,2022-11-26,35
+CLI0057,Cliente_57,Medellín,Consumidor,No especificado,2023-04-27,57
+CLI0058,Cliente_58,Cali,Consumidor,M,2022-03-30,42
+CLI0059,Cliente_59,Bogotá,Corporativo,F,2022-08-09,27
+CLI0060,Cliente_60,Bogotá,Consumidor,F,2023-03-01,45
+CLI0061,Cliente_61,Cali,Consumidor,No especificado,2023-06-28,24
+CLI0062,Cliente_62,Medellín,Consumidor,F,2022-07-13,19
+CLI0063,Cliente_63,Cali,PYME,M,2023-03-21,47
+CLI0064,Cliente_64,Barranquilla,Corporativo,F,2023-04-07,42
+CLI0065,Cliente_65,Cali,Corporativo,M,2022-12-22,53
+CLI0066,Cliente_66,Cali,Corporativo,No especificado,2022-02-24,34
+CLI0067,Cliente_67,Cali,Corporativo,M,2021-03-15,58
+CLI0068,Cliente_68,Medellín,Consumidor,F,2021-01-15,37
+CLI0069,Cliente_69,Bogotá,Consumidor,M,2022-03-11,52
+CLI0070,Cliente_70,Medellín,Consumidor,M,2022-03-26,22
+CLI0071,Cliente_71,Bogotá,Consumidor,F,2022-01-06,22
+CLI0072,Cliente_72,Medellín,PYME,F,2022-06-02,54
+CLI0073,Cliente_73,Cartagena,Consumidor,M,2022-05-18,57
+CLI0074,Cliente_74,Bogotá,Corporativo,No especificado,2023-02-01,62
+CLI0075,Cliente_75,Bogotá,PYME,F,2021-04-09,33
+CLI0076,Cliente_76,Bogotá,Consumidor,M,2021-07-24,19
+CLI0077,Cliente_77,Bogotá,PYME,F,2022-12-23,64
+CLI0078,Cliente_78,Cali,Corporativo,F,2023-02-11,46
+CLI0079,Cliente_79,Cali,PYME,F,2023-06-25,29
+CLI0080,Cliente_80,Barranquilla,Consumidor,M,2023-03-06,53
+CLI0081,Cliente_81,Cali,Consumidor,M,2023-03-21,60
+CLI0082,Cliente_82,Medellín,Consumidor,No especificado,2021-10-14,31
+CLI0083,Cliente_83,Barranquilla,Consumidor,No especificado,2022-01-01,54
+CLI0084,Cliente_84,Bogotá,Consumidor,F,2021-09-01,55
+CLI0085,Cliente_85,Bogotá,PYME,No especificado,2022-07-06,41
+CLI0086,Cliente_86,Bogotá,Corporativo,F,2023-05-05,47
+CLI0087,Cliente_87,Barranquilla,Consumidor,F,2021-11-10,30
+CLI0088,Cliente_88,Medellín,Consumidor,F,2022-05-22,61
+CLI0089,Cliente_89,Bogotá,Consumidor,F,2021-09-27,64
+CLI0090,Cliente_90,Medellín,Consumidor,F,2021-06-04,64
+CLI0091,Cliente_91,Bogotá,PYME,M,2021-06-27,52
+CLI0092,Cliente_92,Cali,Consumidor,F,2021-02-22,19
+CLI0093,Cliente_93,Medellín,Consumidor,M,2023-05-14,35
+CLI0094,Cliente_94,Medellín,Corporativo,M,2022-01-02,38
+CLI0095,Cliente_95,Medellín,Consumidor,F,2023-01-30,63
+CLI0096,Cliente_96,Cali,Consumidor,M,2022-09-13,43
+CLI0097,Cliente_97,Medellín,Corporativo,M,2021-06-24,43
+CLI0098,Cliente_98,Bogotá,Corporativo,F,2021-06-09,24
+CLI0099,Cliente_99,Bogotá,PYME,F,2023-01-09,55
+CLI0100,Cliente_100,Pereira,Corporativo,M,2021-08-29,33
+CLI0101,Cliente_101,Bucaramanga,Consumidor,M,2023-04-12,22
+CLI0102,Cliente_102,Cali,Corporativo,M,2021-05-08,64
+CLI0103,Cliente_103,Bogotá,PYME,F,2022-09-09,26
+CLI0104,Cliente_104,Pereira,Corporativo,F,2023-01-12,18
+CLI0105,Cliente_105,Barranquilla,PYME,M,2021-08-03,21
+CLI0106,Cliente_106,Barranquilla,Corporativo,F,2021-09-09,39
+CLI0107,Cliente_107,Medellín,PYME,M,2023-05-28,22
+CLI0108,Cliente_108,Bogotá,Consumidor,M,2021-08-29,57
+CLI0109,Cliente_109,Bogotá,Corporativo,No especificado,2022-01-27,42
+CLI0110,Cliente_110,Bucaramanga,Consumidor,M,2022-01-29,33
+CLI0111,Cliente_111,Medellín,Corporativo,M,2021-08-19,18
+CLI0112,Cliente_112,Bogotá,Corporativo,M,2022-12-07,40
+CLI0113,Cliente_113,Medellín,PYME,F,2022-12-04,25
+CLI0114,Cliente_114,Cali,PYME,No especificado,2021-12-11,63
+CLI0115,Cliente_115,Bogotá,Consumidor,No especificado,2023-01-30,31
+CLI0116,Cliente_116,Cartagena,Corporativo,M,2021-07-13,40
+CLI0117,Cliente_117,Barranquilla,Corporativo,M,2021-01-04,18
+CLI0118,Cliente_118,Barranquilla,Consumidor,F,2022-06-04,24
+CLI0119,Cliente_119,Medellín,Consumidor,M,2023-06-24,27
+CLI0120,Cliente_120,Cali,Consumidor,F,2021-02-05,20
+CLI0121,Cliente_121,Cali,Corporativo,F,2021-07-09,52
+CLI0122,Cliente_122,Cali,Consumidor,M,2022-04-18,62
+CLI0123,Cliente_123,Bogotá,PYME,F,2023-01-08,64
+CLI0124,Cliente_124,Medellín,Consumidor,M,2021-03-23,30
+CLI0125,Cliente_125,Bogotá,PYME,M,2021-12-26,55
+CLI0126,Cliente_126,Medellín,Consumidor,F,2022-11-11,41
+CLI0127,Cliente_127,Medellín,Corporativo,F,2021-12-05,20
+CLI0128,Cliente_128,Bogotá,Consumidor,F,2021-06-21,22
+CLI0129,Cliente_129,Bogotá,Corporativo,F,2021-06-27,43
+CLI0130,Cliente_130,Cali,PYME,No especificado,2022-01-09,37
+CLI0131,Cliente_131,Bogotá,PYME,No especificado,2022-03-13,18
+CLI0132,Cliente_132,Bucaramanga,PYME,F,2023-02-24,61
+CLI0133,Cliente_133,Cali,Consumidor,M,2022-08-08,52
+CLI0134,Cliente_134,Medellín,Consumidor,F,2022-09-21,41
+CLI0135,Cliente_135,Cali,Consumidor,No especificado,2023-06-14,64
+CLI0136,Cliente_136,Bogotá,Consumidor,M,2022-01-10,63
+CLI0137,Cliente_137,Pereira,Corporativo,F,2022-01-03,63
+CLI0138,Cliente_138,Medellín,Corporativo,M,2023-04-21,30
+CLI0139,Cliente_139,Barranquilla,Corporativo,M,2021-08-12,59
+CLI0140,Cliente_140,Bogotá,PYME,F,2022-10-27,41
+CLI0141,Cliente_141,Medellín,Corporativo,M,2022-11-18,52
+CLI0142,Cliente_142,Medellín,PYME,F,2021-03-30,58
+CLI0143,Cliente_143,Bucaramanga,Consumidor,F,2022-03-03,25
+CLI0144,Cliente_144,Cali,Consumidor,F,2021-07-02,39
+CLI0145,Cliente_145,Medellín,Corporativo,M,2021-06-18,24
+CLI0146,Cliente_146,Bogotá,PYME,M,2022-02-27,31
+CLI0147,Cliente_147,Medellín,Consumidor,F,2021-09-21,37
+CLI0148,Cliente_148,Cali,Consumidor,F,2022-12-26,58
+CLI0149,Cliente_149,Medellín,Corporativo,F,2023-04-06,58
+CLI0150,Cliente_150,Bogotá,Consumidor,F,2023-01-01,36
+CLI0151,Cliente_151,Cartagena,Consumidor,M,2021-08-31,33
+CLI0152,Cliente_152,Cartagena,PYME,F,2021-09-07,42
+CLI0153,Cliente_153,Bogotá,Corporativo,M,2021-08-20,60
+CLI0154,Cliente_154,Cali,Consumidor,M,2021-05-03,63
+CLI0155,Cliente_155,Bogotá,PYME,F,2023-05-09,28
+CLI0156,Cliente_156,Cali,Consumidor,M,2022-01-01,26
+CLI0157,Cliente_157,Bogotá,PYME,M,2021-07-24,51
+CLI0158,Cliente_158,Cali,Consumidor,M,2023-02-10,32
+CLI0159,Cliente_159,Barranquilla,Corporativo,M,2021-12-30,27
+CLI0160,Cliente_160,Barranquilla,Consumidor,F,2021-02-01,19
+CLI0161,Cliente_161,Bogotá,Consumidor,M,2021-05-28,36
+CLI0162,Cliente_162,Bucaramanga,PYME,F,2022-08-05,36
+CLI0163,Cliente_163,Bogotá,Consumidor,F,2022-12-14,44
+CLI0164,Cliente_164,Bogotá,Consumidor,M,2021-07-11,27
+CLI0165,Cliente_165,Cali,Consumidor,M,2023-04-15,51
+CLI0166,Cliente_166,Medellín,Corporativo,F,2023-02-14,49
+CLI0167,Cliente_167,Cartagena,PYME,F,2023-02-12,39
+CLI0168,Cliente_168,Barranquilla,PYME,F,2021-07-27,26
+CLI0169,Cliente_169,Medellín,Consumidor,F,2021-02-15,41
+CLI0170,Cliente_170,Pereira,Consumidor,M,2023-03-01,49
+CLI0171,Cliente_171,Bogotá,Consumidor,M,2021-10-06,35
+CLI0172,Cliente_172,Medellín,Corporativo,F,2022-07-18,30
+CLI0173,Cliente_173,Bogotá,PYME,M,2022-11-23,41
+CLI0174,Cliente_174,Bucaramanga,Corporativo,F,2021-04-27,34
+CLI0175,Cliente_175,Bogotá,Corporativo,F,2022-12-12,36
+CLI0176,Cliente_176,Bogotá,Consumidor,F,2023-05-05,34
+CLI0177,Cliente_177,Medellín,PYME,F,2022-10-25,32
+CLI0178,Cliente_178,Pereira,Consumidor,M,2022-02-06,51
+CLI0179,Cliente_179,Cartagena,Consumidor,M,2023-03-09,39
+CLI0180,Cliente_180,Barranquilla,Consumidor,M,2022-04-25,39
+CLI0181,Cliente_181,Cartagena,Consumidor,F,2022-11-09,48
+CLI0182,Cliente_182,Cartagena,Consumidor,M,2023-01-17,34
+CLI0183,Cliente_183,Medellín,Consumidor,M,2022-11-13,22
+CLI0184,Cliente_184,Medellín,Consumidor,M,2021-09-19,58
+CLI0185,Cliente_185,Barranquilla,Corporativo,M,2021-04-18,20
+CLI0186,Cliente_186,Cali,Consumidor,F,2021-08-05,44
+CLI0187,Cliente_187,Medellín,Consumidor,M,2022-04-03,30
+CLI0188,Cliente_188,Bogotá,PYME,No especificado,2022-04-05,28
+CLI0189,Cliente_189,Barranquilla,Corporativo,M,2022-06-15,19
+CLI0190,Cliente_190,Bogotá,Consumidor,F,2021-12-26,60
+CLI0191,Cliente_191,Bucaramanga,Consumidor,M,2022-12-18,38
+CLI0192,Cliente_192,Bogotá,PYME,M,2023-04-11,34
+CLI0193,Cliente_193,Bogotá,Consumidor,F,2021-08-13,52
+CLI0194,Cliente_194,Cartagena,Consumidor,No especificado,2022-11-02,19
+CLI0195,Cliente_195,Bogotá,PYME,F,2022-09-09,44
+CLI0196,Cliente_196,Bogotá,Consumidor,M,2022-04-22,41
+CLI0197,Cliente_197,Cali,Corporativo,M,2021-06-21,44
+CLI0198,Cliente_198,Cartagena,Corporativo,F,2022-12-25,23
+CLI0199,Cliente_199,Bogotá,Corporativo,M,2023-05-25,62
+CLI0200,Cliente_200,Medellín,Consumidor,F,2022-10-19,29
+CLI0201,Cliente_201,Barranquilla,Consumidor,F,2023-04-16,49
+CLI0202,Cliente_202,Pereira,Consumidor,F,2023-06-15,53
+CLI0203,Cliente_203,Medellín,Consumidor,F,2021-11-17,34
+CLI0204,Cliente_204,Bogotá,PYME,F,2022-08-04,24
+CLI0205,Cliente_205,Bogotá,Consumidor,M,2022-03-08,31
+CLI0206,Cliente_206,Bogotá,Corporativo,M,2023-06-17,55
+CLI0207,Cliente_207,Bogotá,Corporativo,F,2021-03-27,60
+CLI0208,Cliente_208,Cali,Corporativo,F,2022-01-11,62
+CLI0209,Cliente_209,Bogotá,Consumidor,M,2023-03-08,28
+CLI0210,Cliente_210,Medellín,Consumidor,M,2021-09-16,46
+CLI0211,Cliente_211,Cali,PYME,F,2022-12-18,25
+CLI0212,Cliente_212,Cali,Corporativo,F,2021-12-15,51
+CLI0213,Cliente_213,Bogotá,PYME,F,2023-06-11,37
+CLI0214,Cliente_214,Barranquilla,PYME,M,2023-03-16,51
+CLI0215,Cliente_215,Barranquilla,Corporativo,M,2021-10-02,50
+CLI0216,Cliente_216,Barranquilla,Consumidor,F,2022-12-02,64
+CLI0217,Cliente_217,Bogotá,Corporativo,M,2021-11-03,40
+CLI0218,Cliente_218,Bogotá,Consumidor,F,2022-07-06,34
+CLI0219,Cliente_219,Bucaramanga,Corporativo,F,2022-08-23,42
+CLI0220,Cliente_220,Medellín,PYME,M,2023-01-25,25
+CLI0221,Cliente_221,Medellín,Consumidor,M,2021-01-23,23
+CLI0222,Cliente_222,Medellín,Consumidor,M,2021-07-20,42
+CLI0223,Cliente_223,Cali,Consumidor,F,2022-10-10,56
+CLI0224,Cliente_224,Pereira,PYME,F,2022-05-28,43
+CLI0225,Cliente_225,Bogotá,Consumidor,M,2022-03-28,54
+CLI0226,Cliente_226,Bucaramanga,Consumidor,F,2021-02-20,26
+CLI0227,Cliente_227,Bogotá,Consumidor,F,2021-11-13,39
+CLI0228,Cliente_228,Cali,Consumidor,F,2023-02-27,46
+CLI0229,Cliente_229,Cali,Consumidor,No especificado,2021-01-29,34
+CLI0230,Cliente_230,Bogotá,Consumidor,M,2021-12-27,18
+CLI0231,Cliente_231,Bogotá,Consumidor,M,2023-05-11,21
+CLI0232,Cliente_232,Medellín,Consumidor,F,2021-02-16,61
+CLI0233,Cliente_233,Pereira,Consumidor,M,2022-11-14,46
+CLI0234,Cliente_234,Cali,Consumidor,F,2021-08-23,30
+CLI0235,Cliente_235,Bucaramanga,Consumidor,M,2023-02-28,30
+CLI0236,Cliente_236,Barranquilla,Corporativo,M,2022-11-10,19
+CLI0237,Cliente_237,Medellín,Consumidor,M,2023-03-17,62
+CLI0238,Cliente_238,Barranquilla,Consumidor,M,2021-07-16,23
+CLI0239,Cliente_239,Bogotá,Consumidor,M,2022-04-29,53
+CLI0240,Cliente_240,Bogotá,Consumidor,M,2022-12-11,29
+CLI0241,Cliente_241,Cartagena,Consumidor,F,2021-08-12,33
+CLI0242,Cliente_242,Barranquilla,Consumidor,M,2021-07-29,30
+CLI0243,Cliente_243,Bogotá,PYME,M,2021-01-25,56
+CLI0244,Cliente_244,Cali,Consumidor,M,2023-05-23,19
+CLI0245,Cliente_245,Cali,Consumidor,M,2022-10-09,34
+CLI0246,Cliente_246,Cartagena,Consumidor,M,2022-08-02,31
+CLI0247,Cliente_247,Cali,Consumidor,F,2022-11-09,30
+CLI0248,Cliente_248,Medellín,Consumidor,M,2022-04-29,27
+CLI0249,Cliente_249,Medellín,Corporativo,F,2022-03-10,60
+CLI0250,Cliente_250,Medellín,PYME,No especificado,2022-02-14,35
+CLI0251,Cliente_251,Cali,Consumidor,M,2022-08-06,37
+CLI0252,Cliente_252,Cartagena,Consumidor,M,2021-07-03,36
+CLI0253,Cliente_253,Medellín,Consumidor,M,2023-03-20,64
+CLI0254,Cliente_254,Bogotá,Consumidor,F,2023-01-09,33
+CLI0255,Cliente_255,Bogotá,Corporativo,M,2021-11-15,34
+CLI0256,Cliente_256,Barranquilla,Consumidor,F,2022-06-11,33
+CLI0257,Cliente_257,Barranquilla,Consumidor,F,2021-05-09,33
+CLI0258,Cliente_258,Bogotá,PYME,F,2023-06-04,22
+CLI0259,Cliente_259,Bogotá,Consumidor,F,2023-04-02,46
+CLI0260,Cliente_260,Cali,Consumidor,No especificado,2023-04-19,19
+CLI0261,Cliente_261,Bogotá,Corporativo,M,2021-10-30,28
+CLI0262,Cliente_262,Cartagena,Consumidor,M,2021-06-03,27
+CLI0263,Cliente_263,Medellín,Consumidor,M,2021-07-12,31
+CLI0264,Cliente_264,Bogotá,Consumidor,No especificado,2021-03-23,53
+CLI0265,Cliente_265,Bucaramanga,PYME,F,2021-04-20,46
+CLI0266,Cliente_266,Bogotá,Consumidor,F,2021-03-06,64
+CLI0267,Cliente_267,Bogotá,Consumidor,M,2023-06-20,34
+CLI0268,Cliente_268,Bogotá,Consumidor,No especificado,2021-03-09,61
+CLI0269,Cliente_269,Bogotá,Consumidor,F,2021-05-01,20
+CLI0270,Cliente_270,Bogotá,Corporativo,F,2023-01-23,41
+CLI0271,Cliente_271,Bogotá,Consumidor,No especificado,2022-06-13,55
+CLI0272,Cliente_272,Bogotá,Corporativo,M,2022-12-06,42
+CLI0273,Cliente_273,Bogotá,Corporativo,M,2022-07-29,61
+CLI0274,Cliente_274,Cali,PYME,F,2023-03-14,32
+CLI0275,Cliente_275,Cali,Consumidor,M,2022-08-05,19
+CLI0276,Cliente_276,Medellín,PYME,M,2022-04-21,54
+CLI0277,Cliente_277,Medellín,Corporativo,M,2022-10-11,21
+CLI0278,Cliente_278,Medellín,Consumidor,M,2022-02-12,53
+CLI0279,Cliente_279,Cartagena,Corporativo,F,2021-11-11,52
+CLI0280,Cliente_280,Cartagena,PYME,F,2022-03-02,57
+CLI0281,Cliente_281,Bogotá,Consumidor,M,2021-06-04,40
+CLI0282,Cliente_282,Bogotá,PYME,M,2022-12-26,60
+CLI0283,Cliente_283,Bogotá,Consumidor,M,2021-08-26,25
+CLI0284,Cliente_284,Bogotá,Corporativo,F,2021-05-20,38
+CLI0285,Cliente_285,Cali,PYME,No especificado,2021-08-13,23
+CLI0286,Cliente_286,Medellín,Consumidor,No especificado,2023-02-06,54
+CLI0287,Cliente_287,Bogotá,PYME,M,2021-10-28,51
+CLI0288,Cliente_288,Medellín,Consumidor,M,2022-09-17,55
+CLI0289,Cliente_289,Cali,Corporativo,F,2023-02-19,53
+CLI0290,Cliente_290,Bogotá,Corporativo,F,2021-03-12,32
+CLI0291,Cliente_291,Cartagena,Consumidor,F,2022-11-28,21
+CLI0292,Cliente_292,Bogotá,Consumidor,F,2021-10-07,61
+CLI0293,Cliente_293,Bucaramanga,Consumidor,F,2021-07-17,41
+CLI0294,Cliente_294,Bogotá,Consumidor,M,2022-09-19,22
+CLI0295,Cliente_295,Cartagena,Consumidor,M,2023-04-08,61
+CLI0296,Cliente_296,Bucaramanga,Consumidor,M,2021-09-26,64
+CLI0297,Cliente_297,Pereira,Consumidor,M,2022-06-02,38
+CLI0298,Cliente_298,Barranquilla,Consumidor,M,2021-09-21,54
+CLI0299,Cliente_299,Barranquilla,Corporativo,F,2022-05-20,19
+CLI0300,Cliente_300,Cali,Corporativo,M,2022-07-20,22
+CLI0301,Cliente_301,Barranquilla,Corporativo,M,2022-07-10,30
+CLI0302,Cliente_302,Bogotá,Consumidor,F,2022-07-22,48
+CLI0303,Cliente_303,Cali,PYME,F,2021-05-03,24
+CLI0304,Cliente_304,Medellín,Corporativo,M,2022-09-24,19
+CLI0305,Cliente_305,Cartagena,Consumidor,F,2022-09-07,49
+CLI0306,Cliente_306,Medellín,Consumidor,No especificado,2022-09-14,54
+CLI0307,Cliente_307,Medellín,Corporativo,F,2021-03-09,52
+CLI0308,Cliente_308,Cali,Consumidor,F,2022-02-11,55
+CLI0309,Cliente_309,Bogotá,Consumidor,M,2022-01-08,55
+CLI0310,Cliente_310,Bogotá,PYME,No especificado,2021-03-20,46
+CLI0311,Cliente_311,Medellín,Consumidor,M,2021-07-22,42
+CLI0312,Cliente_312,Medellín,Consumidor,No especificado,2022-02-06,58
+CLI0313,Cliente_313,Bogotá,PYME,F,2022-11-08,34
+CLI0314,Cliente_314,Medellín,Corporativo,M,2021-08-04,22
+CLI0315,Cliente_315,Medellín,Consumidor,M,2023-01-26,53
+CLI0316,Cliente_316,Medellín,PYME,F,2022-05-12,30
+CLI0317,Cliente_317,Medellín,PYME,F,2022-11-23,64
+CLI0318,Cliente_318,Cali,Consumidor,M,2022-03-07,37
+CLI0319,Cliente_319,Bogotá,Corporativo,F,2022-03-31,58
+CLI0320,Cliente_320,Bucaramanga,Consumidor,F,2022-07-18,19
+CLI0321,Cliente_321,Bucaramanga,Consumidor,F,2023-04-25,48
+CLI0322,Cliente_322,Medellín,Corporativo,F,2022-03-24,39
+CLI0323,Cliente_323,Medellín,Consumidor,M,2022-04-27,39
+CLI0324,Cliente_324,Cali,Corporativo,F,2022-07-02,30
+CLI0325,Cliente_325,Cartagena,PYME,M,2022-11-03,63
+CLI0326,Cliente_326,Cali,Consumidor,F,2021-03-07,36
+CLI0327,Cliente_327,Barranquilla,Corporativo,M,2022-04-15,57
+CLI0328,Cliente_328,Cali,Consumidor,F,2022-03-15,37
+CLI0329,Cliente_329,Cali,PYME,M,2023-04-19,20
+CLI0330,Cliente_330,Bogotá,Consumidor,M,2022-03-26,59
+CLI0331,Cliente_331,Barranquilla,Corporativo,F,2022-03-03,26
+CLI0332,Cliente_332,Bogotá,Corporativo,F,2023-05-26,30
+CLI0333,Cliente_333,Cali,Consumidor,F,2022-02-15,58
+CLI0334,Cliente_334,Cartagena,Corporativo,No especificado,2021-06-14,60
+CLI0335,Cliente_335,Bogotá,Corporativo,No especificado,2021-07-17,61
+CLI0336,Cliente_336,Cali,Corporativo,F,2021-03-28,38
+CLI0337,Cliente_337,Bogotá,Corporativo,M,2021-01-01,53
+CLI0338,Cliente_338,Barranquilla,PYME,F,2022-01-29,33
+CLI0339,Cliente_339,Bogotá,Consumidor,F,2022-12-02,52
+CLI0340,Cliente_340,Bucaramanga,Consumidor,M,2022-10-30,41
+CLI0341,Cliente_341,Bogotá,Consumidor,M,2021-01-30,20
+CLI0342,Cliente_342,Pereira,Corporativo,F,2022-06-03,37
+CLI0343,Cliente_343,Barranquilla,Consumidor,F,2021-05-21,39
+CLI0344,Cliente_344,Cali,Consumidor,F,2023-05-07,30
+CLI0345,Cliente_345,Barranquilla,Consumidor,No especificado,2021-06-02,35
+CLI0346,Cliente_346,Barranquilla,PYME,F,2022-07-25,41
+CLI0347,Cliente_347,Bucaramanga,Consumidor,M,2021-10-24,20
+CLI0348,Cliente_348,Bogotá,Corporativo,M,2022-08-07,25
+CLI0349,Cliente_349,Cali,Consumidor,M,2022-01-11,54
+CLI0350,Cliente_350,Bogotá,PYME,M,2022-11-23,34
+CLI0351,Cliente_351,Cali,Consumidor,F,2021-07-29,46
+CLI0352,Cliente_352,Bogotá,Consumidor,F,2023-04-05,44
+CLI0353,Cliente_353,Cali,PYME,M,2022-04-01,43
+CLI0354,Cliente_354,Cali,PYME,M,2022-11-20,37
+CLI0355,Cliente_355,Medellín,Consumidor,F,2023-02-13,40
+CLI0356,Cliente_356,Cali,Consumidor,M,2023-06-28,56
+CLI0357,Cliente_357,Barranquilla,Corporativo,F,2021-07-23,63
+CLI0358,Cliente_358,Barranquilla,PYME,F,2021-09-19,30
+CLI0359,Cliente_359,Medellín,Consumidor,F,2021-08-16,49
+CLI0360,Cliente_360,Cali,Consumidor,M,2021-08-28,63
+CLI0361,Cliente_361,Bucaramanga,Corporativo,F,2022-06-15,18
+CLI0362,Cliente_362,Bogotá,Corporativo,M,2023-06-24,54
+CLI0363,Cliente_363,Bogotá,Corporativo,F,2023-06-21,41
+CLI0364,Cliente_364,Bogotá,Corporativo,M,2022-04-25,63
+CLI0365,Cliente_365,Cali,Consumidor,F,2022-08-05,45
+CLI0366,Cliente_366,Medellín,PYME,F,2023-02-22,57
+CLI0367,Cliente_367,Barranquilla,PYME,M,2023-04-29,25
+CLI0368,Cliente_368,Cali,Corporativo,M,2021-07-05,24
+CLI0369,Cliente_369,Medellín,Consumidor,M,2022-04-26,61
+CLI0370,Cliente_370,Cartagena,Consumidor,M,2023-01-28,42
+CLI0371,Cliente_371,Barranquilla,Corporativo,M,2021-10-03,44
+CLI0372,Cliente_372,Bogotá,Consumidor,No especificado,2022-02-05,25
+CLI0373,Cliente_373,Medellín,PYME,M,2023-06-16,28
+CLI0374,Cliente_374,Medellín,Consumidor,F,2023-06-16,56
+CLI0375,Cliente_375,Bogotá,Corporativo,No especificado,2023-04-05,32
+CLI0376,Cliente_376,Bogotá,PYME,M,2022-12-28,45
+CLI0377,Cliente_377,Bucaramanga,Consumidor,F,2021-09-02,32
+CLI0378,Cliente_378,Medellín,Consumidor,F,2021-10-19,30
+CLI0379,Cliente_379,Medellín,Corporativo,F,2022-05-14,25
+CLI0380,Cliente_380,Barranquilla,Corporativo,M,2022-05-26,61
+CLI0381,Cliente_381,Cali,Consumidor,M,2022-04-06,62
+CLI0382,Cliente_382,Bucaramanga,Corporativo,M,2022-08-03,23
+CLI0383,Cliente_383,Barranquilla,PYME,F,2022-01-07,34
+CLI0384,Cliente_384,Medellín,Consumidor,No especificado,2022-11-13,44
+CLI0385,Cliente_385,Medellín,Consumidor,No especificado,2021-10-31,36
+CLI0386,Cliente_386,Pereira,Consumidor,M,2021-10-28,51
+CLI0387,Cliente_387,Barranquilla,Consumidor,F,2021-04-26,30
+CLI0388,Cliente_388,Pereira,Consumidor,M,2021-06-21,20
+CLI0389,Cliente_389,Bogotá,Consumidor,No especificado,2023-02-13,33
+CLI0390,Cliente_390,Cartagena,Corporativo,M,2022-02-11,46
+CLI0391,Cliente_391,Cali,Consumidor,No especificado,2021-07-27,26
+CLI0392,Cliente_392,Bogotá,PYME,F,2022-11-23,56
+CLI0393,Cliente_393,Cali,Consumidor,M,2022-05-20,18
+CLI0394,Cliente_394,Cali,Consumidor,M,2021-01-20,21
+CLI0395,Cliente_395,Bogotá,Corporativo,F,2021-10-15,41
+CLI0396,Cliente_396,Medellín,PYME,M,2021-06-11,42
+CLI0397,Cliente_397,Cartagena,Consumidor,F,2022-08-20,31
+CLI0398,Cliente_398,Bogotá,Consumidor,No especificado,2021-09-08,30
+CLI0399,Cliente_399,Medellín,Consumidor,F,2021-03-01,21
+CLI0400,Cliente_400,Medellín,Consumidor,M,2021-02-19,49
+CLI0401,Cliente_401,Medellín,Consumidor,M,2022-06-14,35
+CLI0402,Cliente_402,Bucaramanga,Consumidor,M,2021-01-20,23
+CLI0403,Cliente_403,Barranquilla,Consumidor,No especificado,2023-02-12,36
+CLI0404,Cliente_404,Bogotá,Consumidor,M,2021-05-22,62
+CLI0405,Cliente_405,Pereira,PYME,M,2022-07-06,30
+CLI0406,Cliente_406,Cartagena,Corporativo,M,2022-02-09,60
+CLI0407,Cliente_407,Bogotá,Consumidor,No especificado,2022-02-07,30
+CLI0408,Cliente_408,Cartagena,Consumidor,M,2021-03-07,26
+CLI0409,Cliente_409,Bogotá,Consumidor,F,2023-01-01,30
+CLI0410,Cliente_410,Pereira,Consumidor,F,2023-03-24,33
+CLI0411,Cliente_411,Cali,Corporativo,F,2021-01-11,23
+CLI0412,Cliente_412,Cali,PYME,No especificado,2021-06-12,45
+CLI0413,Cliente_413,Bogotá,PYME,F,2023-04-03,33
+CLI0414,Cliente_414,Cartagena,PYME,No especificado,2022-05-16,51
+CLI0415,Cliente_415,Bogotá,PYME,M,2021-05-17,41
+CLI0416,Cliente_416,Bogotá,PYME,F,2021-07-04,38
+CLI0417,Cliente_417,Bogotá,Consumidor,F,2022-08-24,40
+CLI0418,Cliente_418,Barranquilla,Consumidor,F,2022-10-22,25
+CLI0419,Cliente_419,Bogotá,Consumidor,F,2022-06-30,51
+CLI0420,Cliente_420,Bucaramanga,Corporativo,No especificado,2023-05-18,22
+CLI0421,Cliente_421,Cali,Consumidor,F,2022-03-26,51
+CLI0422,Cliente_422,Bogotá,PYME,F,2021-10-01,64
+CLI0423,Cliente_423,Bogotá,Corporativo,F,2022-03-11,53
+CLI0424,Cliente_424,Bogotá,Consumidor,M,2021-11-24,39
+CLI0425,Cliente_425,Cali,Consumidor,M,2021-07-24,32
+CLI0426,Cliente_426,Barranquilla,Consumidor,M,2021-02-11,59
+CLI0427,Cliente_427,Bogotá,Consumidor,M,2021-11-17,30
+CLI0428,Cliente_428,Cartagena,PYME,M,2022-10-10,40
+CLI0429,Cliente_429,Bogotá,Corporativo,F,2021-01-17,54
+CLI0430,Cliente_430,Barranquilla,Corporativo,M,2022-02-04,61
+CLI0431,Cliente_431,Bucaramanga,Consumidor,No especificado,2022-08-10,61
+CLI0432,Cliente_432,Barranquilla,Consumidor,F,2022-07-10,22
+CLI0433,Cliente_433,Cali,Consumidor,M,2022-12-08,60
+CLI0434,Cliente_434,Cartagena,Corporativo,M,2023-01-08,23
+CLI0435,Cliente_435,Bogotá,Corporativo,M,2022-10-10,45
+CLI0436,Cliente_436,Bogotá,Consumidor,No especificado,2021-04-04,61
+CLI0437,Cliente_437,Bogotá,PYME,M,2022-03-09,48
+CLI0438,Cliente_438,Medellín,Consumidor,F,2022-07-04,62
+CLI0439,Cliente_439,Barranquilla,PYME,No especificado,2021-08-12,34
+CLI0440,Cliente_440,Cali,Consumidor,No especificado,2021-02-08,32
+CLI0441,Cliente_441,Cartagena,Consumidor,M,2021-07-23,33
+CLI0442,Cliente_442,Bogotá,PYME,M,2022-02-18,34
+CLI0443,Cliente_443,Barranquilla,Consumidor,M,2022-01-12,50
+CLI0444,Cliente_444,Bogotá,Consumidor,M,2021-06-10,39
+CLI0445,Cliente_445,Bogotá,Consumidor,M,2023-01-21,52
+CLI0446,Cliente_446,Barranquilla,Consumidor,F,2023-04-23,37
+CLI0447,Cliente_447,Pereira,Corporativo,No especificado,2021-07-03,32
+CLI0448,Cliente_448,Cali,PYME,F,2023-04-26,26
+CLI0449,Cliente_449,Bogotá,PYME,F,2021-01-17,43
+CLI0450,Cliente_450,Cali,Consumidor,M,2023-04-22,60
+CLI0451,Cliente_451,Bogotá,Consumidor,F,2023-05-17,58
+CLI0452,Cliente_452,Cartagena,Consumidor,F,2021-01-11,29
+CLI0453,Cliente_453,Barranquilla,Consumidor,F,2022-11-26,40
+CLI0454,Cliente_454,Bogotá,Consumidor,No especificado,2023-06-02,51
+CLI0455,Cliente_455,Bogotá,PYME,M,2023-04-05,46
+CLI0456,Cliente_456,Bogotá,PYME,M,2023-06-03,21
+CLI0457,Cliente_457,Pereira,Corporativo,M,2022-05-16,45
+CLI0458,Cliente_458,Medellín,Consumidor,M,2021-03-13,19
+CLI0459,Cliente_459,Barranquilla,Consumidor,No especificado,2023-02-13,23
+CLI0460,Cliente_460,Cali,Consumidor,M,2022-07-13,48
+CLI0461,Cliente_461,Cali,Consumidor,F,2022-07-14,22
+CLI0462,Cliente_462,Bogotá,Consumidor,F,2022-01-15,33
+CLI0463,Cliente_463,Bucaramanga,Consumidor,M,2022-06-05,45
+CLI0464,Cliente_464,Medellín,Consumidor,M,2021-05-20,48
+CLI0465,Cliente_465,Cali,PYME,F,2022-11-05,38
+CLI0466,Cliente_466,Cali,Consumidor,F,2021-03-10,22
+CLI0467,Cliente_467,Cali,PYME,M,2022-10-27,55
+CLI0468,Cliente_468,Bucaramanga,Consumidor,M,2023-02-12,62
+CLI0469,Cliente_469,Bogotá,Corporativo,F,2022-03-06,59
+CLI0470,Cliente_470,Medellín,Consumidor,M,2022-04-09,53
+CLI0471,Cliente_471,Medellín,Consumidor,No especificado,2021-10-12,36
+CLI0472,Cliente_472,Medellín,Consumidor,M,2023-06-02,59
+CLI0473,Cliente_473,Bogotá,Consumidor,M,2022-10-30,40
+CLI0474,Cliente_474,Bogotá,PYME,F,2021-12-02,24
+CLI0475,Cliente_475,Bogotá,Consumidor,F,2021-06-09,57
+CLI0476,Cliente_476,Medellín,Corporativo,F,2021-07-19,33
+CLI0477,Cliente_477,Medellín,Consumidor,M,2022-02-27,62
+CLI0478,Cliente_478,Cali,Consumidor,No especificado,2023-05-08,35
+CLI0479,Cliente_479,Cali,Consumidor,F,2022-10-31,58
+CLI0480,Cliente_480,Medellín,Consumidor,F,2021-07-15,43
+CLI0481,Cliente_481,Medellín,PYME,M,2023-02-22,39
+CLI0482,Cliente_482,Bogotá,PYME,M,2021-12-11,31
+CLI0483,Cliente_483,Cali,Corporativo,F,2023-02-15,57
+CLI0484,Cliente_484,Medellín,Consumidor,M,2021-08-08,20
+CLI0485,Cliente_485,Bogotá,Consumidor,F,2022-07-17,40
+CLI0486,Cliente_486,Medellín,PYME,M,2023-04-24,35
+CLI0487,Cliente_487,Medellín,Consumidor,No especificado,2021-08-23,43
+CLI0488,Cliente_488,Bogotá,Consumidor,F,2022-09-23,29
+CLI0489,Cliente_489,Cali,Consumidor,F,2023-06-18,49
+CLI0490,Cliente_490,Cali,Corporativo,F,2021-05-18,36
+CLI0491,Cliente_491,Barranquilla,Corporativo,M,2021-03-22,26
+CLI0492,Cliente_492,Cali,Corporativo,F,2022-09-06,27
+CLI0493,Cliente_493,Cali,Corporativo,F,2021-11-06,50
+CLI0494,Cliente_494,Medellín,Consumidor,F,2021-03-06,30
+CLI0495,Cliente_495,Barranquilla,PYME,M,2022-03-09,32
+CLI0496,Cliente_496,Cali,Consumidor,F,2022-11-17,47
+CLI0497,Cliente_497,Medellín,Corporativo,F,2021-09-17,33
+CLI0498,Cliente_498,Cali,Consumidor,F,2021-11-01,36
+CLI0499,Cliente_499,Medellín,PYME,M,2023-02-09,29
+CLI0500,Cliente_500,Medellín,Consumidor,F,2022-04-19,34
