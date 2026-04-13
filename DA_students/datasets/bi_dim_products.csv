@@ -1,0 +1,61 @@
+product_id,category,subcategory,brand,product_name,base_unit_price
+2000,Tecnología,Teclados,Pacífico,Teclados Pacífico 971,130.65
+2001,Hogar,Cocina,Pacífico,Cocina Pacífico 473,48.96
+2002,Moda,Jeans,Pacífico,Jeans Pacífico 642,87.92
+2003,Libros,No ficción,Andes,No ficción Andes 294,41.08
+2004,Hogar,Cocina,Andes,Cocina Andes 691,29.56
+2005,Moda,Accesorios,Orion,Accesorios Orion 386,66.6
+2006,Hogar,Organización,Pampa,Organización Pampa 408,28.26
+2007,Libros,No ficción,CaliCo,No ficción CaliCo 479,26.17
+2008,Moda,Jeans,CaliCo,Jeans CaliCo 318,74.3
+2009,Libros,Ficción,Orion,Ficción Orion 645,15.65
+2010,Libros,No ficción,Andes,No ficción Andes 524,28.24
+2011,Deportes,Running,MxTech,Running MxTech 833,135.07
+2012,Deportes,Running,Andes,Running Andes 442,96.1
+2013,Deportes,Ciclismo,Río,Ciclismo Río 503,90.89
+2014,Hogar,Limpieza,Río,Limpieza Río 793,47.91
+2015,Hogar,Cocina,Río,Cocina Río 804,64.16
+2016,Moda,Camisetas,Nova,Camisetas Nova 704,46.62
+2017,Tecnología,Mouse,LimaLab,Mouse LimaLab 296,282.7
+2018,Tecnología,Mouse,Andes,Mouse Andes 308,159.35
+2019,Tecnología,Teclados,LimaLab,Teclados LimaLab 547,280.43
+2020,Hogar,Limpieza,LimaLab,Limpieza LimaLab 225,45.53
+2021,Moda,Zapatos,Nova,Zapatos Nova 642,31.04
+2022,Tecnología,Monitores,MxTech,Monitores MxTech 521,165.4
+2023,Tecnología,Audífonos,MxTech,Audífonos MxTech 446,164.08
+2024,Tecnología,Teclados,Andes,Teclados Andes 625,163.95
+2025,Tecnología,Cables,Nova,Cables Nova 514,84.85
+2026,Libros,Educación,MxTech,Educación MxTech 363,25.77
+2027,Deportes,Ciclismo,Pampa,Ciclismo Pampa 885,62.46
+2028,Libros,Ficción,Andes,Ficción Andes 955,37.41
+2029,Hogar,Cocina,LimaLab,Cocina LimaLab 631,82.13
+2030,Hogar,Organización,MxTech,Organización MxTech 167,54.69
+2031,Hogar,Organización,Orion,Organización Orion 134,47.91
+2032,Deportes,Ciclismo,Nova,Ciclismo Nova 754,99.77
+2033,Deportes,Gym,MxTech,Gym MxTech 870,99.12
+2034,Moda,Zapatos,MxTech,Zapatos MxTech 800,54.79
+2035,Libros,Educación,LimaLab,Educación LimaLab 567,18.83
+2036,Deportes,Outdoor,Río,Outdoor Río 286,92.89
+2037,Libros,Educación,Pacífico,Educación Pacífico 282,26.97
+2038,Hogar,Cocina,Orion,Cocina Orion 295,65.37
+2039,Tecnología,Audífonos,Nova,Audífonos Nova 831,225.75
+2040,Hogar,Organización,Orion,Organización Orion 767,60.14
+2041,Moda,Accesorios,Pampa,Accesorios Pampa 189,64.25
+2042,Moda,Accesorios,Nova,Accesorios Nova 341,62.48
+2043,Libros,No ficción,MxTech,No ficción MxTech 173,19.27
+2044,Deportes,Gym,LimaLab,Gym LimaLab 237,30.97
+2045,Deportes,Running,Pacífico,Running Pacífico 366,102.57
+2046,Moda,Zapatos,Pampa,Zapatos Pampa 220,92.79
+2047,Hogar,Cocina,Pacífico,Cocina Pacífico 311,49.48
+2048,Deportes,Ciclismo,Pacífico,Ciclismo Pacífico 875,86.6
+2049,Libros,Ficción,Río,Ficción Río 258,19.28
+2050,Hogar,Decoración,CaliCo,Decoración CaliCo 438,33.71
+2051,Moda,Zapatos,CaliCo,Zapatos CaliCo 396,55.94
+2052,Tecnología,Audífonos,Andes,Audífonos Andes 954,181.12
+2053,Hogar,Organización,Andes,Organización Andes 454,40.73
+2054,Deportes,Outdoor,Nova,Outdoor Nova 122,73.32
+2055,Deportes,Outdoor,Río,Outdoor Río 996,56.92
+2056,Libros,No ficción,CaliCo,No ficción CaliCo 105,22.24
+2057,Libros,No ficción,Pacífico,No ficción Pacífico 569,20.97
+2058,Libros,Ficción,MxTech,Ficción MxTech 758,25.76
+2059,Libros,Ficción,Orion,Ficción Orion 782,5.0

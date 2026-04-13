@@ -1,0 +1,81 @@
+product_id,sku,title,author,category,price,cost,is_active
+1,BK-7600HK,Libro 1: Fundamentos de Infantil,Autor K,Infantil,93.96,34.62,False
+2,BK-6EIXAA,Libro 2: Crónicas de Historia,Autor L,Historia,93.21,59.08,True
+3,BK-MIVVHW,Libro 3: Fundamentos de Cocina,Autor Q,Cocina,78.37,34.19,True
+4,BK-7IFDW5,Libro 4: Historias de Arte,Autor S,Arte,85.6,48.25,True
+5,BK-8C36VU,Libro 5: Crónicas de Infantil,Autor F,Infantil,83.93,33.08,True
+6,BK-BTOIC2,Libro 6: Aprender de Arte,Autor W,Arte,117.21,74.62,True
+7,BK-HVSX3G,Libro 7: Aprender de Ficción,Autor S,Ficción,59.59,31.47,True
+8,BK-90RTNP,Libro 8: Manual de Infantil,Autor U,Infantil,19.16,12.39,True
+9,BK-G9JXE6,Libro 9: Manual de Arte,Autor O,Arte,100.97,54.62,True
+10,BK-YY78K7,Libro 10: Guía de Infantil,Autor R,Infantil,94.91,38.57,True
+11,BK-AJI080,Libro 11: Manual de Negocios,Autor B,Negocios,47.3,20.05,True
+12,BK-LI6WYX,Libro 12: Aprender de Cocina,Autor B,Cocina,77.59,29.3,True
+13,BK-Z4P0UL,Libro 13: Recetas de Arte,Autor T,Arte,109.04,53.29,True
+14,BK-C6FAD7,Libro 14: Crónicas de Negocios,Autor L,Negocios,61.71,23.54,False
+15,BK-BEXBCB,Libro 15: Historias de Cocina,Autor C,Cocina,86.91,51.72,True
+16,BK-6C567D,Libro 16: Aprender de Cocina,Autor T,Cocina,81.1,34.27,True
+17,BK-B43W3W,Libro 17: Aprender de Negocios,Autor Q,Negocios,97.47,38.37,True
+18,BK-D1HLPA,Libro 18: Recetas de Infantil,Autor Q,Infantil,101.86,53.4,True
+19,BK-61VRK0,Libro 19: Fundamentos de Infantil,Autor O,Infantil,45.38,22.87,True
+20,BK-1MZTH5,Libro 20: Guía de Historia,Autor L,Historia,81.03,34.65,True
+21,BK-AH19AR,Libro 21: Fundamentos de No Ficción,Autor W,No Ficción,103.93,49.51,True
+22,BK-M3J7KH,Libro 22: Historias de Arte,Autor M,Arte,108.7,65.29,False
+23,BK-71R9UD,Libro 23: Recetas de Negocios,Autor W,Negocios,25.43,13.83,True
+24,BK-760PXN,Libro 24: Curso de Cocina,Autor Q,Cocina,47.6,27.43,True
+25,BK-SN5IQT,Libro 25: Fundamentos de Infantil,Autor L,Infantil,71.98,35.07,True
+26,BK-S5QTLQ,Libro 26: Curso de Ficción,Autor E,Ficción,109.01,40.03,True
+27,BK-Q5IGKZ,Libro 27: Aprender de Infantil,Autor S,Infantil,73.52,32.96,True
+28,BK-VMI8J8,Libro 28: Historias de Tecnología,Autor I,Tecnología,18.7,10.77,True
+29,BK-HFFKKJ,Libro 29: Historias de No Ficción,Autor Y,No Ficción,73.98,45.74,True
+30,BK-5QA4PI,Libro 30: Manual de No Ficción,Autor R,No Ficción,77.82,35.11,True
+31,BK-J0AI4Z,Libro 31: Recetas de Infantil,Autor L,Infantil,118.45,45.57,True
+32,BK-4YXQLW,Libro 32: Aprender de Historia,Autor Y,Historia,20.52,11.69,False
+33,BK-ZWJPQW,Libro 33: Crónicas de No Ficción,Autor I,No Ficción,53.94,24.73,True
+34,BK-2NR9BT,Libro 34: Historias de Historia,Autor B,Historia,107.04,47.97,True
+35,BK-DUTZSX,Libro 35: Aprender de Tecnología,Autor L,Tecnología,108.34,58.85,True
+36,BK-HYO1E9,Libro 36: Curso de Cocina,Autor L,Cocina,49.55,18.23,True
+37,BK-NCC6WY,Libro 37: Guía de Cocina,Autor R,Cocina,40.74,26.09,True
+38,BK-07SH2O,Libro 38: Manual de Infantil,Autor I,Infantil,57.55,22.91,True
+39,BK-3WQUI8,Libro 39: Historias de Negocios,Autor S,Negocios,46.29,28.69,True
+40,BK-1X2Q2I,Libro 40: Crónicas de Cocina,Autor I,Cocina,32.32,18.85,True
+41,BK-R22MXL,Libro 41: Fundamentos de Historia,Autor L,Historia,29.16,18.62,True
+42,BK-XN74C3,Libro 42: Crónicas de Arte,Autor L,Arte,70.67,25.65,True
+43,BK-WAA8XJ,Libro 43: Historias de Cocina,Autor L,Cocina,112.75,51.58,True
+44,BK-GQ2HOT,Libro 44: Historias de No Ficción,Autor X,No Ficción,91.8,46.55,True
+45,BK-YT0P5T,Libro 45: Fundamentos de No Ficción,Autor D,No Ficción,24.72,9.44,True
+46,BK-RUR6ZI,Libro 46: Crónicas de Infantil,Autor I,Infantil,30.67,12.22,True
+47,BK-QUX4NP,Libro 47: Guía de Tecnología,Autor W,Tecnología,20.54,7.48,True
+48,BK-WBVY7L,Libro 48: Historias de No Ficción,Autor K,No Ficción,114.58,43.24,True
+49,BK-BZWM5N,Libro 49: Recetas de No Ficción,Autor M,No Ficción,68.38,26.37,True
+50,BK-MJBKMR,Libro 50: Aprender de Arte,Autor U,Arte,37.55,21.74,True
+51,BK-MHREGZ,Libro 51: Fundamentos de Cocina,Autor X,Cocina,113.5,55.72,True
+52,BK-OTOUOD,Libro 52: Manual de Tecnología,Autor F,Tecnología,15.59,10.13,True
+53,BK-VX26WW,Libro 53: Aprender de Ficción,Autor T,Ficción,20.02,9.35,True
+54,BK-WGX5PD,Libro 54: Aprender de No Ficción,Autor O,No Ficción,71.6,44.21,True
+55,BK-2UJKPL,Libro 55: Curso de Ficción,Autor X,Ficción,101.43,54.04,True
+56,BK-S31PZO,Libro 56: Guía de Historia,Autor M,Historia,56.85,34.13,False
+57,BK-V9XF1T,Libro 57: Guía de No Ficción,Autor Y,No Ficción,106.25,64.98,True
+58,BK-WPAY94,Libro 58: Recetas de No Ficción,Autor D,No Ficción,90.35,34.27,True
+59,BK-AZI0GB,Libro 59: Manual de Negocios,Autor S,Negocios,46.35,22.98,True
+60,BK-ZQ7J8Z,Libro 60: Manual de Tecnología,Autor U,Tecnología,68.03,40.81,True
+61,BK-CL0F4R,Libro 61: Guía de Ficción,Autor L,Ficción,39.97,21.96,False
+62,BK-0QF8E8,Libro 62: Curso de Ficción,Autor X,Ficción,54.29,31.63,False
+63,BK-2QJ1MK,Libro 63: Crónicas de Tecnología,Autor M,Tecnología,35.56,17.53,True
+64,BK-VLP5NY,Libro 64: Guía de Cocina,Autor T,Cocina,25.87,10.7,True
+65,BK-LJF712,Libro 65: Recetas de Negocios,Autor U,Negocios,113.19,50.35,True
+66,BK-F92T1R,Libro 66: Historias de Infantil,Autor F,Infantil,108.76,55.17,False
+67,BK-H17IVY,Libro 67: Recetas de No Ficción,Autor F,No Ficción,19.1,11.23,True
+68,BK-VANTTM,Libro 68: Aprender de Arte,Autor J,Arte,20.46,12.24,True
+69,BK-SJ3LSH,Libro 69: Aprender de No Ficción,Autor Z,No Ficción,15.92,8.79,False
+70,BK-3KUM24,Libro 70: Aprender de Negocios,Autor R,Negocios,32.4,14.67,True
+71,BK-NDW2FV,Libro 71: Guía de Negocios,Autor J,Negocios,115.04,57.04,True
+72,BK-AB95RU,Libro 72: Fundamentos de Cocina,Autor L,Cocina,84.03,48.08,False
+73,BK-8138JB,Libro 73: Fundamentos de Infantil,Autor L,Infantil,26.54,15.97,True
+74,BK-ABNZR4,Libro 74: Historias de Negocios,Autor Z,Negocios,110.96,44.01,True
+75,BK-ZDLID7,Libro 75: Crónicas de No Ficción,Autor J,No Ficción,72.36,31.48,True
+76,BK-NIZG77,Libro 76: Historias de Historia,Autor I,Historia,92.77,33.26,True
+77,BK-JS01RD,Libro 77: Guía de Ficción,Autor T,Ficción,68.82,40.46,True
+78,BK-VPXQNO,Libro 78: Guía de Cocina,Autor D,Cocina,92.15,35.24,True
+79,BK-P366Q6,Libro 79: Recetas de Cocina,Autor Z,Cocina,102.46,43.17,True
+80,BK-CWN028,Libro 80: Historias de Ficción,Autor J,Ficción,99.82,49.82,True

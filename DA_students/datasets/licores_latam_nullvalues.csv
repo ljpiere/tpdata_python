@@ -1,0 +1,21 @@
+liquor_name,country,category,base_ingredient,abv_percent,bottle_volume_ml,price_usd,region,sweetness_profile,aging_years,export_volume_liters,consumer_rating
+Aguardiente Antioqueño,Colombia,Aguardiente,Caña de azúcar,29.0,750.0,12.0,Andina,seco,0.0,120000.0,4.3
+Ron Viejo de Caldas 8,Colombia,Ron añejo,Melaza,35.0,750.0,18.0,Andina,semidulce,8.0,80000.0,4.4
+Pisco Quebranta,Perú,Pisco,Uva,40.0,700.0,22.0,Costa,seco,2.0,60000.0,4.5
+Pisco Acholado,Chile,Pisco,Uva,35.0,700.0,20.0,Norte Chico,semidulce,1.0,55000.0,4.2
+Cachaça Ouro,Brasil,Cachaça,Caña de azúcar,38.0,700.0,15.0,Sudeste,semidulce,2.0,150000.0,4.1
+Tequila Blanco,México,Tequila,Agave azul,38.0,750.0,25.0,Jalisco,seco,0.0,200000.0,4.6
+Tequila Reposado,México,Tequila,Agave azul,40.0,750.0,32.0,Jalisco,semidulce,6.0,180000.0,4.7
+Mezcal Artesanal,México,Mezcal,Agave espadín,45.0,700.0,28.0,Oaxaca,ahumado,3.0,70000.0,4.5
+Fernet con Cola,Argentina,Amargo,Hierbas,39.0,750.0,17.0,Centro,amargo,0.0,50000.0,4.0
+Ron Añejo Diplomático,Venezuela,Ron añejo,Melaza,40.0,700.0,30.0,Llanos,dulce,12.0,90000.0,4.8
+Singani de Altura,Bolivia,Singani,Uva moscatel,40.0,700.0,18.0,Altiplano,seco,3.0,30000.0,4.1
+Rum Blanco Caribeño,Panamá,Ron blanco,Melaza,37.5,750.0,14.0,Caribe,semidulce,1.0,40000.0,3.9
+Licor de Café,Colombia,Licor saborizado,Café y caña,24.0,700.0,16.0,Eje Cafetero,dulce,0.0,25000.0,4.2
+Crema de Coco Caribeña,República Dominicana,Licor cremoso,Coco y caña,20.0,750.0,13.0,Caribe,dulce,0.0,35000.0,4.0
+Guaro Cacique,Costa Rica,Aguardiente,Caña de azúcar,30.0,750.0,11.0,Centroamérica,seco,0.0,45000.0,3.8
+Aguardiente Sierra Nula,Colombia,Aguardiente,,29.0,750.0,,Andina,seco,0.0,,4.0
+Pisco Valle Desconocido,Perú,Pisco,Uva,,700.0,19.0,,seco,2.0,30000.0,
+Cachaça da Serra,Brasil,,Caña de azúcar,40.0,,14.0,Sudeste,,1.0,80000.0,3.8
+,,,,,,,,,,,
+Ron Caribe Misterioso,Panamá,Ron,,37.0,750.0,21.0,Caribe,dulce,,45000.0,

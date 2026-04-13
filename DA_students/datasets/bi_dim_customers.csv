@@ -1,0 +1,2001 @@
+customer_id,signup_date,segment,age_group,region,country,city
+100000,2023-07-23,Básico,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100001,2024-05-21,Premium,18-24,Caribe,Costa Rica,San José
+100002,2023-03-01,Premium,18-24,Cono Sur,Argentina,Córdoba
+100003,2025-02-14,Básico,18-24,Centroamérica,Honduras,San Pedro Sula
+100004,2025-05-23,Básico,55+,Andina,Ecuador,Guayaquil
+100005,2023-11-18,Básico,25-34,Cono Sur,Paraguay,Asunción
+100006,2024-02-09,Plus,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100007,2023-10-01,Plus,55+,Cono Sur,Uruguay,Montevideo
+100008,2024-03-25,Básico,35-44,Andina,Colombia,Cali
+100009,2023-11-11,Básico,35-44,Caribe,República Dominicana,Santo Domingo
+100010,2023-10-13,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+100011,2024-05-11,Premium,25-34,Cono Sur,Paraguay,Asunción
+100012,2025-09-19,Premium,35-44,Centroamérica,El Salvador,San Salvador
+100013,2025-05-30,Básico,55+,Cono Sur,Uruguay,Montevideo
+100014,2023-12-10,Plus,45-54,Caribe,República Dominicana,Santo Domingo
+100015,2025-12-24,Básico,25-34,Andina,Colombia,Medellín
+100016,2023-08-31,Plus,25-34,Pacífica,Chile,Valparaíso
+100017,2025-11-17,Premium,45-54,Andina,Colombia,Bogotá
+100018,2023-12-24,Básico,18-24,Cono Sur,Argentina,Buenos Aires
+100019,2024-09-16,Básico,45-54,Pacífica,México,Guadalajara
+100020,2023-08-23,Plus,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100021,2025-05-30,Básico,35-44,Caribe,República Dominicana,Santiago
+100022,2024-01-02,Plus,45-54,Cono Sur,Uruguay,Montevideo
+100023,2025-10-04,Básico,25-34,Cono Sur,Argentina,Córdoba
+100024,2023-04-06,Premium,25-34,Centroamérica,Honduras,San Pedro Sula
+100025,2024-08-02,Básico,45-54,Andina,Colombia,Cali
+100026,2023-07-03,Básico,25-34,Pacífica,Chile,Santiago
+100027,2025-10-23,Básico,25-34,Andina,Perú,Lima
+100028,2024-04-26,Básico,35-44,Andina,Ecuador,Quito
+100029,2025-02-18,Básico,25-34,Centroamérica,Honduras,San Pedro Sula
+100030,2025-10-12,Plus,35-44,Centroamérica,Honduras,San Pedro Sula
+100031,2024-09-10,Básico,18-24,Cono Sur,Uruguay,Montevideo
+100032,2023-03-08,Básico,25-34,Caribe,República Dominicana,Santo Domingo
+100033,2023-09-12,Básico,45-54,Caribe,República Dominicana,Santo Domingo
+100034,2023-09-03,Básico,18-24,Pacífica,Chile,Santiago
+100035,2025-11-21,Premium,25-34,Andina,Colombia,Barranquilla
+100036,2025-11-15,Premium,35-44,Andina,Ecuador,Quito
+100037,2024-07-04,Básico,45-54,Pacífica,México,Monterrey
+100038,2025-10-24,Plus,35-44,Andina,Colombia,Medellín
+100039,2023-10-12,Plus,45-54,Centroamérica,Honduras,San Pedro Sula
+100040,2025-02-23,Premium,25-34,Caribe,República Dominicana,Santiago
+100041,2024-03-28,Básico,25-34,Cono Sur,Uruguay,Montevideo
+100042,2023-10-05,Básico,55+,Centroamérica,El Salvador,San Salvador
+100043,2023-10-16,Básico,45-54,Caribe,República Dominicana,Santo Domingo
+100044,2024-04-29,Premium,35-44,Cono Sur,Uruguay,Montevideo
+100045,2024-01-28,Plus,25-34,Cono Sur,Argentina,Rosario
+100046,2023-09-01,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+100047,2024-01-21,Básico,18-24,Caribe,República Dominicana,Santiago
+100048,2023-05-29,Plus,45-54,Centroamérica,Honduras,San Pedro Sula
+100049,2026-01-24,Premium,45-54,Andina,Perú,Cusco
+100050,2024-03-14,Básico,25-34,Andina,Colombia,Bogotá
+100051,2023-05-05,Plus,25-34,Andina,Perú,Lima
+100052,2024-10-27,Básico,25-34,Cono Sur,Paraguay,Asunción
+100053,2025-10-17,Básico,18-24,Centroamérica,El Salvador,San Salvador
+100054,2024-02-20,Básico,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100055,2025-09-03,Plus,35-44,Cono Sur,Uruguay,Montevideo
+100056,2024-12-06,Premium,25-34,Caribe,Costa Rica,San José
+100057,2025-05-03,Básico,35-44,Pacífica,México,Guadalajara
+100058,2023-12-09,Básico,55+,Andina,Colombia,Medellín
+100059,2023-02-12,Básico,18-24,Andina,Perú,Arequipa
+100060,2024-02-04,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100061,2025-12-03,Básico,25-34,Pacífica,Chile,Santiago
+100062,2025-07-02,Básico,18-24,Pacífica,México,Guadalajara
+100063,2025-06-24,Básico,35-44,Centroamérica,Honduras,Tegucigalpa
+100064,2025-10-11,Básico,35-44,Pacífica,México,Guadalajara
+100065,2024-03-07,Básico,18-24,Pacífica,Chile,Valparaíso
+100066,2024-01-07,Plus,18-24,Pacífica,México,Guadalajara
+100067,2025-12-04,Básico,45-54,Caribe,Panamá,Ciudad de Panamá
+100068,2024-10-22,Plus,25-34,Andina,Ecuador,Quito
+100069,2023-12-11,Premium,35-44,Caribe,República Dominicana,Santo Domingo
+100070,2023-11-18,Plus,35-44,Andina,Colombia,Cali
+100071,2025-10-10,Básico,45-54,Caribe,Costa Rica,San José
+100072,2023-03-03,Básico,35-44,Cono Sur,Paraguay,Asunción
+100073,2023-03-13,Plus,45-54,Andina,Ecuador,Quito
+100074,2025-05-02,Básico,35-44,Andina,Colombia,Medellín
+100075,2023-01-02,Básico,25-34,Caribe,República Dominicana,Santo Domingo
+100076,2023-07-17,Básico,25-34,Caribe,Costa Rica,San José
+100077,2026-02-18,Básico,25-34,Centroamérica,Honduras,Tegucigalpa
+100078,2024-05-06,Básico,25-34,Pacífica,Chile,Santiago
+100079,2025-04-20,Plus,18-24,Cono Sur,Paraguay,Asunción
+100080,2024-07-16,Básico,25-34,Centroamérica,El Salvador,San Salvador
+100081,2023-04-15,Básico,25-34,Caribe,República Dominicana,Santo Domingo
+100082,2023-08-02,Plus,18-24,Cono Sur,Paraguay,Asunción
+100083,2025-05-29,Básico,25-34,Andina,Ecuador,Guayaquil
+100084,2023-04-20,Plus,45-54,Andina,Perú,Cusco
+100085,2024-11-17,Básico,35-44,Andina,Perú,Lima
+100086,2024-02-06,Básico,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+100087,2024-03-03,Premium,35-44,Pacífica,México,Guadalajara
+100088,2026-01-04,Básico,45-54,Andina,Ecuador,Guayaquil
+100089,2024-11-30,Básico,45-54,Pacífica,México,Guadalajara
+100090,2024-12-11,Premium,18-24,Andina,Ecuador,Quito
+100091,2024-02-09,Plus,55+,Centroamérica,Guatemala,Ciudad de Guatemala
+100092,2024-03-16,Plus,18-24,Caribe,Panamá,Ciudad de Panamá
+100093,2025-03-03,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+100094,2023-02-14,Básico,45-54,Caribe,Costa Rica,San José
+100095,2023-10-02,Plus,25-34,Pacífica,México,Monterrey
+100096,2024-11-24,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+100097,2024-12-21,Básico,25-34,Andina,Colombia,Medellín
+100098,2023-04-17,Plus,18-24,Andina,Ecuador,Quito
+100099,2025-06-28,Básico,18-24,Cono Sur,Uruguay,Montevideo
+100100,2024-09-18,Básico,18-24,Cono Sur,Argentina,Córdoba
+100101,2023-10-02,Básico,18-24,Centroamérica,El Salvador,San Salvador
+100102,2025-05-18,Básico,35-44,Andina,Colombia,Medellín
+100103,2026-02-18,Plus,35-44,Cono Sur,Argentina,Córdoba
+100104,2024-05-04,Premium,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100105,2023-11-24,Básico,35-44,Centroamérica,Honduras,Tegucigalpa
+100106,2023-12-12,Básico,18-24,Caribe,República Dominicana,Santo Domingo
+100107,2024-11-15,Básico,25-34,Andina,Ecuador,Guayaquil
+100108,2023-02-24,Básico,45-54,Andina,Perú,Lima
+100109,2024-07-12,Básico,55+,Cono Sur,Argentina,Rosario
+100110,2023-01-29,Premium,25-34,Caribe,República Dominicana,Santiago
+100111,2023-02-14,Básico,18-24,Andina,Perú,Arequipa
+100112,2024-05-11,Básico,45-54,Caribe,República Dominicana,Santiago
+100113,2025-05-11,Premium,45-54,Pacífica,México,CDMX
+100114,2025-10-17,Básico,25-34,Andina,Colombia,Medellín
+100115,2023-04-12,Premium,25-34,Cono Sur,Uruguay,Montevideo
+100116,2023-10-09,Básico,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+100117,2024-05-02,Básico,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100118,2024-10-25,Premium,55+,Caribe,República Dominicana,Santo Domingo
+100119,2026-02-14,Básico,35-44,Pacífica,Chile,Valparaíso
+100120,2025-03-01,Básico,25-34,Pacífica,México,Guadalajara
+100121,2024-09-13,Básico,35-44,Centroamérica,El Salvador,San Salvador
+100122,2023-03-12,Plus,45-54,Andina,Ecuador,Guayaquil
+100123,2023-04-04,Plus,25-34,Caribe,República Dominicana,Santo Domingo
+100124,2023-06-26,Básico,45-54,Andina,Ecuador,Quito
+100125,2025-02-02,Plus,25-34,Pacífica,México,Monterrey
+100126,2024-01-18,Plus,25-34,Caribe,República Dominicana,Santiago
+100127,2023-10-06,Básico,35-44,Andina,Colombia,Barranquilla
+100128,2025-02-12,Básico,25-34,Andina,Perú,Arequipa
+100129,2025-07-30,Básico,55+,Pacífica,Chile,Santiago
+100130,2024-05-22,Básico,35-44,Andina,Colombia,Medellín
+100131,2025-10-15,Básico,25-34,Cono Sur,Paraguay,Asunción
+100132,2025-04-27,Básico,25-34,Pacífica,México,Monterrey
+100133,2025-04-07,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+100134,2025-09-29,Básico,25-34,Pacífica,México,CDMX
+100135,2023-08-01,Plus,35-44,Andina,Ecuador,Guayaquil
+100136,2025-05-25,Básico,25-34,Cono Sur,Paraguay,Asunción
+100137,2026-01-11,Premium,25-34,Pacífica,Chile,Santiago
+100138,2026-02-20,Premium,35-44,Cono Sur,Paraguay,Asunción
+100139,2024-10-29,Plus,18-24,Andina,Perú,Arequipa
+100140,2025-05-21,Premium,35-44,Pacífica,México,CDMX
+100141,2025-10-23,Premium,35-44,Pacífica,México,Guadalajara
+100142,2025-09-11,Básico,25-34,Cono Sur,Argentina,Rosario
+100143,2025-11-02,Plus,35-44,Pacífica,Chile,Valparaíso
+100144,2025-08-19,Básico,45-54,Pacífica,Chile,Valparaíso
+100145,2024-03-16,Plus,45-54,Andina,Colombia,Bogotá
+100146,2025-04-23,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+100147,2024-04-19,Básico,25-34,Pacífica,México,CDMX
+100148,2025-07-15,Básico,35-44,Caribe,Costa Rica,San José
+100149,2025-07-24,Premium,35-44,Andina,Perú,Cusco
+100150,2025-12-15,Básico,35-44,Cono Sur,Argentina,Córdoba
+100151,2024-11-10,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100152,2024-07-02,Básico,45-54,Andina,Ecuador,Quito
+100153,2023-07-11,Básico,25-34,Pacífica,México,Monterrey
+100154,2025-01-07,Plus,35-44,Andina,Colombia,Cali
+100155,2024-10-16,Plus,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+100156,2024-08-17,Básico,25-34,Caribe,Costa Rica,San José
+100157,2025-02-20,Básico,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100158,2025-09-09,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100159,2023-06-21,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100160,2024-05-13,Plus,45-54,Andina,Perú,Lima
+100161,2025-04-14,Plus,45-54,Cono Sur,Uruguay,Montevideo
+100162,2025-08-04,Básico,35-44,Andina,Perú,Cusco
+100163,2025-06-18,Plus,55+,Andina,Colombia,Cali
+100164,2025-07-12,Básico,25-34,Pacífica,México,Guadalajara
+100165,2025-09-14,Plus,45-54,Caribe,Costa Rica,San José
+100166,2026-01-15,Básico,18-24,Cono Sur,Uruguay,Montevideo
+100167,2024-12-03,Plus,25-34,Cono Sur,Argentina,Rosario
+100168,2023-10-15,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+100169,2024-10-12,Premium,18-24,Cono Sur,Paraguay,Asunción
+100170,2025-03-30,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+100171,2023-04-27,Básico,25-34,Pacífica,Chile,Santiago
+100172,2025-05-24,Básico,35-44,Andina,Perú,Arequipa
+100173,2024-09-20,Básico,25-34,Cono Sur,Uruguay,Montevideo
+100174,2025-12-17,Básico,18-24,Andina,Perú,Arequipa
+100175,2023-09-02,Plus,55+,Andina,Perú,Lima
+100176,2025-11-13,Plus,35-44,Caribe,República Dominicana,Santo Domingo
+100177,2024-06-01,Básico,55+,Cono Sur,Paraguay,Asunción
+100178,2024-10-24,Plus,25-34,Cono Sur,Uruguay,Montevideo
+100179,2025-02-01,Plus,18-24,Centroamérica,Honduras,San Pedro Sula
+100180,2024-10-30,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100181,2025-11-09,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100182,2023-07-13,Básico,18-24,Pacífica,Chile,Santiago
+100183,2025-04-23,Básico,45-54,Caribe,Costa Rica,San José
+100184,2026-01-31,Plus,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100185,2023-09-12,Premium,45-54,Centroamérica,Honduras,San Pedro Sula
+100186,2023-10-22,Plus,25-34,Caribe,República Dominicana,Santo Domingo
+100187,2024-07-02,Básico,35-44,Andina,Colombia,Bogotá
+100188,2025-04-17,Plus,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100189,2026-01-12,Plus,55+,Andina,Ecuador,Guayaquil
+100190,2025-07-08,Básico,25-34,Cono Sur,Uruguay,Montevideo
+100191,2025-07-06,Plus,18-24,Andina,Perú,Cusco
+100192,2024-05-24,Básico,18-24,Andina,Ecuador,Quito
+100193,2025-01-15,Básico,35-44,Cono Sur,Argentina,Buenos Aires
+100194,2023-09-01,Básico,55+,Andina,Perú,Lima
+100195,2024-06-18,Básico,45-54,Andina,Perú,Lima
+100196,2023-08-07,Premium,35-44,Pacífica,México,Monterrey
+100197,2023-02-01,Básico,55+,Cono Sur,Argentina,Buenos Aires
+100198,2025-09-16,Básico,35-44,Andina,Ecuador,Quito
+100199,2025-07-18,Básico,25-34,Caribe,República Dominicana,Santo Domingo
+100200,2024-08-12,Básico,35-44,Centroamérica,El Salvador,San Salvador
+100201,2023-01-17,Básico,18-24,Cono Sur,Paraguay,Asunción
+100202,2023-04-15,Básico,25-34,Pacífica,Chile,Santiago
+100203,2023-05-10,Plus,25-34,Andina,Colombia,Barranquilla
+100204,2025-04-08,Básico,25-34,Andina,Colombia,Medellín
+100205,2023-08-24,Plus,55+,Andina,Ecuador,Guayaquil
+100206,2023-10-16,Básico,55+,Andina,Ecuador,Quito
+100207,2025-09-21,Plus,25-34,Centroamérica,El Salvador,San Salvador
+100208,2025-10-09,Plus,35-44,Andina,Colombia,Bogotá
+100209,2025-05-31,Básico,25-34,Pacífica,México,Monterrey
+100210,2023-12-24,Básico,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+100211,2024-10-31,Premium,25-34,Pacífica,México,CDMX
+100212,2023-08-20,Básico,25-34,Andina,Perú,Arequipa
+100213,2025-09-17,Plus,25-34,Cono Sur,Paraguay,Asunción
+100214,2023-04-09,Básico,25-34,Centroamérica,El Salvador,San Salvador
+100215,2025-05-09,Básico,18-24,Centroamérica,El Salvador,San Salvador
+100216,2024-08-13,Básico,25-34,Andina,Perú,Lima
+100217,2025-05-24,Premium,55+,Andina,Perú,Lima
+100218,2024-06-04,Básico,18-24,Cono Sur,Uruguay,Montevideo
+100219,2023-07-02,Plus,25-34,Caribe,República Dominicana,Santiago
+100220,2025-05-17,Plus,35-44,Caribe,República Dominicana,Santiago
+100221,2024-12-29,Básico,25-34,Pacífica,México,CDMX
+100222,2024-06-20,Básico,35-44,Centroamérica,El Salvador,San Salvador
+100223,2024-03-06,Básico,18-24,Cono Sur,Uruguay,Montevideo
+100224,2024-02-02,Básico,35-44,Caribe,Costa Rica,San José
+100225,2024-07-09,Plus,35-44,Cono Sur,Argentina,Rosario
+100226,2023-10-30,Básico,35-44,Andina,Perú,Arequipa
+100227,2023-11-23,Básico,35-44,Pacífica,México,Monterrey
+100228,2023-11-18,Plus,25-34,Pacífica,Chile,Santiago
+100229,2023-01-15,Plus,25-34,Andina,Colombia,Barranquilla
+100230,2025-12-07,Básico,25-34,Andina,Colombia,Bogotá
+100231,2023-10-01,Plus,35-44,Caribe,Costa Rica,San José
+100232,2023-07-10,Básico,18-24,Cono Sur,Uruguay,Montevideo
+100233,2023-06-24,Plus,25-34,Pacífica,Chile,Valparaíso
+100234,2026-02-15,Básico,35-44,Cono Sur,Argentina,Córdoba
+100235,2024-07-04,Básico,18-24,Cono Sur,Argentina,Córdoba
+100236,2024-01-13,Básico,18-24,Pacífica,México,CDMX
+100237,2024-04-11,Plus,35-44,Cono Sur,Argentina,Córdoba
+100238,2023-04-13,Plus,25-34,Andina,Ecuador,Quito
+100239,2023-12-29,Básico,45-54,Andina,Colombia,Cali
+100240,2023-10-15,Premium,55+,Cono Sur,Uruguay,Montevideo
+100241,2025-07-16,Plus,55+,Cono Sur,Argentina,Rosario
+100242,2023-03-09,Básico,25-34,Andina,Ecuador,Quito
+100243,2024-05-06,Plus,25-34,Pacífica,Chile,Santiago
+100244,2025-07-01,Básico,35-44,Pacífica,Chile,Santiago
+100245,2025-08-20,Premium,35-44,Cono Sur,Argentina,Buenos Aires
+100246,2024-08-14,Básico,35-44,Pacífica,Chile,Santiago
+100247,2023-09-15,Básico,25-34,Caribe,República Dominicana,Santo Domingo
+100248,2024-01-25,Básico,18-24,Caribe,Costa Rica,San José
+100249,2023-09-14,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+100250,2025-02-03,Plus,18-24,Centroamérica,Honduras,San Pedro Sula
+100251,2023-12-05,Básico,18-24,Cono Sur,Uruguay,Montevideo
+100252,2024-12-29,Básico,55+,Caribe,Costa Rica,San José
+100253,2025-01-27,Básico,18-24,Andina,Perú,Lima
+100254,2025-12-21,Premium,35-44,Andina,Perú,Cusco
+100255,2024-03-03,Plus,55+,Centroamérica,Guatemala,Ciudad de Guatemala
+100256,2026-01-15,Básico,25-34,Cono Sur,Argentina,Rosario
+100257,2024-04-07,Básico,35-44,Andina,Colombia,Barranquilla
+100258,2025-02-25,Básico,35-44,Andina,Perú,Arequipa
+100259,2025-02-03,Premium,25-34,Pacífica,Chile,Santiago
+100260,2025-08-02,Plus,25-34,Andina,Colombia,Barranquilla
+100261,2024-06-25,Plus,45-54,Cono Sur,Argentina,Buenos Aires
+100262,2025-07-04,Premium,45-54,Caribe,República Dominicana,Santo Domingo
+100263,2024-02-15,Básico,45-54,Andina,Ecuador,Quito
+100264,2024-07-21,Plus,55+,Cono Sur,Uruguay,Montevideo
+100265,2024-07-31,Básico,25-34,Andina,Ecuador,Guayaquil
+100266,2025-03-24,Básico,45-54,Caribe,Panamá,Ciudad de Panamá
+100267,2024-12-15,Básico,35-44,Andina,Ecuador,Guayaquil
+100268,2023-04-01,Básico,35-44,Andina,Colombia,Barranquilla
+100269,2025-07-23,Premium,35-44,Andina,Perú,Cusco
+100270,2025-05-25,Básico,45-54,Andina,Ecuador,Quito
+100271,2023-05-01,Plus,45-54,Andina,Perú,Cusco
+100272,2026-01-15,Plus,25-34,Andina,Ecuador,Quito
+100273,2025-02-02,Plus,35-44,Pacífica,Chile,Valparaíso
+100274,2023-04-09,Premium,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100275,2024-07-21,Básico,35-44,Caribe,Costa Rica,San José
+100276,2025-08-23,Básico,45-54,Caribe,República Dominicana,Santo Domingo
+100277,2023-11-20,Básico,45-54,Pacífica,México,Monterrey
+100278,2025-12-13,Básico,25-34,Cono Sur,Paraguay,Asunción
+100279,2024-04-28,Premium,35-44,Cono Sur,Paraguay,Asunción
+100280,2023-09-19,Básico,25-34,Andina,Perú,Arequipa
+100281,2024-02-16,Básico,18-24,Andina,Ecuador,Guayaquil
+100282,2024-08-29,Básico,25-34,Andina,Colombia,Bogotá
+100283,2025-03-05,Básico,55+,Andina,Perú,Arequipa
+100284,2025-12-07,Plus,25-34,Pacífica,Chile,Valparaíso
+100285,2023-08-14,Básico,55+,Caribe,Costa Rica,San José
+100286,2026-01-14,Plus,25-34,Andina,Ecuador,Quito
+100287,2024-09-01,Plus,35-44,Caribe,Costa Rica,San José
+100288,2023-05-28,Plus,35-44,Pacífica,México,CDMX
+100289,2025-12-06,Básico,35-44,Andina,Colombia,Bogotá
+100290,2024-02-08,Plus,35-44,Cono Sur,Argentina,Buenos Aires
+100291,2024-12-17,Básico,35-44,Andina,Ecuador,Quito
+100292,2025-03-17,Básico,55+,Cono Sur,Uruguay,Montevideo
+100293,2023-01-16,Plus,35-44,Andina,Colombia,Cali
+100294,2023-09-13,Plus,18-24,Cono Sur,Paraguay,Asunción
+100295,2025-03-03,Básico,25-34,Cono Sur,Paraguay,Asunción
+100296,2024-01-11,Premium,35-44,Cono Sur,Uruguay,Montevideo
+100297,2023-01-11,Básico,25-34,Cono Sur,Paraguay,Asunción
+100298,2023-01-27,Plus,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100299,2025-08-12,Premium,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100300,2023-06-27,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100301,2023-04-26,Plus,45-54,Andina,Perú,Lima
+100302,2024-10-11,Plus,35-44,Pacífica,Chile,Santiago
+100303,2023-05-18,Plus,35-44,Pacífica,Chile,Santiago
+100304,2025-01-24,Plus,35-44,Cono Sur,Paraguay,Asunción
+100305,2024-09-20,Plus,45-54,Pacífica,México,Monterrey
+100306,2025-01-19,Básico,35-44,Caribe,Costa Rica,San José
+100307,2024-07-21,Plus,55+,Pacífica,México,Monterrey
+100308,2025-06-18,Básico,18-24,Andina,Ecuador,Quito
+100309,2025-01-14,Premium,35-44,Andina,Perú,Lima
+100310,2024-04-24,Básico,35-44,Pacífica,México,CDMX
+100311,2023-01-18,Básico,25-34,Caribe,Costa Rica,San José
+100312,2023-11-12,Premium,25-34,Andina,Perú,Cusco
+100313,2023-06-01,Básico,35-44,Caribe,República Dominicana,Santiago
+100314,2023-01-18,Básico,25-34,Caribe,Costa Rica,San José
+100315,2023-11-12,Plus,55+,Caribe,República Dominicana,Santiago
+100316,2023-08-27,Básico,25-34,Caribe,Costa Rica,San José
+100317,2023-03-30,Básico,18-24,Centroamérica,Honduras,Tegucigalpa
+100318,2023-12-27,Básico,35-44,Caribe,Costa Rica,San José
+100319,2024-08-08,Básico,25-34,Cono Sur,Argentina,Córdoba
+100320,2023-07-25,Básico,18-24,Cono Sur,Uruguay,Montevideo
+100321,2023-11-12,Básico,35-44,Pacífica,Chile,Santiago
+100322,2023-01-24,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+100323,2023-02-28,Básico,18-24,Pacífica,Chile,Valparaíso
+100324,2023-07-01,Básico,35-44,Cono Sur,Paraguay,Asunción
+100325,2024-06-07,Plus,35-44,Centroamérica,Honduras,San Pedro Sula
+100326,2025-02-08,Plus,45-54,Cono Sur,Paraguay,Asunción
+100327,2025-06-29,Básico,25-34,Pacífica,Chile,Santiago
+100328,2024-12-28,Básico,25-34,Pacífica,Chile,Valparaíso
+100329,2024-12-13,Premium,55+,Caribe,Costa Rica,San José
+100330,2025-12-16,Plus,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100331,2023-10-23,Básico,18-24,Andina,Colombia,Cali
+100332,2025-07-10,Básico,45-54,Centroamérica,El Salvador,San Salvador
+100333,2025-12-18,Básico,25-34,Cono Sur,Paraguay,Asunción
+100334,2024-10-17,Plus,45-54,Andina,Ecuador,Quito
+100335,2025-08-28,Premium,35-44,Pacífica,Chile,Santiago
+100336,2023-06-08,Premium,55+,Andina,Ecuador,Quito
+100337,2025-10-11,Básico,55+,Centroamérica,Guatemala,Ciudad de Guatemala
+100338,2024-10-13,Básico,25-34,Andina,Ecuador,Guayaquil
+100339,2023-09-13,Básico,45-54,Cono Sur,Uruguay,Montevideo
+100340,2023-03-13,Básico,25-34,Andina,Colombia,Medellín
+100341,2025-04-11,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100342,2024-05-12,Plus,35-44,Cono Sur,Uruguay,Montevideo
+100343,2023-12-25,Básico,18-24,Pacífica,Chile,Santiago
+100344,2024-03-26,Premium,18-24,Cono Sur,Uruguay,Montevideo
+100345,2026-02-18,Básico,18-24,Cono Sur,Uruguay,Montevideo
+100346,2024-05-09,Básico,18-24,Cono Sur,Argentina,Rosario
+100347,2023-04-01,Premium,25-34,Andina,Colombia,Medellín
+100348,2023-11-20,Plus,55+,Pacífica,México,Guadalajara
+100349,2023-06-17,Básico,35-44,Andina,Perú,Cusco
+100350,2025-03-03,Plus,45-54,Pacífica,México,Guadalajara
+100351,2025-07-13,Básico,45-54,Andina,Perú,Arequipa
+100352,2025-08-29,Básico,35-44,Pacífica,México,CDMX
+100353,2024-12-31,Básico,25-34,Pacífica,Chile,Santiago
+100354,2025-06-06,Básico,45-54,Pacífica,Chile,Santiago
+100355,2024-04-26,Plus,45-54,Pacífica,México,Guadalajara
+100356,2024-12-26,Básico,45-54,Centroamérica,El Salvador,San Salvador
+100357,2023-05-04,Plus,55+,Cono Sur,Argentina,Buenos Aires
+100358,2024-09-13,Plus,35-44,Pacífica,México,CDMX
+100359,2024-10-05,Básico,35-44,Pacífica,México,Monterrey
+100360,2023-02-05,Básico,45-54,Cono Sur,Argentina,Rosario
+100361,2024-09-25,Básico,25-34,Andina,Ecuador,Guayaquil
+100362,2025-04-14,Plus,45-54,Andina,Perú,Lima
+100363,2024-02-29,Plus,18-24,Andina,Ecuador,Guayaquil
+100364,2024-09-21,Plus,18-24,Centroamérica,Honduras,Tegucigalpa
+100365,2023-11-27,Básico,35-44,Caribe,Costa Rica,San José
+100366,2023-11-09,Básico,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+100367,2023-05-30,Básico,55+,Centroamérica,Guatemala,Ciudad de Guatemala
+100368,2024-01-14,Básico,18-24,Caribe,Costa Rica,San José
+100369,2025-07-16,Plus,35-44,Cono Sur,Uruguay,Montevideo
+100370,2025-12-16,Básico,25-34,Centroamérica,Honduras,San Pedro Sula
+100371,2025-01-04,Básico,55+,Andina,Colombia,Bogotá
+100372,2024-12-22,Básico,25-34,Caribe,República Dominicana,Santiago
+100373,2024-12-09,Básico,18-24,Caribe,Costa Rica,San José
+100374,2024-07-03,Plus,18-24,Andina,Colombia,Medellín
+100375,2024-05-03,Básico,35-44,Andina,Perú,Cusco
+100376,2024-12-18,Premium,55+,Cono Sur,Argentina,Buenos Aires
+100377,2025-06-24,Plus,55+,Caribe,República Dominicana,Santiago
+100378,2024-04-22,Premium,25-34,Caribe,República Dominicana,Santo Domingo
+100379,2024-10-15,Plus,25-34,Centroamérica,El Salvador,San Salvador
+100380,2024-06-27,Plus,18-24,Pacífica,México,CDMX
+100381,2023-11-26,Plus,35-44,Cono Sur,Argentina,Buenos Aires
+100382,2023-12-02,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100383,2023-04-01,Básico,25-34,Pacífica,México,Monterrey
+100384,2024-05-23,Plus,35-44,Caribe,Panamá,Ciudad de Panamá
+100385,2025-04-02,Básico,45-54,Cono Sur,Paraguay,Asunción
+100386,2025-03-02,Básico,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+100387,2026-02-12,Premium,25-34,Cono Sur,Argentina,Buenos Aires
+100388,2023-02-16,Básico,25-34,Andina,Perú,Lima
+100389,2025-05-28,Básico,18-24,Cono Sur,Uruguay,Montevideo
+100390,2025-07-07,Plus,18-24,Pacífica,Chile,Valparaíso
+100391,2024-05-19,Básico,35-44,Andina,Ecuador,Quito
+100392,2023-11-23,Premium,18-24,Pacífica,Chile,Santiago
+100393,2024-02-17,Básico,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100394,2025-02-27,Premium,45-54,Andina,Perú,Arequipa
+100395,2025-09-22,Plus,55+,Caribe,Panamá,Ciudad de Panamá
+100396,2025-01-12,Básico,35-44,Cono Sur,Argentina,Rosario
+100397,2024-08-16,Básico,25-34,Caribe,República Dominicana,Santiago
+100398,2025-01-23,Básico,18-24,Caribe,República Dominicana,Santiago
+100399,2023-03-23,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+100400,2024-12-03,Básico,55+,Caribe,Panamá,Ciudad de Panamá
+100401,2023-02-18,Premium,55+,Cono Sur,Argentina,Buenos Aires
+100402,2026-01-12,Básico,25-34,Cono Sur,Uruguay,Montevideo
+100403,2025-10-24,Plus,25-34,Andina,Ecuador,Quito
+100404,2024-08-10,Básico,35-44,Cono Sur,Argentina,Buenos Aires
+100405,2024-03-08,Premium,25-34,Cono Sur,Paraguay,Asunción
+100406,2025-04-25,Básico,55+,Caribe,República Dominicana,Santiago
+100407,2025-01-06,Básico,25-34,Cono Sur,Argentina,Córdoba
+100408,2025-03-25,Plus,25-34,Andina,Colombia,Bogotá
+100409,2024-08-18,Básico,25-34,Cono Sur,Argentina,Rosario
+100410,2023-09-30,Plus,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+100411,2023-03-26,Básico,25-34,Centroamérica,Honduras,Tegucigalpa
+100412,2023-11-24,Básico,45-54,Andina,Perú,Lima
+100413,2024-09-02,Básico,18-24,Cono Sur,Paraguay,Asunción
+100414,2024-05-04,Plus,35-44,Andina,Perú,Cusco
+100415,2024-08-07,Básico,25-34,Andina,Perú,Arequipa
+100416,2023-11-17,Básico,18-24,Andina,Perú,Cusco
+100417,2025-12-19,Básico,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+100418,2024-02-28,Básico,25-34,Andina,Ecuador,Guayaquil
+100419,2025-09-04,Básico,18-24,Cono Sur,Argentina,Rosario
+100420,2024-03-27,Premium,25-34,Centroamérica,El Salvador,San Salvador
+100421,2024-05-27,Básico,45-54,Andina,Ecuador,Guayaquil
+100422,2024-11-28,Plus,35-44,Andina,Ecuador,Quito
+100423,2023-10-31,Básico,55+,Andina,Perú,Lima
+100424,2023-09-11,Básico,25-34,Pacífica,Chile,Valparaíso
+100425,2024-03-13,Básico,35-44,Cono Sur,Paraguay,Asunción
+100426,2025-07-17,Básico,35-44,Andina,Colombia,Bogotá
+100427,2023-06-17,Básico,25-34,Cono Sur,Uruguay,Montevideo
+100428,2024-05-20,Básico,25-34,Andina,Ecuador,Quito
+100429,2025-02-15,Básico,35-44,Cono Sur,Paraguay,Asunción
+100430,2025-03-26,Premium,45-54,Cono Sur,Paraguay,Asunción
+100431,2024-05-16,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100432,2023-04-05,Básico,25-34,Centroamérica,El Salvador,San Salvador
+100433,2023-01-19,Básico,55+,Cono Sur,Argentina,Buenos Aires
+100434,2024-06-26,Básico,18-24,Andina,Perú,Lima
+100435,2025-07-24,Plus,55+,Andina,Ecuador,Guayaquil
+100436,2023-02-02,Básico,45-54,Andina,Perú,Lima
+100437,2025-10-22,Plus,45-54,Pacífica,México,Guadalajara
+100438,2025-02-19,Básico,45-54,Centroamérica,Honduras,San Pedro Sula
+100439,2023-01-10,Básico,25-34,Pacífica,Chile,Santiago
+100440,2024-02-01,Premium,35-44,Cono Sur,Argentina,Buenos Aires
+100441,2023-09-12,Básico,45-54,Andina,Perú,Lima
+100442,2026-01-01,Plus,45-54,Centroamérica,El Salvador,San Salvador
+100443,2024-10-02,Básico,25-34,Andina,Perú,Cusco
+100444,2024-01-10,Premium,25-34,Andina,Ecuador,Quito
+100445,2023-11-18,Básico,25-34,Centroamérica,Honduras,San Pedro Sula
+100446,2024-10-13,Básico,25-34,Cono Sur,Argentina,Buenos Aires
+100447,2023-01-06,Plus,35-44,Pacífica,Chile,Valparaíso
+100448,2023-10-25,Básico,45-54,Andina,Perú,Lima
+100449,2023-07-11,Básico,45-54,Pacífica,México,Monterrey
+100450,2024-12-17,Premium,35-44,Andina,Ecuador,Quito
+100451,2025-02-11,Plus,25-34,Cono Sur,Argentina,Rosario
+100452,2024-06-23,Plus,25-34,Centroamérica,Honduras,Tegucigalpa
+100453,2023-06-11,Plus,25-34,Andina,Ecuador,Quito
+100454,2024-03-04,Plus,25-34,Andina,Perú,Arequipa
+100455,2025-08-31,Premium,18-24,Andina,Colombia,Bogotá
+100456,2023-08-24,Plus,25-34,Cono Sur,Uruguay,Montevideo
+100457,2023-07-08,Básico,25-34,Caribe,República Dominicana,Santo Domingo
+100458,2023-05-09,Básico,35-44,Cono Sur,Argentina,Córdoba
+100459,2025-08-01,Plus,18-24,Pacífica,México,CDMX
+100460,2023-05-19,Plus,25-34,Pacífica,Chile,Santiago
+100461,2024-11-02,Básico,18-24,Andina,Perú,Cusco
+100462,2026-02-27,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100463,2025-01-11,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+100464,2024-04-21,Básico,25-34,Pacífica,Chile,Santiago
+100465,2023-08-27,Plus,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+100466,2023-01-03,Básico,55+,Centroamérica,El Salvador,San Salvador
+100467,2023-06-29,Plus,35-44,Cono Sur,Paraguay,Asunción
+100468,2026-01-05,Plus,35-44,Andina,Ecuador,Quito
+100469,2023-06-15,Premium,35-44,Pacífica,México,CDMX
+100470,2023-01-24,Básico,45-54,Caribe,Panamá,Ciudad de Panamá
+100471,2025-07-31,Premium,45-54,Pacífica,México,Guadalajara
+100472,2024-04-28,Plus,25-34,Andina,Perú,Lima
+100473,2024-02-17,Plus,35-44,Andina,Colombia,Bogotá
+100474,2025-04-08,Básico,25-34,Andina,Ecuador,Quito
+100475,2024-08-27,Básico,35-44,Caribe,República Dominicana,Santiago
+100476,2025-11-22,Plus,25-34,Caribe,Costa Rica,San José
+100477,2024-06-24,Básico,18-24,Pacífica,Chile,Santiago
+100478,2025-04-03,Básico,55+,Pacífica,México,Monterrey
+100479,2025-10-12,Plus,45-54,Caribe,Panamá,Ciudad de Panamá
+100480,2024-06-19,Plus,25-34,Caribe,Panamá,Ciudad de Panamá
+100481,2023-11-25,Básico,55+,Andina,Colombia,Barranquilla
+100482,2026-01-30,Básico,25-34,Pacífica,México,Guadalajara
+100483,2023-09-19,Básico,25-34,Caribe,República Dominicana,Santo Domingo
+100484,2023-02-15,Premium,45-54,Andina,Perú,Cusco
+100485,2024-10-29,Premium,25-34,Caribe,Panamá,Ciudad de Panamá
+100486,2026-02-13,Básico,25-34,Pacífica,México,Monterrey
+100487,2023-04-10,Básico,35-44,Andina,Colombia,Bogotá
+100488,2025-09-08,Básico,18-24,Pacífica,México,Monterrey
+100489,2025-08-17,Básico,25-34,Pacífica,Chile,Valparaíso
+100490,2025-12-08,Premium,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100491,2024-05-01,Básico,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100492,2023-10-22,Básico,18-24,Centroamérica,El Salvador,San Salvador
+100493,2024-08-14,Básico,25-34,Caribe,República Dominicana,Santo Domingo
+100494,2023-06-14,Básico,35-44,Cono Sur,Argentina,Buenos Aires
+100495,2025-08-31,Plus,18-24,Pacífica,México,Monterrey
+100496,2025-02-05,Plus,25-34,Caribe,República Dominicana,Santo Domingo
+100497,2024-07-12,Plus,35-44,Pacífica,Chile,Valparaíso
+100498,2024-08-18,Básico,45-54,Caribe,República Dominicana,Santo Domingo
+100499,2025-04-02,Premium,18-24,Pacífica,Chile,Valparaíso
+100500,2024-08-27,Básico,45-54,Centroamérica,El Salvador,San Salvador
+100501,2025-08-27,Plus,35-44,Cono Sur,Uruguay,Montevideo
+100502,2025-12-03,Premium,25-34,Cono Sur,Paraguay,Asunción
+100503,2026-01-02,Básico,45-54,Pacífica,México,CDMX
+100504,2024-12-17,Premium,35-44,Pacífica,Chile,Santiago
+100505,2025-05-07,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100506,2023-12-26,Plus,35-44,Caribe,República Dominicana,Santo Domingo
+100507,2023-02-14,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100508,2024-04-07,Básico,55+,Pacífica,Chile,Santiago
+100509,2025-10-03,Básico,35-44,Andina,Ecuador,Guayaquil
+100510,2023-06-04,Básico,45-54,Andina,Colombia,Bogotá
+100511,2024-09-22,Básico,45-54,Cono Sur,Uruguay,Montevideo
+100512,2023-08-11,Básico,45-54,Andina,Colombia,Barranquilla
+100513,2024-05-10,Plus,55+,Caribe,Costa Rica,San José
+100514,2023-06-15,Básico,25-34,Caribe,Costa Rica,San José
+100515,2025-04-28,Básico,18-24,Andina,Ecuador,Guayaquil
+100516,2025-07-24,Premium,35-44,Caribe,Panamá,Ciudad de Panamá
+100517,2025-05-25,Premium,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100518,2025-03-25,Básico,35-44,Andina,Ecuador,Quito
+100519,2023-09-29,Básico,45-54,Cono Sur,Uruguay,Montevideo
+100520,2024-09-04,Plus,55+,Cono Sur,Paraguay,Asunción
+100521,2023-05-02,Plus,25-34,Caribe,Costa Rica,San José
+100522,2024-03-08,Básico,35-44,Andina,Perú,Cusco
+100523,2024-08-07,Plus,25-34,Pacífica,México,Guadalajara
+100524,2025-02-11,Básico,35-44,Andina,Ecuador,Guayaquil
+100525,2023-04-22,Básico,18-24,Caribe,Panamá,Ciudad de Panamá
+100526,2025-07-27,Plus,35-44,Cono Sur,Argentina,Buenos Aires
+100527,2024-06-14,Plus,35-44,Cono Sur,Argentina,Rosario
+100528,2025-10-14,Plus,35-44,Centroamérica,Honduras,San Pedro Sula
+100529,2024-09-01,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+100530,2024-09-23,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100531,2025-03-10,Básico,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+100532,2025-08-04,Básico,18-24,Caribe,Costa Rica,San José
+100533,2023-07-02,Básico,55+,Centroamérica,El Salvador,San Salvador
+100534,2024-08-13,Básico,55+,Andina,Colombia,Barranquilla
+100535,2023-02-04,Básico,25-34,Andina,Perú,Arequipa
+100536,2024-07-02,Plus,25-34,Pacífica,Chile,Valparaíso
+100537,2025-07-28,Básico,25-34,Andina,Ecuador,Quito
+100538,2025-09-26,Básico,35-44,Andina,Ecuador,Quito
+100539,2023-11-24,Plus,25-34,Cono Sur,Paraguay,Asunción
+100540,2024-03-22,Básico,18-24,Cono Sur,Uruguay,Montevideo
+100541,2024-09-29,Premium,25-34,Pacífica,México,CDMX
+100542,2024-04-02,Básico,25-34,Cono Sur,Paraguay,Asunción
+100543,2023-07-25,Básico,25-34,Cono Sur,Uruguay,Montevideo
+100544,2023-12-19,Premium,18-24,Andina,Perú,Cusco
+100545,2024-04-11,Plus,35-44,Caribe,Costa Rica,San José
+100546,2024-08-22,Plus,35-44,Caribe,Panamá,Ciudad de Panamá
+100547,2025-11-29,Plus,25-34,Andina,Ecuador,Guayaquil
+100548,2024-09-21,Básico,35-44,Centroamérica,Honduras,Tegucigalpa
+100549,2024-03-23,Plus,25-34,Caribe,Costa Rica,San José
+100550,2025-02-01,Premium,45-54,Pacífica,Chile,Valparaíso
+100551,2025-06-11,Premium,55+,Andina,Colombia,Bogotá
+100552,2024-05-12,Básico,18-24,Andina,Colombia,Bogotá
+100553,2024-07-19,Básico,45-54,Cono Sur,Uruguay,Montevideo
+100554,2023-09-09,Plus,35-44,Andina,Ecuador,Guayaquil
+100555,2025-09-25,Básico,35-44,Andina,Colombia,Cali
+100556,2025-09-28,Básico,25-34,Caribe,República Dominicana,Santiago
+100557,2023-07-22,Básico,25-34,Pacífica,México,Monterrey
+100558,2024-02-04,Básico,18-24,Pacífica,México,CDMX
+100559,2023-11-11,Básico,55+,Pacífica,México,Monterrey
+100560,2025-12-01,Básico,35-44,Andina,Perú,Arequipa
+100561,2023-03-17,Básico,25-34,Andina,Perú,Cusco
+100562,2023-08-28,Básico,35-44,Cono Sur,Argentina,Buenos Aires
+100563,2023-12-30,Premium,18-24,Pacífica,Chile,Santiago
+100564,2024-10-08,Básico,18-24,Centroamérica,El Salvador,San Salvador
+100565,2023-10-15,Básico,35-44,Centroamérica,Honduras,Tegucigalpa
+100566,2024-09-11,Básico,35-44,Centroamérica,El Salvador,San Salvador
+100567,2025-05-13,Básico,45-54,Andina,Ecuador,Guayaquil
+100568,2025-08-15,Premium,35-44,Caribe,República Dominicana,Santo Domingo
+100569,2023-04-25,Premium,35-44,Pacífica,Chile,Valparaíso
+100570,2023-06-10,Básico,45-54,Caribe,Costa Rica,San José
+100571,2023-04-20,Básico,18-24,Cono Sur,Argentina,Rosario
+100572,2025-11-16,Básico,35-44,Pacífica,Chile,Santiago
+100573,2025-01-23,Básico,35-44,Centroamérica,El Salvador,San Salvador
+100574,2024-09-05,Básico,25-34,Cono Sur,Paraguay,Asunción
+100575,2025-07-02,Básico,25-34,Pacífica,México,Monterrey
+100576,2024-11-07,Básico,25-34,Cono Sur,Argentina,Buenos Aires
+100577,2023-09-29,Plus,25-34,Pacífica,Chile,Santiago
+100578,2024-08-12,Básico,35-44,Cono Sur,Argentina,Córdoba
+100579,2025-03-23,Básico,18-24,Caribe,República Dominicana,Santo Domingo
+100580,2023-02-11,Básico,35-44,Pacífica,Chile,Santiago
+100581,2024-12-01,Básico,18-24,Pacífica,México,CDMX
+100582,2024-07-28,Básico,18-24,Andina,Colombia,Cali
+100583,2023-03-22,Básico,25-34,Caribe,Costa Rica,San José
+100584,2023-11-01,Básico,25-34,Cono Sur,Uruguay,Montevideo
+100585,2024-06-02,Básico,55+,Pacífica,México,CDMX
+100586,2024-01-31,Plus,25-34,Andina,Colombia,Bogotá
+100587,2023-12-02,Premium,25-34,Caribe,República Dominicana,Santiago
+100588,2025-01-19,Básico,25-34,Andina,Perú,Arequipa
+100589,2024-04-12,Básico,25-34,Andina,Colombia,Cali
+100590,2024-07-28,Plus,35-44,Cono Sur,Paraguay,Asunción
+100591,2025-07-11,Plus,45-54,Caribe,República Dominicana,Santo Domingo
+100592,2023-04-18,Básico,25-34,Caribe,República Dominicana,Santiago
+100593,2024-02-20,Básico,35-44,Pacífica,México,Monterrey
+100594,2023-03-26,Básico,25-34,Andina,Perú,Arequipa
+100595,2025-12-07,Plus,45-54,Andina,Colombia,Medellín
+100596,2023-08-03,Básico,35-44,Centroamérica,El Salvador,San Salvador
+100597,2025-08-04,Básico,25-34,Pacífica,Chile,Valparaíso
+100598,2023-08-09,Básico,35-44,Cono Sur,Paraguay,Asunción
+100599,2024-01-10,Básico,45-54,Pacífica,México,Guadalajara
+100600,2024-12-03,Básico,25-34,Pacífica,México,CDMX
+100601,2025-08-18,Plus,55+,Centroamérica,El Salvador,San Salvador
+100602,2023-07-25,Básico,45-54,Cono Sur,Argentina,Córdoba
+100603,2023-09-04,Básico,25-34,Centroamérica,El Salvador,San Salvador
+100604,2025-10-15,Básico,45-54,Cono Sur,Argentina,Buenos Aires
+100605,2024-01-07,Plus,35-44,Cono Sur,Uruguay,Montevideo
+100606,2023-08-31,Básico,35-44,Cono Sur,Argentina,Córdoba
+100607,2025-05-08,Básico,35-44,Andina,Perú,Cusco
+100608,2023-04-16,Básico,45-54,Centroamérica,El Salvador,San Salvador
+100609,2025-09-28,Plus,35-44,Caribe,Panamá,Ciudad de Panamá
+100610,2025-10-08,Plus,35-44,Pacífica,Chile,Valparaíso
+100611,2025-09-16,Premium,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+100612,2023-12-08,Plus,25-34,Cono Sur,Paraguay,Asunción
+100613,2023-05-12,Básico,55+,Cono Sur,Uruguay,Montevideo
+100614,2024-05-06,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+100615,2024-01-22,Básico,18-24,Centroamérica,Honduras,San Pedro Sula
+100616,2026-01-12,Plus,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+100617,2024-12-30,Plus,45-54,Caribe,Panamá,Ciudad de Panamá
+100618,2025-12-26,Básico,35-44,Andina,Perú,Lima
+100619,2025-05-17,Premium,18-24,Andina,Ecuador,Guayaquil
+100620,2025-04-05,Básico,35-44,Centroamérica,Honduras,San Pedro Sula
+100621,2023-05-10,Básico,18-24,Pacífica,México,Monterrey
+100622,2023-03-21,Básico,25-34,Cono Sur,Paraguay,Asunción
+100623,2023-02-23,Premium,35-44,Pacífica,Chile,Valparaíso
+100624,2024-11-16,Premium,55+,Cono Sur,Uruguay,Montevideo
+100625,2023-08-21,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+100626,2026-02-16,Premium,45-54,Cono Sur,Argentina,Córdoba
+100627,2023-06-03,Premium,55+,Andina,Colombia,Cali
+100628,2025-12-29,Plus,18-24,Pacífica,México,Monterrey
+100629,2025-02-10,Premium,25-34,Cono Sur,Uruguay,Montevideo
+100630,2023-05-03,Básico,35-44,Cono Sur,Argentina,Rosario
+100631,2023-03-09,Plus,45-54,Cono Sur,Argentina,Córdoba
+100632,2024-04-02,Plus,25-34,Andina,Colombia,Bogotá
+100633,2024-01-27,Plus,35-44,Caribe,República Dominicana,Santo Domingo
+100634,2023-12-31,Básico,35-44,Andina,Colombia,Bogotá
+100635,2024-09-02,Plus,35-44,Andina,Ecuador,Quito
+100636,2023-05-30,Premium,35-44,Centroamérica,El Salvador,San Salvador
+100637,2023-05-30,Básico,18-24,Centroamérica,Honduras,Tegucigalpa
+100638,2025-03-13,Premium,18-24,Centroamérica,Honduras,Tegucigalpa
+100639,2026-02-17,Básico,18-24,Cono Sur,Paraguay,Asunción
+100640,2023-11-13,Básico,55+,Centroamérica,El Salvador,San Salvador
+100641,2025-12-12,Básico,55+,Cono Sur,Argentina,Rosario
+100642,2024-02-03,Plus,45-54,Andina,Ecuador,Quito
+100643,2024-01-23,Plus,18-24,Andina,Colombia,Cali
+100644,2023-04-15,Básico,35-44,Pacífica,Chile,Santiago
+100645,2024-05-03,Plus,25-34,Cono Sur,Uruguay,Montevideo
+100646,2024-07-29,Básico,25-34,Andina,Ecuador,Quito
+100647,2025-02-05,Básico,25-34,Pacífica,Chile,Valparaíso
+100648,2023-07-02,Premium,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+100649,2023-08-06,Plus,18-24,Andina,Colombia,Barranquilla
+100650,2024-05-14,Plus,35-44,Caribe,Panamá,Ciudad de Panamá
+100651,2023-03-22,Plus,55+,Cono Sur,Paraguay,Asunción
+100652,2023-06-15,Premium,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100653,2024-12-27,Básico,18-24,Andina,Colombia,Barranquilla
+100654,2026-01-06,Básico,55+,Cono Sur,Argentina,Rosario
+100655,2024-10-23,Básico,35-44,Caribe,República Dominicana,Santiago
+100656,2023-06-17,Plus,25-34,Cono Sur,Argentina,Rosario
+100657,2026-02-18,Plus,35-44,Caribe,Panamá,Ciudad de Panamá
+100658,2024-08-25,Plus,45-54,Pacífica,Chile,Santiago
+100659,2025-04-07,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+100660,2023-08-16,Básico,35-44,Andina,Ecuador,Guayaquil
+100661,2024-10-30,Plus,25-34,Cono Sur,Uruguay,Montevideo
+100662,2023-03-30,Premium,18-24,Andina,Colombia,Cali
+100663,2024-12-23,Básico,45-54,Andina,Perú,Lima
+100664,2023-08-22,Básico,18-24,Caribe,República Dominicana,Santo Domingo
+100665,2025-11-16,Básico,25-34,Centroamérica,El Salvador,San Salvador
+100666,2023-03-05,Básico,25-34,Cono Sur,Argentina,Córdoba
+100667,2025-01-23,Básico,25-34,Cono Sur,Argentina,Buenos Aires
+100668,2023-06-11,Básico,25-34,Caribe,Costa Rica,San José
+100669,2025-03-04,Plus,35-44,Caribe,Panamá,Ciudad de Panamá
+100670,2024-07-23,Básico,25-34,Andina,Colombia,Barranquilla
+100671,2026-01-22,Básico,18-24,Pacífica,México,CDMX
+100672,2025-01-22,Básico,45-54,Cono Sur,Argentina,Buenos Aires
+100673,2024-03-05,Premium,55+,Centroamérica,El Salvador,San Salvador
+100674,2023-04-11,Básico,25-34,Pacífica,México,CDMX
+100675,2024-11-19,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+100676,2024-05-24,Básico,18-24,Cono Sur,Uruguay,Montevideo
+100677,2023-03-02,Plus,18-24,Pacífica,México,Monterrey
+100678,2024-11-02,Premium,25-34,Andina,Perú,Lima
+100679,2023-08-31,Básico,55+,Caribe,República Dominicana,Santiago
+100680,2023-09-28,Básico,35-44,Andina,Colombia,Barranquilla
+100681,2023-01-11,Básico,25-34,Andina,Colombia,Bogotá
+100682,2024-03-05,Plus,55+,Andina,Ecuador,Guayaquil
+100683,2023-09-10,Premium,25-34,Caribe,República Dominicana,Santo Domingo
+100684,2023-03-24,Básico,25-34,Pacífica,México,Monterrey
+100685,2024-05-16,Básico,25-34,Caribe,Costa Rica,San José
+100686,2023-09-12,Plus,25-34,Caribe,Costa Rica,San José
+100687,2023-06-04,Plus,45-54,Cono Sur,Argentina,Buenos Aires
+100688,2024-06-23,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100689,2023-03-15,Básico,35-44,Pacífica,México,CDMX
+100690,2026-02-17,Básico,25-34,Caribe,República Dominicana,Santiago
+100691,2024-06-27,Plus,55+,Cono Sur,Argentina,Rosario
+100692,2026-02-24,Plus,35-44,Andina,Ecuador,Guayaquil
+100693,2025-10-14,Plus,25-34,Caribe,Costa Rica,San José
+100694,2026-02-05,Plus,18-24,Cono Sur,Paraguay,Asunción
+100695,2024-09-18,Básico,55+,Pacífica,México,Monterrey
+100696,2024-05-03,Básico,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100697,2025-04-11,Básico,25-34,Pacífica,Chile,Santiago
+100698,2023-04-04,Premium,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+100699,2025-08-28,Plus,18-24,Caribe,República Dominicana,Santo Domingo
+100700,2024-01-09,Básico,25-34,Andina,Ecuador,Quito
+100701,2023-01-09,Básico,35-44,Caribe,República Dominicana,Santiago
+100702,2023-10-02,Plus,25-34,Andina,Perú,Arequipa
+100703,2023-10-07,Plus,25-34,Cono Sur,Paraguay,Asunción
+100704,2023-01-17,Plus,25-34,Caribe,Costa Rica,San José
+100705,2025-02-11,Básico,18-24,Pacífica,Chile,Santiago
+100706,2023-04-20,Premium,18-24,Cono Sur,Uruguay,Montevideo
+100707,2025-09-04,Plus,18-24,Cono Sur,Uruguay,Montevideo
+100708,2024-06-07,Plus,55+,Caribe,Costa Rica,San José
+100709,2025-04-09,Plus,35-44,Pacífica,Chile,Santiago
+100710,2024-01-28,Premium,25-34,Cono Sur,Argentina,Córdoba
+100711,2023-06-02,Premium,25-34,Centroamérica,El Salvador,San Salvador
+100712,2023-07-28,Plus,35-44,Cono Sur,Paraguay,Asunción
+100713,2025-01-15,Básico,18-24,Cono Sur,Uruguay,Montevideo
+100714,2025-04-07,Básico,25-34,Cono Sur,Argentina,Buenos Aires
+100715,2023-11-05,Plus,35-44,Andina,Perú,Lima
+100716,2024-02-17,Plus,25-34,Pacífica,México,CDMX
+100717,2025-12-27,Básico,45-54,Andina,Ecuador,Guayaquil
+100718,2025-09-10,Básico,45-54,Centroamérica,Honduras,Tegucigalpa
+100719,2024-04-22,Premium,45-54,Cono Sur,Argentina,Buenos Aires
+100720,2023-10-06,Premium,25-34,Pacífica,México,Guadalajara
+100721,2023-12-15,Premium,18-24,Caribe,Costa Rica,San José
+100722,2024-09-13,Básico,18-24,Andina,Ecuador,Quito
+100723,2024-10-16,Plus,45-54,Cono Sur,Argentina,Buenos Aires
+100724,2023-08-01,Plus,55+,Andina,Colombia,Bogotá
+100725,2023-03-18,Básico,55+,Andina,Perú,Arequipa
+100726,2024-07-26,Básico,25-34,Andina,Colombia,Barranquilla
+100727,2025-07-10,Premium,45-54,Andina,Ecuador,Quito
+100728,2023-06-26,Básico,35-44,Caribe,República Dominicana,Santo Domingo
+100729,2024-04-16,Plus,45-54,Pacífica,México,CDMX
+100730,2023-07-06,Plus,35-44,Caribe,Costa Rica,San José
+100731,2023-10-07,Plus,18-24,Andina,Ecuador,Quito
+100732,2024-12-08,Básico,18-24,Andina,Ecuador,Guayaquil
+100733,2023-11-27,Plus,55+,Caribe,República Dominicana,Santo Domingo
+100734,2023-11-01,Básico,25-34,Andina,Ecuador,Guayaquil
+100735,2026-02-23,Plus,25-34,Centroamérica,Honduras,San Pedro Sula
+100736,2023-07-19,Básico,25-34,Andina,Colombia,Barranquilla
+100737,2023-08-07,Plus,25-34,Caribe,Panamá,Ciudad de Panamá
+100738,2025-12-09,Plus,55+,Caribe,Panamá,Ciudad de Panamá
+100739,2024-09-27,Básico,18-24,Caribe,Panamá,Ciudad de Panamá
+100740,2023-02-19,Básico,18-24,Andina,Colombia,Cali
+100741,2024-05-05,Plus,45-54,Andina,Perú,Cusco
+100742,2024-10-14,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100743,2023-10-20,Básico,18-24,Andina,Colombia,Barranquilla
+100744,2024-09-25,Básico,18-24,Pacífica,México,Monterrey
+100745,2025-01-19,Premium,25-34,Pacífica,Chile,Santiago
+100746,2023-10-17,Plus,25-34,Caribe,Costa Rica,San José
+100747,2025-07-27,Básico,18-24,Caribe,República Dominicana,Santo Domingo
+100748,2024-06-06,Premium,25-34,Cono Sur,Paraguay,Asunción
+100749,2026-01-17,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100750,2023-04-12,Básico,45-54,Andina,Colombia,Bogotá
+100751,2024-01-10,Básico,45-54,Caribe,República Dominicana,Santiago
+100752,2025-04-13,Básico,25-34,Andina,Ecuador,Guayaquil
+100753,2025-10-30,Básico,25-34,Pacífica,México,CDMX
+100754,2023-09-14,Plus,55+,Centroamérica,Guatemala,Ciudad de Guatemala
+100755,2026-02-06,Básico,45-54,Andina,Perú,Arequipa
+100756,2023-08-12,Plus,35-44,Caribe,Panamá,Ciudad de Panamá
+100757,2024-04-25,Básico,25-34,Cono Sur,Argentina,Buenos Aires
+100758,2023-12-30,Básico,25-34,Andina,Perú,Cusco
+100759,2024-05-05,Básico,35-44,Pacífica,México,Guadalajara
+100760,2025-11-08,Plus,35-44,Centroamérica,El Salvador,San Salvador
+100761,2025-04-26,Plus,18-24,Andina,Ecuador,Guayaquil
+100762,2025-07-08,Básico,55+,Andina,Colombia,Medellín
+100763,2023-10-21,Básico,35-44,Andina,Colombia,Medellín
+100764,2025-12-29,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100765,2024-05-18,Plus,25-34,Andina,Colombia,Bogotá
+100766,2025-01-23,Básico,45-54,Andina,Perú,Cusco
+100767,2025-03-16,Plus,35-44,Andina,Colombia,Cali
+100768,2025-02-04,Básico,18-24,Andina,Colombia,Cali
+100769,2024-11-26,Básico,35-44,Pacífica,Chile,Santiago
+100770,2024-07-08,Plus,35-44,Andina,Colombia,Medellín
+100771,2025-01-18,Básico,45-54,Pacífica,México,Monterrey
+100772,2025-11-11,Básico,25-34,Pacífica,Chile,Santiago
+100773,2024-03-26,Premium,45-54,Cono Sur,Paraguay,Asunción
+100774,2024-08-13,Básico,25-34,Andina,Colombia,Cali
+100775,2023-07-27,Básico,18-24,Cono Sur,Argentina,Buenos Aires
+100776,2024-02-15,Básico,18-24,Pacífica,Chile,Santiago
+100777,2025-06-10,Básico,25-34,Andina,Ecuador,Guayaquil
+100778,2025-01-09,Plus,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100779,2023-09-01,Básico,25-34,Cono Sur,Argentina,Buenos Aires
+100780,2024-09-22,Premium,45-54,Andina,Ecuador,Quito
+100781,2025-07-26,Plus,25-34,Cono Sur,Uruguay,Montevideo
+100782,2023-05-24,Premium,55+,Caribe,Panamá,Ciudad de Panamá
+100783,2023-03-13,Plus,18-24,Pacífica,México,Monterrey
+100784,2024-03-29,Premium,35-44,Cono Sur,Paraguay,Asunción
+100785,2025-01-28,Plus,55+,Caribe,Panamá,Ciudad de Panamá
+100786,2023-12-28,Básico,45-54,Cono Sur,Uruguay,Montevideo
+100787,2025-08-06,Básico,35-44,Caribe,República Dominicana,Santo Domingo
+100788,2025-09-05,Plus,35-44,Cono Sur,Argentina,Buenos Aires
+100789,2024-09-07,Básico,18-24,Pacífica,México,Guadalajara
+100790,2024-03-13,Plus,18-24,Andina,Colombia,Bogotá
+100791,2023-02-18,Básico,25-34,Caribe,Costa Rica,San José
+100792,2025-08-06,Plus,18-24,Caribe,Costa Rica,San José
+100793,2025-10-31,Básico,25-34,Andina,Colombia,Bogotá
+100794,2024-05-25,Premium,25-34,Andina,Perú,Lima
+100795,2024-08-19,Básico,55+,Caribe,República Dominicana,Santo Domingo
+100796,2025-05-20,Básico,45-54,Andina,Perú,Lima
+100797,2025-03-14,Plus,45-54,Andina,Colombia,Cali
+100798,2023-06-06,Plus,35-44,Centroamérica,Honduras,Tegucigalpa
+100799,2025-02-15,Plus,18-24,Centroamérica,Honduras,Tegucigalpa
+100800,2025-12-03,Premium,18-24,Centroamérica,Honduras,Tegucigalpa
+100801,2025-05-17,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+100802,2024-07-09,Plus,35-44,Cono Sur,Argentina,Córdoba
+100803,2024-08-27,Básico,25-34,Pacífica,México,Monterrey
+100804,2023-10-28,Básico,25-34,Andina,Ecuador,Quito
+100805,2025-02-02,Básico,25-34,Andina,Ecuador,Quito
+100806,2023-10-06,Básico,25-34,Centroamérica,Honduras,Tegucigalpa
+100807,2024-01-30,Plus,25-34,Andina,Ecuador,Quito
+100808,2023-11-03,Plus,25-34,Pacífica,Chile,Santiago
+100809,2024-01-23,Básico,35-44,Cono Sur,Paraguay,Asunción
+100810,2024-02-28,Premium,55+,Andina,Colombia,Barranquilla
+100811,2023-04-06,Básico,35-44,Andina,Colombia,Barranquilla
+100812,2025-04-08,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100813,2024-05-24,Plus,45-54,Pacífica,México,Guadalajara
+100814,2026-01-01,Básico,18-24,Andina,Ecuador,Guayaquil
+100815,2023-07-28,Básico,35-44,Cono Sur,Argentina,Buenos Aires
+100816,2025-02-11,Plus,25-34,Cono Sur,Paraguay,Asunción
+100817,2023-07-26,Básico,35-44,Pacífica,Chile,Santiago
+100818,2024-09-23,Básico,18-24,Pacífica,México,Monterrey
+100819,2024-07-20,Plus,55+,Andina,Ecuador,Guayaquil
+100820,2024-06-02,Básico,55+,Andina,Perú,Lima
+100821,2025-01-26,Plus,18-24,Pacífica,México,Guadalajara
+100822,2025-08-14,Plus,25-34,Caribe,Costa Rica,San José
+100823,2024-01-01,Básico,25-34,Centroamérica,El Salvador,San Salvador
+100824,2025-09-08,Básico,45-54,Cono Sur,Uruguay,Montevideo
+100825,2023-08-02,Básico,35-44,Andina,Perú,Lima
+100826,2023-12-05,Plus,18-24,Pacífica,Chile,Valparaíso
+100827,2023-12-25,Básico,45-54,Andina,Perú,Cusco
+100828,2026-01-06,Premium,25-34,Cono Sur,Paraguay,Asunción
+100829,2023-05-17,Básico,25-34,Andina,Perú,Cusco
+100830,2024-04-01,Plus,25-34,Pacífica,Chile,Valparaíso
+100831,2024-05-05,Básico,35-44,Pacífica,Chile,Valparaíso
+100832,2025-07-13,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+100833,2024-07-15,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100834,2026-01-21,Plus,25-34,Centroamérica,El Salvador,San Salvador
+100835,2025-05-05,Premium,55+,Pacífica,México,Guadalajara
+100836,2025-03-23,Básico,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100837,2025-05-19,Básico,55+,Cono Sur,Argentina,Rosario
+100838,2023-07-06,Básico,35-44,Caribe,Costa Rica,San José
+100839,2024-06-02,Básico,45-54,Pacífica,México,CDMX
+100840,2024-11-07,Premium,25-34,Andina,Ecuador,Quito
+100841,2023-08-29,Premium,45-54,Cono Sur,Argentina,Córdoba
+100842,2023-05-18,Premium,25-34,Pacífica,Chile,Valparaíso
+100843,2023-06-06,Básico,18-24,Caribe,República Dominicana,Santo Domingo
+100844,2025-06-30,Básico,18-24,Andina,Ecuador,Quito
+100845,2025-01-28,Plus,18-24,Cono Sur,Paraguay,Asunción
+100846,2023-11-21,Básico,55+,Caribe,Costa Rica,San José
+100847,2025-05-01,Plus,55+,Centroamérica,Guatemala,Ciudad de Guatemala
+100848,2025-03-13,Básico,45-54,Andina,Colombia,Barranquilla
+100849,2025-08-01,Básico,18-24,Cono Sur,Paraguay,Asunción
+100850,2025-11-17,Premium,45-54,Andina,Ecuador,Quito
+100851,2025-10-15,Básico,45-54,Andina,Ecuador,Guayaquil
+100852,2023-07-29,Premium,25-34,Cono Sur,Argentina,Córdoba
+100853,2025-06-07,Básico,35-44,Cono Sur,Argentina,Córdoba
+100854,2024-03-29,Básico,35-44,Andina,Colombia,Bogotá
+100855,2024-04-10,Básico,18-24,Pacífica,México,CDMX
+100856,2025-01-17,Básico,35-44,Centroamérica,El Salvador,San Salvador
+100857,2024-11-26,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100858,2024-04-29,Básico,25-34,Caribe,República Dominicana,Santo Domingo
+100859,2026-02-28,Plus,25-34,Pacífica,México,CDMX
+100860,2023-07-21,Premium,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100861,2023-04-22,Básico,35-44,Centroamérica,El Salvador,San Salvador
+100862,2023-02-03,Básico,55+,Cono Sur,Paraguay,Asunción
+100863,2025-07-29,Básico,45-54,Pacífica,México,CDMX
+100864,2024-04-14,Plus,35-44,Andina,Ecuador,Quito
+100865,2024-05-20,Plus,35-44,Cono Sur,Uruguay,Montevideo
+100866,2025-01-19,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100867,2024-05-17,Básico,35-44,Cono Sur,Argentina,Buenos Aires
+100868,2024-10-24,Básico,18-24,Andina,Ecuador,Guayaquil
+100869,2023-03-09,Básico,35-44,Andina,Ecuador,Guayaquil
+100870,2023-06-30,Básico,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+100871,2025-12-12,Premium,35-44,Andina,Ecuador,Quito
+100872,2024-06-04,Básico,45-54,Cono Sur,Argentina,Córdoba
+100873,2023-07-13,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+100874,2024-03-02,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100875,2024-01-22,Plus,18-24,Cono Sur,Uruguay,Montevideo
+100876,2023-11-13,Básico,18-24,Caribe,Panamá,Ciudad de Panamá
+100877,2023-12-06,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+100878,2025-04-22,Básico,25-34,Pacífica,México,CDMX
+100879,2023-05-04,Plus,18-24,Pacífica,México,Guadalajara
+100880,2023-12-24,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+100881,2024-06-24,Premium,25-34,Pacífica,México,CDMX
+100882,2024-09-15,Básico,45-54,Cono Sur,Uruguay,Montevideo
+100883,2025-10-13,Básico,45-54,Pacífica,Chile,Santiago
+100884,2025-12-02,Premium,25-34,Andina,Colombia,Bogotá
+100885,2023-12-10,Plus,18-24,Caribe,República Dominicana,Santo Domingo
+100886,2024-09-14,Básico,18-24,Caribe,Costa Rica,San José
+100887,2023-01-26,Plus,18-24,Andina,Perú,Arequipa
+100888,2024-12-13,Básico,25-34,Andina,Perú,Arequipa
+100889,2023-06-26,Básico,18-24,Centroamérica,Honduras,San Pedro Sula
+100890,2023-03-26,Plus,25-34,Caribe,Costa Rica,San José
+100891,2025-02-14,Plus,55+,Cono Sur,Uruguay,Montevideo
+100892,2023-07-25,Básico,35-44,Andina,Colombia,Cali
+100893,2024-07-05,Plus,45-54,Andina,Colombia,Cali
+100894,2023-04-27,Básico,18-24,Centroamérica,Honduras,San Pedro Sula
+100895,2025-05-11,Básico,25-34,Cono Sur,Uruguay,Montevideo
+100896,2025-06-02,Premium,55+,Andina,Ecuador,Guayaquil
+100897,2024-10-25,Básico,25-34,Andina,Perú,Arequipa
+100898,2025-08-23,Plus,35-44,Andina,Ecuador,Quito
+100899,2024-05-19,Plus,55+,Pacífica,México,Guadalajara
+100900,2023-08-04,Plus,35-44,Pacífica,Chile,Santiago
+100901,2023-06-24,Básico,25-34,Andina,Perú,Cusco
+100902,2023-09-11,Premium,35-44,Andina,Perú,Arequipa
+100903,2023-08-20,Plus,18-24,Pacífica,México,Monterrey
+100904,2024-01-09,Plus,18-24,Cono Sur,Argentina,Rosario
+100905,2023-09-05,Básico,18-24,Centroamérica,Honduras,Tegucigalpa
+100906,2024-11-13,Básico,45-54,Pacífica,Chile,Valparaíso
+100907,2023-06-21,Básico,35-44,Andina,Ecuador,Quito
+100908,2024-12-19,Básico,25-34,Andina,Ecuador,Quito
+100909,2024-01-21,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+100910,2025-03-04,Plus,35-44,Centroamérica,El Salvador,San Salvador
+100911,2024-08-15,Premium,55+,Cono Sur,Uruguay,Montevideo
+100912,2025-11-11,Básico,25-34,Cono Sur,Argentina,Buenos Aires
+100913,2024-05-23,Básico,25-34,Cono Sur,Uruguay,Montevideo
+100914,2023-12-07,Plus,45-54,Cono Sur,Paraguay,Asunción
+100915,2024-11-11,Básico,45-54,Cono Sur,Argentina,Buenos Aires
+100916,2025-01-30,Premium,55+,Andina,Colombia,Barranquilla
+100917,2024-05-22,Básico,25-34,Andina,Colombia,Medellín
+100918,2024-10-08,Básico,18-24,Caribe,Costa Rica,San José
+100919,2024-06-27,Básico,25-34,Pacífica,México,CDMX
+100920,2023-12-20,Premium,25-34,Andina,Ecuador,Quito
+100921,2023-12-29,Básico,45-54,Cono Sur,Paraguay,Asunción
+100922,2025-11-14,Plus,18-24,Pacífica,México,CDMX
+100923,2025-02-19,Básico,35-44,Pacífica,México,Monterrey
+100924,2023-04-21,Básico,55+,Andina,Colombia,Barranquilla
+100925,2026-01-16,Premium,55+,Andina,Colombia,Bogotá
+100926,2025-04-02,Básico,35-44,Andina,Perú,Cusco
+100927,2023-02-27,Básico,55+,Cono Sur,Uruguay,Montevideo
+100928,2025-04-20,Básico,18-24,Pacífica,Chile,Santiago
+100929,2024-11-12,Premium,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+100930,2025-11-23,Básico,18-24,Caribe,República Dominicana,Santo Domingo
+100931,2024-07-19,Básico,55+,Caribe,Costa Rica,San José
+100932,2024-08-21,Premium,55+,Caribe,Costa Rica,San José
+100933,2023-12-30,Plus,18-24,Centroamérica,El Salvador,San Salvador
+100934,2024-01-07,Premium,18-24,Centroamérica,Honduras,San Pedro Sula
+100935,2024-12-14,Plus,25-34,Andina,Perú,Lima
+100936,2025-08-14,Plus,25-34,Cono Sur,Paraguay,Asunción
+100937,2025-10-25,Básico,45-54,Andina,Perú,Lima
+100938,2025-06-09,Básico,18-24,Cono Sur,Argentina,Buenos Aires
+100939,2024-12-05,Plus,45-54,Andina,Perú,Arequipa
+100940,2024-07-31,Plus,35-44,Andina,Ecuador,Guayaquil
+100941,2024-01-28,Premium,25-34,Cono Sur,Uruguay,Montevideo
+100942,2025-06-05,Plus,18-24,Andina,Ecuador,Quito
+100943,2024-01-03,Básico,55+,Caribe,Costa Rica,San José
+100944,2023-11-06,Básico,35-44,Caribe,República Dominicana,Santo Domingo
+100945,2025-09-29,Plus,25-34,Andina,Ecuador,Quito
+100946,2024-11-11,Básico,25-34,Centroamérica,Honduras,San Pedro Sula
+100947,2024-02-14,Plus,55+,Cono Sur,Uruguay,Montevideo
+100948,2025-09-26,Plus,45-54,Cono Sur,Argentina,Rosario
+100949,2026-01-16,Básico,45-54,Caribe,Panamá,Ciudad de Panamá
+100950,2024-01-03,Plus,35-44,Pacífica,Chile,Valparaíso
+100951,2024-08-25,Plus,45-54,Andina,Colombia,Cali
+100952,2024-07-12,Premium,25-34,Andina,Ecuador,Guayaquil
+100953,2025-03-21,Básico,35-44,Andina,Colombia,Barranquilla
+100954,2026-01-03,Plus,25-34,Cono Sur,Uruguay,Montevideo
+100955,2024-09-25,Básico,35-44,Cono Sur,Argentina,Córdoba
+100956,2025-07-10,Básico,55+,Centroamérica,Guatemala,Ciudad de Guatemala
+100957,2024-11-18,Básico,55+,Pacífica,Chile,Santiago
+100958,2025-10-21,Premium,35-44,Pacífica,México,CDMX
+100959,2024-04-12,Premium,35-44,Pacífica,México,Guadalajara
+100960,2024-03-20,Básico,45-54,Pacífica,Chile,Santiago
+100961,2024-05-02,Plus,55+,Caribe,Panamá,Ciudad de Panamá
+100962,2026-02-24,Básico,45-54,Andina,Ecuador,Quito
+100963,2024-12-07,Plus,18-24,Andina,Colombia,Cali
+100964,2023-06-26,Básico,25-34,Cono Sur,Paraguay,Asunción
+100965,2023-02-17,Plus,45-54,Pacífica,Chile,Valparaíso
+100966,2024-08-22,Básico,45-54,Cono Sur,Argentina,Buenos Aires
+100967,2025-07-19,Plus,45-54,Andina,Perú,Lima
+100968,2024-07-07,Básico,35-44,Pacífica,Chile,Santiago
+100969,2024-10-09,Plus,25-34,Andina,Ecuador,Guayaquil
+100970,2025-07-11,Plus,25-34,Andina,Ecuador,Quito
+100971,2024-08-19,Básico,45-54,Andina,Perú,Lima
+100972,2025-11-15,Básico,25-34,Andina,Ecuador,Quito
+100973,2025-01-06,Plus,35-44,Cono Sur,Paraguay,Asunción
+100974,2025-04-24,Plus,35-44,Caribe,Costa Rica,San José
+100975,2025-06-21,Básico,45-54,Pacífica,México,Monterrey
+100976,2024-12-24,Básico,25-34,Pacífica,México,Guadalajara
+100977,2023-02-27,Básico,45-54,Caribe,República Dominicana,Santiago
+100978,2024-05-08,Plus,18-24,Pacífica,México,Monterrey
+100979,2023-06-13,Plus,18-24,Andina,Perú,Lima
+100980,2024-08-12,Básico,25-34,Cono Sur,Paraguay,Asunción
+100981,2023-06-15,Plus,18-24,Cono Sur,Paraguay,Asunción
+100982,2024-08-11,Plus,55+,Centroamérica,Guatemala,Ciudad de Guatemala
+100983,2024-02-02,Plus,55+,Pacífica,Chile,Valparaíso
+100984,2023-01-24,Básico,18-24,Andina,Colombia,Cali
+100985,2023-05-25,Básico,45-54,Cono Sur,Argentina,Córdoba
+100986,2024-08-04,Básico,35-44,Caribe,Costa Rica,San José
+100987,2023-04-02,Básico,35-44,Andina,Ecuador,Quito
+100988,2025-09-15,Básico,45-54,Caribe,Costa Rica,San José
+100989,2025-05-26,Básico,35-44,Cono Sur,Paraguay,Asunción
+100990,2025-03-30,Básico,18-24,Pacífica,México,Monterrey
+100991,2023-07-18,Plus,18-24,Centroamérica,Honduras,San Pedro Sula
+100992,2025-07-08,Básico,25-34,Cono Sur,Paraguay,Asunción
+100993,2025-01-03,Plus,55+,Andina,Perú,Arequipa
+100994,2024-03-27,Básico,35-44,Cono Sur,Uruguay,Montevideo
+100995,2023-01-01,Plus,25-34,Caribe,República Dominicana,Santo Domingo
+100996,2024-09-02,Básico,18-24,Pacífica,México,Monterrey
+100997,2025-07-08,Plus,55+,Andina,Ecuador,Guayaquil
+100998,2023-02-08,Plus,25-34,Cono Sur,Paraguay,Asunción
+100999,2023-03-02,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+101000,2024-03-18,Plus,35-44,Andina,Colombia,Cali
+101001,2024-08-13,Básico,25-34,Caribe,República Dominicana,Santiago
+101002,2024-07-01,Plus,18-24,Andina,Perú,Lima
+101003,2024-05-07,Básico,25-34,Andina,Ecuador,Quito
+101004,2023-10-22,Básico,25-34,Pacífica,México,Monterrey
+101005,2023-03-11,Básico,35-44,Caribe,Costa Rica,San José
+101006,2023-02-06,Premium,45-54,Cono Sur,Uruguay,Montevideo
+101007,2023-04-25,Básico,25-34,Caribe,Costa Rica,San José
+101008,2025-03-08,Plus,35-44,Centroamérica,El Salvador,San Salvador
+101009,2025-06-26,Básico,18-24,Pacífica,Chile,Santiago
+101010,2024-05-17,Básico,25-34,Centroamérica,El Salvador,San Salvador
+101011,2023-03-31,Básico,45-54,Pacífica,Chile,Santiago
+101012,2024-04-25,Premium,45-54,Pacífica,México,Monterrey
+101013,2026-02-12,Plus,45-54,Cono Sur,Paraguay,Asunción
+101014,2023-10-16,Básico,18-24,Caribe,Panamá,Ciudad de Panamá
+101015,2024-07-21,Plus,35-44,Andina,Ecuador,Quito
+101016,2024-09-13,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101017,2024-01-17,Básico,55+,Cono Sur,Uruguay,Montevideo
+101018,2024-05-20,Básico,35-44,Andina,Ecuador,Quito
+101019,2024-06-28,Básico,55+,Caribe,Panamá,Ciudad de Panamá
+101020,2024-07-01,Básico,18-24,Cono Sur,Paraguay,Asunción
+101021,2025-04-08,Plus,25-34,Centroamérica,Honduras,Tegucigalpa
+101022,2024-11-01,Básico,45-54,Cono Sur,Paraguay,Asunción
+101023,2023-03-03,Premium,25-34,Pacífica,Chile,Santiago
+101024,2023-01-08,Plus,35-44,Centroamérica,El Salvador,San Salvador
+101025,2024-04-19,Plus,35-44,Caribe,República Dominicana,Santo Domingo
+101026,2025-11-14,Plus,55+,Cono Sur,Argentina,Buenos Aires
+101027,2023-02-12,Premium,18-24,Caribe,República Dominicana,Santo Domingo
+101028,2023-03-24,Básico,55+,Centroamérica,El Salvador,San Salvador
+101029,2025-02-23,Básico,25-34,Caribe,República Dominicana,Santo Domingo
+101030,2024-06-04,Básico,25-34,Pacífica,Chile,Valparaíso
+101031,2023-09-24,Premium,35-44,Centroamérica,El Salvador,San Salvador
+101032,2023-08-28,Básico,25-34,Pacífica,Chile,Valparaíso
+101033,2025-02-07,Plus,55+,Cono Sur,Argentina,Rosario
+101034,2024-08-27,Plus,55+,Caribe,República Dominicana,Santiago
+101035,2025-01-07,Básico,55+,Centroamérica,Guatemala,Ciudad de Guatemala
+101036,2023-11-20,Premium,55+,Caribe,Costa Rica,San José
+101037,2024-08-30,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+101038,2025-09-20,Básico,25-34,Caribe,Costa Rica,San José
+101039,2024-01-01,Plus,45-54,Andina,Colombia,Medellín
+101040,2024-04-02,Básico,18-24,Andina,Perú,Cusco
+101041,2023-07-09,Básico,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+101042,2025-01-07,Básico,25-34,Centroamérica,Honduras,San Pedro Sula
+101043,2023-02-07,Básico,35-44,Centroamérica,Honduras,Tegucigalpa
+101044,2023-10-15,Plus,25-34,Andina,Ecuador,Quito
+101045,2025-04-03,Premium,25-34,Caribe,Panamá,Ciudad de Panamá
+101046,2023-01-23,Básico,18-24,Andina,Ecuador,Guayaquil
+101047,2026-02-16,Básico,25-34,Centroamérica,Honduras,San Pedro Sula
+101048,2024-04-11,Básico,25-34,Cono Sur,Argentina,Córdoba
+101049,2024-04-05,Premium,25-34,Andina,Ecuador,Quito
+101050,2024-09-11,Plus,25-34,Centroamérica,Honduras,Tegucigalpa
+101051,2025-01-08,Básico,35-44,Andina,Colombia,Bogotá
+101052,2024-06-14,Básico,25-34,Andina,Ecuador,Guayaquil
+101053,2025-10-18,Premium,45-54,Andina,Ecuador,Guayaquil
+101054,2026-01-16,Premium,18-24,Caribe,República Dominicana,Santo Domingo
+101055,2023-08-20,Básico,35-44,Centroamérica,El Salvador,San Salvador
+101056,2025-03-27,Plus,18-24,Cono Sur,Paraguay,Asunción
+101057,2023-12-14,Básico,35-44,Andina,Ecuador,Guayaquil
+101058,2026-02-23,Básico,35-44,Pacífica,Chile,Valparaíso
+101059,2023-10-20,Plus,35-44,Centroamérica,Honduras,San Pedro Sula
+101060,2023-12-07,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101061,2025-04-04,Básico,35-44,Pacífica,México,CDMX
+101062,2025-06-30,Premium,25-34,Andina,Perú,Arequipa
+101063,2023-05-29,Plus,25-34,Pacífica,México,Monterrey
+101064,2024-10-03,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+101065,2024-02-04,Plus,35-44,Cono Sur,Paraguay,Asunción
+101066,2024-12-07,Plus,25-34,Caribe,Panamá,Ciudad de Panamá
+101067,2024-10-05,Plus,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+101068,2026-02-12,Premium,25-34,Andina,Colombia,Barranquilla
+101069,2025-12-14,Plus,25-34,Caribe,Costa Rica,San José
+101070,2025-01-25,Básico,25-34,Cono Sur,Paraguay,Asunción
+101071,2025-02-23,Básico,18-24,Pacífica,México,CDMX
+101072,2025-11-04,Plus,35-44,Caribe,República Dominicana,Santo Domingo
+101073,2023-07-31,Premium,45-54,Cono Sur,Paraguay,Asunción
+101074,2025-04-18,Básico,45-54,Cono Sur,Argentina,Rosario
+101075,2025-06-10,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+101076,2023-05-28,Plus,25-34,Pacífica,Chile,Santiago
+101077,2025-10-14,Básico,45-54,Pacífica,Chile,Valparaíso
+101078,2025-03-18,Básico,18-24,Pacífica,México,CDMX
+101079,2024-02-05,Premium,25-34,Caribe,Panamá,Ciudad de Panamá
+101080,2024-07-13,Plus,45-54,Andina,Colombia,Barranquilla
+101081,2024-07-19,Premium,25-34,Cono Sur,Uruguay,Montevideo
+101082,2025-11-27,Plus,18-24,Cono Sur,Argentina,Buenos Aires
+101083,2026-01-24,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101084,2025-07-20,Premium,35-44,Cono Sur,Uruguay,Montevideo
+101085,2025-01-23,Básico,18-24,Centroamérica,Honduras,Tegucigalpa
+101086,2023-05-01,Básico,35-44,Centroamérica,El Salvador,San Salvador
+101087,2025-11-22,Premium,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101088,2023-06-04,Plus,25-34,Pacífica,Chile,Santiago
+101089,2023-07-12,Premium,25-34,Caribe,Panamá,Ciudad de Panamá
+101090,2023-03-22,Básico,45-54,Andina,Ecuador,Quito
+101091,2025-12-30,Premium,25-34,Centroamérica,Honduras,Tegucigalpa
+101092,2024-07-23,Plus,35-44,Caribe,República Dominicana,Santo Domingo
+101093,2023-09-30,Plus,25-34,Andina,Ecuador,Quito
+101094,2023-04-04,Premium,18-24,Pacífica,Chile,Valparaíso
+101095,2024-04-20,Básico,25-34,Caribe,República Dominicana,Santiago
+101096,2025-04-15,Plus,35-44,Andina,Perú,Cusco
+101097,2026-02-22,Plus,25-34,Cono Sur,Argentina,Córdoba
+101098,2024-09-29,Plus,45-54,Cono Sur,Paraguay,Asunción
+101099,2024-12-02,Premium,55+,Andina,Colombia,Cali
+101100,2025-08-23,Plus,45-54,Andina,Perú,Cusco
+101101,2025-11-07,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+101102,2023-11-20,Básico,35-44,Cono Sur,Argentina,Buenos Aires
+101103,2026-02-19,Premium,35-44,Cono Sur,Uruguay,Montevideo
+101104,2024-08-22,Premium,25-34,Andina,Colombia,Cali
+101105,2025-12-10,Premium,45-54,Centroamérica,Honduras,San Pedro Sula
+101106,2023-05-16,Básico,45-54,Andina,Ecuador,Quito
+101107,2023-04-23,Básico,25-34,Caribe,Costa Rica,San José
+101108,2025-10-18,Plus,55+,Cono Sur,Argentina,Buenos Aires
+101109,2025-02-15,Plus,45-54,Andina,Colombia,Medellín
+101110,2023-07-22,Básico,25-34,Andina,Perú,Lima
+101111,2025-10-30,Plus,55+,Caribe,Costa Rica,San José
+101112,2023-04-29,Básico,18-24,Pacífica,México,Guadalajara
+101113,2025-02-27,Básico,18-24,Cono Sur,Argentina,Rosario
+101114,2023-08-25,Básico,25-34,Cono Sur,Argentina,Córdoba
+101115,2023-03-23,Básico,35-44,Andina,Colombia,Bogotá
+101116,2025-07-20,Básico,25-34,Andina,Colombia,Medellín
+101117,2025-09-05,Premium,55+,Cono Sur,Uruguay,Montevideo
+101118,2023-05-03,Plus,25-34,Andina,Ecuador,Guayaquil
+101119,2023-04-18,Premium,25-34,Cono Sur,Argentina,Buenos Aires
+101120,2024-12-10,Básico,35-44,Centroamérica,El Salvador,San Salvador
+101121,2023-02-03,Básico,18-24,Andina,Perú,Arequipa
+101122,2025-05-11,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101123,2025-11-23,Plus,25-34,Andina,Ecuador,Guayaquil
+101124,2025-05-17,Básico,55+,Caribe,República Dominicana,Santo Domingo
+101125,2023-09-24,Plus,35-44,Pacífica,México,Guadalajara
+101126,2023-08-08,Plus,18-24,Pacífica,Chile,Santiago
+101127,2025-02-25,Premium,18-24,Centroamérica,Honduras,Tegucigalpa
+101128,2023-03-13,Básico,18-24,Centroamérica,El Salvador,San Salvador
+101129,2024-09-13,Básico,55+,Cono Sur,Uruguay,Montevideo
+101130,2024-06-02,Básico,35-44,Cono Sur,Argentina,Córdoba
+101131,2025-05-10,Básico,25-34,Pacífica,Chile,Santiago
+101132,2023-08-22,Plus,25-34,Andina,Perú,Lima
+101133,2025-05-30,Básico,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+101134,2025-03-18,Plus,25-34,Cono Sur,Paraguay,Asunción
+101135,2023-10-03,Básico,35-44,Caribe,República Dominicana,Santiago
+101136,2024-02-16,Premium,45-54,Pacífica,Chile,Valparaíso
+101137,2023-03-18,Premium,25-34,Caribe,Panamá,Ciudad de Panamá
+101138,2024-06-03,Básico,35-44,Andina,Colombia,Bogotá
+101139,2023-10-28,Premium,25-34,Centroamérica,El Salvador,San Salvador
+101140,2023-05-12,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+101141,2024-10-08,Plus,55+,Cono Sur,Argentina,Rosario
+101142,2024-10-17,Premium,35-44,Cono Sur,Uruguay,Montevideo
+101143,2023-04-10,Plus,45-54,Cono Sur,Uruguay,Montevideo
+101144,2023-08-03,Plus,35-44,Caribe,Panamá,Ciudad de Panamá
+101145,2023-04-06,Básico,25-34,Caribe,Costa Rica,San José
+101146,2025-02-23,Plus,35-44,Centroamérica,Honduras,San Pedro Sula
+101147,2024-01-26,Plus,35-44,Cono Sur,Paraguay,Asunción
+101148,2023-03-24,Básico,18-24,Pacífica,Chile,Santiago
+101149,2023-08-10,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101150,2026-02-01,Plus,35-44,Andina,Colombia,Bogotá
+101151,2023-10-23,Plus,35-44,Cono Sur,Uruguay,Montevideo
+101152,2025-03-01,Básico,25-34,Andina,Colombia,Medellín
+101153,2024-06-25,Premium,45-54,Andina,Ecuador,Guayaquil
+101154,2023-07-29,Plus,25-34,Pacífica,México,Monterrey
+101155,2023-12-22,Básico,25-34,Andina,Ecuador,Quito
+101156,2023-01-17,Básico,25-34,Andina,Ecuador,Guayaquil
+101157,2025-05-12,Plus,45-54,Andina,Colombia,Bogotá
+101158,2024-01-22,Plus,25-34,Caribe,República Dominicana,Santiago
+101159,2024-07-30,Plus,25-34,Centroamérica,El Salvador,San Salvador
+101160,2023-06-26,Básico,25-34,Andina,Perú,Cusco
+101161,2025-08-09,Plus,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+101162,2023-09-10,Plus,45-54,Cono Sur,Argentina,Córdoba
+101163,2024-10-16,Plus,25-34,Andina,Ecuador,Quito
+101164,2025-10-05,Básico,55+,Andina,Perú,Lima
+101165,2025-04-03,Plus,18-24,Cono Sur,Argentina,Rosario
+101166,2024-11-27,Básico,18-24,Cono Sur,Paraguay,Asunción
+101167,2025-10-22,Básico,35-44,Pacífica,Chile,Santiago
+101168,2023-07-23,Plus,35-44,Cono Sur,Uruguay,Montevideo
+101169,2026-01-17,Plus,25-34,Andina,Colombia,Medellín
+101170,2024-10-04,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+101171,2024-04-18,Plus,25-34,Centroamérica,Honduras,Tegucigalpa
+101172,2023-10-23,Básico,35-44,Andina,Ecuador,Guayaquil
+101173,2025-05-10,Básico,35-44,Centroamérica,Honduras,Tegucigalpa
+101174,2026-02-01,Básico,55+,Pacífica,Chile,Valparaíso
+101175,2025-03-08,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101176,2023-02-07,Plus,35-44,Pacífica,Chile,Valparaíso
+101177,2024-06-25,Plus,35-44,Caribe,Panamá,Ciudad de Panamá
+101178,2025-04-25,Plus,25-34,Andina,Colombia,Cali
+101179,2024-04-04,Básico,25-34,Andina,Perú,Arequipa
+101180,2025-06-11,Básico,55+,Centroamérica,El Salvador,San Salvador
+101181,2025-03-27,Básico,25-34,Andina,Ecuador,Quito
+101182,2023-03-19,Plus,45-54,Andina,Perú,Arequipa
+101183,2024-10-06,Básico,18-24,Andina,Ecuador,Guayaquil
+101184,2023-07-18,Básico,45-54,Andina,Ecuador,Guayaquil
+101185,2024-07-15,Plus,25-34,Cono Sur,Uruguay,Montevideo
+101186,2024-03-19,Plus,55+,Caribe,Costa Rica,San José
+101187,2025-07-20,Básico,35-44,Cono Sur,Argentina,Córdoba
+101188,2025-09-29,Básico,18-24,Andina,Ecuador,Guayaquil
+101189,2024-06-16,Plus,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+101190,2024-09-12,Básico,35-44,Caribe,Costa Rica,San José
+101191,2024-12-24,Básico,25-34,Caribe,Costa Rica,San José
+101192,2025-01-26,Premium,25-34,Cono Sur,Uruguay,Montevideo
+101193,2025-01-03,Básico,35-44,Cono Sur,Argentina,Rosario
+101194,2025-06-23,Básico,45-54,Cono Sur,Uruguay,Montevideo
+101195,2026-02-08,Básico,25-34,Andina,Perú,Arequipa
+101196,2025-08-14,Básico,45-54,Andina,Ecuador,Quito
+101197,2023-06-05,Básico,25-34,Centroamérica,El Salvador,San Salvador
+101198,2024-07-04,Básico,18-24,Caribe,Panamá,Ciudad de Panamá
+101199,2024-06-16,Plus,35-44,Centroamérica,El Salvador,San Salvador
+101200,2024-08-10,Básico,18-24,Pacífica,Chile,Santiago
+101201,2024-09-02,Premium,25-34,Pacífica,Chile,Santiago
+101202,2025-04-09,Premium,35-44,Cono Sur,Paraguay,Asunción
+101203,2024-05-01,Básico,25-34,Centroamérica,El Salvador,San Salvador
+101204,2023-11-01,Básico,25-34,Andina,Perú,Cusco
+101205,2024-06-12,Plus,35-44,Andina,Perú,Lima
+101206,2025-09-13,Premium,35-44,Pacífica,México,Guadalajara
+101207,2023-12-26,Premium,45-54,Pacífica,México,Monterrey
+101208,2023-01-25,Básico,35-44,Andina,Perú,Lima
+101209,2026-02-01,Básico,25-34,Caribe,República Dominicana,Santiago
+101210,2023-08-15,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101211,2024-11-27,Plus,45-54,Cono Sur,Argentina,Córdoba
+101212,2025-07-13,Plus,25-34,Pacífica,Chile,Santiago
+101213,2023-11-14,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+101214,2024-01-28,Plus,45-54,Andina,Ecuador,Quito
+101215,2023-11-20,Básico,45-54,Pacífica,Chile,Valparaíso
+101216,2023-06-23,Plus,35-44,Caribe,Costa Rica,San José
+101217,2023-06-26,Básico,18-24,Pacífica,México,Monterrey
+101218,2023-08-04,Plus,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+101219,2024-06-13,Plus,25-34,Andina,Perú,Cusco
+101220,2024-09-05,Plus,45-54,Andina,Colombia,Barranquilla
+101221,2023-01-19,Básico,25-34,Andina,Ecuador,Quito
+101222,2025-09-04,Plus,18-24,Cono Sur,Paraguay,Asunción
+101223,2025-02-19,Plus,25-34,Centroamérica,El Salvador,San Salvador
+101224,2023-03-23,Básico,35-44,Andina,Perú,Cusco
+101225,2025-08-31,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101226,2023-02-05,Plus,18-24,Pacífica,Chile,Santiago
+101227,2024-10-09,Básico,18-24,Pacífica,México,CDMX
+101228,2024-06-21,Básico,25-34,Cono Sur,Argentina,Rosario
+101229,2024-08-02,Básico,18-24,Andina,Colombia,Medellín
+101230,2026-01-09,Básico,35-44,Andina,Colombia,Cali
+101231,2025-12-06,Básico,18-24,Pacífica,Chile,Valparaíso
+101232,2023-11-19,Plus,35-44,Andina,Colombia,Bogotá
+101233,2024-10-31,Básico,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+101234,2026-01-12,Plus,55+,Andina,Perú,Arequipa
+101235,2025-04-21,Básico,55+,Andina,Ecuador,Guayaquil
+101236,2025-10-22,Básico,25-34,Andina,Perú,Arequipa
+101237,2024-05-17,Básico,18-24,Caribe,Costa Rica,San José
+101238,2023-11-24,Plus,25-34,Andina,Ecuador,Guayaquil
+101239,2024-08-12,Premium,35-44,Andina,Ecuador,Quito
+101240,2025-08-01,Básico,18-24,Cono Sur,Uruguay,Montevideo
+101241,2025-12-08,Básico,25-34,Caribe,Costa Rica,San José
+101242,2025-03-03,Básico,25-34,Caribe,Costa Rica,San José
+101243,2025-03-27,Básico,25-34,Andina,Ecuador,Guayaquil
+101244,2024-08-14,Plus,35-44,Caribe,Panamá,Ciudad de Panamá
+101245,2024-01-05,Básico,35-44,Andina,Colombia,Bogotá
+101246,2024-05-03,Premium,35-44,Pacífica,México,Monterrey
+101247,2024-07-28,Plus,55+,Andina,Ecuador,Guayaquil
+101248,2025-07-30,Básico,18-24,Cono Sur,Paraguay,Asunción
+101249,2024-10-03,Plus,18-24,Cono Sur,Uruguay,Montevideo
+101250,2025-07-05,Básico,25-34,Andina,Colombia,Barranquilla
+101251,2023-02-01,Plus,35-44,Andina,Perú,Arequipa
+101252,2025-05-24,Básico,35-44,Andina,Ecuador,Guayaquil
+101253,2024-08-08,Plus,18-24,Pacífica,México,Guadalajara
+101254,2026-02-26,Básico,55+,Andina,Perú,Lima
+101255,2024-06-28,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101256,2024-07-06,Plus,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101257,2023-05-28,Básico,35-44,Cono Sur,Argentina,Rosario
+101258,2025-07-20,Básico,55+,Pacífica,México,Guadalajara
+101259,2025-03-21,Plus,35-44,Cono Sur,Argentina,Rosario
+101260,2025-09-23,Básico,55+,Andina,Ecuador,Quito
+101261,2023-04-18,Premium,25-34,Caribe,República Dominicana,Santiago
+101262,2023-09-02,Plus,35-44,Caribe,Panamá,Ciudad de Panamá
+101263,2025-10-09,Plus,45-54,Cono Sur,Uruguay,Montevideo
+101264,2023-02-18,Básico,35-44,Pacífica,México,Guadalajara
+101265,2024-08-09,Básico,25-34,Cono Sur,Paraguay,Asunción
+101266,2024-04-12,Premium,55+,Andina,Perú,Cusco
+101267,2025-12-21,Básico,18-24,Cono Sur,Uruguay,Montevideo
+101268,2025-09-16,Básico,25-34,Pacífica,México,CDMX
+101269,2025-11-01,Básico,45-54,Pacífica,México,Guadalajara
+101270,2023-11-30,Básico,55+,Cono Sur,Argentina,Córdoba
+101271,2024-11-09,Plus,55+,Caribe,Panamá,Ciudad de Panamá
+101272,2025-03-19,Plus,45-54,Caribe,República Dominicana,Santiago
+101273,2026-01-22,Plus,18-24,Pacífica,Chile,Santiago
+101274,2023-01-09,Premium,55+,Andina,Perú,Arequipa
+101275,2026-02-02,Básico,25-34,Caribe,República Dominicana,Santo Domingo
+101276,2024-02-15,Básico,35-44,Andina,Colombia,Cali
+101277,2023-05-29,Básico,25-34,Andina,Ecuador,Quito
+101278,2024-12-11,Plus,45-54,Cono Sur,Uruguay,Montevideo
+101279,2025-06-21,Básico,35-44,Pacífica,Chile,Santiago
+101280,2023-05-30,Plus,45-54,Caribe,Costa Rica,San José
+101281,2023-02-17,Básico,25-34,Caribe,Costa Rica,San José
+101282,2025-11-01,Plus,25-34,Caribe,Costa Rica,San José
+101283,2025-12-14,Plus,25-34,Pacífica,México,Guadalajara
+101284,2023-06-30,Premium,18-24,Cono Sur,Paraguay,Asunción
+101285,2025-11-10,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101286,2025-11-16,Premium,25-34,Caribe,República Dominicana,Santo Domingo
+101287,2026-02-26,Básico,35-44,Caribe,Costa Rica,San José
+101288,2023-09-07,Básico,18-24,Caribe,República Dominicana,Santiago
+101289,2024-10-30,Básico,18-24,Pacífica,Chile,Valparaíso
+101290,2026-02-22,Básico,35-44,Pacífica,México,CDMX
+101291,2025-11-08,Plus,25-34,Centroamérica,El Salvador,San Salvador
+101292,2024-11-29,Básico,25-34,Pacífica,Chile,Santiago
+101293,2023-08-16,Básico,25-34,Caribe,Costa Rica,San José
+101294,2023-04-08,Plus,25-34,Caribe,Costa Rica,San José
+101295,2023-10-27,Plus,35-44,Caribe,Costa Rica,San José
+101296,2023-03-17,Plus,18-24,Andina,Colombia,Barranquilla
+101297,2023-08-14,Plus,25-34,Andina,Perú,Lima
+101298,2023-03-28,Básico,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+101299,2025-05-30,Plus,35-44,Caribe,Costa Rica,San José
+101300,2024-11-12,Básico,35-44,Andina,Colombia,Barranquilla
+101301,2024-08-21,Básico,25-34,Pacífica,México,Guadalajara
+101302,2025-07-24,Básico,55+,Centroamérica,Guatemala,Ciudad de Guatemala
+101303,2024-04-19,Plus,25-34,Andina,Perú,Arequipa
+101304,2024-04-10,Básico,25-34,Cono Sur,Argentina,Buenos Aires
+101305,2023-08-27,Plus,55+,Cono Sur,Paraguay,Asunción
+101306,2024-05-28,Básico,35-44,Pacífica,Chile,Valparaíso
+101307,2023-07-21,Básico,35-44,Centroamérica,El Salvador,San Salvador
+101308,2024-11-11,Básico,45-54,Andina,Colombia,Bogotá
+101309,2026-02-26,Básico,18-24,Cono Sur,Uruguay,Montevideo
+101310,2024-09-07,Básico,45-54,Caribe,Costa Rica,San José
+101311,2023-12-12,Plus,35-44,Cono Sur,Paraguay,Asunción
+101312,2025-03-05,Básico,25-34,Pacífica,Chile,Santiago
+101313,2025-08-05,Básico,25-34,Andina,Perú,Arequipa
+101314,2024-06-28,Plus,18-24,Andina,Perú,Lima
+101315,2023-10-17,Básico,55+,Centroamérica,Honduras,Tegucigalpa
+101316,2025-04-04,Básico,18-24,Pacífica,México,Guadalajara
+101317,2023-08-05,Básico,25-34,Andina,Colombia,Cali
+101318,2026-02-25,Básico,35-44,Centroamérica,El Salvador,San Salvador
+101319,2024-01-03,Básico,35-44,Cono Sur,Argentina,Buenos Aires
+101320,2024-02-09,Plus,18-24,Pacífica,Chile,Valparaíso
+101321,2025-04-19,Básico,45-54,Pacífica,México,Monterrey
+101322,2023-01-15,Plus,35-44,Andina,Ecuador,Guayaquil
+101323,2023-08-23,Básico,45-54,Cono Sur,Uruguay,Montevideo
+101324,2023-05-26,Plus,18-24,Caribe,Costa Rica,San José
+101325,2024-03-27,Plus,18-24,Cono Sur,Uruguay,Montevideo
+101326,2024-10-01,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+101327,2023-07-27,Básico,18-24,Pacífica,Chile,Valparaíso
+101328,2024-02-02,Básico,35-44,Andina,Colombia,Medellín
+101329,2025-06-10,Premium,18-24,Andina,Perú,Cusco
+101330,2025-12-21,Premium,45-54,Centroamérica,Honduras,San Pedro Sula
+101331,2023-01-17,Básico,45-54,Pacífica,México,Guadalajara
+101332,2024-12-25,Plus,45-54,Pacífica,Chile,Santiago
+101333,2023-01-30,Básico,55+,Cono Sur,Paraguay,Asunción
+101334,2024-08-24,Básico,55+,Cono Sur,Uruguay,Montevideo
+101335,2025-10-12,Plus,25-34,Cono Sur,Argentina,Córdoba
+101336,2025-07-10,Básico,25-34,Andina,Ecuador,Guayaquil
+101337,2023-09-26,Básico,45-54,Pacífica,México,Monterrey
+101338,2023-10-26,Plus,55+,Cono Sur,Uruguay,Montevideo
+101339,2025-06-23,Básico,55+,Caribe,Panamá,Ciudad de Panamá
+101340,2025-08-04,Plus,45-54,Andina,Colombia,Medellín
+101341,2023-11-21,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101342,2023-01-04,Básico,55+,Pacífica,México,CDMX
+101343,2024-05-28,Básico,55+,Pacífica,Chile,Valparaíso
+101344,2024-12-16,Premium,35-44,Cono Sur,Argentina,Buenos Aires
+101345,2024-05-27,Básico,45-54,Pacífica,Chile,Santiago
+101346,2025-12-15,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+101347,2025-07-28,Plus,55+,Caribe,Panamá,Ciudad de Panamá
+101348,2025-06-28,Premium,18-24,Caribe,República Dominicana,Santiago
+101349,2023-01-24,Premium,45-54,Andina,Perú,Cusco
+101350,2025-09-12,Plus,18-24,Cono Sur,Argentina,Buenos Aires
+101351,2025-05-22,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101352,2024-04-03,Plus,18-24,Caribe,República Dominicana,Santo Domingo
+101353,2024-11-11,Plus,25-34,Caribe,Panamá,Ciudad de Panamá
+101354,2025-08-09,Premium,25-34,Cono Sur,Paraguay,Asunción
+101355,2025-11-12,Plus,55+,Andina,Ecuador,Quito
+101356,2024-09-28,Básico,35-44,Pacífica,México,Guadalajara
+101357,2023-02-17,Básico,45-54,Pacífica,México,CDMX
+101358,2024-12-15,Plus,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101359,2025-02-24,Básico,18-24,Andina,Perú,Arequipa
+101360,2023-03-10,Básico,45-54,Centroamérica,Honduras,San Pedro Sula
+101361,2025-08-01,Básico,35-44,Caribe,Costa Rica,San José
+101362,2023-08-21,Plus,35-44,Pacífica,México,CDMX
+101363,2025-10-25,Premium,45-54,Andina,Ecuador,Quito
+101364,2024-09-28,Plus,45-54,Pacífica,Chile,Valparaíso
+101365,2024-01-08,Premium,35-44,Pacífica,Chile,Santiago
+101366,2023-03-09,Plus,55+,Andina,Colombia,Bogotá
+101367,2023-01-21,Plus,35-44,Andina,Perú,Lima
+101368,2025-05-06,Básico,35-44,Andina,Perú,Cusco
+101369,2024-03-11,Plus,25-34,Caribe,República Dominicana,Santo Domingo
+101370,2025-08-28,Básico,18-24,Andina,Ecuador,Quito
+101371,2023-09-24,Básico,25-34,Cono Sur,Paraguay,Asunción
+101372,2025-11-29,Básico,45-54,Caribe,Panamá,Ciudad de Panamá
+101373,2025-12-23,Plus,35-44,Cono Sur,Argentina,Rosario
+101374,2023-04-28,Plus,25-34,Cono Sur,Paraguay,Asunción
+101375,2025-01-17,Premium,35-44,Andina,Ecuador,Quito
+101376,2025-12-21,Premium,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101377,2024-01-09,Premium,25-34,Cono Sur,Argentina,Córdoba
+101378,2023-03-20,Básico,55+,Pacífica,Chile,Santiago
+101379,2025-10-08,Premium,25-34,Caribe,Panamá,Ciudad de Panamá
+101380,2024-07-01,Plus,25-34,Caribe,República Dominicana,Santiago
+101381,2023-02-01,Premium,25-34,Andina,Ecuador,Guayaquil
+101382,2025-08-28,Básico,25-34,Pacífica,Chile,Valparaíso
+101383,2025-02-23,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101384,2023-03-23,Premium,55+,Cono Sur,Argentina,Buenos Aires
+101385,2023-10-26,Básico,35-44,Andina,Ecuador,Quito
+101386,2023-01-22,Básico,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+101387,2026-01-07,Básico,25-34,Caribe,Costa Rica,San José
+101388,2023-01-29,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101389,2025-07-08,Básico,25-34,Andina,Ecuador,Guayaquil
+101390,2024-08-13,Premium,18-24,Cono Sur,Argentina,Rosario
+101391,2024-11-04,Premium,45-54,Cono Sur,Argentina,Buenos Aires
+101392,2025-07-26,Premium,25-34,Andina,Ecuador,Guayaquil
+101393,2025-10-30,Básico,25-34,Andina,Ecuador,Guayaquil
+101394,2023-05-28,Básico,18-24,Cono Sur,Uruguay,Montevideo
+101395,2023-01-21,Básico,45-54,Andina,Colombia,Cali
+101396,2023-05-24,Básico,18-24,Pacífica,México,Guadalajara
+101397,2025-02-27,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101398,2024-10-18,Plus,45-54,Pacífica,México,CDMX
+101399,2023-04-07,Premium,25-34,Caribe,Costa Rica,San José
+101400,2023-09-28,Básico,55+,Caribe,Costa Rica,San José
+101401,2024-09-12,Básico,25-34,Andina,Ecuador,Quito
+101402,2025-04-23,Básico,35-44,Cono Sur,Paraguay,Asunción
+101403,2024-02-01,Básico,55+,Caribe,Panamá,Ciudad de Panamá
+101404,2026-01-01,Básico,35-44,Andina,Colombia,Bogotá
+101405,2026-02-20,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+101406,2025-06-03,Básico,25-34,Cono Sur,Paraguay,Asunción
+101407,2024-06-08,Básico,45-54,Andina,Ecuador,Quito
+101408,2025-10-10,Plus,55+,Cono Sur,Uruguay,Montevideo
+101409,2025-04-20,Básico,35-44,Centroamérica,El Salvador,San Salvador
+101410,2024-08-23,Básico,55+,Cono Sur,Argentina,Rosario
+101411,2024-05-27,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101412,2025-08-19,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101413,2024-10-05,Plus,25-34,Cono Sur,Paraguay,Asunción
+101414,2023-07-31,Plus,35-44,Andina,Colombia,Cali
+101415,2026-02-28,Premium,45-54,Cono Sur,Argentina,Rosario
+101416,2023-03-20,Plus,35-44,Pacífica,Chile,Santiago
+101417,2025-03-13,Básico,25-34,Pacífica,Chile,Valparaíso
+101418,2025-01-27,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101419,2024-11-08,Básico,45-54,Cono Sur,Uruguay,Montevideo
+101420,2023-03-02,Básico,55+,Centroamérica,El Salvador,San Salvador
+101421,2024-07-22,Premium,18-24,Pacífica,México,CDMX
+101422,2025-10-27,Básico,18-24,Caribe,República Dominicana,Santiago
+101423,2023-10-04,Básico,25-34,Caribe,República Dominicana,Santo Domingo
+101424,2025-03-09,Básico,18-24,Caribe,República Dominicana,Santo Domingo
+101425,2025-09-18,Básico,55+,Caribe,República Dominicana,Santo Domingo
+101426,2026-01-04,Premium,25-34,Andina,Ecuador,Guayaquil
+101427,2024-08-19,Básico,35-44,Andina,Colombia,Medellín
+101428,2023-12-29,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101429,2025-03-19,Básico,25-34,Caribe,Costa Rica,San José
+101430,2024-07-15,Plus,55+,Cono Sur,Paraguay,Asunción
+101431,2024-12-25,Básico,25-34,Pacífica,Chile,Santiago
+101432,2025-05-06,Plus,18-24,Andina,Colombia,Medellín
+101433,2025-03-31,Básico,25-34,Andina,Perú,Cusco
+101434,2023-10-08,Básico,55+,Andina,Perú,Arequipa
+101435,2025-05-22,Premium,55+,Cono Sur,Paraguay,Asunción
+101436,2024-09-17,Básico,25-34,Andina,Perú,Lima
+101437,2025-12-11,Básico,35-44,Pacífica,Chile,Santiago
+101438,2025-01-31,Plus,18-24,Cono Sur,Uruguay,Montevideo
+101439,2025-10-27,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101440,2026-02-04,Básico,18-24,Andina,Perú,Lima
+101441,2026-02-22,Plus,45-54,Andina,Perú,Cusco
+101442,2025-05-10,Básico,55+,Andina,Ecuador,Guayaquil
+101443,2024-11-20,Básico,18-24,Andina,Ecuador,Quito
+101444,2023-05-17,Básico,25-34,Andina,Colombia,Barranquilla
+101445,2024-03-21,Plus,18-24,Pacífica,Chile,Santiago
+101446,2024-07-03,Básico,25-34,Cono Sur,Paraguay,Asunción
+101447,2025-06-20,Básico,18-24,Pacífica,Chile,Valparaíso
+101448,2024-11-11,Plus,25-34,Pacífica,Chile,Santiago
+101449,2024-05-22,Plus,55+,Andina,Colombia,Medellín
+101450,2023-06-19,Premium,18-24,Cono Sur,Argentina,Córdoba
+101451,2025-04-06,Básico,45-54,Pacífica,México,CDMX
+101452,2024-05-13,Básico,18-24,Cono Sur,Paraguay,Asunción
+101453,2023-02-11,Básico,35-44,Cono Sur,Paraguay,Asunción
+101454,2023-11-25,Plus,25-34,Caribe,República Dominicana,Santiago
+101455,2025-10-12,Básico,55+,Andina,Colombia,Barranquilla
+101456,2023-05-18,Plus,25-34,Andina,Colombia,Barranquilla
+101457,2024-04-14,Básico,18-24,Caribe,Panamá,Ciudad de Panamá
+101458,2024-08-14,Plus,45-54,Cono Sur,Uruguay,Montevideo
+101459,2023-04-07,Plus,35-44,Caribe,Costa Rica,San José
+101460,2023-07-11,Básico,35-44,Centroamérica,El Salvador,San Salvador
+101461,2025-12-22,Premium,18-24,Pacífica,Chile,Santiago
+101462,2024-11-13,Premium,25-34,Andina,Ecuador,Guayaquil
+101463,2023-08-31,Básico,45-54,Caribe,República Dominicana,Santo Domingo
+101464,2023-07-15,Básico,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+101465,2024-05-06,Plus,35-44,Centroamérica,Honduras,San Pedro Sula
+101466,2025-04-15,Básico,25-34,Caribe,República Dominicana,Santiago
+101467,2025-04-23,Básico,25-34,Andina,Perú,Arequipa
+101468,2023-08-14,Básico,55+,Centroamérica,Honduras,Tegucigalpa
+101469,2025-04-18,Premium,35-44,Andina,Colombia,Medellín
+101470,2025-11-01,Básico,18-24,Cono Sur,Uruguay,Montevideo
+101471,2023-09-19,Plus,55+,Andina,Perú,Arequipa
+101472,2023-01-31,Básico,35-44,Andina,Ecuador,Guayaquil
+101473,2026-01-12,Básico,25-34,Pacífica,Chile,Santiago
+101474,2024-08-25,Premium,25-34,Pacífica,Chile,Valparaíso
+101475,2025-06-15,Básico,35-44,Pacífica,México,Monterrey
+101476,2024-01-05,Básico,25-34,Caribe,República Dominicana,Santo Domingo
+101477,2023-12-12,Básico,35-44,Cono Sur,Paraguay,Asunción
+101478,2023-09-17,Plus,35-44,Pacífica,Chile,Valparaíso
+101479,2023-09-08,Básico,25-34,Pacífica,México,CDMX
+101480,2024-06-28,Básico,55+,Caribe,Costa Rica,San José
+101481,2023-05-03,Básico,25-34,Andina,Colombia,Barranquilla
+101482,2025-08-30,Básico,25-34,Pacífica,Chile,Santiago
+101483,2024-08-13,Básico,35-44,Andina,Ecuador,Guayaquil
+101484,2025-11-23,Básico,35-44,Pacífica,México,CDMX
+101485,2024-08-03,Básico,25-34,Andina,Colombia,Medellín
+101486,2023-12-17,Básico,35-44,Cono Sur,Argentina,Córdoba
+101487,2024-08-17,Plus,55+,Pacífica,México,Monterrey
+101488,2023-06-28,Plus,45-54,Cono Sur,Paraguay,Asunción
+101489,2025-08-09,Básico,45-54,Pacífica,Chile,Santiago
+101490,2025-04-11,Básico,25-34,Andina,Perú,Cusco
+101491,2023-06-19,Básico,25-34,Cono Sur,Paraguay,Asunción
+101492,2024-11-03,Premium,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+101493,2024-09-13,Básico,18-24,Cono Sur,Argentina,Rosario
+101494,2023-08-21,Básico,45-54,Caribe,Costa Rica,San José
+101495,2023-05-22,Básico,25-34,Pacífica,Chile,Valparaíso
+101496,2025-05-28,Básico,25-34,Cono Sur,Paraguay,Asunción
+101497,2023-11-01,Básico,25-34,Pacífica,Chile,Valparaíso
+101498,2024-08-22,Básico,25-34,Caribe,Costa Rica,San José
+101499,2023-10-14,Plus,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101500,2025-01-24,Plus,35-44,Centroamérica,El Salvador,San Salvador
+101501,2023-02-26,Plus,35-44,Cono Sur,Argentina,Rosario
+101502,2024-02-20,Plus,25-34,Caribe,República Dominicana,Santo Domingo
+101503,2024-09-23,Básico,25-34,Caribe,Costa Rica,San José
+101504,2024-05-22,Premium,45-54,Cono Sur,Uruguay,Montevideo
+101505,2024-12-08,Plus,18-24,Pacífica,México,Monterrey
+101506,2023-07-28,Plus,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+101507,2024-05-25,Plus,35-44,Caribe,República Dominicana,Santo Domingo
+101508,2025-05-23,Básico,35-44,Andina,Perú,Cusco
+101509,2024-01-21,Básico,45-54,Centroamérica,El Salvador,San Salvador
+101510,2023-07-01,Básico,35-44,Andina,Perú,Lima
+101511,2025-09-06,Básico,55+,Andina,Ecuador,Guayaquil
+101512,2025-06-17,Básico,45-54,Pacífica,México,Monterrey
+101513,2025-02-24,Básico,25-34,Centroamérica,El Salvador,San Salvador
+101514,2025-07-10,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101515,2025-06-18,Premium,25-34,Andina,Ecuador,Quito
+101516,2025-05-12,Plus,25-34,Andina,Perú,Arequipa
+101517,2024-08-11,Plus,35-44,Cono Sur,Paraguay,Asunción
+101518,2023-01-23,Básico,25-34,Andina,Perú,Arequipa
+101519,2024-11-20,Plus,25-34,Andina,Perú,Lima
+101520,2023-11-12,Premium,25-34,Caribe,Panamá,Ciudad de Panamá
+101521,2025-06-12,Plus,35-44,Pacífica,México,Guadalajara
+101522,2024-06-24,Plus,35-44,Cono Sur,Paraguay,Asunción
+101523,2025-11-11,Básico,55+,Centroamérica,El Salvador,San Salvador
+101524,2024-11-18,Básico,25-34,Centroamérica,Honduras,San Pedro Sula
+101525,2024-09-27,Plus,25-34,Andina,Colombia,Bogotá
+101526,2025-11-27,Premium,55+,Caribe,Panamá,Ciudad de Panamá
+101527,2024-07-02,Básico,35-44,Pacífica,Chile,Valparaíso
+101528,2024-03-09,Básico,35-44,Andina,Colombia,Barranquilla
+101529,2024-03-05,Básico,35-44,Andina,Colombia,Cali
+101530,2025-10-07,Básico,18-24,Caribe,Panamá,Ciudad de Panamá
+101531,2025-05-23,Premium,45-54,Andina,Ecuador,Guayaquil
+101532,2023-07-08,Plus,35-44,Pacífica,México,Guadalajara
+101533,2024-07-22,Básico,35-44,Centroamérica,Honduras,Tegucigalpa
+101534,2024-03-04,Básico,35-44,Andina,Colombia,Cali
+101535,2025-01-16,Básico,25-34,Pacífica,México,Monterrey
+101536,2023-03-02,Básico,25-34,Cono Sur,Argentina,Buenos Aires
+101537,2025-04-04,Básico,45-54,Centroamérica,El Salvador,San Salvador
+101538,2025-05-07,Plus,35-44,Cono Sur,Paraguay,Asunción
+101539,2023-09-19,Plus,18-24,Caribe,Costa Rica,San José
+101540,2023-06-24,Básico,25-34,Cono Sur,Argentina,Rosario
+101541,2024-12-25,Plus,55+,Andina,Colombia,Cali
+101542,2023-10-24,Plus,25-34,Caribe,República Dominicana,Santiago
+101543,2025-12-23,Básico,25-34,Andina,Ecuador,Quito
+101544,2025-06-14,Plus,35-44,Pacífica,Chile,Santiago
+101545,2026-01-08,Plus,45-54,Caribe,Costa Rica,San José
+101546,2024-09-09,Plus,35-44,Andina,Colombia,Medellín
+101547,2025-12-19,Básico,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+101548,2023-01-17,Básico,18-24,Caribe,República Dominicana,Santiago
+101549,2023-12-01,Básico,55+,Andina,Ecuador,Guayaquil
+101550,2023-01-03,Básico,55+,Andina,Perú,Arequipa
+101551,2025-02-21,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+101552,2024-08-12,Plus,35-44,Caribe,Panamá,Ciudad de Panamá
+101553,2023-11-29,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+101554,2023-12-19,Básico,25-34,Andina,Perú,Cusco
+101555,2025-01-13,Premium,25-34,Centroamérica,Honduras,San Pedro Sula
+101556,2023-07-28,Básico,18-24,Cono Sur,Argentina,Córdoba
+101557,2024-08-17,Básico,55+,Pacífica,Chile,Santiago
+101558,2024-12-09,Plus,25-34,Centroamérica,Honduras,San Pedro Sula
+101559,2023-10-05,Básico,35-44,Cono Sur,Argentina,Córdoba
+101560,2023-09-21,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101561,2024-02-14,Plus,25-34,Pacífica,Chile,Valparaíso
+101562,2024-11-14,Básico,25-34,Cono Sur,Paraguay,Asunción
+101563,2023-10-21,Básico,25-34,Cono Sur,Argentina,Rosario
+101564,2024-03-14,Básico,35-44,Cono Sur,Argentina,Buenos Aires
+101565,2024-09-19,Plus,55+,Pacífica,México,Guadalajara
+101566,2023-08-04,Básico,25-34,Andina,Colombia,Cali
+101567,2024-10-19,Plus,55+,Andina,Perú,Arequipa
+101568,2023-06-09,Básico,35-44,Pacífica,Chile,Santiago
+101569,2023-06-14,Plus,35-44,Pacífica,Chile,Valparaíso
+101570,2023-10-01,Básico,25-34,Caribe,Costa Rica,San José
+101571,2023-11-27,Básico,18-24,Pacífica,México,Guadalajara
+101572,2023-02-04,Básico,45-54,Pacífica,Chile,Valparaíso
+101573,2026-01-15,Plus,35-44,Cono Sur,Paraguay,Asunción
+101574,2023-12-22,Básico,25-34,Andina,Ecuador,Quito
+101575,2025-07-18,Básico,45-54,Andina,Perú,Lima
+101576,2025-11-07,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101577,2025-07-13,Básico,45-54,Cono Sur,Paraguay,Asunción
+101578,2025-08-18,Plus,25-34,Cono Sur,Uruguay,Montevideo
+101579,2023-04-26,Básico,55+,Cono Sur,Uruguay,Montevideo
+101580,2024-03-05,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101581,2025-05-11,Básico,18-24,Caribe,Costa Rica,San José
+101582,2024-10-27,Básico,35-44,Caribe,Costa Rica,San José
+101583,2023-01-07,Básico,18-24,Andina,Colombia,Cali
+101584,2024-10-17,Básico,55+,Pacífica,Chile,Valparaíso
+101585,2025-07-18,Básico,35-44,Cono Sur,Paraguay,Asunción
+101586,2025-08-15,Premium,25-34,Caribe,República Dominicana,Santiago
+101587,2024-03-19,Básico,25-34,Pacífica,México,Monterrey
+101588,2023-09-30,Plus,55+,Caribe,Costa Rica,San José
+101589,2023-12-24,Básico,35-44,Andina,Ecuador,Quito
+101590,2023-12-09,Básico,45-54,Andina,Colombia,Barranquilla
+101591,2024-02-05,Básico,18-24,Andina,Perú,Lima
+101592,2023-12-15,Básico,55+,Cono Sur,Uruguay,Montevideo
+101593,2024-06-12,Plus,35-44,Caribe,Panamá,Ciudad de Panamá
+101594,2023-02-17,Plus,35-44,Cono Sur,Paraguay,Asunción
+101595,2023-11-14,Plus,25-34,Centroamérica,Honduras,San Pedro Sula
+101596,2023-12-30,Plus,18-24,Andina,Perú,Arequipa
+101597,2023-06-27,Básico,55+,Andina,Ecuador,Guayaquil
+101598,2025-10-10,Básico,55+,Cono Sur,Paraguay,Asunción
+101599,2025-02-19,Plus,25-34,Andina,Ecuador,Guayaquil
+101600,2025-11-19,Básico,55+,Cono Sur,Uruguay,Montevideo
+101601,2024-10-10,Básico,18-24,Andina,Ecuador,Guayaquil
+101602,2023-05-07,Premium,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+101603,2025-11-10,Premium,18-24,Cono Sur,Uruguay,Montevideo
+101604,2024-06-13,Plus,25-34,Andina,Perú,Cusco
+101605,2025-03-01,Básico,18-24,Andina,Colombia,Cali
+101606,2024-03-16,Plus,25-34,Cono Sur,Uruguay,Montevideo
+101607,2024-07-24,Básico,18-24,Andina,Perú,Cusco
+101608,2024-07-19,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+101609,2023-11-25,Básico,45-54,Caribe,República Dominicana,Santo Domingo
+101610,2024-10-02,Premium,35-44,Andina,Colombia,Bogotá
+101611,2025-04-27,Premium,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101612,2023-01-24,Plus,45-54,Centroamérica,Honduras,San Pedro Sula
+101613,2023-06-01,Básico,25-34,Caribe,República Dominicana,Santiago
+101614,2025-08-30,Básico,45-54,Cono Sur,Uruguay,Montevideo
+101615,2024-10-19,Básico,35-44,Andina,Ecuador,Guayaquil
+101616,2026-01-29,Premium,25-34,Andina,Ecuador,Guayaquil
+101617,2024-11-29,Básico,18-24,Pacífica,Chile,Valparaíso
+101618,2025-01-24,Básico,45-54,Cono Sur,Paraguay,Asunción
+101619,2025-11-04,Plus,55+,Andina,Colombia,Cali
+101620,2025-02-01,Básico,35-44,Andina,Colombia,Barranquilla
+101621,2024-01-16,Plus,55+,Pacífica,Chile,Valparaíso
+101622,2024-09-01,Básico,55+,Cono Sur,Argentina,Buenos Aires
+101623,2023-09-30,Plus,25-34,Andina,Ecuador,Guayaquil
+101624,2024-01-22,Básico,35-44,Caribe,República Dominicana,Santo Domingo
+101625,2025-02-24,Básico,25-34,Centroamérica,El Salvador,San Salvador
+101626,2023-06-22,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+101627,2025-02-15,Básico,18-24,Andina,Colombia,Barranquilla
+101628,2024-11-05,Plus,55+,Andina,Perú,Arequipa
+101629,2023-12-23,Básico,35-44,Caribe,República Dominicana,Santiago
+101630,2023-02-21,Básico,25-34,Pacífica,Chile,Santiago
+101631,2025-03-24,Plus,25-34,Cono Sur,Uruguay,Montevideo
+101632,2025-08-10,Básico,25-34,Centroamérica,Honduras,San Pedro Sula
+101633,2025-04-23,Plus,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+101634,2024-05-01,Plus,55+,Cono Sur,Paraguay,Asunción
+101635,2025-01-24,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+101636,2024-04-24,Plus,25-34,Caribe,República Dominicana,Santo Domingo
+101637,2024-02-18,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101638,2024-01-13,Básico,25-34,Andina,Colombia,Barranquilla
+101639,2023-09-01,Básico,35-44,Centroamérica,El Salvador,San Salvador
+101640,2026-01-24,Plus,18-24,Centroamérica,El Salvador,San Salvador
+101641,2025-02-08,Plus,18-24,Andina,Colombia,Bogotá
+101642,2023-07-22,Básico,25-34,Pacífica,México,Guadalajara
+101643,2025-09-26,Premium,55+,Andina,Ecuador,Guayaquil
+101644,2023-06-24,Básico,25-34,Andina,Perú,Cusco
+101645,2024-11-16,Premium,25-34,Pacífica,Chile,Santiago
+101646,2023-07-11,Plus,45-54,Caribe,Costa Rica,San José
+101647,2024-02-22,Premium,55+,Cono Sur,Paraguay,Asunción
+101648,2025-01-30,Premium,25-34,Cono Sur,Paraguay,Asunción
+101649,2026-02-27,Premium,18-24,Cono Sur,Paraguay,Asunción
+101650,2026-02-19,Básico,35-44,Andina,Ecuador,Quito
+101651,2025-10-31,Plus,25-34,Andina,Ecuador,Quito
+101652,2023-09-29,Plus,35-44,Andina,Colombia,Barranquilla
+101653,2023-04-19,Plus,25-34,Andina,Perú,Lima
+101654,2025-11-11,Básico,18-24,Cono Sur,Argentina,Buenos Aires
+101655,2025-12-02,Premium,25-34,Caribe,República Dominicana,Santo Domingo
+101656,2023-11-18,Básico,35-44,Andina,Ecuador,Quito
+101657,2023-01-23,Básico,25-34,Cono Sur,Paraguay,Asunción
+101658,2025-01-18,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+101659,2023-03-29,Básico,25-34,Andina,Ecuador,Quito
+101660,2023-02-16,Plus,45-54,Andina,Colombia,Cali
+101661,2025-12-18,Básico,18-24,Pacífica,Chile,Valparaíso
+101662,2024-07-26,Plus,35-44,Cono Sur,Paraguay,Asunción
+101663,2023-05-10,Plus,35-44,Andina,Perú,Lima
+101664,2025-01-26,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101665,2024-03-02,Plus,55+,Cono Sur,Uruguay,Montevideo
+101666,2024-09-11,Básico,45-54,Cono Sur,Argentina,Rosario
+101667,2025-11-04,Plus,25-34,Andina,Ecuador,Guayaquil
+101668,2023-10-02,Premium,18-24,Andina,Ecuador,Quito
+101669,2025-01-16,Básico,25-34,Cono Sur,Paraguay,Asunción
+101670,2025-08-14,Plus,25-34,Caribe,Panamá,Ciudad de Panamá
+101671,2024-05-04,Básico,35-44,Pacífica,México,Monterrey
+101672,2026-01-25,Básico,55+,Centroamérica,El Salvador,San Salvador
+101673,2024-06-01,Plus,45-54,Andina,Perú,Arequipa
+101674,2024-06-14,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101675,2025-10-18,Plus,25-34,Cono Sur,Argentina,Rosario
+101676,2025-01-04,Básico,18-24,Centroamérica,Honduras,Tegucigalpa
+101677,2025-09-30,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+101678,2025-07-01,Premium,18-24,Cono Sur,Uruguay,Montevideo
+101679,2025-04-02,Básico,55+,Pacífica,Chile,Santiago
+101680,2023-10-06,Plus,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+101681,2024-04-05,Básico,25-34,Cono Sur,Paraguay,Asunción
+101682,2025-09-25,Plus,35-44,Centroamérica,Honduras,Tegucigalpa
+101683,2024-12-12,Plus,35-44,Caribe,Panamá,Ciudad de Panamá
+101684,2023-11-20,Básico,45-54,Andina,Perú,Arequipa
+101685,2024-01-14,Básico,25-34,Andina,Perú,Cusco
+101686,2025-06-15,Básico,25-34,Pacífica,México,Monterrey
+101687,2023-07-25,Premium,35-44,Pacífica,Chile,Valparaíso
+101688,2023-05-10,Básico,18-24,Pacífica,México,Guadalajara
+101689,2025-06-02,Básico,35-44,Caribe,República Dominicana,Santiago
+101690,2023-11-30,Plus,25-34,Cono Sur,Uruguay,Montevideo
+101691,2025-06-03,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101692,2024-09-08,Básico,45-54,Andina,Ecuador,Quito
+101693,2026-02-26,Básico,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+101694,2024-08-29,Básico,25-34,Centroamérica,Honduras,Tegucigalpa
+101695,2025-09-28,Plus,35-44,Pacífica,Chile,Santiago
+101696,2025-09-09,Premium,18-24,Andina,Colombia,Medellín
+101697,2023-09-02,Premium,35-44,Cono Sur,Paraguay,Asunción
+101698,2026-02-24,Premium,35-44,Cono Sur,Paraguay,Asunción
+101699,2025-05-11,Básico,25-34,Centroamérica,Honduras,San Pedro Sula
+101700,2023-05-04,Básico,45-54,Cono Sur,Uruguay,Montevideo
+101701,2023-01-07,Plus,35-44,Cono Sur,Uruguay,Montevideo
+101702,2023-11-10,Premium,35-44,Caribe,República Dominicana,Santo Domingo
+101703,2023-01-19,Plus,18-24,Pacífica,Chile,Santiago
+101704,2024-02-18,Básico,18-24,Pacífica,Chile,Santiago
+101705,2026-02-24,Plus,18-24,Cono Sur,Paraguay,Asunción
+101706,2024-07-07,Plus,55+,Andina,Perú,Cusco
+101707,2023-01-28,Premium,45-54,Caribe,República Dominicana,Santiago
+101708,2024-07-24,Plus,45-54,Cono Sur,Uruguay,Montevideo
+101709,2023-09-11,Básico,25-34,Caribe,Costa Rica,San José
+101710,2025-09-15,Básico,35-44,Cono Sur,Argentina,Buenos Aires
+101711,2023-04-15,Básico,45-54,Caribe,Costa Rica,San José
+101712,2025-06-08,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101713,2024-05-30,Premium,18-24,Cono Sur,Uruguay,Montevideo
+101714,2023-01-22,Básico,45-54,Caribe,Costa Rica,San José
+101715,2025-02-16,Básico,18-24,Centroamérica,Honduras,Tegucigalpa
+101716,2024-06-09,Básico,18-24,Caribe,República Dominicana,Santo Domingo
+101717,2025-06-10,Plus,55+,Pacífica,México,Monterrey
+101718,2024-12-14,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101719,2025-06-28,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101720,2024-06-15,Premium,35-44,Andina,Ecuador,Quito
+101721,2023-01-10,Básico,55+,Andina,Perú,Cusco
+101722,2023-05-31,Básico,18-24,Centroamérica,El Salvador,San Salvador
+101723,2024-06-14,Básico,45-54,Pacífica,México,Guadalajara
+101724,2024-04-04,Plus,25-34,Pacífica,Chile,Valparaíso
+101725,2025-07-06,Plus,18-24,Andina,Colombia,Medellín
+101726,2024-04-20,Premium,25-34,Caribe,Panamá,Ciudad de Panamá
+101727,2025-09-20,Básico,35-44,Cono Sur,Argentina,Córdoba
+101728,2023-08-05,Premium,25-34,Andina,Perú,Lima
+101729,2024-03-20,Plus,25-34,Caribe,Panamá,Ciudad de Panamá
+101730,2025-05-23,Básico,35-44,Cono Sur,Paraguay,Asunción
+101731,2023-05-24,Básico,35-44,Andina,Colombia,Cali
+101732,2024-01-07,Básico,35-44,Centroamérica,El Salvador,San Salvador
+101733,2025-05-18,Premium,45-54,Andina,Perú,Lima
+101734,2024-11-11,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101735,2025-06-17,Básico,25-34,Centroamérica,Honduras,Tegucigalpa
+101736,2024-08-18,Plus,25-34,Cono Sur,Argentina,Buenos Aires
+101737,2025-09-19,Premium,35-44,Andina,Ecuador,Guayaquil
+101738,2025-10-10,Plus,18-24,Pacífica,Chile,Valparaíso
+101739,2026-01-30,Plus,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101740,2023-05-21,Básico,18-24,Andina,Ecuador,Quito
+101741,2024-11-13,Premium,25-34,Andina,Perú,Arequipa
+101742,2023-05-12,Básico,55+,Andina,Ecuador,Guayaquil
+101743,2023-09-22,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101744,2023-12-13,Premium,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101745,2025-01-16,Básico,35-44,Pacífica,Chile,Valparaíso
+101746,2024-05-13,Básico,35-44,Centroamérica,Honduras,San Pedro Sula
+101747,2025-09-25,Plus,25-34,Pacífica,Chile,Santiago
+101748,2023-12-11,Básico,25-34,Pacífica,México,Guadalajara
+101749,2024-12-13,Básico,35-44,Caribe,República Dominicana,Santiago
+101750,2025-05-31,Plus,18-24,Centroamérica,El Salvador,San Salvador
+101751,2026-02-06,Plus,35-44,Andina,Colombia,Cali
+101752,2023-10-11,Plus,35-44,Cono Sur,Argentina,Córdoba
+101753,2025-04-27,Básico,45-54,Cono Sur,Argentina,Córdoba
+101754,2023-04-08,Plus,55+,Caribe,República Dominicana,Santo Domingo
+101755,2024-09-19,Plus,45-54,Pacífica,Chile,Valparaíso
+101756,2024-04-22,Básico,35-44,Andina,Colombia,Barranquilla
+101757,2026-01-12,Básico,18-24,Cono Sur,Uruguay,Montevideo
+101758,2025-06-12,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101759,2025-12-06,Básico,45-54,Cono Sur,Argentina,Buenos Aires
+101760,2025-09-09,Básico,55+,Caribe,República Dominicana,Santo Domingo
+101761,2024-04-19,Plus,45-54,Andina,Colombia,Barranquilla
+101762,2025-04-27,Premium,25-34,Andina,Colombia,Medellín
+101763,2023-02-05,Básico,35-44,Andina,Colombia,Barranquilla
+101764,2024-10-06,Plus,45-54,Andina,Colombia,Barranquilla
+101765,2023-02-24,Básico,35-44,Andina,Perú,Cusco
+101766,2025-04-16,Básico,35-44,Cono Sur,Argentina,Buenos Aires
+101767,2026-01-21,Plus,35-44,Andina,Colombia,Medellín
+101768,2025-02-26,Básico,35-44,Andina,Perú,Arequipa
+101769,2025-08-28,Premium,25-34,Cono Sur,Uruguay,Montevideo
+101770,2023-09-28,Básico,18-24,Pacífica,Chile,Valparaíso
+101771,2026-02-21,Básico,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+101772,2024-09-28,Básico,55+,Pacífica,Chile,Santiago
+101773,2025-02-17,Básico,45-54,Cono Sur,Argentina,Buenos Aires
+101774,2025-06-09,Premium,25-34,Pacífica,Chile,Santiago
+101775,2025-01-08,Plus,18-24,Pacífica,México,Monterrey
+101776,2024-01-02,Básico,25-34,Centroamérica,Honduras,San Pedro Sula
+101777,2024-12-07,Básico,45-54,Caribe,República Dominicana,Santo Domingo
+101778,2025-01-25,Plus,35-44,Caribe,Costa Rica,San José
+101779,2025-09-17,Plus,55+,Pacífica,Chile,Santiago
+101780,2024-07-10,Básico,25-34,Andina,Colombia,Medellín
+101781,2024-08-02,Básico,35-44,Cono Sur,Argentina,Rosario
+101782,2024-08-04,Básico,45-54,Andina,Ecuador,Quito
+101783,2023-05-13,Básico,25-34,Andina,Ecuador,Quito
+101784,2023-04-15,Básico,55+,Andina,Perú,Lima
+101785,2023-01-24,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101786,2025-02-08,Básico,18-24,Caribe,Panamá,Ciudad de Panamá
+101787,2024-04-28,Básico,18-24,Centroamérica,Honduras,San Pedro Sula
+101788,2025-09-26,Básico,45-54,Cono Sur,Uruguay,Montevideo
+101789,2025-03-22,Premium,35-44,Andina,Ecuador,Quito
+101790,2023-06-13,Plus,45-54,Centroamérica,El Salvador,San Salvador
+101791,2023-04-26,Básico,45-54,Caribe,República Dominicana,Santo Domingo
+101792,2024-02-27,Básico,25-34,Andina,Perú,Cusco
+101793,2025-11-29,Básico,45-54,Centroamérica,El Salvador,San Salvador
+101794,2023-02-26,Premium,55+,Cono Sur,Uruguay,Montevideo
+101795,2023-08-05,Plus,18-24,Caribe,República Dominicana,Santo Domingo
+101796,2023-02-04,Básico,45-54,Pacífica,México,CDMX
+101797,2024-04-22,Premium,25-34,Caribe,Panamá,Ciudad de Panamá
+101798,2026-02-17,Plus,25-34,Pacífica,México,Monterrey
+101799,2025-02-28,Plus,25-34,Pacífica,Chile,Valparaíso
+101800,2024-07-23,Básico,45-54,Pacífica,Chile,Santiago
+101801,2023-06-16,Básico,18-24,Pacífica,Chile,Santiago
+101802,2024-02-15,Plus,25-34,Andina,Perú,Lima
+101803,2024-08-28,Básico,35-44,Centroamérica,El Salvador,San Salvador
+101804,2023-11-14,Plus,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+101805,2025-03-25,Plus,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+101806,2026-02-05,Básico,55+,Andina,Perú,Cusco
+101807,2023-08-26,Básico,18-24,Caribe,Costa Rica,San José
+101808,2023-10-19,Básico,18-24,Caribe,Panamá,Ciudad de Panamá
+101809,2023-05-26,Básico,55+,Andina,Perú,Arequipa
+101810,2025-04-18,Plus,25-34,Andina,Ecuador,Guayaquil
+101811,2024-06-17,Plus,18-24,Caribe,Panamá,Ciudad de Panamá
+101812,2023-11-24,Básico,55+,Centroamérica,Guatemala,Ciudad de Guatemala
+101813,2023-09-11,Plus,45-54,Andina,Ecuador,Guayaquil
+101814,2023-03-23,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101815,2024-07-03,Plus,35-44,Pacífica,Chile,Santiago
+101816,2025-02-28,Básico,55+,Centroamérica,Honduras,San Pedro Sula
+101817,2023-09-29,Plus,35-44,Pacífica,México,Monterrey
+101818,2023-01-02,Plus,35-44,Pacífica,Chile,Santiago
+101819,2024-06-30,Básico,45-54,Pacífica,México,Monterrey
+101820,2025-02-19,Plus,35-44,Cono Sur,Uruguay,Montevideo
+101821,2024-02-03,Premium,35-44,Pacífica,México,Monterrey
+101822,2023-10-17,Básico,25-34,Pacífica,México,Monterrey
+101823,2023-06-28,Plus,35-44,Pacífica,Chile,Valparaíso
+101824,2025-05-11,Premium,35-44,Centroamérica,Honduras,Tegucigalpa
+101825,2025-09-22,Premium,25-34,Andina,Perú,Lima
+101826,2025-06-08,Básico,25-34,Pacífica,Chile,Santiago
+101827,2024-08-21,Plus,45-54,Pacífica,México,Monterrey
+101828,2025-04-16,Premium,25-34,Cono Sur,Argentina,Rosario
+101829,2024-04-03,Plus,18-24,Pacífica,Chile,Santiago
+101830,2023-01-29,Básico,25-34,Pacífica,Chile,Santiago
+101831,2024-02-29,Básico,25-34,Cono Sur,Argentina,Córdoba
+101832,2025-03-23,Plus,45-54,Caribe,Costa Rica,San José
+101833,2025-01-17,Básico,25-34,Andina,Colombia,Barranquilla
+101834,2026-02-17,Básico,25-34,Andina,Colombia,Bogotá
+101835,2026-02-26,Básico,45-54,Andina,Ecuador,Quito
+101836,2023-10-08,Plus,18-24,Andina,Ecuador,Quito
+101837,2023-01-12,Básico,18-24,Caribe,República Dominicana,Santiago
+101838,2023-11-13,Premium,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+101839,2025-10-08,Plus,35-44,Centroamérica,El Salvador,San Salvador
+101840,2025-07-28,Premium,45-54,Andina,Ecuador,Quito
+101841,2023-04-25,Premium,45-54,Pacífica,México,CDMX
+101842,2023-07-05,Básico,55+,Andina,Perú,Lima
+101843,2024-10-12,Plus,18-24,Cono Sur,Argentina,Buenos Aires
+101844,2025-02-01,Básico,45-54,Andina,Ecuador,Quito
+101845,2026-02-08,Premium,35-44,Pacífica,Chile,Valparaíso
+101846,2025-05-22,Básico,25-34,Caribe,República Dominicana,Santiago
+101847,2023-09-02,Plus,55+,Centroamérica,El Salvador,San Salvador
+101848,2023-02-12,Plus,25-34,Caribe,Panamá,Ciudad de Panamá
+101849,2025-01-01,Básico,45-54,Centroamérica,Guatemala,Ciudad de Guatemala
+101850,2024-10-01,Plus,35-44,Andina,Colombia,Barranquilla
+101851,2025-11-30,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101852,2024-10-27,Básico,18-24,Pacífica,Chile,Valparaíso
+101853,2024-08-01,Básico,55+,Centroamérica,El Salvador,San Salvador
+101854,2023-12-17,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101855,2023-04-10,Plus,18-24,Cono Sur,Uruguay,Montevideo
+101856,2025-10-09,Premium,18-24,Andina,Perú,Cusco
+101857,2025-08-12,Básico,45-54,Caribe,Panamá,Ciudad de Panamá
+101858,2023-07-07,Plus,18-24,Andina,Perú,Lima
+101859,2025-03-23,Premium,35-44,Andina,Ecuador,Guayaquil
+101860,2024-02-25,Plus,35-44,Pacífica,México,CDMX
+101861,2024-05-19,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101862,2025-09-07,Premium,35-44,Cono Sur,Uruguay,Montevideo
+101863,2025-08-30,Básico,25-34,Pacífica,Chile,Santiago
+101864,2023-08-09,Plus,55+,Pacífica,México,Monterrey
+101865,2023-12-22,Plus,45-54,Cono Sur,Uruguay,Montevideo
+101866,2025-08-06,Plus,25-34,Cono Sur,Paraguay,Asunción
+101867,2025-11-25,Básico,35-44,Andina,Ecuador,Quito
+101868,2023-04-02,Básico,35-44,Pacífica,México,CDMX
+101869,2025-08-20,Plus,55+,Cono Sur,Paraguay,Asunción
+101870,2024-07-19,Básico,25-34,Caribe,Costa Rica,San José
+101871,2024-11-12,Básico,35-44,Caribe,Panamá,Ciudad de Panamá
+101872,2023-03-29,Plus,55+,Cono Sur,Paraguay,Asunción
+101873,2025-02-24,Plus,18-24,Cono Sur,Argentina,Buenos Aires
+101874,2025-02-21,Básico,35-44,Cono Sur,Paraguay,Asunción
+101875,2025-02-04,Básico,18-24,Cono Sur,Argentina,Buenos Aires
+101876,2025-07-02,Premium,35-44,Andina,Ecuador,Guayaquil
+101877,2025-12-28,Básico,25-34,Caribe,República Dominicana,Santiago
+101878,2025-09-08,Básico,55+,Pacífica,México,CDMX
+101879,2025-05-10,Básico,25-34,Pacífica,Chile,Santiago
+101880,2026-02-07,Básico,18-24,Pacífica,Chile,Valparaíso
+101881,2025-02-18,Premium,45-54,Pacífica,México,Monterrey
+101882,2025-02-15,Básico,45-54,Caribe,Costa Rica,San José
+101883,2024-09-18,Básico,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+101884,2025-06-07,Básico,45-54,Caribe,República Dominicana,Santo Domingo
+101885,2023-03-24,Básico,25-34,Caribe,Costa Rica,San José
+101886,2024-08-07,Básico,35-44,Andina,Ecuador,Guayaquil
+101887,2024-05-06,Premium,18-24,Andina,Colombia,Bogotá
+101888,2025-11-20,Plus,25-34,Cono Sur,Uruguay,Montevideo
+101889,2023-03-25,Básico,55+,Caribe,República Dominicana,Santo Domingo
+101890,2025-01-13,Básico,35-44,Andina,Ecuador,Quito
+101891,2023-08-01,Básico,25-34,Centroamérica,Honduras,San Pedro Sula
+101892,2025-10-17,Básico,18-24,Pacífica,Chile,Santiago
+101893,2025-09-10,Plus,55+,Andina,Colombia,Medellín
+101894,2023-09-29,Básico,18-24,Caribe,Panamá,Ciudad de Panamá
+101895,2025-10-03,Plus,25-34,Andina,Ecuador,Quito
+101896,2024-07-27,Premium,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101897,2026-01-26,Básico,18-24,Andina,Ecuador,Quito
+101898,2025-04-22,Premium,25-34,Andina,Perú,Arequipa
+101899,2023-02-09,Básico,55+,Andina,Ecuador,Quito
+101900,2023-08-23,Básico,25-34,Pacífica,México,CDMX
+101901,2024-04-11,Plus,35-44,Andina,Colombia,Cali
+101902,2023-09-02,Básico,45-54,Cono Sur,Argentina,Córdoba
+101903,2023-06-02,Plus,35-44,Andina,Ecuador,Quito
+101904,2026-02-03,Plus,45-54,Pacífica,Chile,Valparaíso
+101905,2025-09-30,Básico,35-44,Caribe,República Dominicana,Santiago
+101906,2024-05-16,Premium,35-44,Caribe,Panamá,Ciudad de Panamá
+101907,2023-09-06,Básico,35-44,Andina,Ecuador,Guayaquil
+101908,2023-07-29,Plus,45-54,Cono Sur,Paraguay,Asunción
+101909,2025-11-23,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101910,2024-01-18,Básico,45-54,Andina,Colombia,Cali
+101911,2023-01-15,Básico,18-24,Andina,Perú,Cusco
+101912,2024-04-03,Premium,35-44,Cono Sur,Paraguay,Asunción
+101913,2024-06-08,Básico,35-44,Pacífica,Chile,Santiago
+101914,2024-12-20,Premium,25-34,Andina,Perú,Arequipa
+101915,2024-01-27,Básico,45-54,Andina,Colombia,Medellín
+101916,2025-12-02,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101917,2025-01-13,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101918,2026-02-13,Básico,45-54,Pacífica,México,CDMX
+101919,2024-02-28,Premium,25-34,Cono Sur,Paraguay,Asunción
+101920,2025-01-22,Básico,25-34,Pacífica,Chile,Valparaíso
+101921,2024-02-26,Plus,25-34,Caribe,Costa Rica,San José
+101922,2025-03-19,Plus,45-54,Pacífica,México,CDMX
+101923,2025-05-11,Básico,25-34,Caribe,Costa Rica,San José
+101924,2024-01-07,Plus,35-44,Andina,Ecuador,Quito
+101925,2025-12-19,Premium,45-54,Andina,Colombia,Barranquilla
+101926,2025-09-17,Plus,35-44,Caribe,Costa Rica,San José
+101927,2025-10-30,Básico,55+,Centroamérica,Honduras,San Pedro Sula
+101928,2023-09-09,Plus,45-54,Andina,Colombia,Cali
+101929,2025-04-09,Plus,25-34,Caribe,República Dominicana,Santo Domingo
+101930,2023-05-03,Básico,55+,Centroamérica,El Salvador,San Salvador
+101931,2023-05-02,Plus,35-44,Pacífica,México,CDMX
+101932,2026-01-29,Básico,18-24,Centroamérica,Honduras,San Pedro Sula
+101933,2023-06-26,Plus,25-34,Cono Sur,Argentina,Córdoba
+101934,2025-09-25,Premium,35-44,Centroamérica,El Salvador,San Salvador
+101935,2024-05-12,Premium,18-24,Andina,Colombia,Bogotá
+101936,2023-12-17,Plus,35-44,Pacífica,Chile,Valparaíso
+101937,2023-03-26,Plus,25-34,Pacífica,México,Guadalajara
+101938,2025-02-18,Plus,35-44,Andina,Ecuador,Guayaquil
+101939,2025-04-13,Básico,18-24,Andina,Colombia,Medellín
+101940,2024-06-23,Básico,45-54,Andina,Colombia,Cali
+101941,2025-07-24,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+101942,2024-01-09,Básico,18-24,Caribe,República Dominicana,Santiago
+101943,2024-09-29,Premium,25-34,Andina,Perú,Cusco
+101944,2023-11-28,Premium,25-34,Cono Sur,Argentina,Buenos Aires
+101945,2024-11-03,Básico,35-44,Cono Sur,Argentina,Rosario
+101946,2023-06-07,Básico,35-44,Andina,Colombia,Barranquilla
+101947,2024-07-03,Plus,18-24,Cono Sur,Paraguay,Asunción
+101948,2024-09-26,Básico,45-54,Andina,Ecuador,Guayaquil
+101949,2024-10-04,Plus,25-34,Cono Sur,Uruguay,Montevideo
+101950,2024-05-30,Premium,18-24,Cono Sur,Uruguay,Montevideo
+101951,2025-01-13,Básico,45-54,Andina,Ecuador,Quito
+101952,2024-08-14,Básico,35-44,Centroamérica,Guatemala,Ciudad de Guatemala
+101953,2023-11-24,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101954,2023-09-06,Básico,25-34,Cono Sur,Paraguay,Asunción
+101955,2025-01-18,Básico,25-34,Cono Sur,Paraguay,Asunción
+101956,2025-12-20,Básico,35-44,Pacífica,Chile,Santiago
+101957,2025-05-19,Básico,18-24,Andina,Ecuador,Quito
+101958,2025-01-07,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101959,2025-11-30,Básico,55+,Pacífica,México,CDMX
+101960,2025-11-05,Plus,35-44,Pacífica,Chile,Valparaíso
+101961,2024-08-07,Básico,25-34,Caribe,Panamá,Ciudad de Panamá
+101962,2023-05-07,Premium,25-34,Pacífica,México,Monterrey
+101963,2025-01-02,Básico,45-54,Andina,Colombia,Cali
+101964,2024-12-20,Básico,25-34,Centroamérica,El Salvador,San Salvador
+101965,2023-11-17,Básico,18-24,Andina,Colombia,Cali
+101966,2025-09-08,Plus,18-24,Centroamérica,El Salvador,San Salvador
+101967,2025-10-01,Básico,35-44,Cono Sur,Uruguay,Montevideo
+101968,2024-01-18,Básico,35-44,Pacífica,Chile,Valparaíso
+101969,2024-07-04,Básico,18-24,Pacífica,Chile,Santiago
+101970,2023-08-14,Premium,18-24,Caribe,Costa Rica,San José
+101971,2023-07-25,Básico,35-44,Cono Sur,Argentina,Córdoba
+101972,2023-11-03,Básico,35-44,Centroamérica,Honduras,San Pedro Sula
+101973,2024-02-27,Premium,35-44,Caribe,República Dominicana,Santo Domingo
+101974,2023-11-12,Básico,18-24,Andina,Ecuador,Quito
+101975,2023-06-25,Básico,35-44,Andina,Perú,Arequipa
+101976,2024-05-31,Plus,55+,Pacífica,México,Monterrey
+101977,2024-12-21,Básico,35-44,Cono Sur,Argentina,Buenos Aires
+101978,2024-01-12,Básico,25-34,Centroamérica,Guatemala,Ciudad de Guatemala
+101979,2024-09-08,Básico,35-44,Andina,Perú,Lima
+101980,2023-11-10,Básico,25-34,Cono Sur,Uruguay,Montevideo
+101981,2025-03-23,Premium,18-24,Caribe,Costa Rica,San José
+101982,2025-01-19,Plus,25-34,Cono Sur,Paraguay,Asunción
+101983,2026-01-13,Plus,55+,Andina,Ecuador,Quito
+101984,2023-03-03,Básico,25-34,Pacífica,Chile,Valparaíso
+101985,2025-09-12,Plus,45-54,Cono Sur,Argentina,Córdoba
+101986,2024-01-29,Plus,35-44,Andina,Ecuador,Guayaquil
+101987,2023-03-18,Básico,35-44,Centroamérica,Honduras,San Pedro Sula
+101988,2025-03-07,Premium,18-24,Cono Sur,Paraguay,Asunción
+101989,2023-07-18,Plus,35-44,Andina,Perú,Lima
+101990,2023-07-23,Plus,18-24,Andina,Colombia,Cali
+101991,2026-02-05,Básico,25-34,Centroamérica,Honduras,Tegucigalpa
+101992,2023-09-13,Básico,25-34,Caribe,Costa Rica,San José
+101993,2024-09-23,Plus,25-34,Andina,Perú,Lima
+101994,2023-08-20,Plus,35-44,Pacífica,Chile,Valparaíso
+101995,2023-05-24,Básico,18-24,Centroamérica,Guatemala,Ciudad de Guatemala
+101996,2023-01-02,Básico,25-34,Caribe,Costa Rica,San José
+101997,2023-01-19,Plus,55+,Caribe,Costa Rica,San José
+101998,2024-07-01,Básico,18-24,Cono Sur,Paraguay,Asunción
+101999,2024-05-16,Básico,25-34,Pacífica,Chile,Valparaíso
