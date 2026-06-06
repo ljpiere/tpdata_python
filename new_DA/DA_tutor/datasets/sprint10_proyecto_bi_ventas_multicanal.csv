@@ -1,0 +1,761 @@
+﻿ID_Pedido,Fecha_pedido,Anio,Mes_num,Mes,Estacion,ID_Cliente,Pais,Region,Ciudad,Segmento_Cliente,Categoria_Producto,Producto,Canal,Campania,Dispositivo,Unidades,Precio_unitario,Descuento_pct,Ingresos,Costo,Ganancia,Devolucion,Satisfaccion,Dias_entrega
+ARG-2024-00382,02/01/2024,2024,1,Enero,Verano,CUST-1084,Mexico,Norte,Monterrey,Basico,Hogar,Lampara Desk,Online,Always On,Mobile,1,52.51,0.034,56.83,35.16,21.66,0,3.7,5
+ARG-2024-00119,03/01/2024,2024,1,Enero,Verano,CUST-1078,Chile,Centro,Valparaiso,Premium,Moda,Jeans Slim,Marketplace,Cyber Days,Mobile,2,102.31,0.167,190.92,102.45,88.47,0,4.1,4
+ARG-2024-00188,04/01/2024,2024,1,Enero,Verano,CUST-1232,Colombia,Andina,Bogota,Premium,Moda,Chaqueta Urbana,Tienda,Always On,No Aplica,1,154.43,0.036,166.78,95.25,71.53,0,4.7,1
+ARG-2024-00740,07/01/2024,2024,1,Enero,Verano,CUST-1217,Peru,Costa,Trujillo,Estandar,Moda,Camisa Oxford,Online,No Aplica,Mobile,1,57.99,0.009,64.37,33.69,30.68,0,3.4,4
+ARG-2024-00553,09/01/2024,2024,1,Enero,Verano,CUST-1234,Mexico,Norte,Monterrey,Estandar,Hogar,Licuadora Pro,Marketplace,Temporada Alta,Mobile,3,103.22,0.072,321.73,193.09,128.64,0,3.8,5
+ARG-2024-00230,10/01/2024,2024,1,Enero,Verano,CUST-1084,Mexico,Centro,Puebla,Estandar,Hogar,Lampara Desk,Online,Always On,Tablet,2,71.58,0.079,147.73,88.55,59.18,0,5.0,4
+ARG-2024-00269,15/01/2024,2024,1,Enero,Verano,CUST-1079,Mexico,Occidente,Guadalajara,Basico,Moda,Camisa Oxford,Tienda,Always On,No Aplica,1,54.58,0.054,57.82,33.77,24.04,0,3.5,1
+ARG-2024-00383,15/01/2024,2024,1,Enero,Verano,CUST-1219,Chile,Centro,Santiago,Estandar,Hogar,Organizador Cocina,Online,Always On,Mobile,2,63.63,0.039,137.03,80.99,56.04,0,5.0,4
+ARG-2024-00141,18/01/2024,2024,1,Enero,Verano,CUST-1223,Peru,Sierra,Cusco,Estandar,Hogar,Organizador Cocina,Tienda,Cyber Days,No Aplica,3,46.61,0.141,134.59,86.78,47.8,0,4.0,1
+ARG-2024-00676,19/01/2024,2024,1,Enero,Verano,CUST-1281,Peru,Costa,Trujillo,Estandar,Deportes,Set Mancuernas,Tienda,Back to School,No Aplica,1,97.61,0.145,93.45,55.87,37.58,0,4.6,1
+ARG-2024-00502,19/01/2024,2024,1,Enero,Verano,CUST-1279,Colombia,Caribe,Barranquilla,Estandar,Tecnologia,Audifonos Pro,Tienda,Always On,No Aplica,1,140.09,0.056,148.09,101.99,46.1,0,4.7,1
+ARG-2024-00579,23/01/2024,2024,1,Enero,Verano,CUST-1159,Chile,Sur,Concepcion,Premium,Tecnologia,Parlante Home,Online,Temporada Alta,Mobile,2,184.84,0.087,377.97,275.59,102.38,0,3.5,6
+ARG-2024-00098,23/01/2024,2024,1,Enero,Verano,CUST-1295,Peru,Sierra,Cusco,Basico,Moda,Zapatillas Run,Marketplace,,Mobile,2,97.34,0.047,207.82,119.78,88.04,0,3.9,5
+ARG-2024-00127,23/01/2024,2024,1,Enero,Verano,CUST-1207,Colombia,Caribe,Barranquilla,Estandar,Moda,Camisa Oxford,Tienda,Cyber Days,No Aplica,2,56.84,0.182,104.11,63.08,41.04,0,4.1,2
+ARG-2024-00052,24/01/2024,2024,1,Enero,Verano,CUST-1211,Colombia,Pacifico,Cali,Estandar,Tecnologia,Audifonos Pro,Online,Temporada Alta,Mobile,1,146.42,0.072,152.24,111.63,40.61,0,3.5,5
+ARG-2024-00430,30/01/2024,2024,1,Enero,Verano,CUST-1226,Mexico,Centro,CDMX,Basico,Tecnologia,Tablet 10,Online,Always On,Mobile,1,343.62,0.056,363.15,260.28,102.87,0,3.7,4
+ARG-2024-00504,31/01/2024,2024,1,Enero,Verano,CUST-1010,Chile,Norte,Antofagasta,Estandar,Moda,Zapatillas Run,Online,No Aplica,Desktop,1,118.96,0.051,126.39,76.77,49.62,0,4.0,3
+ARG-2024-00755,01/02/2024,2024,2,Febrero,Verano,CUST-1283,Chile,Norte,Antofagasta,Premium,Tecnologia,Audifonos Pro,Online,Cyber Days,Desktop,1,222.63,0.186,202.96,150.09,52.87,0,4.4,5
+ARG-2024-00079,02/02/2024,2024,2,Febrero,Verano,CUST-1263,Chile,Sur,Concepcion,Premium,Hogar,Aspiradora Max,Marketplace,,Mobile,3,294.58,0.0,989.78,585.47,404.31,0,3.2,5
+ARG-2024-00675,02/02/2024,2024,2,Febrero,Verano,CUST-1016,Mexico,Centro,Puebla,Premium,Hogar,Licuadora Pro,Tienda,Always On,No Aplica,1,135.83,0.0,152.13,99.47,52.66,0,5.0,2
+ARG-2024-00752,04/02/2024,2024,2,Febrero,Verano,CUST-1118,Chile,Centro,Valparaiso,Estandar,Tecnologia,Parlante Home,Tienda,Back to School,No Aplica,2,132.11,0.127,258.24,181.41,76.83,0,4.5,1
+ARG-2024-00162,04/02/2024,2024,2,Febrero,Verano,CUST-1260,Colombia,Andina,Bogota,Premium,Deportes,Set Mancuernas,Online,Back to School,Mobile,1,138.2,0.099,139.43,88.42,51.01,0,4.5,5
+ARG-2024-00372,08/02/2024,2024,2,Febrero,Verano,CUST-1233,Colombia,Andina,Medellin,Premium,Hogar,Cafetera Plus,Online,Temporada Alta,Mobile,1,163.67,0.079,168.9,97.05,71.85,0,3.9,4
+ARG-2024-00646,10/02/2024,2024,2,Febrero,Verano,CUST-1020,Peru,Sierra,Cusco,Estandar,Moda,Bolso Ejecutivo,Tienda,No Aplica,No Aplica,1,88.22,0.01,97.78,53.26,44.52,0,4.3,1
+ARG-2024-00679,12/02/2024,2024,2,Febrero,Verano,CUST-1037,Colombia,Pacifico,Cali,Estandar,Tecnologia,Parlante Home,Tienda,Back to School,No Aplica,1,137.5,0.112,136.8,100.67,36.13,0,4.4,1
+ARG-2024-00477,14/02/2024,2024,2,Febrero,Verano,CUST-1086,Chile,Centro,Valparaiso,Premium,Hogar,Licuadora Pro,Online,Back to School,Mobile,4,134.44,0.122,528.77,295.19,233.58,0,4.2,4
+ARG-2024-00467,14/02/2024,2024,2,Febrero,Verano,CUST-1255,Peru,Sierra,Cusco,Estandar,Tecnologia,Parlante Home,Online,No Aplica,Mobile,2,132.8,0.0,297.46,206.99,90.47,0,3.7,4
+ARG-2024-00101,15/02/2024,2024,2,Febrero,Verano,CUST-1052,Colombia,Pacifico,Cali,Premium,Hogar,Cafetera Plus,Marketplace,Cyber Days,Mobile,1,145.24,0.207,129.02,80.37,48.65,0,3.7,4
+ARG-2024-00585,16/02/2024,2024,2,Febrero,Verano,CUST-1291,Chile,Centro,Valparaiso,Premium,Hogar,Organizador Cocina,Marketplace,Back to School,Mobile,2,79.43,0.128,155.15,98.48,56.67,0,4.8,7
+ARG-2024-00377,17/02/2024,2024,2,Febrero,Verano,CUST-1036,Mexico,Centro,CDMX,Estandar,Deportes,Reloj Deportivo,Online,Back to School,Tablet,2,227.23,0.115,450.58,274.8,175.78,0,4.5,5
+ARG-2024-00384,17/02/2024,2024,2,Febrero,Verano,CUST-1285,Peru,Sierra,Arequipa,Estandar,Belleza,Perfume Urban,Online,Back to School,Desktop,1,76.0,0.113,75.49,40.54,34.95,0,4.3,4
+ARG-2024-00751,19/02/2024,2024,2,Febrero,Verano,CUST-1269,Colombia,Caribe,Barranquilla,Estandar,Tecnologia,Parlante Home,Online,Always On,Tablet,1,101.93,0.054,108.04,70.57,37.47,0,4.1,6
+ARG-2024-00024,19/02/2024,2024,2,Febrero,Verano,CUST-1046,Mexico,Norte,Monterrey,Premium,Moda,Zapatillas Run,Online,Temporada Alta,Mobile,1,170.37,0.076,176.34,93.0,83.33,0,4.0,3
+ARG-2024-00124,21/02/2024,2024,2,Febrero,Verano,CUST-1204,Colombia,Andina,Medellin,Premium,Moda,Jeans Slim,Tienda,Temporada Alta,No Aplica,1,104.33,0.07,108.72,59.13,49.59,0,3.8,1
+ARG-2024-00388,21/02/2024,2024,2,Febrero,Verano,CUST-1048,Colombia,Pacifico,Cali,Premium,Hogar,Organizador Cocina,Tienda,Back to School,No Aplica,1,74.01,0.122,72.77,46.08,26.69,0,4.7,1
+ARG-2024-00689,22/02/2024,2024,2,Febrero,Verano,CUST-1124,Colombia,Andina,Bogota,Estandar,Tecnologia,Camara Sport,Marketplace,Always On,Desktop,1,280.56,0.037,302.72,213.71,89.0,0,4.0,6
+ARG-2024-00048,22/02/2024,2024,2,Febrero,Verano,CUST-1231,Mexico,Centro,Puebla,Premium,Moda,Camisa Oxford,Tienda,Always On,No Aplica,1,77.22,0.066,80.74,48.22,32.52,0,4.4,1
+ARG-2024-00203,23/02/2024,2024,2,Febrero,Verano,CUST-1023,Chile,Norte,Antofagasta,Premium,Hogar,Licuadora Pro,Marketplace,Back to School,Mobile,4,121.59,0.117,480.98,307.45,173.53,0,4.2,4
+ARG-2024-00525,29/02/2024,2024,2,Febrero,Verano,CUST-1071,Mexico,Occidente,Guadalajara,Estandar,Moda,Zapatillas Run,Tienda,Back to School,No Aplica,2,130.92,0.106,262.23,146.27,115.96,0,3.8,1
+ARG-2024-00144,01/03/2024,2024,3,Marzo,Otono,CUST-1099,Colombia,Pacifico,Cali,Estandar,Hogar,Licuadora Pro,Marketplace,Temporada Alta,Tablet,1,95.0,0.082,83.69,54.23,29.46,0,4.9,6
+ARG-2024-00589,01/03/2024,2024,3,Marzo,Otono,CUST-1012,Mexico,Centro,Puebla,Estandar,Tecnologia,Smartwatch Fit,Marketplace,Temporada Alta,Desktop,1,214.97,0.091,187.5,147.01,40.49,0,3.7,5
+ARG-2024-00627,04/03/2024,2024,3,Marzo,Otono,CUST-1050,Peru,Costa,Trujillo,Premium,Moda,Chaqueta Urbana,Online,Cyber Days,Mobile,1,179.57,0.149,146.77,85.74,61.03,0,4.4,3
+ARG-2024-00628,04/03/2024,2024,3,Marzo,Otono,CUST-1272,Chile,Centro,Valparaiso,Premium,Tecnologia,Camara Sport,Tienda,Back to School,No Aplica,3,454.48,0.101,1176.47,847.91,328.56,0,3.9,1
+ARG-2024-00340,04/03/2024,2024,3,Marzo,Otono,CUST-1275,Mexico,Centro,Puebla,Estandar,Tecnologia,Smartwatch Fit,Online,Back to School,Desktop,1,221.88,0.07,198.1,150.95,47.14,0,4.2,7
+ARG-2024-00122,04/03/2024,2024,3,Marzo,Otono,CUST-1235,Mexico,Centro,Puebla,Basico,Belleza,Perfume Urban,Online,Cyber Days,Mobile,1,88.41,0.218,66.4,35.38,31.03,0,4.0,5
+ARG-2024-00301,06/03/2024,2024,3,Marzo,Otono,CUST-1082,Chile,Centro,Valparaiso,Estandar,Moda,Zapatillas Run,Online,Always On,Desktop,2,126.5,0.049,231.07,127.98,103.09,0,4.5,6
+ARG-2024-00276,10/03/2024,2024,3,Marzo,Otono,CUST-1173,Chile,Centro,Santiago,Estandar,Hogar,Aspiradora Max,Tienda,No Aplica,No Aplica,1,287.78,0.0,276.27,177.36,98.9,0,3.8,1
+ARG-2024-00634,10/03/2024,2024,3,Marzo,Otono,CUST-1259,Mexico,Norte,Monterrey,Estandar,Deportes,Set Mancuernas,Marketplace,Cyber Days,Mobile,3,133.78,0.197,309.41,194.19,115.23,0,4.9,4
+ARG-2024-00417,10/03/2024,2024,3,Marzo,Otono,CUST-1212,Colombia,Caribe,Barranquilla,Premium,Deportes,Mat Yoga,Tienda,Temporada Alta,No Aplica,2,48.35,0.09,84.51,56.92,27.6,0,4.2,1
+ARG-2024-00178,11/03/2024,2024,3,Marzo,Otono,CUST-1031,Peru,Sierra,Arequipa,Estandar,Tecnologia,Tablet 10,Online,Temporada Alta,Desktop,1,395.27,0.092,344.49,255.58,88.91,0,4.7,2
+ARG-2024-00165,12/03/2024,2024,3,Marzo,Otono,CUST-1131,Colombia,Caribe,Barranquilla,Basico,Hogar,Cafetera Plus,Tienda,Back to School,No Aplica,1,96.17,0.086,84.39,52.49,31.9,0,4.5,1
+ARG-2024-00207,13/03/2024,2024,3,Marzo,Otono,CUST-1128,Colombia,Andina,Bogota,Estandar,Tecnologia,Smartwatch Fit,Online,Back to School,Tablet,1,213.35,0.112,181.78,121.64,60.15,0,3.9,4
+ARG-2024-00239,13/03/2024,2024,3,Marzo,Otono,CUST-1128,Peru,Costa,Lima,Premium,Belleza,Serum Facial,Tienda,Cyber Days,No Aplica,1,51.51,0.164,41.33,20.59,20.74,0,4.2,1
+ARG-2024-00446,14/03/2024,2024,3,Marzo,Otono,CUST-1241,Peru,Sierra,Cusco,Basico,Tecnologia,Audifonos Pro,Marketplace,No Aplica,Desktop,3,116.2,0.008,331.94,233.23,98.71,0,4.1,6
+ARG-2024-00475,15/03/2024,2024,3,Marzo,Otono,CUST-1146,Chile,Centro,Santiago,Estandar,Hogar,Licuadora Pro,Marketplace,Cyber Days,Desktop,2,114.18,0.148,186.73,119.79,66.95,0,3.8,6
+ARG-2024-00737,15/03/2024,2024,3,Marzo,Otono,CUST-1175,Peru,Sierra,Cusco,Basico,Tecnologia,Tablet 10,Tienda,No Aplica,No Aplica,1,305.08,0.036,282.4,203.35,79.05,0,3.8,1
+ARG-2024-00691,17/03/2024,2024,3,Marzo,Otono,CUST-1217,Peru,Costa,Lima,Premium,Tecnologia,Parlante Home,Tienda,Always On,No Aplica,1,156.24,0.051,142.34,103.87,38.47,0,4.2,1
+ARG-2024-00429,18/03/2024,2024,3,Marzo,Otono,CUST-1129,Chile,Sur,Concepcion,Basico,Hogar,Organizador Cocina,Tienda,Always On,No Aplica,1,47.81,0.079,42.28,27.86,14.41,0,,1
+ARG-2024-00289,18/03/2024,2024,3,Marzo,Otono,CUST-1121,Chile,Centro,Santiago,Estandar,Deportes,Set Mancuernas,Online,Temporada Alta,Desktop,1,132.7,0.079,117.36,75.11,42.26,0,4.2,6
+ARG-2024-00571,18/03/2024,2024,3,Marzo,Otono,CUST-1293,Mexico,Centro,CDMX,Estandar,Tecnologia,Tablet 10,Tienda,Always On,No Aplica,1,468.12,0.048,427.61,305.62,121.99,0,4.2,1
+ARG-2024-00309,20/03/2024,2024,3,Marzo,Otono,CUST-1078,Mexico,Norte,Monterrey,Basico,Tecnologia,Audifonos Pro,Online,Cyber Days,Desktop,1,151.75,0.201,116.47,85.17,31.29,0,4.2,5
+ARG-2024-00583,21/03/2024,2024,3,Marzo,Otono,CUST-1159,Chile,Centro,Santiago,Basico,Moda,Bolso Ejecutivo,Marketplace,Back to School,Mobile,1,97.79,0.092,85.23,46.04,39.18,0,4.3,6
+ARG-2024-00719,22/03/2024,2024,3,Marzo,Otono,CUST-1225,Chile,Centro,Valparaiso,Estandar,Belleza,Cepillo Electrico,Online,Back to School,Mobile,1,60.19,0.113,51.25,27.0,24.25,0,4.2,6
+ARG-2024-00723,23/03/2024,2024,3,Marzo,Otono,CUST-1074,Peru,Costa,Trujillo,Estandar,Moda,Camisa Oxford,Marketplace,Temporada Alta,Desktop,1,59.55,0.07,53.15,28.97,24.18,0,4.4,4
+ARG-2024-00130,23/03/2024,2024,3,Marzo,Otono,CUST-1086,Colombia,Pacifico,Cali,Basico,Hogar,Lampara Desk,Online,Cyber Days,Mobile,1,51.51,0.187,40.22,24.02,16.2,0,4.5,4
+ARG-2024-00725,24/03/2024,2024,3,Marzo,Otono,CUST-1224,Mexico,Centro,Puebla,Basico,Deportes,Reloj Deportivo,Tienda,No Aplica,No Aplica,1,203.02,0.035,188.01,115.14,72.87,0,3.9,1
+ARG-2024-00750,25/03/2024,2024,3,Marzo,Otono,CUST-1130,Chile,Norte,Antofagasta,Premium,Tecnologia,Audifonos Pro,Tienda,Back to School,No Aplica,2,200.46,0.102,345.59,244.81,100.78,0,4.3,3
+ARG-2024-00041,27/03/2024,2024,3,Marzo,Otono,CUST-1172,Chile,Centro,Valparaiso,Estandar,Moda,Jeans Slim,Online,Always On,Desktop,2,86.54,0.092,150.83,81.79,69.05,0,4.7,4
+ARG-2024-00335,27/03/2024,2024,3,Marzo,Otono,CUST-1014,Chile,Centro,Santiago,Premium,Deportes,Set Mancuernas,Online,Always On,Mobile,1,162.87,0.056,147.62,96.39,51.23,0,4.4,4
+ARG-2024-00479,28/03/2024,2024,3,Marzo,Otono,CUST-1225,Chile,Centro,Santiago,Basico,Tecnologia,Tablet 10,Tienda,Cyber Days,No Aplica,2,326.24,0.192,505.99,354.62,151.38,0,3.8,3
+ARG-2024-00247,29/03/2024,2024,3,Marzo,Otono,CUST-1179,Mexico,Norte,Monterrey,Premium,Tecnologia,Parlante Home,Online,No Aplica,Desktop,1,161.41,0.046,147.88,101.35,46.52,0,4.9,2
+ARG-2024-00283,29/03/2024,2024,3,Marzo,Otono,CUST-1140,Chile,Centro,Santiago,Basico,Moda,Camisa Oxford,Marketplace,Always On,Mobile,2,58.93,0.04,108.58,58.72,49.86,0,4.3,6
+ARG-2024-00389,30/03/2024,2024,3,Marzo,Otono,CUST-1082,Mexico,Norte,Monterrey,Premium,Deportes,Mat Yoga,Tienda,Temporada Alta,No Aplica,1,44.37,0.05,40.45,23.79,16.66,0,4.3,2
+ARG-2024-00678,31/03/2024,2024,3,Marzo,Otono,CUST-1219,Colombia,Pacifico,Cali,Estandar,Tecnologia,Camara Sport,Online,Back to School,Desktop,1,277.58,0.098,240.24,182.22,58.02,0,3.6,4
+ARG-2024-00070,02/04/2024,2024,4,Abril,Otono,CUST-1292,Mexico,Norte,Monterrey,Estandar,Tecnologia,Parlante Home,Online,Temporada Alta,Mobile,1,149.72,0.102,129.04,94.3,34.74,0,4.1,5
+ARG-2024-00148,08/04/2024,2024,4,Abril,Otono,CUST-1143,Mexico,Norte,Monterrey,Basico,Tecnologia,Parlante Home,Tienda,Always On,No Aplica,3,102.6,0.013,291.52,201.07,90.45,0,5.0,2
+ARG-2024-00311,09/04/2024,2024,4,Abril,Otono,CUST-1117,Chile,Sur,Concepcion,Estandar,Tecnologia,Parlante Home,Tienda,Always On,No Aplica,4,135.1,0.054,490.5,350.9,139.6,0,3.9,1
+ARG-2024-00390,10/04/2024,2024,4,Abril,Otono,CUST-1072,Chile,Centro,Valparaiso,Estandar,Moda,Camisa Oxford,Tienda,Always On,No Aplica,2,61.14,0.069,109.29,59.76,49.53,0,4.5,3
+ARG-2024-00545,10/04/2024,2024,4,Abril,Otono,CUST-1210,Chile,Centro,Valparaiso,Estandar,Tecnologia,Smartwatch Fit,Online,Cyber Days,Desktop,3,273.51,0.177,648.4,477.8,170.6,0,4.8,3
+ARG-2024-00066,10/04/2024,2024,4,Abril,Otono,CUST-1075,Mexico,Norte,Monterrey,Premium,Moda,Chaqueta Urbana,Marketplace,Cyber Days,Tablet,1,193.87,0.184,151.8,76.57,75.23,0,4.7,7
+ARG-2024-00607,13/04/2024,2024,4,Abril,Otono,CUST-1003,Colombia,Andina,Bogota,Premium,Hogar,Lampara Desk,Online,Cyber Days,Desktop,1,85.73,0.162,68.95,44.75,24.2,0,3.8,4
+ARG-2024-00660,15/04/2024,2024,4,Abril,Otono,CUST-1199,Colombia,Caribe,Barranquilla,Premium,Deportes,Reloj Deportivo,Tienda,Back to School,No Aplica,1,232.22,0.135,192.92,127.82,65.1,0,4.6,1
+ARG-2024-00348,15/04/2024,2024,4,Abril,Otono,CUST-1047,Mexico,Centro,CDMX,Premium,Belleza,Secador Ionic,Tienda,No Aplica,No Aplica,1,115.78,0.0,111.15,54.61,56.54,0,4.4,2
+ARG-2024-00168,15/04/2024,2024,4,Abril,Otono,CUST-1136,Peru,Sierra,Cusco,Basico,Belleza,Kit Skin Care,Online,Always On,Mobile,1,56.85,0.027,53.08,28.71,24.37,0,4.4,5
+ARG-2024-00249,16/04/2024,2024,4,Abril,Otono,CUST-1129,Colombia,Pacifico,Cali,Premium,Tecnologia,Parlante Home,Tienda,No Aplica,No Aplica,1,159.09,0.0,152.73,118.51,34.21,0,3.8,1
+ARG-2024-00224,19/04/2024,2024,4,Abril,Otono,CUST-1156,Chile,Sur,Concepcion,Basico,Moda,Camisa Oxford,Tienda,Always On,No Aplica,1,59.48,0.017,56.14,30.62,25.52,0,4.5,2
+ARG-2024-00701,19/04/2024,2024,4,Abril,Otono,CUST-1266,Colombia,Pacifico,Cali,Premium,Tecnologia,Tablet 10,Online,Always On,Mobile,2,527.61,0.069,942.9,677.78,265.12,0,4.0,5
+ARG-2024-00143,20/04/2024,2024,4,Abril,Otono,CUST-1154,Peru,Sierra,Cusco,Basico,Tecnologia,Camara Sport,Online,No Aplica,Mobile,1,168.1,0.0,161.37,115.17,46.2,0,4.2,3
+ARG-2024-00499,21/04/2024,2024,4,Abril,Otono,CUST-1114,Colombia,Pacifico,Cali,Estandar,Belleza,Cepillo Electrico,Online,Back to School,Mobile,1,59.64,0.109,51.02,24.63,26.39,0,3.6,6
+ARG-2024-00461,21/04/2024,2024,4,Abril,Otono,CUST-1298,Colombia,Andina,Medellin,Estandar,Tecnologia,Parlante Home,Online,No Aplica,Desktop,1,125.41,0.01,119.2,90.23,28.97,0,4.5,3
+ARG-2024-00423,23/04/2024,2024,4,Abril,Otono,CUST-1178,Mexico,Norte,Monterrey,Premium,Moda,Chaqueta Urbana,Marketplace,Always On,Mobile,1,172.45,0.035,159.79,91.74,68.05,0,4.3,4
+ARG-2024-00582,24/04/2024,2024,4,Abril,Otono,CUST-1041,Peru,Sierra,Arequipa,Basico,Moda,Camisa Oxford,Online,Always On,Mobile,1,45.34,0.071,40.42,21.52,18.91,0,4.7,3
+ARG-2024-00682,24/04/2024,2024,4,Abril,Otono,CUST-1081,Chile,Centro,Valparaiso,Estandar,Tecnologia,Smartwatch Fit,Online,Cyber Days,Mobile,1,230.45,0.192,178.74,127.85,50.88,0,4.6,4
+ARG-2024-00074,25/04/2024,2024,4,Abril,Otono,CUST-1280,Chile,Norte,Antofagasta,Premium,Hogar,Lampara Desk,Online,Temporada Alta,Mobile,1,93.53,0.046,85.69,53.36,32.32,0,4.2,4
+ARG-2024-00264,27/04/2024,2024,4,Abril,Otono,CUST-1211,Peru,Costa,Lima,Basico,Moda,Zapatillas Run,Tienda,Temporada Alta,No Aplica,1,89.91,0.08,79.42,43.69,35.73,0,4.3,1
+ARG-2024-00324,28/04/2024,2024,4,Abril,Otono,CUST-1113,Colombia,Pacifico,Cali,Estandar,Deportes,Bicicleta Indoor,Online,No Aplica,Mobile,3,536.49,0.019,1516.5,1010.54,505.96,0,3.5,3
+ARG-2024-00699,01/05/2024,2024,5,Mayo,Otono,CUST-1104,Mexico,Centro,CDMX,Basico,Deportes,Reloj Deportivo,Marketplace,Temporada Alta,Mobile,1,157.29,0.092,137.14,87.63,49.51,0,3.5,6
+ARG-2024-00105,01/05/2024,2024,5,Mayo,Otono,CUST-1060,Colombia,Caribe,Barranquilla,Estandar,Hogar,Organizador Cocina,Tienda,No Aplica,No Aplica,2,41.74,0.0,80.14,47.96,32.18,0,4.4,2
+ARG-2024-00194,01/05/2024,2024,5,Mayo,Otono,CUST-1052,Mexico,Centro,Puebla,Estandar,Belleza,Kit Skin Care,Marketplace,Temporada Alta,Mobile,1,73.57,0.08,64.99,33.12,31.87,0,4.9,5
+ARG-2024-00111,02/05/2024,2024,5,Mayo,Otono,CUST-1067,Chile,Norte,Antofagasta,Basico,Moda,Camisa Oxford,Marketplace,No Aplica,Mobile,2,58.57,0.0,112.46,59.95,52.51,0,4.4,6
+ARG-2024-00240,02/05/2024,2024,5,Mayo,Otono,CUST-1255,Peru,Sierra,Arequipa,Estandar,Moda,Camisa Oxford,Marketplace,Always On,Mobile,1,51.94,0.059,46.9,25.8,21.1,0,3.7,6
+ARG-2024-00402,02/05/2024,2024,5,Mayo,Otono,CUST-1182,Colombia,Andina,Medellin,Estandar,Hogar,Aspiradora Max,Marketplace,Always On,Desktop,1,248.27,0.054,225.53,139.57,85.97,0,3.7,4
+ARG-2024-00180,05/05/2024,2024,5,Mayo,Otono,CUST-1267,Peru,Sierra,Arequipa,Estandar,Hogar,Cafetera Plus,Online,Back to School,Mobile,3,103.95,0.138,257.99,165.0,92.99,0,4.2,5
+ARG-2024-00600,05/05/2024,2024,5,Mayo,Otono,CUST-1255,Mexico,Centro,CDMX,Estandar,Deportes,Set Mancuernas,Tienda,Temporada Alta,No Aplica,1,117.55,0.069,105.07,66.91,38.16,0,4.1,1
+ARG-2024-00618,05/05/2024,2024,5,Mayo,Otono,CUST-1162,Peru,Sierra,Arequipa,Basico,Moda,Bolso Ejecutivo,Online,Cyber Days,Desktop,1,86.03,0.173,68.27,34.33,33.94,0,4.0,3
+ARG-2024-00727,06/05/2024,2024,5,Mayo,Otono,CUST-1037,Colombia,Andina,Medellin,Estandar,Moda,Jeans Slim,Online,Cyber Days,Mobile,2,80.25,0.192,124.44,70.35,54.09,0,5.0,4
+ARG-2024-00258,06/05/2024,2024,5,Mayo,Otono,CUST-1104,Chile,Centro,Santiago,Premium,Hogar,Organizador Cocina,Online,Back to School,Mobile,1,62.13,0.098,53.79,31.78,22.01,0,4.3,5
+ARG-2024-00210,06/05/2024,2024,5,Mayo,Otono,CUST-1202,Chile,Centro,Santiago,Basico,Belleza,Serum Facial,Tienda,Cyber Days,No Aplica,2,41.45,0.16,66.81,33.99,32.82,0,4.7,2
+ARG-2024-00515,07/05/2024,2024,5,Mayo,Otono,CUST-1012,Peru,Costa,Trujillo,Estandar,Tecnologia,Audifonos Pro,Online,Temporada Alta,Desktop,1,140.36,0.081,123.77,95.05,28.72,0,3.6,2
+ARG-2024-00588,07/05/2024,2024,5,Mayo,Otono,CUST-1023,Colombia,Pacifico,Cali,Estandar,Deportes,Bicicleta Indoor,Online,Cyber Days,Tablet,2,501.26,0.172,796.69,525.09,271.6,0,4.5,3
+ARG-2024-00529,07/05/2024,2024,5,Mayo,Otono,CUST-1211,Peru,Sierra,Cusco,Estandar,Moda,Camisa Oxford,Online,Temporada Alta,Desktop,1,49.9,0.092,43.5,22.58,13.1,1,2.8,5
+ARG-2024-00674,07/05/2024,2024,5,Mayo,Otono,CUST-1166,Peru,Costa,Trujillo,Estandar,Tecnologia,Tablet 10,Tienda,Always On,No Aplica,1,352.8,0.031,328.27,239.2,89.07,0,4.7,1
+ARG-2024-00391,07/05/2024,2024,5,Mayo,Otono,CUST-1094,Chile,Centro,Santiago,Premium,Hogar,Organizador Cocina,Online,No Aplica,Mobile,2,70.13,0.0,134.65,84.37,50.29,0,4.0,3
+ARG-2024-00003,08/05/2024,2024,5,Mayo,Otono,CUST-1150,Peru,Costa,Lima,Estandar,Tecnologia,Smartwatch Fit,Online,Cyber Days,Mobile,1,183.16,0.183,143.64,101.5,42.13,0,3.6,3
+ARG-2024-00246,08/05/2024,2024,5,Mayo,Otono,CUST-1175,Mexico,Occidente,Guadalajara,Estandar,Tecnologia,Parlante Home,Tienda,Always On,No Aplica,1,137.45,0.037,127.09,97.78,29.31,0,5.0,1
+ARG-2024-00115,08/05/2024,2024,5,Mayo,Otono,CUST-1016,Mexico,Occidente,Guadalajara,Estandar,Hogar,Lampara Desk,Online,Always On,Desktop,1,76.16,0.013,72.19,44.18,28.01,0,5.0,5
+ARG-2024-00094,09/05/2024,2024,5,Mayo,Otono,CUST-1230,Chile,Norte,Antofagasta,Premium,Tecnologia,Parlante Home,Tienda,Cyber Days,No Aplica,2,164.64,0.192,255.51,174.07,81.44,0,3.8,1
+ARG-2024-00593,09/05/2024,2024,5,Mayo,Otono,CUST-1094,Chile,Sur,Concepcion,Estandar,Moda,Camisa Oxford,Online,Always On,Desktop,3,59.74,0.025,167.73,89.58,78.15,0,4.4,3
+ARG-2024-00083,10/05/2024,2024,5,Mayo,Otono,CUST-1292,Colombia,Andina,Bogota,Premium,Tecnologia,Parlante Home,Online,No Aplica,Mobile,2,176.81,0.0,339.48,237.73,101.75,0,4.3,2
+ARG-2024-00677,10/05/2024,2024,5,Mayo,Otono,CUST-1282,Mexico,Centro,Puebla,Basico,Tecnologia,Parlante Home,Tienda,Cyber Days,No Aplica,1,114.65,0.164,92.01,67.52,24.49,0,5.0,2
+ARG-2024-00530,10/05/2024,2024,5,Mayo,Otono,CUST-1123,Mexico,Centro,Puebla,Estandar,Deportes,Mat Yoga,Online,No Aplica,Desktop,2,37.19,0.006,70.99,44.49,26.49,0,4.4,1
+ARG-2024-00524,12/05/2024,2024,5,Mayo,Otono,CUST-1110,Chile,Norte,Antofagasta,Estandar,Hogar,Licuadora Pro,Tienda,Temporada Alta,No Aplica,2,108.94,0.067,195.2,122.1,73.1,0,,1
+ARG-2024-00652,12/05/2024,2024,5,Mayo,Otono,CUST-1225,Chile,Centro,Valparaiso,Estandar,Tecnologia,Parlante Home,Marketplace,Cyber Days,Tablet,2,165.54,0.204,252.95,181.04,71.9,0,3.5,5
+ARG-2024-00068,12/05/2024,2024,5,Mayo,Otono,CUST-1173,Chile,Centro,Santiago,Premium,Hogar,Aspiradora Max,Online,Temporada Alta,Desktop,1,288.14,0.062,259.44,157.15,102.28,0,3.8,1
+ARG-2024-00464,13/05/2024,2024,5,Mayo,Otono,CUST-1284,Peru,Costa,Trujillo,Basico,Tecnologia,Camara Sport,Online,No Aplica,Mobile,1,192.95,0.0,185.24,135.76,49.48,0,4.4,6
+ARG-2024-00617,13/05/2024,2024,5,Mayo,Otono,CUST-1197,Colombia,Pacifico,Cali,Estandar,Belleza,Perfume Urban,Online,Always On,Mobile,3,89.44,0.067,240.33,113.31,127.01,0,4.5,5
+ARG-2024-00510,14/05/2024,2024,5,Mayo,Otono,CUST-1151,Chile,Centro,Santiago,Estandar,Tecnologia,Camara Sport,Online,No Aplica,Mobile,1,266.84,0.051,243.22,174.65,68.57,0,3.6,6
+ARG-2024-00007,14/05/2024,2024,5,Mayo,Otono,CUST-1051,Chile,Norte,Antofagasta,Estandar,Deportes,Reloj Deportivo,Marketplace,Always On,Mobile,1,251.39,0.008,239.38,143.85,95.53,0,4.2,6
+ARG-2024-00570,14/05/2024,2024,5,Mayo,Otono,CUST-1121,Mexico,Norte,Monterrey,Basico,Deportes,Set Mancuernas,Online,No Aplica,Desktop,4,93.0,0.0,357.12,225.0,132.12,0,4.4,4
+ARG-2024-00351,15/05/2024,2024,5,Mayo,Otono,CUST-1266,Peru,Costa,Lima,Estandar,Deportes,Mat Yoga,Online,Cyber Days,Mobile,1,29.54,0.184,23.14,14.37,4.6,1,3.0,5
+ARG-2024-00573,16/05/2024,2024,5,Mayo,Otono,CUST-1071,Chile,Centro,Valparaiso,Estandar,Moda,Chaqueta Urbana,Online,Back to School,Desktop,1,170.11,0.134,141.36,77.04,64.32,0,2.8,5
+ARG-2024-00200,16/05/2024,2024,5,Mayo,Otono,CUST-1192,Peru,Costa,Lima,Estandar,Hogar,Licuadora Pro,Online,Always On,Mobile,1,87.62,0.055,79.46,49.19,30.27,0,4.7,3
+ARG-2024-00622,17/05/2024,2024,5,Mayo,Otono,CUST-1076,Mexico,Centro,CDMX,Estandar,Moda,Bolso Ejecutivo,Online,Cyber Days,Desktop,1,115.72,0.199,89.01,51.18,37.83,0,4.6,3
+ARG-2024-00650,17/05/2024,2024,5,Mayo,Otono,CUST-1055,Colombia,Andina,Medellin,Estandar,Hogar,Aspiradora Max,Online,Cyber Days,Mobile,1,201.39,0.223,150.26,86.85,63.41,0,4.8,3
+ARG-2024-00104,18/05/2024,2024,5,Mayo,Otono,CUST-1090,Peru,Costa,Lima,Premium,Deportes,Bicicleta Indoor,Online,No Aplica,Mobile,1,618.1,0.011,586.61,361.02,225.58,0,4.0,5
+ARG-2024-00103,18/05/2024,2024,5,Mayo,Otono,CUST-1164,Colombia,Pacifico,Cali,Estandar,Hogar,Licuadora Pro,Tienda,No Aplica,No Aplica,1,103.05,0.0,98.93,60.73,38.2,0,3.9,3
+ARG-2024-00548,18/05/2024,2024,5,Mayo,Otono,CUST-1202,Colombia,Andina,Bogota,Estandar,Moda,Bolso Ejecutivo,Tienda,Always On,No Aplica,1,105.22,0.057,95.24,49.38,45.86,0,4.4,2
+ARG-2024-00100,18/05/2024,2024,5,Mayo,Otono,CUST-1243,Colombia,Caribe,Barranquilla,Estandar,Deportes,Bicicleta Indoor,Online,Cyber Days,Desktop,1,525.39,0.157,425.38,291.64,133.75,0,4.2,4
+ARG-2024-00204,20/05/2024,2024,5,Mayo,Otono,CUST-1145,Peru,Costa,Trujillo,Estandar,Moda,Chaqueta Urbana,Tienda,Always On,No Aplica,4,136.07,0.064,488.88,261.5,227.39,0,3.9,2
+ARG-2024-00208,21/05/2024,2024,5,Mayo,Otono,CUST-1259,Peru,Sierra,Arequipa,Estandar,Hogar,Lampara Desk,Tienda,Cyber Days,No Aplica,2,60.26,0.193,93.39,61.18,32.21,0,4.5,1
+ARG-2024-00102,22/05/2024,2024,5,Mayo,Otono,CUST-1034,Mexico,Norte,Monterrey,Estandar,Tecnologia,Parlante Home,Marketplace,Always On,Tablet,1,143.56,0.056,130.15,99.68,7.04,1,3.6,3
+ARG-2024-00693,23/05/2024,2024,5,Mayo,Otono,CUST-1282,Colombia,Caribe,Barranquilla,Estandar,Moda,Chaqueta Urbana,Marketplace,,Desktop,1,129.64,0.124,109.08,63.52,45.55,0,4.0,5
+ARG-2024-00645,23/05/2024,2024,5,Mayo,Otono,CUST-1105,Colombia,Pacifico,Cali,Basico,Deportes,Casco Ciclismo,Tienda,No Aplica,No Aplica,2,62.18,0.0,119.39,75.2,44.19,0,4.4,2
+ARG-2024-00046,24/05/2024,2024,5,Mayo,Otono,CUST-1053,Chile,Norte,Antofagasta,Premium,Moda,Zapatillas Run,Marketplace,Always On,Tablet,1,182.32,0.08,161.11,89.56,71.55,0,4.2,6
+ARG-2024-00174,25/05/2024,2024,5,Mayo,Otono,CUST-1221,Colombia,Andina,Medellin,Premium,Belleza,Cepillo Electrico,Marketplace,Back to School,Mobile,2,80.15,0.15,130.81,63.68,67.13,0,3.5,6
+ARG-2024-00267,27/05/2024,2024,5,Mayo,Otono,CUST-1105,Peru,Sierra,Cusco,Basico,Deportes,Bicicleta Indoor,Marketplace,Back to School,Mobile,1,353.89,0.097,306.63,205.28,101.35,0,4.0,2
+ARG-2024-00707,27/05/2024,2024,5,Mayo,Otono,CUST-1273,Colombia,Andina,Medellin,Basico,Hogar,Aspiradora Max,Online,Always On,Mobile,1,176.75,0.022,165.98,105.18,60.79,0,4.2,4
+ARG-2024-00131,28/05/2024,2024,5,Mayo,Otono,CUST-1180,Chile,Centro,Valparaiso,Estandar,Tecnologia,Smartwatch Fit,Online,No Aplica,Mobile,1,241.89,0.0,232.21,160.52,71.7,0,4.3,5
+ARG-2024-00132,01/06/2024,2024,6,Junio,Invierno,CUST-1057,Chile,Norte,Antofagasta,Estandar,Hogar,Organizador Cocina,Online,No Aplica,Mobile,1,61.19,0.03,52.23,32.6,19.63,0,4.1,5
+ARG-2024-00182,01/06/2024,2024,6,Junio,Invierno,CUST-1019,Mexico,Centro,Puebla,Basico,Hogar,Licuadora Pro,Tienda,Cyber Days,No Aplica,1,84.99,0.174,61.75,40.15,21.59,0,4.9,1
+ARG-2024-00288,01/06/2024,2024,6,Junio,Invierno,CUST-1209,Peru,Sierra,Cusco,Basico,Moda,Jeans Slim,Online,Cyber Days,Mobile,2,62.42,0.201,87.83,46.1,41.74,0,3.9,3
+ARG-2024-00756,01/06/2024,2024,6,Junio,Invierno,CUST-1010,Chile,Centro,Valparaiso,Estandar,Tecnologia,Parlante Home,Online,Temporada Alta,Desktop,1,140.29,0.103,110.78,76.76,34.02,0,4.6,4
+ARG-2024-00333,03/06/2024,2024,6,Junio,Invierno,CUST-1226,Colombia,Andina,Medellin,Basico,Moda,Zapatillas Run,Tienda,Cyber Days,No Aplica,3,88.54,0.186,190.23,108.45,81.78,0,4.1,1
+ARG-2024-00021,04/06/2024,2024,6,Junio,Invierno,CUST-1192,Colombia,Andina,Medellin,Basico,Hogar,Organizador Cocina,Tienda,Always On,No Aplica,1,42.01,0.09,33.66,21.58,12.08,0,4.3,1
+ARG-2024-00069,04/06/2024,2024,6,Junio,Invierno,CUST-1278,Colombia,Caribe,Barranquilla,Basico,Hogar,Organizador Cocina,Tienda,Always On,No Aplica,1,38.69,0.082,31.25,20.26,10.99,0,4.8,1
+ARG-2024-00416,04/06/2024,2024,6,Junio,Invierno,CUST-1039,Colombia,Andina,Bogota,Basico,Hogar,Lampara Desk,Marketplace,Back to School,Desktop,1,54.21,0.104,42.75,27.12,15.62,0,3.6,6
+ARG-2024-00151,04/06/2024,2024,6,Junio,Invierno,CUST-1068,Mexico,Centro,CDMX,Estandar,Hogar,Licuadora Pro,Online,No Aplica,Mobile,2,111.14,0.0,195.6,113.96,81.64,0,4.4,3
+ARG-2024-00716,05/06/2024,2024,6,Junio,Invierno,CUST-1090,Peru,Sierra,Cusco,Estandar,Belleza,Kit Skin Care,Marketplace,Back to School,Desktop,1,71.49,0.135,54.39,28.7,25.69,0,4.3,7
+ARG-2024-00225,06/06/2024,2024,6,Junio,Invierno,CUST-1243,Colombia,Caribe,Barranquilla,Estandar,Tecnologia,Smartwatch Fit,Online,Cyber Days,Mobile,2,189.08,0.185,271.11,199.23,71.89,0,4.1,3
+ARG-2024-00054,06/06/2024,2024,6,Junio,Invierno,CUST-1268,Mexico,Centro,Puebla,Estandar,Hogar,Lampara Desk,Tienda,No Aplica,No Aplica,1,67.9,0.001,59.68,38.53,21.15,0,4.0,1
+ARG-2024-00113,06/06/2024,2024,6,Junio,Invierno,CUST-1059,Mexico,Centro,CDMX,Estandar,Moda,Chaqueta Urbana,Tienda,No Aplica,No Aplica,1,163.86,0.01,142.76,77.31,65.45,0,3.6,1
+ARG-2024-00362,07/06/2024,2024,6,Junio,Invierno,CUST-1261,Colombia,Andina,Medellin,Premium,Tecnologia,Parlante Home,Online,Always On,Mobile,1,151.05,0.089,121.04,85.21,35.83,0,4.7,2
+ARG-2024-00184,09/06/2024,2024,6,Junio,Invierno,CUST-1104,Chile,Sur,Concepcion,Basico,Hogar,Cafetera Plus,Tienda,Always On,No Aplica,2,114.11,0.066,187.67,121.11,66.56,0,4.3,1
+ARG-2024-00081,09/06/2024,2024,6,Junio,Invierno,CUST-1265,Mexico,Norte,Monterrey,Estandar,Tecnologia,Parlante Home,Tienda,Always On,No Aplica,1,140.57,0.111,110.0,81.77,28.23,0,3.9,1
+ARG-2024-00690,09/06/2024,2024,6,Junio,Invierno,CUST-1112,Mexico,Occidente,Guadalajara,Premium,Belleza,Serum Facial,Online,Always On,Desktop,3,62.17,0.09,149.27,75.21,74.06,0,4.7,4
+ARG-2024-00265,10/06/2024,2024,6,Junio,Invierno,CUST-1042,Chile,Centro,Santiago,Basico,Deportes,Casco Ciclismo,Tienda,Cyber Days,No Aplica,1,71.55,0.149,53.58,32.62,20.96,0,4.3,1
+ARG-2024-00080,11/06/2024,2024,6,Junio,Invierno,CUST-1176,Peru,Sierra,Arequipa,Premium,Belleza,Cepillo Electrico,Marketplace,Always On,Mobile,4,64.03,0.0,225.4,118.33,66.49,1,2.8,7
+ARG-2024-00149,12/06/2024,2024,6,Junio,Invierno,CUST-1249,Colombia,Caribe,Barranquilla,Estandar,Deportes,Mat Yoga,Online,Always On,Desktop,2,34.55,0.062,57.04,34.37,22.67,0,4.9,3
+ARG-2024-00339,14/06/2024,2024,6,Junio,Invierno,CUST-1029,Colombia,Pacifico,Cali,Estandar,Hogar,Cafetera Plus,Tienda,No Aplica,No Aplica,1,126.45,0.0,111.27,71.8,39.48,0,3.8,1
+ARG-2024-00116,15/06/2024,2024,6,Junio,Invierno,CUST-1051,Peru,Costa,Lima,Premium,Moda,Jeans Slim,Tienda,Always On,No Aplica,2,96.24,0.056,159.84,92.34,67.5,0,4.9,1
+ARG-2024-00011,15/06/2024,2024,6,Junio,Invierno,CUST-1005,Mexico,Centro,CDMX,Basico,Tecnologia,Tablet 10,Tienda,Cyber Days,No Aplica,1,343.21,0.188,245.31,183.75,61.56,0,4.1,1
+ARG-2024-00649,16/06/2024,2024,6,Junio,Invierno,CUST-1157,Mexico,Norte,Monterrey,Estandar,Hogar,Licuadora Pro,Marketplace,Temporada Alta,Mobile,1,102.71,0.072,83.86,51.27,32.59,0,4.5,5
+ARG-2024-00061,16/06/2024,2024,6,Junio,Invierno,CUST-1191,Mexico,Centro,CDMX,Basico,Hogar,Cafetera Plus,Tienda,Always On,No Aplica,3,104.27,0.034,266.04,156.01,110.04,0,4.2,1
+ARG-2024-00065,17/06/2024,2024,6,Junio,Invierno,CUST-1275,Mexico,Centro,CDMX,Estandar,Deportes,Reloj Deportivo,Online,No Aplica,Tablet,2,243.04,0.01,423.44,271.27,75.96,1,3.4,5
+ARG-2024-00234,17/06/2024,2024,6,Junio,Invierno,CUST-1014,Colombia,Andina,Medellin,Estandar,Hogar,Organizador Cocina,Online,Always On,Tablet,3,54.9,0.084,132.84,79.96,52.87,0,4.1,5
+ARG-2024-00406,18/06/2024,2024,6,Junio,Invierno,CUST-1129,Peru,Costa,Trujillo,Premium,Deportes,Bicicleta Indoor,Tienda,Always On,No Aplica,3,605.34,0.039,1535.51,958.08,577.42,0,3.6,1
+ARG-2024-00632,18/06/2024,2024,6,Junio,Invierno,CUST-1231,Mexico,Centro,Puebla,Estandar,Belleza,Cepillo Electrico,Tienda,No Aplica,No Aplica,3,59.39,0.029,152.33,74.62,77.7,0,4.6,1
+ARG-2024-00091,19/06/2024,2024,6,Junio,Invierno,CUST-1277,Chile,Norte,Antofagasta,Premium,Deportes,Reloj Deportivo,Marketplace,Back to School,Mobile,1,324.2,0.091,259.24,167.19,92.06,0,4.4,6
+ARG-2024-00447,19/06/2024,2024,6,Junio,Invierno,CUST-1197,Chile,Norte,Antofagasta,Estandar,Hogar,Licuadora Pro,Marketplace,Always On,Desktop,2,112.19,0.02,193.56,123.32,70.24,0,4.2,3
+ARG-2024-00746,19/06/2024,2024,6,Junio,Invierno,CUST-1189,Mexico,Centro,CDMX,Basico,Tecnologia,Tablet 10,Tienda,Cyber Days,No Aplica,2,363.9,0.217,501.64,347.82,153.82,0,3.8,2
+ARG-2024-00586,20/06/2024,2024,6,Junio,Invierno,CUST-1039,Peru,Sierra,Arequipa,Estandar,Tecnologia,Camara Sport,Online,No Aplica,Mobile,2,262.7,0.026,450.53,310.76,139.78,0,4.3,3
+ARG-2024-00399,22/06/2024,2024,6,Junio,Invierno,CUST-1029,Chile,Centro,Valparaiso,Estandar,Hogar,Organizador Cocina,Online,Always On,Mobile,1,59.83,0.045,50.27,31.08,19.19,0,3.7,2
+ARG-2024-00114,22/06/2024,2024,6,Junio,Invierno,CUST-1032,Colombia,Pacifico,Cali,Estandar,Moda,Jeans Slim,Tienda,Temporada Alta,No Aplica,2,80.78,0.076,131.35,77.91,53.44,0,3.7,1
+ARG-2024-00709,22/06/2024,2024,6,Junio,Invierno,CUST-1258,Mexico,Centro,CDMX,Premium,Moda,Jeans Slim,Tienda,Always On,No Aplica,1,111.99,0.066,92.08,47.1,44.98,0,4.9,2
+ARG-2024-00665,22/06/2024,2024,6,Junio,Invierno,CUST-1138,Peru,Costa,Trujillo,Basico,Tecnologia,Audifonos Pro,Tienda,No Aplica,No Aplica,3,130.2,0.0,343.74,244.17,99.57,0,3.5,1
+ARG-2024-00747,23/06/2024,2024,6,Junio,Invierno,CUST-1074,Colombia,Caribe,Barranquilla,Basico,Hogar,Lampara Desk,Online,Temporada Alta,Desktop,1,55.69,0.111,43.58,27.82,15.77,0,4.2,3
+ARG-2024-00187,23/06/2024,2024,6,Junio,Invierno,CUST-1275,Peru,Costa,Lima,Estandar,Moda,Chaqueta Urbana,Tienda,Cyber Days,No Aplica,1,146.73,0.207,102.43,55.04,47.39,0,4.5,2
+ARG-2024-00575,24/06/2024,2024,6,Junio,Invierno,CUST-1107,Chile,Centro,Valparaiso,Premium,Tecnologia,Parlante Home,Tienda,Back to School,No Aplica,2,206.54,0.142,311.97,230.15,81.82,0,3.3,1
+ARG-2024-00526,25/06/2024,2024,6,Junio,Invierno,CUST-1065,Chile,Centro,Valparaiso,Premium,Belleza,Cepillo Electrico,Tienda,Temporada Alta,No Aplica,1,84.12,0.097,66.85,31.37,35.48,0,,1
+ARG-2024-00433,26/06/2024,2024,6,Junio,Invierno,CUST-1171,Mexico,Centro,Puebla,Estandar,Moda,Bolso Ejecutivo,Marketplace,Always On,Mobile,1,125.7,0.043,105.9,60.73,45.17,0,4.0,3
+ARG-2024-00442,26/06/2024,2024,6,Junio,Invierno,CUST-1004,Colombia,Andina,Medellin,Premium,Hogar,Cafetera Plus,Online,Back to School,Mobile,1,132.11,0.124,101.82,65.12,36.69,0,5.0,4
+ARG-2024-00523,26/06/2024,2024,6,Junio,Invierno,CUST-1224,Mexico,Centro,Puebla,Basico,Belleza,Perfume Urban,Online,No Aplica,Mobile,1,89.18,0.019,76.95,40.72,36.23,0,4.3,5
+ARG-2024-00374,27/06/2024,2024,6,Junio,Invierno,CUST-1114,Peru,Costa,Trujillo,Estandar,Belleza,Cepillo Electrico,Tienda,Temporada Alta,No Aplica,1,48.83,0.085,39.31,19.82,19.49,0,3.7,1
+ARG-2024-00403,27/06/2024,2024,6,Junio,Invierno,CUST-1114,Mexico,Centro,CDMX,Premium,Moda,Camisa Oxford,Tienda,No Aplica,No Aplica,4,76.63,0.0,269.74,145.97,123.77,0,3.8,3
+ARG-2024-00304,28/06/2024,2024,6,Junio,Invierno,CUST-1271,Colombia,Andina,Bogota,Estandar,Hogar,Cafetera Plus,Tienda,Always On,No Aplica,1,131.19,0.077,106.52,62.85,43.67,0,3.8,3
+ARG-2024-00136,29/06/2024,2024,6,Junio,Invierno,CUST-1062,Mexico,Norte,Monterrey,Basico,Tecnologia,Camara Sport,Tienda,Always On,No Aplica,1,275.01,0.082,222.11,153.1,69.01,0,3.8,2
+ARG-2024-00513,29/06/2024,2024,6,Junio,Invierno,CUST-1142,Mexico,Norte,Monterrey,Premium,Moda,Bolso Ejecutivo,Online,Always On,Mobile,3,146.01,0.041,369.74,188.16,181.58,0,4.0,3
+ARG-2024-00055,01/07/2024,2024,7,Julio,Invierno,CUST-1207,Chile,Centro,Santiago,Premium,Hogar,Aspiradora Max,Online,Always On,Mobile,1,385.4,0.078,312.79,195.29,117.5,0,4.5,4
+ARG-2024-00658,02/07/2024,2024,7,Julio,Invierno,CUST-1258,Colombia,Pacifico,Cali,Estandar,Deportes,Bicicleta Indoor,Online,Always On,Mobile,1,562.36,0.061,464.53,309.13,155.4,0,3.6,4
+ARG-2024-00157,03/07/2024,2024,7,Julio,Invierno,CUST-1142,Peru,Costa,Trujillo,Estandar,Tecnologia,Camara Sport,Marketplace,Always On,Desktop,2,233.54,0.059,386.97,270.79,116.18,0,3.2,6
+ARG-2024-00015,04/07/2024,2024,7,Julio,Invierno,CUST-1016,Colombia,Andina,Medellin,Basico,Hogar,Licuadora Pro,Online,Always On,Mobile,2,82.83,0.03,141.4,88.56,52.84,0,3.9,3
+ARG-2024-00754,05/07/2024,2024,7,Julio,Invierno,CUST-1197,Colombia,Andina,Bogota,Estandar,Moda,Zapatillas Run,Online,Cyber Days,Mobile,1,125.15,0.158,92.72,48.25,44.47,0,4.6,3
+ARG-2024-00757,05/07/2024,2024,7,Julio,Invierno,CUST-1072,Mexico,Centro,CDMX,Premium,Belleza,Secador Ionic,Online,No Aplica,Desktop,1,128.97,0.002,113.23,57.83,55.4,0,3.9,4
+ARG-2024-00647,06/07/2024,2024,7,Julio,Invierno,CUST-1108,Colombia,Andina,Medellin,Basico,Tecnologia,Audifonos Pro,Tienda,Temporada Alta,No Aplica,1,140.56,0.051,117.41,83.5,33.91,0,5.0,1
+ARG-2024-00209,07/07/2024,2024,7,Julio,Invierno,CUST-1296,Colombia,Pacifico,Cali,Basico,Hogar,Aspiradora Max,Tienda,Always On,No Aplica,1,198.92,0.109,156.06,103.65,52.41,0,4.6,1
+ARG-2024-00666,07/07/2024,2024,7,Julio,Invierno,CUST-1174,Mexico,Norte,Monterrey,Estandar,Deportes,Reloj Deportivo,Online,Cyber Days,Mobile,2,223.42,0.146,335.95,186.75,149.21,0,4.4,3
+ARG-2024-00591,07/07/2024,2024,7,Julio,Invierno,CUST-1072,Peru,Costa,Trujillo,Estandar,Tecnologia,Parlante Home,Online,No Aplica,Mobile,1,101.3,0.015,87.84,62.26,25.58,0,4.7,3
+ARG-2024-00338,08/07/2024,2024,7,Julio,Invierno,CUST-1132,Peru,Sierra,Cusco,Basico,Hogar,Aspiradora Max,Online,Always On,Mobile,1,174.56,0.042,147.18,86.65,60.53,0,4.0,5
+ARG-2024-00280,08/07/2024,2024,7,Julio,Invierno,CUST-1075,Colombia,Andina,Bogota,Basico,Moda,Zapatillas Run,Tienda,Back to School,No Aplica,3,102.51,0.122,237.53,129.38,108.15,0,4.1,1
+ARG-2024-00656,09/07/2024,2024,7,Julio,Invierno,CUST-1118,Mexico,Norte,Monterrey,Estandar,Moda,Chaqueta Urbana,Tienda,No Aplica,No Aplica,4,150.0,0.0,528.0,285.78,242.22,0,3.8,2
+ARG-2024-00408,09/07/2024,2024,7,Julio,Invierno,CUST-1187,Chile,Sur,Concepcion,Basico,Deportes,Set Mancuernas,Marketplace,No Aplica,Mobile,1,105.02,0.0,92.41,55.47,36.95,0,3.9,3
+ARG-2024-00718,09/07/2024,2024,7,Julio,Invierno,CUST-1285,Mexico,Centro,Puebla,Estandar,Tecnologia,Parlante Home,Online,Temporada Alta,Mobile,1,166.79,0.064,137.32,98.55,38.77,0,3.6,5
+ARG-2024-00555,10/07/2024,2024,7,Julio,Invierno,CUST-1278,Mexico,Centro,Puebla,Basico,Tecnologia,Audifonos Pro,Tienda,Always On,No Aplica,1,132.65,0.077,107.7,81.81,25.89,0,3.8,1
+ARG-2024-00063,10/07/2024,2024,7,Julio,Invierno,CUST-1197,Colombia,Andina,Medellin,Estandar,Hogar,Organizador Cocina,Tienda,Cyber Days,No Aplica,1,44.56,0.204,31.22,18.73,12.49,0,4.0,1
+ARG-2024-00250,11/07/2024,2024,7,Julio,Invierno,CUST-1014,Colombia,Andina,Bogota,Estandar,Tecnologia,Smartwatch Fit,Tienda,Always On,No Aplica,1,205.25,0.082,165.75,127.54,38.21,0,4.1,1
+ARG-2024-00159,13/07/2024,2024,7,Julio,Invierno,CUST-1080,Colombia,Andina,Medellin,Basico,Tecnologia,Tablet 10,Online,Always On,Mobile,2,286.48,0.025,491.49,355.92,135.57,0,4.4,5
+ARG-2024-00314,13/07/2024,2024,7,Julio,Invierno,CUST-1271,Chile,Sur,Concepcion,Estandar,Deportes,Mat Yoga,Online,No Aplica,Mobile,1,38.68,0.0,34.04,20.81,13.23,0,4.7,4
+ARG-2024-00179,14/07/2024,2024,7,Julio,Invierno,CUST-1065,Chile,Norte,Antofagasta,Premium,Belleza,Kit Skin Care,Marketplace,Back to School,Desktop,2,103.13,0.075,167.89,90.8,77.08,0,3.7,6
+ARG-2024-00195,16/07/2024,2024,7,Julio,Invierno,CUST-1250,Colombia,Caribe,Barranquilla,Basico,Belleza,Serum Facial,Online,Always On,Desktop,2,39.32,0.079,63.74,31.0,32.74,0,4.1,2
+ARG-2024-00426,18/07/2024,2024,7,Julio,Invierno,CUST-1274,Peru,Sierra,Cusco,Estandar,Hogar,Lampara Desk,Tienda,Always On,No Aplica,1,60.58,0.074,49.36,33.07,16.29,0,4.3,1
+ARG-2024-00550,20/07/2024,2024,7,Julio,Invierno,CUST-1075,Chile,Norte,Antofagasta,Estandar,Moda,Camisa Oxford,Tienda,Always On,No Aplica,1,71.95,0.073,58.69,34.32,24.37,0,4.2,1
+ARG-2024-00322,24/07/2024,2024,7,Julio,Invierno,CUST-1182,Mexico,Norte,Monterrey,Premium,Tecnologia,Parlante Home,Online,Temporada Alta,Tablet,3,173.74,0.07,426.66,312.15,114.5,0,4.6,4
+ARG-2024-00220,25/07/2024,2024,7,Julio,Invierno,CUST-1119,Mexico,Centro,CDMX,Basico,Belleza,Kit Skin Care,Tienda,No Aplica,No Aplica,1,67.21,0.0,59.15,28.32,30.83,0,4.4,1
+ARG-2024-00155,26/07/2024,2024,7,Julio,Invierno,CUST-1298,Colombia,Andina,Medellin,Estandar,Moda,Jeans Slim,Marketplace,No Aplica,Mobile,4,85.8,0.0,302.0,165.9,136.1,0,4.1,5
+ARG-2024-00299,27/07/2024,2024,7,Julio,Invierno,CUST-1175,Colombia,Caribe,Barranquilla,Estandar,Tecnologia,Audifonos Pro,Tienda,Always On,No Aplica,2,149.7,0.051,250.05,180.62,69.43,0,4.1,1
+ARG-2024-00739,27/07/2024,2024,7,Julio,Invierno,CUST-1296,Colombia,Andina,Bogota,Basico,Belleza,Serum Facial,Online,Cyber Days,Mobile,2,34.89,0.176,50.58,26.06,24.52,0,4.0,6
+ARG-2024-00569,29/07/2024,2024,7,Julio,Invierno,CUST-1153,Chile,Centro,Santiago,Basico,Hogar,Aspiradora Max,Tienda,Temporada Alta,No Aplica,2,223.66,0.035,379.68,245.11,134.57,0,4.8,3
+ARG-2024-00708,31/07/2024,2024,7,Julio,Invierno,CUST-1237,Peru,Sierra,Cusco,Estandar,Moda,Camisa Oxford,Online,Back to School,Mobile,1,53.26,0.096,42.36,23.04,19.32,0,4.3,5
+ARG-2024-00171,02/08/2024,2024,8,Agosto,Invierno,CUST-1164,Mexico,Centro,Puebla,Estandar,Moda,Bolso Ejecutivo,Tienda,Back to School,No Aplica,1,120.76,0.114,94.16,51.51,42.65,0,4.4,1
+ARG-2024-00231,03/08/2024,2024,8,Agosto,Invierno,CUST-1173,Colombia,Andina,Bogota,Basico,Moda,Camisa Oxford,Marketplace,No Aplica,Desktop,3,43.01,0.061,106.61,61.5,45.11,0,3.4,7
+ARG-2024-00686,03/08/2024,2024,8,Agosto,Invierno,CUST-1169,Chile,Centro,Valparaiso,Premium,Moda,Jeans Slim,Marketplace,Always On,Desktop,1,117.1,0.097,93.07,49.97,43.11,0,3.9,5
+ARG-2024-00040,05/08/2024,2024,8,Agosto,Invierno,CUST-1237,Peru,Sierra,Arequipa,Basico,Moda,Jeans Slim,Tienda,Temporada Alta,No Aplica,1,57.15,0.069,46.83,25.65,21.18,0,4.3,1
+ARG-2024-00332,07/08/2024,2024,8,Agosto,Invierno,CUST-1220,Peru,Sierra,Arequipa,Estandar,Hogar,Cafetera Plus,Online,Always On,Desktop,3,119.46,0.029,306.1,178.16,127.94,0,3.1,4
+ARG-2024-00604,07/08/2024,2024,8,Agosto,Invierno,CUST-1178,Colombia,Andina,Bogota,Premium,Belleza,Serum Facial,Online,Temporada Alta,Mobile,1,57.22,0.124,44.1,23.54,20.56,0,4.0,5
+ARG-2024-00272,08/08/2024,2024,8,Agosto,Invierno,CUST-1105,Chile,Norte,Antofagasta,Estandar,Tecnologia,Tablet 10,Online,No Aplica,Mobile,2,448.3,0.029,766.35,556.69,209.66,0,4.1,5
+ARG-2024-00484,08/08/2024,2024,8,Agosto,Invierno,CUST-1184,Mexico,Norte,Monterrey,Premium,Deportes,Set Mancuernas,Online,Always On,Mobile,2,132.5,0.067,217.68,128.7,88.98,0,3.8,2
+ARG-2024-00457,10/08/2024,2024,8,Agosto,Invierno,CUST-1124,Mexico,Centro,CDMX,Estandar,Belleza,Serum Facial,Tienda,Temporada Alta,No Aplica,2,47.29,0.092,75.55,38.01,37.54,0,4.1,2
+ARG-2024-00616,10/08/2024,2024,8,Agosto,Invierno,CUST-1247,Mexico,Norte,Monterrey,Premium,Deportes,Reloj Deportivo,Marketplace,Temporada Alta,Mobile,1,290.18,0.036,246.18,159.35,86.84,0,3.1,7
+ARG-2024-00308,13/08/2024,2024,8,Agosto,Invierno,CUST-1045,Colombia,Pacifico,Cali,Basico,Deportes,Set Mancuernas,Online,Cyber Days,Desktop,1,93.08,0.179,67.21,39.85,27.36,0,4.2,6
+ARG-2024-00540,16/08/2024,2024,8,Agosto,Invierno,CUST-1257,Peru,Sierra,Cusco,Estandar,Hogar,Organizador Cocina,Tienda,No Aplica,No Aplica,1,47.65,0.015,41.32,24.26,17.06,0,4.1,1
+ARG-2024-00753,16/08/2024,2024,8,Agosto,Invierno,CUST-1289,Colombia,Andina,Medellin,Estandar,Hogar,Cafetera Plus,Online,Always On,Desktop,1,127.69,0.038,108.13,67.3,40.83,0,4.1,4
+ARG-2024-00738,17/08/2024,2024,8,Agosto,Invierno,CUST-1159,Colombia,Andina,Medellin,Estandar,Moda,Camisa Oxford,Marketplace,Always On,Tablet,1,63.04,0.046,52.94,28.31,24.62,0,2.4,7
+ARG-2024-00112,18/08/2024,2024,8,Agosto,Invierno,CUST-1292,Colombia,Caribe,Barranquilla,Estandar,Moda,Jeans Slim,Online,Cyber Days,Mobile,3,81.62,0.164,180.16,98.96,48.77,1,3.7,2
+ARG-2024-00655,19/08/2024,2024,8,Agosto,Invierno,CUST-1050,Peru,Sierra,Cusco,Estandar,Hogar,Cafetera Plus,Online,No Aplica,Mobile,1,101.73,0.0,89.52,56.16,33.36,0,3.3,4
+ARG-2024-00216,19/08/2024,2024,8,Agosto,Invierno,CUST-1182,Colombia,Andina,Bogota,Estandar,Deportes,Mat Yoga,Tienda,Cyber Days,No Aplica,1,39.88,0.213,27.61,16.9,10.71,0,4.4,1
+ARG-2024-00418,20/08/2024,2024,8,Agosto,Invierno,CUST-1034,Chile,Norte,Antofagasta,Estandar,Deportes,Mat Yoga,Online,Temporada Alta,Mobile,1,37.87,0.075,30.84,19.36,11.48,0,4.2,4
+ARG-2024-00659,22/08/2024,2024,8,Agosto,Invierno,CUST-1011,Mexico,Centro,Puebla,Basico,Deportes,Casco Ciclismo,Online,No Aplica,Desktop,2,68.98,0.043,116.22,73.73,42.49,0,4.6,3
+ARG-2024-00741,24/08/2024,2024,8,Agosto,Invierno,CUST-1160,Colombia,Caribe,Barranquilla,Estandar,Deportes,Casco Ciclismo,Marketplace,Back to School,Desktop,1,66.43,0.136,50.49,30.98,19.52,0,4.7,4
+ARG-2024-00536,24/08/2024,2024,8,Agosto,Invierno,CUST-1258,Colombia,Andina,Bogota,Basico,Hogar,Organizador Cocina,Tienda,Cyber Days,No Aplica,2,37.49,0.162,55.29,34.63,20.66,0,3.6,1
+ARG-2024-00379,26/08/2024,2024,8,Agosto,Invierno,CUST-1105,Colombia,Caribe,Barranquilla,Estandar,Hogar,Aspiradora Max,Marketplace,Always On,Desktop,2,248.62,0.088,399.06,232.91,166.15,0,2.8,5
+ARG-2024-00056,27/08/2024,2024,8,Agosto,Invierno,CUST-1028,Peru,Costa,Trujillo,Premium,Hogar,Lampara Desk,Online,No Aplica,Mobile,2,84.69,0.002,148.8,87.08,61.72,0,4.2,2
+ARG-2024-00043,27/08/2024,2024,8,Agosto,Invierno,CUST-1242,Peru,Costa,Lima,Premium,Moda,Bolso Ejecutivo,Online,Back to School,Mobile,2,117.84,0.128,180.76,103.65,77.11,0,3.4,2
+ARG-2024-00642,30/08/2024,2024,8,Agosto,Invierno,CUST-1180,Peru,Costa,Trujillo,Premium,Belleza,Secador Ionic,Marketplace,Always On,Mobile,1,110.72,0.05,92.55,45.75,46.81,0,4.1,4
+ARG-2024-00356,02/09/2024,2024,9,Septiembre,Primavera,CUST-1235,Chile,Centro,Valparaiso,Premium,Belleza,Secador Ionic,Tienda,Always On,No Aplica,1,139.54,0.053,136.11,65.02,71.08,0,4.3,1
+ARG-2024-00533,03/09/2024,2024,9,Septiembre,Primavera,CUST-1117,Colombia,Andina,Bogota,Basico,Deportes,Bicicleta Indoor,Tienda,Cyber Days,No Aplica,3,435.23,0.138,1159.15,751.06,408.08,0,3.9,1
+ARG-2024-00060,03/09/2024,2024,9,Septiembre,Primavera,CUST-1195,Chile,Sur,Concepcion,Basico,Tecnologia,Audifonos Pro,Online,Back to School,Desktop,1,139.88,0.14,123.84,90.29,33.56,0,4.4,4
+ARG-2024-00298,04/09/2024,2024,9,Septiembre,Primavera,CUST-1196,Mexico,Norte,Monterrey,Premium,Hogar,Aspiradora Max,Online,Always On,Desktop,1,292.81,0.103,270.4,164.88,105.52,0,3.4,2
+ARG-2024-00439,04/09/2024,2024,9,Septiembre,Primavera,CUST-1064,Peru,Costa,Lima,Basico,Deportes,Mat Yoga,Online,Temporada Alta,Tablet,1,26.78,0.074,25.54,15.96,9.58,0,3.6,6
+ARG-2024-00366,11/09/2024,2024,9,Septiembre,Primavera,CUST-1077,Colombia,Pacifico,Cali,Premium,Belleza,Secador Ionic,Online,Always On,Desktop,2,97.29,0.038,192.81,100.16,92.65,0,4.9,3
+ARG-2024-00238,12/09/2024,2024,9,Septiembre,Primavera,CUST-1027,Chile,Sur,Concepcion,Estandar,Moda,Bolso Ejecutivo,Online,Back to School,Mobile,4,113.79,0.143,401.66,214.62,187.05,0,4.5,5
+ARG-2024-00229,13/09/2024,2024,9,Septiembre,Primavera,CUST-1140,Colombia,Caribe,Barranquilla,Estandar,Deportes,Casco Ciclismo,Marketplace,Always On,Tablet,4,74.45,0.086,280.51,188.63,91.88,0,4.4,7
+ARG-2024-00514,13/09/2024,2024,9,Septiembre,Primavera,CUST-1095,Chile,Centro,Santiago,Estandar,Tecnologia,Parlante Home,Tienda,Cyber Days,No Aplica,2,151.42,0.138,268.82,195.21,73.62,0,3.2,2
+ARG-2024-00364,13/09/2024,2024,9,Septiembre,Primavera,CUST-1082,Mexico,Centro,Puebla,Premium,Hogar,Organizador Cocina,Marketplace,Back to School,Mobile,1,59.94,0.106,55.16,35.97,19.19,0,3.3,6
+ARG-2024-00614,14/09/2024,2024,9,Septiembre,Primavera,CUST-1199,Peru,Costa,Lima,Estandar,Tecnologia,Tablet 10,Marketplace,Always On,Tablet,1,378.3,0.05,370.1,263.21,106.89,0,3.7,4
+ARG-2024-00363,16/09/2024,2024,9,Septiembre,Primavera,CUST-1185,Colombia,Andina,Bogota,Premium,Moda,Bolso Ejecutivo,Tienda,Back to School,No Aplica,1,150.33,0.115,137.06,72.17,64.9,0,3.9,1
+ARG-2024-00067,16/09/2024,2024,9,Septiembre,Primavera,CUST-1160,Colombia,Andina,Bogota,Premium,Deportes,Mat Yoga,Marketplace,Cyber Days,Tablet,3,44.85,0.171,114.95,73.12,41.83,0,3.7,6
+ARG-2024-00359,18/09/2024,2024,9,Septiembre,Primavera,CUST-1292,Colombia,Andina,Bogota,Basico,Hogar,Cafetera Plus,Online,Cyber Days,Desktop,2,86.87,0.134,155.04,96.61,58.43,0,4.6,3
+ARG-2024-00445,20/09/2024,2024,9,Septiembre,Primavera,CUST-1168,Colombia,Andina,Bogota,Premium,Hogar,Organizador Cocina,Online,Cyber Days,Mobile,2,56.69,0.158,98.33,57.71,40.62,0,3.2,5
+ARG-2024-00518,20/09/2024,2024,9,Septiembre,Primavera,CUST-1120,Mexico,Centro,CDMX,Estandar,Hogar,Aspiradora Max,Online,Back to School,Mobile,1,257.68,0.128,231.49,149.33,82.15,0,3.9,5
+ARG-2024-00175,21/09/2024,2024,9,Septiembre,Primavera,CUST-1177,Mexico,Centro,CDMX,Estandar,Deportes,Mat Yoga,Online,Cyber Days,Desktop,3,37.91,0.147,99.96,64.65,35.31,0,5.0,3
+ARG-2024-00257,21/09/2024,2024,9,Septiembre,Primavera,CUST-1207,Peru,Costa,Lima,Estandar,Moda,Camisa Oxford,Online,No Aplica,Mobile,1,54.71,0.0,56.36,29.25,27.11,0,4.2,3
+ARG-2024-00385,23/09/2024,2024,9,Septiembre,Primavera,CUST-1191,Mexico,Norte,Monterrey,Premium,Tecnologia,Tablet 10,Online,Always On,Mobile,2,512.01,0.0,1054.74,766.87,287.87,0,4.0,3
+ARG-2024-00748,24/09/2024,2024,9,Septiembre,Primavera,CUST-1056,Mexico,Occidente,Guadalajara,Estandar,Belleza,Kit Skin Care,Online,No Aplica,Mobile,2,86.7,0.013,176.19,88.52,87.66,0,3.5,5
+ARG-2024-00022,24/09/2024,2024,9,Septiembre,Primavera,CUST-1281,Peru,Costa,Lima,Estandar,Hogar,Organizador Cocina,Tienda,Back to School,No Aplica,1,47.69,0.144,42.07,28.37,13.7,0,3.8,2
+ARG-2024-00625,24/09/2024,2024,9,Septiembre,Primavera,CUST-1287,Mexico,Occidente,Guadalajara,Estandar,Deportes,Bicicleta Indoor,Marketplace,Always On,Mobile,1,581.54,0.058,564.09,336.88,227.21,0,3.6,4
+ARG-2024-00191,25/09/2024,2024,9,Septiembre,Primavera,CUST-1110,Chile,Centro,Valparaiso,Estandar,Tecnologia,Camara Sport,Marketplace,Cyber Days,Mobile,1,323.76,0.189,270.53,201.97,68.56,0,3.3,6
+ARG-2024-00093,28/09/2024,2024,9,Septiembre,Primavera,CUST-1214,Chile,Centro,Santiago,Estandar,Tecnologia,Audifonos Pro,Online,Always On,Mobile,1,181.55,0.035,180.54,130.91,49.63,0,4.8,4
+ARG-2024-00561,29/09/2024,2024,9,Septiembre,Primavera,CUST-1217,Colombia,Caribe,Barranquilla,Premium,Hogar,Aspiradora Max,Tienda,Cyber Days,No Aplica,1,316.42,0.188,264.74,148.51,116.23,0,3.1,1
+ARG-2024-00413,30/09/2024,2024,9,Septiembre,Primavera,CUST-1149,Peru,Sierra,Cusco,Estandar,Moda,Chaqueta Urbana,Marketplace,No Aplica,Mobile,1,145.12,0.0,149.48,83.95,65.52,0,4.5,4
+ARG-2024-00521,01/10/2024,2024,10,Octubre,Primavera,CUST-1086,Mexico,Centro,CDMX,Estandar,Belleza,Perfume Urban,Online,Cyber Days,Mobile,2,110.08,0.199,181.56,89.23,92.33,0,3.8,7
+ARG-2024-00381,01/10/2024,2024,10,Octubre,Primavera,CUST-1024,Colombia,Andina,Bogota,Estandar,Tecnologia,Parlante Home,Online,Always On,Desktop,3,131.9,0.032,394.72,277.67,117.05,0,5.0,2
+ARG-2024-00212,02/10/2024,2024,10,Octubre,Primavera,CUST-1262,Peru,Costa,Trujillo,Premium,Hogar,Lampara Desk,Online,Back to School,Mobile,4,69.97,0.116,254.92,150.37,104.55,0,3.9,2
+ARG-2024-00428,02/10/2024,2024,10,Octubre,Primavera,CUST-1155,Mexico,Centro,CDMX,Estandar,Tecnologia,Audifonos Pro,Online,Back to School,Tablet,1,154.67,0.099,143.53,96.07,47.46,0,3.5,5
+ARG-2024-00039,03/10/2024,2024,10,Octubre,Primavera,CUST-1154,Chile,Sur,Concepcion,Estandar,Hogar,Aspiradora Max,Online,No Aplica,Desktop,1,248.98,0.0,256.45,160.74,95.71,0,4.9,3
+ARG-2024-00123,04/10/2024,2024,10,Octubre,Primavera,CUST-1120,Peru,Costa,Trujillo,Estandar,Hogar,Cafetera Plus,Marketplace,Temporada Alta,Desktop,3,102.18,0.071,293.47,181.67,58.98,1,3.2,3
+ARG-2024-00520,10/10/2024,2024,10,Octubre,Primavera,CUST-1104,Chile,Centro,Santiago,Estandar,Hogar,Aspiradora Max,Online,Back to School,Desktop,1,280.16,0.143,247.4,152.87,94.54,0,3.5,5
+ARG-2024-00474,15/10/2024,2024,10,Octubre,Primavera,CUST-1195,Peru,Sierra,Cusco,Estandar,Belleza,Perfume Urban,Online,Cyber Days,Mobile,2,89.52,0.161,154.71,76.39,78.32,0,4.4,3
+ARG-2024-00342,16/10/2024,2024,10,Octubre,Primavera,CUST-1159,Mexico,Occidente,Guadalajara,Premium,Tecnologia,Audifonos Pro,Online,Always On,Mobile,4,182.82,0.056,710.96,517.47,193.48,0,3.5,5
+ARG-2024-00436,18/10/2024,2024,10,Octubre,Primavera,CUST-1200,Chile,Norte,Antofagasta,Estandar,Tecnologia,Smartwatch Fit,Online,No Aplica,Mobile,2,268.92,0.0,553.97,391.39,162.58,0,4.5,4
+ARG-2024-00018,20/10/2024,2024,10,Octubre,Primavera,CUST-1266,Colombia,Pacifico,Cali,Basico,Tecnologia,Parlante Home,Online,Cyber Days,Desktop,1,90.22,0.137,80.24,56.89,23.36,0,3.8,2
+ARG-2024-00454,22/10/2024,2024,10,Octubre,Primavera,CUST-1060,Colombia,Andina,Bogota,Basico,Tecnologia,Smartwatch Fit,Online,Always On,Mobile,1,151.78,0.062,146.68,114.78,31.91,0,3.7,6
+ARG-2024-00704,23/10/2024,2024,10,Octubre,Primavera,CUST-1010,Chile,Norte,Antofagasta,Premium,Deportes,Set Mancuernas,Marketplace,Cyber Days,Mobile,1,165.71,0.214,134.07,87.12,46.95,0,3.8,7
+ARG-2024-00612,24/10/2024,2024,10,Octubre,Primavera,CUST-1241,Chile,Centro,Valparaiso,Estandar,Moda,Chaqueta Urbana,Tienda,No Aplica,No Aplica,1,166.87,0.025,167.65,88.64,79.01,0,,2
+ARG-2024-00394,30/10/2024,2024,10,Octubre,Primavera,CUST-1152,Colombia,Andina,Bogota,Premium,Hogar,Cafetera Plus,Marketplace,Always On,Mobile,1,142.45,0.055,138.7,84.9,53.8,0,4.7,5
+ARG-2024-00468,30/10/2024,2024,10,Octubre,Primavera,CUST-1134,Colombia,Pacifico,Cali,Estandar,Moda,Camisa Oxford,Marketplace,Back to School,Desktop,3,55.8,0.106,154.13,83.78,70.35,0,4.3,3
+ARG-2024-00358,30/10/2024,2024,10,Octubre,Primavera,CUST-1116,Colombia,Andina,Medellin,Estandar,Moda,Zapatillas Run,Tienda,Always On,No Aplica,1,107.34,0.064,103.5,56.45,47.04,0,4.4,1
+ARG-2024-00251,30/10/2024,2024,10,Octubre,Primavera,CUST-1186,Chile,Sur,Concepcion,Estandar,Tecnologia,Audifonos Pro,Online,No Aplica,Desktop,1,161.63,0.006,165.53,112.01,53.52,0,4.8,4
+ARG-2024-00420,30/10/2024,2024,10,Octubre,Primavera,CUST-1137,Mexico,Occidente,Guadalajara,Estandar,Moda,Bolso Ejecutivo,Tienda,Temporada Alta,No Aplica,1,108.84,0.036,108.03,58.98,49.05,0,3.5,1
+ARG-2024-00243,01/11/2024,2024,11,Noviembre,Primavera,CUST-1253,Peru,Sierra,Arequipa,Estandar,Deportes,Bicicleta Indoor,Marketplace,No Aplica,Mobile,4,462.21,0.008,1889.96,1205.64,344.13,1,3.5,3
+ARG-2024-00129,01/11/2024,2024,11,Noviembre,Primavera,CUST-1060,Mexico,Norte,Monterrey,Estandar,Tecnologia,Parlante Home,Tienda,Always On,No Aplica,1,134.09,0.122,121.32,86.57,34.75,0,3.8,3
+ARG-2024-00033,01/11/2024,2024,11,Noviembre,Primavera,CUST-1268,Chile,Centro,Valparaiso,Premium,Hogar,Lampara Desk,Marketplace,Always On,Mobile,4,86.45,0.072,330.55,204.69,125.86,0,3.8,5
+ARG-2024-00109,01/11/2024,2024,11,Noviembre,Primavera,CUST-1169,Peru,Costa,Trujillo,Basico,Tecnologia,Tablet 10,Tienda,Back to School,No Aplica,1,306.82,0.12,278.18,197.48,80.7,0,4.2,3
+ARG-2024-00465,02/11/2024,2024,11,Noviembre,Primavera,CUST-1143,Mexico,Occidente,Guadalajara,Estandar,Tecnologia,Audifonos Pro,Online,Always On,Mobile,1,164.8,0.069,158.06,111.39,46.67,0,4.5,4
+ARG-2024-00291,02/11/2024,2024,11,Noviembre,Primavera,CUST-1112,Colombia,Andina,Bogota,Estandar,Tecnologia,Tablet 10,Online,Always On,Mobile,1,420.89,0.065,405.5,290.01,115.49,0,4.4,3
+ARG-2024-00696,02/11/2024,2024,11,Noviembre,Primavera,CUST-1234,Chile,Sur,Concepcion,Basico,Belleza,Cepillo Electrico,Tienda,No Aplica,No Aplica,4,55.42,0.0,228.32,107.16,121.16,0,4.0,2
+ARG-2024-00088,02/11/2024,2024,11,Noviembre,Primavera,CUST-1188,Chile,Centro,Santiago,Premium,Tecnologia,Tablet 10,Tienda,No Aplica,No Aplica,1,587.88,0.017,595.26,426.75,168.51,0,4.4,1
+ARG-2024-00637,03/11/2024,2024,11,Noviembre,Primavera,CUST-1024,Colombia,Andina,Bogota,Basico,Tecnologia,Tablet 10,Tienda,Temporada Alta,No Aplica,1,347.8,0.04,344.0,249.19,32.89,1,3.1,1
+ARG-2024-00470,03/11/2024,2024,11,Noviembre,Primavera,CUST-1182,Mexico,Centro,CDMX,Estandar,Moda,Chaqueta Urbana,Tienda,Cyber Days,No Aplica,2,145.23,0.168,249.03,149.42,99.61,0,4.3,1
+ARG-2024-00133,04/11/2024,2024,11,Noviembre,Primavera,CUST-1299,Colombia,Caribe,Barranquilla,Basico,Moda,Zapatillas Run,Online,Temporada Alta,Desktop,1,98.34,0.012,100.08,55.61,44.47,0,4.5,3
+ARG-2024-00307,05/11/2024,2024,11,Noviembre,Primavera,CUST-1275,Peru,Sierra,Arequipa,Estandar,Hogar,Lampara Desk,Marketplace,Cyber Days,Desktop,2,62.67,0.194,104.04,61.87,42.17,0,4.1,5
+ARG-2024-00050,05/11/2024,2024,11,Noviembre,Primavera,CUST-1101,Mexico,Centro,CDMX,Basico,Deportes,Reloj Deportivo,Online,Cyber Days,Desktop,1,197.81,0.222,158.57,99.32,59.25,0,4.1,6
+ARG-2024-00557,05/11/2024,2024,11,Noviembre,Primavera,CUST-1164,Mexico,Centro,Puebla,Premium,Moda,Camisa Oxford,Marketplace,Back to School,Mobile,3,73.29,0.074,209.63,116.65,92.98,0,3.7,4
+ARG-2024-00609,05/11/2024,2024,11,Noviembre,Primavera,CUST-1276,Mexico,Occidente,Guadalajara,Estandar,Moda,Chaqueta Urbana,Online,Temporada Alta,Mobile,1,171.27,0.074,163.29,92.44,70.85,0,4.1,4
+ARG-2024-00630,09/11/2024,2024,11,Noviembre,Primavera,CUST-1263,Mexico,Centro,Puebla,Estandar,Deportes,Bicicleta Indoor,Tienda,No Aplica,No Aplica,2,566.47,0.0,1166.92,779.46,387.47,0,4.5,2
+ARG-2024-00635,09/11/2024,2024,11,Noviembre,Primavera,CUST-1237,Peru,Costa,Trujillo,Basico,Tecnologia,Smartwatch Fit,Tienda,No Aplica,No Aplica,2,155.61,0.0,320.55,232.65,87.89,0,4.6,1
+ARG-2024-00014,09/11/2024,2024,11,Noviembre,Primavera,CUST-1233,Mexico,Occidente,Guadalajara,Premium,Tecnologia,Camara Sport,Online,Cyber Days,Mobile,1,297.24,0.223,238.01,180.64,57.37,0,4.5,5
+ARG-2024-00095,10/11/2024,2024,11,Noviembre,Primavera,CUST-1198,Peru,Costa,Lima,Estandar,Tecnologia,Smartwatch Fit,Online,No Aplica,Tablet,3,181.68,0.021,549.55,409.23,140.31,0,,5
+ARG-2024-00199,10/11/2024,2024,11,Noviembre,Primavera,CUST-1086,Peru,Costa,Lima,Basico,Moda,Bolso Ejecutivo,Tienda,Back to School,No Aplica,1,89.96,0.105,82.93,43.22,39.7,0,4.8,1
+ARG-2024-00344,11/11/2024,2024,11,Noviembre,Primavera,CUST-1118,Mexico,Centro,Puebla,Basico,Moda,Bolso Ejecutivo,Tienda,No Aplica,No Aplica,1,95.57,0.0,98.44,52.46,45.98,0,4.5,1
+ARG-2024-00546,11/11/2024,2024,11,Noviembre,Primavera,CUST-1177,Colombia,Andina,Bogota,Basico,Moda,Zapatillas Run,Tienda,Temporada Alta,No Aplica,2,89.46,0.093,167.11,96.02,71.08,0,4.0,1
+ARG-2024-00487,13/11/2024,2024,11,Noviembre,Primavera,CUST-1023,Peru,Sierra,Cusco,Estandar,Hogar,Aspiradora Max,Online,No Aplica,Mobile,1,212.21,0.0,218.58,134.0,84.58,0,3.9,1
+ARG-2024-00670,14/11/2024,2024,11,Noviembre,Primavera,CUST-1040,Colombia,Andina,Medellin,Premium,Hogar,Cafetera Plus,Online,Back to School,Mobile,1,152.21,0.116,138.52,80.63,57.89,0,4.0,3
+ARG-2024-00404,14/11/2024,2024,11,Noviembre,Primavera,CUST-1277,Colombia,Caribe,Barranquilla,Basico,Hogar,Lampara Desk,Marketplace,No Aplica,Desktop,2,40.59,0.005,83.18,50.65,32.53,0,4.8,4
+ARG-2024-00519,15/11/2024,2024,11,Noviembre,Primavera,CUST-1273,Peru,Costa,Trujillo,Premium,Tecnologia,Audifonos Pro,Marketplace,Temporada Alta,Mobile,1,176.37,0.078,167.53,123.38,44.15,0,3.6,5
+ARG-2024-00395,16/11/2024,2024,11,Noviembre,Primavera,CUST-1147,Chile,Centro,Valparaiso,Estandar,Tecnologia,Tablet 10,Tienda,Temporada Alta,No Aplica,2,389.9,0.062,753.47,506.86,246.61,0,4.6,1
+ARG-2024-00508,16/11/2024,2024,11,Noviembre,Primavera,CUST-1218,Colombia,Andina,Medellin,Estandar,Belleza,Secador Ionic,Online,Temporada Alta,Desktop,1,88.7,0.034,88.29,44.28,44.01,0,3.2,3
+ARG-2024-00031,17/11/2024,2024,11,Noviembre,Primavera,CUST-1165,Chile,Norte,Antofagasta,Estandar,Moda,Jeans Slim,Online,Back to School,Mobile,2,84.46,0.087,158.88,92.18,66.7,0,4.5,3
+ARG-2024-00279,18/11/2024,2024,11,Noviembre,Primavera,CUST-1206,Peru,Sierra,Cusco,Estandar,Tecnologia,Smartwatch Fit,Online,Cyber Days,Mobile,2,210.42,0.199,347.33,239.12,108.21,0,4.3,4
+ARG-2024-00700,18/11/2024,2024,11,Noviembre,Primavera,CUST-1068,Mexico,Centro,Puebla,Estandar,Hogar,Lampara Desk,Marketplace,Always On,Mobile,4,63.8,0.056,248.17,150.09,98.08,0,4.9,4
+ARG-2024-00552,19/11/2024,2024,11,Noviembre,Primavera,CUST-1272,Colombia,Pacifico,Cali,Premium,Tecnologia,Tablet 10,Online,Always On,Mobile,2,523.45,0.029,1046.95,779.67,267.28,0,3.5,5
+ARG-2024-00410,19/11/2024,2024,11,Noviembre,Primavera,CUST-1120,Chile,Centro,Valparaiso,Estandar,Belleza,Kit Skin Care,Online,Always On,Mobile,2,82.16,0.064,158.47,80.04,78.43,0,3.9,3
+ARG-2024-00059,20/11/2024,2024,11,Noviembre,Primavera,CUST-1203,Peru,Costa,Lima,Estandar,Tecnologia,Camara Sport,Tienda,Cyber Days,No Aplica,1,250.35,0.197,206.98,146.9,60.08,0,3.9,3
+ARG-2024-00466,21/11/2024,2024,11,Noviembre,Primavera,CUST-1189,Colombia,Andina,Bogota,Basico,Hogar,Lampara Desk,Marketplace,Always On,Mobile,1,62.99,0.064,60.71,38.88,21.83,0,4.4,5
+ARG-2024-00326,21/11/2024,2024,11,Noviembre,Primavera,CUST-1172,Mexico,Occidente,Guadalajara,Estandar,Hogar,Aspiradora Max,Online,Always On,Mobile,4,261.19,0.011,1063.84,648.4,415.44,0,4.5,3
+ARG-2024-00163,21/11/2024,2024,11,Noviembre,Primavera,CUST-1035,Mexico,Norte,Monterrey,Estandar,Hogar,Lampara Desk,Online,Always On,Mobile,1,68.77,0.061,66.49,42.66,23.84,0,4.5,3
+ARG-2024-00435,22/11/2024,2024,11,Noviembre,Primavera,CUST-1109,Colombia,Andina,Bogota,Estandar,Deportes,Bicicleta Indoor,Online,Cyber Days,Desktop,1,513.68,0.196,425.31,287.23,138.07,0,4.5,4
+ARG-2024-00044,23/11/2024,2024,11,Noviembre,Primavera,CUST-1062,Mexico,Centro,CDMX,Basico,Moda,Zapatillas Run,Marketplace,Cyber Days,Desktop,1,106.28,0.156,92.4,50.85,24.92,1,3.1,5
+ARG-2024-00319,23/11/2024,2024,11,Noviembre,Primavera,CUST-1156,Colombia,Caribe,Barranquilla,Estandar,Tecnologia,Tablet 10,Tienda,Back to School,No Aplica,1,428.93,0.139,380.24,272.49,107.75,0,4.1,1
+ARG-2024-00173,24/11/2024,2024,11,Noviembre,Primavera,CUST-1232,Chile,Sur,Concepcion,Estandar,Hogar,Organizador Cocina,Tienda,Always On,No Aplica,1,61.85,0.057,60.09,41.28,18.81,0,3.9,3
+ARG-2024-00118,24/11/2024,2024,11,Noviembre,Primavera,CUST-1162,Colombia,Pacifico,Cali,Premium,Moda,Zapatillas Run,Tienda,No Aplica,No Aplica,1,163.09,0.006,166.99,90.23,76.76,0,4.6,2
+ARG-2024-00558,25/11/2024,2024,11,Noviembre,Primavera,CUST-1010,Colombia,Andina,Medellin,Basico,Deportes,Bicicleta Indoor,Online,Cyber Days,Desktop,4,369.75,0.161,1277.5,793.1,484.4,0,4.6,5
+ARG-2024-00485,26/11/2024,2024,11,Noviembre,Primavera,CUST-1260,Chile,Norte,Antofagasta,Basico,Deportes,Mat Yoga,Online,Temporada Alta,Mobile,1,32.21,0.07,30.84,20.35,10.49,0,4.0,3
+ARG-2024-00688,27/11/2024,2024,11,Noviembre,Primavera,CUST-1076,Mexico,Centro,Puebla,Basico,Tecnologia,Audifonos Pro,Marketplace,No Aplica,Mobile,3,137.31,0.0,424.28,310.77,113.51,0,4.2,5
+ARG-2024-00476,27/11/2024,2024,11,Noviembre,Primavera,CUST-1000,Mexico,Centro,Puebla,Basico,Moda,Jeans Slim,Tienda,Back to School,No Aplica,1,75.02,0.128,67.36,39.48,27.89,0,4.4,1
+ARG-2024-00594,28/11/2024,2024,11,Noviembre,Primavera,CUST-1286,Colombia,Andina,Medellin,Estandar,Deportes,Casco Ciclismo,Marketplace,Cyber Days,Mobile,1,71.39,0.183,60.05,36.1,23.95,0,3.5,6
+ARG-2024-00498,30/11/2024,2024,11,Noviembre,Primavera,CUST-1061,Chile,Centro,Santiago,Basico,Belleza,Cepillo Electrico,Marketplace,,Desktop,2,44.7,0.008,91.32,49.05,42.26,0,3.1,5
+ARG-2024-00186,01/12/2024,2024,12,Diciembre,Verano,CUST-1286,Mexico,Norte,Monterrey,Premium,Tecnologia,Audifonos Pro,Tienda,Temporada Alta,No Aplica,4,194.51,0.081,800.44,601.51,198.92,0,3.8,1
+ARG-2024-00013,01/12/2024,2024,12,Diciembre,Verano,CUST-1283,Peru,Sierra,Cusco,Estandar,Deportes,Casco Ciclismo,Online,Cyber Days,Mobile,1,62.43,0.178,57.47,37.47,20.0,0,5.0,4
+ARG-2024-00562,02/12/2024,2024,12,Diciembre,Verano,CUST-1253,Colombia,Caribe,Barranquilla,Premium,Tecnologia,Tablet 10,Tienda,Always On,No Aplica,1,571.92,0.039,615.76,474.82,140.95,0,4.1,1
+ARG-2024-00480,02/12/2024,2024,12,Diciembre,Verano,CUST-1140,Colombia,Pacifico,Cali,Premium,Deportes,Set Mancuernas,Online,Cyber Days,Mobile,1,154.46,0.143,148.34,97.78,50.55,0,4.4,4
+ARG-2024-00357,03/12/2024,2024,12,Diciembre,Verano,CUST-1214,Colombia,Caribe,Barranquilla,Premium,Tecnologia,Parlante Home,Online,No Aplica,Desktop,3,172.24,0.019,567.86,416.86,151.0,0,4.6,4
+ARG-2024-00560,03/12/2024,2024,12,Diciembre,Verano,CUST-1147,Mexico,Occidente,Guadalajara,Basico,Belleza,Kit Skin Care,Online,Temporada Alta,Desktop,1,61.8,0.085,63.32,30.77,32.55,0,4.1,5
+ARG-2024-00227,05/12/2024,2024,12,Diciembre,Verano,CUST-1156,Colombia,Caribe,Barranquilla,Estandar,Belleza,Cepillo Electrico,Tienda,Cyber Days,No Aplica,2,50.22,0.186,91.58,46.14,45.44,0,3.3,1
+ARG-2024-00045,05/12/2024,2024,12,Diciembre,Verano,CUST-1229,Colombia,Pacifico,Cali,Estandar,Moda,Zapatillas Run,Online,Cyber Days,Mobile,2,126.99,0.204,226.55,127.7,98.85,0,4.6,2
+ARG-2024-00370,06/12/2024,2024,12,Diciembre,Verano,CUST-1023,Peru,Sierra,Arequipa,Premium,Tecnologia,Smartwatch Fit,Tienda,No Aplica,No Aplica,1,192.55,0.0,215.65,170.05,45.6,0,4.3,3
+ARG-2024-00089,06/12/2024,2024,12,Diciembre,Verano,CUST-1285,Chile,Centro,Valparaiso,Estandar,Hogar,Lampara Desk,Online,Temporada Alta,Mobile,4,70.57,0.07,294.06,185.42,108.64,0,4.5,5
+ARG-2024-00160,07/12/2024,2024,12,Diciembre,Verano,CUST-1282,Mexico,Centro,CDMX,Premium,Deportes,Reloj Deportivo,Online,Always On,Mobile,1,316.95,0.0,354.98,216.62,138.36,0,4.1,5
+ARG-2024-00458,07/12/2024,2024,12,Diciembre,Verano,CUST-1220,Peru,Sierra,Arequipa,Estandar,Tecnologia,Parlante Home,Marketplace,No Aplica,Mobile,1,118.9,0.005,132.51,96.0,36.52,0,3.9,5
+ARG-2024-00273,08/12/2024,2024,12,Diciembre,Verano,CUST-1271,Colombia,Caribe,Barranquilla,Estandar,Tecnologia,Camara Sport,Online,Always On,Mobile,1,254.05,0.015,280.26,200.84,79.41,0,3.4,3
+ARG-2024-00156,08/12/2024,2024,12,Diciembre,Verano,CUST-1280,Mexico,Centro,CDMX,Estandar,Hogar,Licuadora Pro,Marketplace,Temporada Alta,Mobile,2,88.65,0.064,185.94,112.68,73.27,0,3.8,7
+ARG-2024-00371,08/12/2024,2024,12,Diciembre,Verano,CUST-1002,Peru,Sierra,Cusco,Basico,Hogar,Licuadora Pro,Marketplace,Always On,Tablet,1,79.09,0.077,81.79,52.11,29.68,0,3.6,7
+ARG-2024-00337,08/12/2024,2024,12,Diciembre,Verano,CUST-1014,Colombia,Pacifico,Cali,Estandar,Hogar,Cafetera Plus,Tienda,Always On,No Aplica,3,108.6,0.095,330.23,201.36,128.87,0,4.0,2
+ARG-2024-00745,09/12/2024,2024,12,Diciembre,Verano,CUST-1256,Mexico,Norte,Monterrey,Estandar,Deportes,Set Mancuernas,Tienda,Cyber Days,No Aplica,1,124.64,0.189,113.14,73.07,40.08,0,4.5,4
+ARG-2024-00183,09/12/2024,2024,12,Diciembre,Verano,CUST-1069,Colombia,Caribe,Barranquilla,Premium,Tecnologia,Parlante Home,Marketplace,Always On,Desktop,1,154.81,0.022,169.65,115.94,23.18,1,3.8,4
+ARG-2024-00726,10/12/2024,2024,12,Diciembre,Verano,CUST-1086,Chile,Centro,Valparaiso,Estandar,Moda,Zapatillas Run,Tienda,No Aplica,No Aplica,1,145.41,0.01,161.19,86.11,75.09,0,3.8,3
+ARG-2024-00505,10/12/2024,2024,12,Diciembre,Verano,CUST-1114,Colombia,Andina,Bogota,Basico,Deportes,Mat Yoga,Marketplace,Cyber Days,Desktop,1,29.97,0.198,26.93,16.63,10.31,0,4.8,5
+ARG-2024-00407,10/12/2024,2024,12,Diciembre,Verano,CUST-1262,Mexico,Occidente,Guadalajara,Premium,Deportes,Mat Yoga,Tienda,Always On,No Aplica,3,49.67,0.071,154.98,98.78,56.2,0,4.8,1
+ARG-2024-00692,10/12/2024,2024,12,Diciembre,Verano,CUST-1251,Peru,Costa,Lima,Estandar,Moda,Jeans Slim,Online,Cyber Days,Mobile,1,75.59,0.205,67.34,34.76,32.59,0,4.4,4
+ARG-2024-00256,11/12/2024,2024,12,Diciembre,Verano,CUST-1268,Chile,Centro,Santiago,Estandar,Tecnologia,Tablet 10,Tienda,Back to School,No Aplica,1,419.54,0.144,402.25,294.14,108.11,0,3.3,1
+ARG-2024-00705,13/12/2024,2024,12,Diciembre,Verano,CUST-1196,Chile,Centro,Valparaiso,Basico,Deportes,Reloj Deportivo,Online,Always On,Mobile,1,206.42,0.062,216.77,129.4,87.38,0,4.0,6
+ARG-2024-00695,13/12/2024,2024,12,Diciembre,Verano,CUST-1133,Peru,Costa,Lima,Basico,Deportes,Mat Yoga,Marketplace,Always On,Mobile,2,26.35,0.041,56.63,36.4,20.23,0,3.7,3
+ARG-2024-00057,14/12/2024,2024,12,Diciembre,Verano,CUST-1220,Colombia,Andina,Bogota,Estandar,Moda,Zapatillas Run,Marketplace,No Aplica,Mobile,3,132.49,0.0,445.18,252.91,192.27,0,4.4,4
+ARG-2024-00260,15/12/2024,2024,12,Diciembre,Verano,CUST-1298,Peru,Costa,Trujillo,Basico,Tecnologia,Camara Sport,Tienda,No Aplica,No Aplica,2,212.86,0.01,472.11,333.6,138.51,0,4.5,2
+ARG-2024-00206,15/12/2024,2024,12,Diciembre,Verano,CUST-1229,Chile,Centro,Santiago,Premium,Moda,Jeans Slim,Tienda,Temporada Alta,No Aplica,1,111.45,0.106,111.64,63.42,48.22,0,4.3,1
+ARG-2024-00300,15/12/2024,2024,12,Diciembre,Verano,CUST-1071,Peru,Costa,Lima,Estandar,Deportes,Casco Ciclismo,Online,Cyber Days,Mobile,1,70.07,0.185,63.93,43.67,20.26,0,5.0,4
+ARG-2024-00489,16/12/2024,2024,12,Diciembre,Verano,CUST-1198,Peru,Costa,Lima,Estandar,Tecnologia,Tablet 10,Online,Always On,Mobile,1,354.26,0.06,372.9,253.44,119.46,0,3.6,5
+ARG-2024-00328,16/12/2024,2024,12,Diciembre,Verano,CUST-1063,Mexico,Centro,CDMX,Estandar,Tecnologia,Tablet 10,Online,Back to School,Mobile,2,423.44,0.196,763.02,524.26,238.76,0,4.6,4
+ARG-2024-00310,17/12/2024,2024,12,Diciembre,Verano,CUST-1050,Chile,Centro,Santiago,Basico,Deportes,Set Mancuernas,Tienda,Cyber Days,No Aplica,1,108.9,0.187,99.17,62.82,36.35,0,5.0,1
+ARG-2024-00619,18/12/2024,2024,12,Diciembre,Verano,CUST-1080,Peru,Costa,Trujillo,Estandar,Hogar,Lampara Desk,Online,No Aplica,Tablet,1,60.71,0.03,65.92,40.28,25.64,0,4.3,4
+ARG-2024-00323,19/12/2024,2024,12,Diciembre,Verano,CUST-1001,Chile,Centro,Valparaiso,Premium,Deportes,Bicicleta Indoor,Tienda,No Aplica,No Aplica,1,720.42,0.047,769.1,484.92,284.18,0,4.7,1
+ARG-2024-00170,19/12/2024,2024,12,Diciembre,Verano,CUST-1116,Mexico,Norte,Monterrey,Basico,Tecnologia,Audifonos Pro,Online,No Aplica,Mobile,1,133.27,0.029,144.89,102.67,42.23,0,4.6,4
+ARG-2024-00313,19/12/2024,2024,12,Diciembre,Verano,CUST-1106,Colombia,Andina,Bogota,Basico,Tecnologia,Camara Sport,Marketplace,Always On,Mobile,3,207.22,0.014,686.48,498.33,188.15,0,4.3,4
+ARG-2024-00736,22/12/2024,2024,12,Diciembre,Verano,CUST-1272,Chile,Sur,Concepcion,Basico,Hogar,Organizador Cocina,Marketplace,Always On,Mobile,1,50.42,0.015,55.62,35.23,20.39,0,3.8,7
+ARG-2024-00008,22/12/2024,2024,12,Diciembre,Verano,CUST-1063,Chile,Centro,Santiago,Basico,Hogar,Cafetera Plus,Online,No Aplica,Desktop,1,113.9,0.0,127.57,82.37,45.2,0,4.2,3
+ARG-2024-00483,23/12/2024,2024,12,Diciembre,Verano,CUST-1139,Colombia,Pacifico,Cali,Premium,Belleza,Perfume Urban,Tienda,Always On,No Aplica,1,106.12,0.03,115.29,55.47,59.82,0,4.0,1
+ARG-2024-00106,23/12/2024,2024,12,Diciembre,Verano,CUST-1133,Colombia,Andina,Medellin,Premium,Belleza,Kit Skin Care,Tienda,Cyber Days,No Aplica,3,80.65,0.169,225.29,113.31,111.98,0,4.0,1
+ARG-2024-00744,24/12/2024,2024,12,Diciembre,Verano,CUST-1261,Mexico,Centro,Puebla,Estandar,Moda,Jeans Slim,Tienda,Cyber Days,No Aplica,1,90.19,0.16,84.85,47.51,37.33,0,4.9,2
+ARG-2024-00071,25/12/2024,2024,12,Diciembre,Verano,CUST-1221,Colombia,Caribe,Barranquilla,Estandar,Deportes,Bicicleta Indoor,Online,Back to School,Desktop,1,541.39,0.12,533.73,331.64,202.09,0,4.5,4
+ARG-2024-00603,25/12/2024,2024,12,Diciembre,Verano,CUST-1140,Peru,Costa,Trujillo,Estandar,Tecnologia,Audifonos Pro,Tienda,No Aplica,No Aplica,2,144.03,0.016,317.4,216.97,100.43,0,3.9,1
+ARG-2024-00547,25/12/2024,2024,12,Diciembre,Verano,CUST-1245,Colombia,Caribe,Barranquilla,Basico,Tecnologia,Smartwatch Fit,Tienda,Temporada Alta,No Aplica,2,163.03,0.064,341.67,246.4,95.27,0,4.2,1
+ARG-2024-00197,27/12/2024,2024,12,Diciembre,Verano,CUST-1165,Colombia,Andina,Bogota,Basico,Moda,Jeans Slim,Tienda,Always On,No Aplica,2,62.36,0.091,126.96,63.42,63.54,0,4.4,3
+ARG-2024-00341,27/12/2024,2024,12,Diciembre,Verano,CUST-1295,Colombia,Andina,Medellin,Estandar,Belleza,Secador Ionic,Online,Always On,Mobile,2,93.79,0.096,189.84,92.77,97.07,0,4.1,3
+ARG-2024-00252,27/12/2024,2024,12,Diciembre,Verano,CUST-1287,Peru,Costa,Trujillo,Basico,Moda,Jeans Slim,Marketplace,Temporada Alta,Tablet,1,58.1,0.094,58.92,32.98,25.95,0,4.2,5
+ARG-2024-00336,27/12/2024,2024,12,Diciembre,Verano,CUST-1258,Colombia,Pacifico,Cali,Estandar,Moda,Zapatillas Run,Marketplace,Back to School,Desktop,3,126.47,0.069,395.48,210.04,185.43,0,4.0,6
+ARG-2024-00481,29/12/2024,2024,12,Diciembre,Verano,CUST-1143,Colombia,Pacifico,Cali,Premium,Hogar,Organizador Cocina,Online,Temporada Alta,Mobile,2,64.0,0.08,131.95,85.06,46.89,0,3.8,5
+ARG-2024-00631,30/12/2024,2024,12,Diciembre,Verano,CUST-1165,Peru,Sierra,Arequipa,Estandar,Hogar,Licuadora Pro,Marketplace,Cyber Days,Tablet,1,98.12,0.174,90.73,53.68,37.05,0,4.5,3
+ARG-2024-00501,31/12/2024,2024,12,Diciembre,Verano,CUST-1195,Chile,Norte,Antofagasta,Basico,Deportes,Bicicleta Indoor,Online,Always On,Mobile,2,489.66,0.082,1007.17,659.44,347.73,0,4.4,1
+ARG-2024-00492,31/12/2024,2024,12,Diciembre,Verano,CUST-1153,Colombia,Pacifico,Cali,Basico,Tecnologia,Audifonos Pro,Tienda,Cyber Days,No Aplica,3,132.89,0.186,363.52,270.69,92.83,0,4.6,1
+ARG-2025-00648,04/01/2025,2025,1,Enero,Verano,CUST-1091,Chile,Centro,Valparaiso,Estandar,Moda,Camisa Oxford,Tienda,Back to School,No Aplica,1,70.69,0.116,69.99,36.32,33.67,0,3.4,1
+ARG-2025-00664,09/01/2025,2025,1,Enero,Verano,CUST-1129,Peru,Costa,Trujillo,Estandar,Hogar,Organizador Cocina,Marketplace,Temporada Alta,Desktop,2,53.38,0.041,114.68,70.85,43.83,0,3.7,6
+ARG-2025-00469,11/01/2025,2025,1,Enero,Verano,CUST-1276,Peru,Sierra,Cusco,Premium,Hogar,Licuadora Pro,Marketplace,Temporada Alta,Desktop,1,113.26,0.053,120.18,73.65,46.53,0,4.1,7
+ARG-2025-00360,11/01/2025,2025,1,Enero,Verano,CUST-1221,Colombia,Pacifico,Cali,Basico,Belleza,Serum Facial,Tienda,No Aplica,No Aplica,1,31.79,0.0,35.61,16.77,18.84,0,4.2,1
+ARG-2025-00158,11/01/2025,2025,1,Enero,Verano,CUST-1249,Chile,Sur,Concepcion,Basico,Hogar,Lampara Desk,Online,Always On,Mobile,1,60.82,0.056,64.3,42.64,21.66,0,4.1,6
+ARG-2025-00049,12/01/2025,2025,1,Enero,Verano,CUST-1226,Mexico,Occidente,Guadalajara,Basico,Moda,Bolso Ejecutivo,Tienda,Back to School,No Aplica,2,92.58,0.12,182.56,103.91,78.65,0,4.0,1
+ARG-2025-00644,13/01/2025,2025,1,Enero,Verano,CUST-1273,Chile,Centro,Valparaiso,Estandar,Tecnologia,Tablet 10,Online,Temporada Alta,Mobile,1,434.79,0.094,441.1,329.95,111.15,0,4.1,3
+ARG-2025-00478,13/01/2025,2025,1,Enero,Verano,CUST-1254,Colombia,Andina,Bogota,Estandar,Deportes,Bicicleta Indoor,Online,Cyber Days,Mobile,1,472.34,0.169,439.79,286.37,153.42,0,3.8,3
+ARG-2025-00353,14/01/2025,2025,1,Enero,Verano,CUST-1097,Mexico,Centro,Puebla,Estandar,Moda,Bolso Ejecutivo,Tienda,Back to School,No Aplica,2,112.59,0.077,232.74,125.57,107.17,0,4.2,1
+ARG-2025-00559,14/01/2025,2025,1,Enero,Verano,CUST-1270,Colombia,Caribe,Barranquilla,Estandar,Tecnologia,Camara Sport,Tienda,Cyber Days,No Aplica,2,238.86,0.177,440.11,329.74,110.37,0,4.5,1
+ARG-2025-00450,14/01/2025,2025,1,Enero,Verano,CUST-1002,Colombia,Andina,Medellin,Estandar,Deportes,Mat Yoga,Tienda,Temporada Alta,No Aplica,1,30.95,0.059,32.62,21.24,11.38,0,4.4,1
+ARG-2025-00181,18/01/2025,2025,1,Enero,Verano,CUST-1063,Colombia,Andina,Bogota,Basico,Hogar,Lampara Desk,Tienda,Temporada Alta,No Aplica,2,46.64,0.101,93.9,55.03,38.87,0,4.2,3
+ARG-2025-00248,18/01/2025,2025,1,Enero,Verano,CUST-1242,Mexico,Occidente,Guadalajara,Basico,Moda,Chaqueta Urbana,Online,Cyber Days,Desktop,1,135.58,0.159,127.69,68.52,59.17,0,3.7,3
+ARG-2025-00486,18/01/2025,2025,1,Enero,Verano,CUST-1009,Colombia,Andina,Medellin,Premium,Deportes,Set Mancuernas,Tienda,Always On,No Aplica,1,125.58,0.024,137.24,92.79,44.45,0,3.5,1
+ARG-2025-00030,19/01/2025,2025,1,Enero,Verano,CUST-1034,Colombia,Pacifico,Cali,Premium,Deportes,Set Mancuernas,Online,Back to School,Desktop,2,138.93,0.112,276.41,167.53,108.88,0,4.3,4
+ARG-2025-00087,19/01/2025,2025,1,Enero,Verano,CUST-1024,Chile,Sur,Concepcion,Basico,Belleza,Kit Skin Care,Online,Cyber Days,Mobile,1,70.78,0.193,63.98,31.66,32.32,0,4.9,3
+ARG-2025-00713,19/01/2025,2025,1,Enero,Verano,CUST-1272,Mexico,Occidente,Guadalajara,Premium,Tecnologia,Tablet 10,Online,Cyber Days,Desktop,1,604.39,0.199,542.54,387.28,155.26,0,4.9,4
+ARG-2025-00697,19/01/2025,2025,1,Enero,Verano,CUST-1149,Colombia,Andina,Bogota,Estandar,Moda,Bolso Ejecutivo,Online,No Aplica,Mobile,3,106.94,0.0,359.31,193.75,100.88,1,3.5,3
+ARG-2025-00581,22/01/2025,2025,1,Enero,Verano,CUST-1264,Peru,Costa,Trujillo,Premium,Deportes,Mat Yoga,Online,,Tablet,1,34.54,0.194,31.2,20.02,11.18,0,3.6,5
+ARG-2025-00025,24/01/2025,2025,1,Enero,Verano,CUST-1295,Mexico,Centro,Puebla,Basico,Deportes,Mat Yoga,Tienda,No Aplica,No Aplica,1,31.55,0.013,34.89,22.66,12.23,0,3.8,2
+ARG-2025-00494,26/01/2025,2025,1,Enero,Verano,CUST-1215,Mexico,Centro,Puebla,Estandar,Moda,Camisa Oxford,Tienda,No Aplica,No Aplica,1,69.01,0.016,76.09,38.46,37.63,0,4.5,3
+ARG-2025-00302,30/01/2025,2025,1,Enero,Verano,CUST-1030,Colombia,Caribe,Barranquilla,Premium,Tecnologia,Smartwatch Fit,Marketplace,Temporada Alta,Mobile,1,241.17,0.107,241.28,173.14,68.13,0,4.2,6
+ARG-2025-00361,01/02/2025,2025,2,Febrero,Verano,CUST-1198,Chile,Sur,Concepcion,Premium,Moda,Zapatillas Run,Online,No Aplica,Desktop,1,182.04,0.0,203.89,109.09,94.8,0,3.7,5
+ARG-2025-00615,01/02/2025,2025,2,Febrero,Verano,CUST-1291,Chile,Norte,Antofagasta,Estandar,Moda,Bolso Ejecutivo,Online,Cyber Days,Mobile,1,117.48,0.151,111.65,64.0,47.64,0,4.6,3
+ARG-2025-00577,04/02/2025,2025,2,Febrero,Verano,CUST-1269,Colombia,Pacifico,Cali,Basico,Moda,Chaqueta Urbana,Tienda,Always On,No Aplica,1,113.19,0.053,120.09,70.56,49.53,0,4.4,1
+ARG-2025-00176,04/02/2025,2025,2,Febrero,Verano,CUST-1029,Mexico,Centro,CDMX,Premium,Belleza,Kit Skin Care,Tienda,No Aplica,No Aplica,1,102.63,0.0,114.94,56.47,58.47,0,5.0,1
+ARG-2025-00503,04/02/2025,2025,2,Febrero,Verano,CUST-1223,Colombia,Caribe,Barranquilla,Premium,Tecnologia,Parlante Home,Online,No Aplica,Mobile,1,154.93,0.0,173.53,124.36,49.17,0,3.4,2
+ARG-2025-00532,05/02/2025,2025,2,Febrero,Verano,CUST-1214,Colombia,Andina,Medellin,Premium,Moda,Jeans Slim,Marketplace,No Aplica,Desktop,1,106.33,0.014,117.47,62.96,54.51,0,4.5,6
+ARG-2025-00121,08/02/2025,2025,2,Febrero,Verano,CUST-1204,Peru,Sierra,Cusco,Estandar,Moda,Bolso Ejecutivo,Online,Cyber Days,Mobile,1,95.43,0.159,89.85,47.1,42.74,0,3.4,6
+ARG-2025-00710,11/02/2025,2025,2,Febrero,Verano,CUST-1028,Chile,Norte,Antofagasta,Basico,Moda,Zapatillas Run,Online,Always On,Mobile,2,118.23,0.094,240.01,125.17,114.85,0,4.7,4
+ARG-2025-00440,15/02/2025,2025,2,Febrero,Verano,CUST-1119,Colombia,Andina,Medellin,Estandar,Belleza,Kit Skin Care,Online,Cyber Days,Mobile,3,67.36,0.202,180.7,88.54,92.16,0,4.5,2
+ARG-2025-00500,17/02/2025,2025,2,Febrero,Verano,CUST-1251,Chile,Norte,Antofagasta,Basico,Hogar,Lampara Desk,Tienda,,No Aplica,2,55.31,0.034,119.64,72.22,47.41,0,4.4,3
+ARG-2025-00507,19/02/2025,2025,2,Febrero,Verano,CUST-1050,Colombia,Caribe,Barranquilla,Estandar,Moda,Jeans Slim,Online,Always On,Mobile,1,70.64,0.077,72.99,42.64,30.36,0,4.7,4
+ARG-2025-00595,20/02/2025,2025,2,Febrero,Verano,CUST-1193,Mexico,Norte,Monterrey,Estandar,Deportes,Mat Yoga,Tienda,Always On,No Aplica,2,38.1,0.047,81.31,50.21,31.09,0,4.9,2
+ARG-2025-00722,24/02/2025,2025,2,Febrero,Verano,CUST-1170,Peru,Sierra,Arequipa,Estandar,Moda,Camisa Oxford,Tienda,No Aplica,No Aplica,1,53.26,0.0,59.65,33.66,25.99,0,4.3,1
+ARG-2025-00608,24/02/2025,2025,2,Febrero,Verano,CUST-1092,Peru,Costa,Trujillo,Estandar,Tecnologia,Camara Sport,Tienda,Back to School,No Aplica,1,221.69,0.104,222.57,154.14,68.43,0,3.7,2
+ARG-2025-00035,25/02/2025,2025,2,Febrero,Verano,CUST-1179,Mexico,Centro,CDMX,Basico,Tecnologia,Tablet 10,Marketplace,Cyber Days,Mobile,2,286.74,0.203,511.61,377.86,133.75,0,4.6,7
+ARG-2025-00108,26/02/2025,2025,2,Febrero,Verano,CUST-1208,Colombia,Pacifico,Cali,Premium,Moda,Zapatillas Run,Online,No Aplica,Desktop,1,151.48,0.024,165.54,86.43,79.11,0,3.9,4
+ARG-2025-00441,27/02/2025,2025,2,Febrero,Verano,CUST-1046,Mexico,Occidente,Guadalajara,Estandar,Deportes,Reloj Deportivo,Online,Cyber Days,Desktop,1,249.51,0.153,236.8,151.3,85.5,0,4.7,5
+ARG-2025-00275,01/03/2025,2025,3,Marzo,Otono,CUST-1189,Chile,Norte,Antofagasta,Premium,Moda,Camisa Oxford,Tienda,No Aplica,No Aplica,1,80.03,0.0,76.83,42.61,34.22,0,4.5,1
+ARG-2025-00345,03/03/2025,2025,3,Marzo,Otono,CUST-1292,Mexico,Norte,Monterrey,Premium,Deportes,Bicicleta Indoor,Marketplace,No Aplica,Desktop,2,795.98,0.001,1526.75,970.51,556.24,0,5.0,4
+ARG-2025-00556,03/03/2025,2025,3,Marzo,Otono,CUST-1140,Colombia,Andina,Medellin,Estandar,Tecnologia,Tablet 10,Marketplace,Back to School,Mobile,2,408.56,0.117,692.85,486.25,206.6,0,4.4,6
+ARG-2025-00140,04/03/2025,2025,3,Marzo,Otono,CUST-1250,Peru,Sierra,Cusco,Basico,Tecnologia,Parlante Home,Online,Back to School,Mobile,3,97.46,0.117,247.72,174.61,73.1,0,4.4,8
+ARG-2025-00506,07/03/2025,2025,3,Marzo,Otono,CUST-1230,Peru,Costa,Trujillo,Basico,Deportes,Mat Yoga,Online,Always On,Mobile,2,26.48,0.015,50.09,32.39,17.7,0,3.6,5
+ARG-2025-00396,07/03/2025,2025,3,Marzo,Otono,CUST-1183,Peru,Sierra,Arequipa,Premium,Moda,Camisa Oxford,Tienda,,No Aplica,3,67.75,0.037,187.91,100.05,87.86,0,4.5,1
+ARG-2025-00497,08/03/2025,2025,3,Marzo,Otono,CUST-1264,Peru,Sierra,Arequipa,Premium,Tecnologia,Parlante Home,Online,Cyber Days,Mobile,3,147.45,0.169,352.98,242.89,110.09,0,5.0,4
+ARG-2025-00638,09/03/2025,2025,3,Marzo,Otono,CUST-1154,Chile,Centro,Santiago,Basico,Tecnologia,Parlante Home,Tienda,Cyber Days,No Aplica,1,122.73,0.204,93.74,69.34,24.4,0,2.7,1
+ARG-2025-00451,11/03/2025,2025,3,Marzo,Otono,CUST-1263,Mexico,Occidente,Guadalajara,Premium,Tecnologia,Camara Sport,Tienda,Back to School,No Aplica,1,396.44,0.114,337.37,248.06,89.31,0,3.7,3
+ARG-2025-00036,11/03/2025,2025,3,Marzo,Otono,CUST-1129,Peru,Costa,Lima,Premium,Moda,Jeans Slim,Online,Always On,Desktop,2,97.7,0.068,174.83,98.17,76.66,0,4.3,3
+ARG-2025-00354,12/03/2025,2025,3,Marzo,Otono,CUST-1011,Colombia,Caribe,Barranquilla,Basico,Moda,Chaqueta Urbana,Online,Temporada Alta,Mobile,1,117.02,0.088,102.49,61.22,41.26,0,,5
+ARG-2025-00286,12/03/2025,2025,3,Marzo,Otono,CUST-1146,Colombia,Pacifico,Cali,Basico,Tecnologia,Camara Sport,Online,Always On,Desktop,1,209.2,0.042,192.32,131.71,60.6,0,4.5,5
+ARG-2025-00531,13/03/2025,2025,3,Marzo,Otono,CUST-1145,Colombia,Andina,Bogota,Estandar,Deportes,Reloj Deportivo,Tienda,Back to School,No Aplica,2,209.73,0.124,352.61,227.2,125.41,0,4.2,1
+ARG-2025-00347,13/03/2025,2025,3,Marzo,Otono,CUST-1017,Mexico,Norte,Monterrey,Premium,Belleza,Kit Skin Care,Online,Cyber Days,Mobile,1,101.99,0.226,75.75,38.56,37.18,0,3.1,4
+ARG-2025-00592,16/03/2025,2025,3,Marzo,Otono,CUST-1138,Peru,Costa,Lima,Estandar,Deportes,Mat Yoga,Online,Always On,Mobile,2,34.61,0.009,65.85,40.09,25.77,0,4.1,4
+ARG-2025-00295,16/03/2025,2025,3,Marzo,Otono,CUST-1149,Peru,Sierra,Arequipa,Basico,Tecnologia,Tablet 10,Online,Temporada Alta,Desktop,1,261.49,0.071,233.18,165.1,68.07,0,5.0,4
+ARG-2025-00281,17/03/2025,2025,3,Marzo,Otono,CUST-1068,Mexico,Norte,Monterrey,Premium,Moda,Jeans Slim,Online,Cyber Days,Desktop,1,122.95,0.176,97.3,53.98,43.32,0,5.0,4
+ARG-2025-00290,18/03/2025,2025,3,Marzo,Otono,CUST-1246,Peru,Sierra,Cusco,Estandar,Deportes,Bicicleta Indoor,Marketplace,Always On,Tablet,1,478.71,0.012,453.98,295.63,158.35,0,3.9,5
+ARG-2025-00315,22/03/2025,2025,3,Marzo,Otono,CUST-1027,Peru,Costa,Trujillo,Basico,Tecnologia,Smartwatch Fit,Online,Temporada Alta,Desktop,1,143.09,0.058,129.45,95.55,33.9,0,4.3,2
+ARG-2025-00572,23/03/2025,2025,3,Marzo,Otono,CUST-1035,Chile,Sur,Concepcion,Premium,Moda,Camisa Oxford,Marketplace,No Aplica,Mobile,1,85.93,0.0,82.49,44.68,37.81,0,4.1,6
+ARG-2025-00237,25/03/2025,2025,3,Marzo,Otono,CUST-1222,Mexico,Centro,Puebla,Basico,Hogar,Lampara Desk,Tienda,No Aplica,No Aplica,1,59.47,0.002,56.98,34.17,22.81,0,4.3,1
+ARG-2025-00346,30/03/2025,2025,3,Marzo,Otono,CUST-1288,Chile,Norte,Antofagasta,Basico,Moda,Chaqueta Urbana,Tienda,Always On,No Aplica,2,136.46,0.037,252.33,140.24,66.67,1,3.8,3
+ARG-2025-00034,31/03/2025,2025,3,Marzo,Otono,CUST-1251,Chile,Sur,Concepcion,Estandar,Tecnologia,Audifonos Pro,Online,Back to School,Desktop,1,163.19,0.112,139.05,97.95,41.1,0,3.6,4
+ARG-2025-00042,01/04/2025,2025,4,Abril,Otono,CUST-1087,Chile,Sur,Concepcion,Estandar,Deportes,Reloj Deportivo,Online,Temporada Alta,Desktop,1,260.67,0.096,226.14,153.02,73.12,0,4.1,2
+ARG-2025-00236,01/04/2025,2025,4,Abril,Otono,CUST-1253,Colombia,Andina,Bogota,Estandar,Moda,Jeans Slim,Online,Always On,Desktop,2,77.02,0.042,141.63,76.84,64.8,0,4.3,2
+ARG-2025-00425,03/04/2025,2025,4,Abril,Otono,CUST-1060,Colombia,Caribe,Barranquilla,Premium,Moda,Camisa Oxford,Marketplace,No Aplica,Mobile,1,68.92,0.0,66.17,34.28,31.89,0,4.1,6
+ARG-2025-00434,06/04/2025,2025,4,Abril,Otono,CUST-1192,Chile,Norte,Antofagasta,Estandar,Tecnologia,Parlante Home,Tienda,No Aplica,No Aplica,1,141.67,0.0,136.0,102.0,34.0,0,4.1,1
+ARG-2025-00355,07/04/2025,2025,4,Abril,Otono,CUST-1090,Colombia,Pacifico,Cali,Premium,Moda,Camisa Oxford,Marketplace,Back to School,Mobile,1,67.37,0.097,58.42,32.84,25.58,0,,5
+ARG-2025-00001,12/04/2025,2025,4,Abril,Otono,CUST-1062,Mexico,Occidente,Guadalajara,Premium,Hogar,Cafetera Plus,Online,Cyber Days,Mobile,2,173.92,0.166,278.43,169.73,108.7,0,4.3,2
+ARG-2025-00597,12/04/2025,2025,4,Abril,Otono,CUST-1247,Mexico,Norte,Monterrey,Estandar,Tecnologia,Smartwatch Fit,Marketplace,Temporada Alta,Mobile,2,228.73,0.03,426.05,303.23,122.82,0,4.8,5
+ARG-2025-00084,12/04/2025,2025,4,Abril,Otono,CUST-1157,Colombia,Andina,Medellin,Estandar,Tecnologia,Smartwatch Fit,Tienda,Back to School,No Aplica,1,201.54,0.115,171.19,126.8,44.38,0,4.1,2
+ARG-2025-00611,13/04/2025,2025,4,Abril,Otono,CUST-1182,Peru,Costa,Lima,Estandar,Hogar,Organizador Cocina,Tienda,No Aplica,No Aplica,2,40.38,0.017,76.22,49.6,26.62,0,3.5,1
+ARG-2025-00096,13/04/2025,2025,4,Abril,Otono,CUST-1287,Colombia,Andina,Medellin,Estandar,Deportes,Bicicleta Indoor,Tienda,Temporada Alta,No Aplica,1,473.41,0.064,425.24,279.64,145.59,0,4.9,2
+ARG-2025-00711,14/04/2025,2025,4,Abril,Otono,CUST-1026,Colombia,Andina,Bogota,Basico,Moda,Camisa Oxford,Tienda,Temporada Alta,No Aplica,2,44.43,0.109,76.01,42.3,33.71,0,3.8,3
+ARG-2025-00456,15/04/2025,2025,4,Abril,Otono,CUST-1081,Peru,Costa,Trujillo,Estandar,Moda,Jeans Slim,Online,No Aplica,Tablet,1,70.45,0.002,67.5,36.75,30.74,0,4.7,5
+ARG-2025-00254,15/04/2025,2025,4,Abril,Otono,CUST-1178,Mexico,Centro,CDMX,Estandar,Hogar,Cafetera Plus,Tienda,Cyber Days,No Aplica,2,123.96,0.175,196.27,120.62,75.66,0,4.3,1
+ARG-2025-00006,15/04/2025,2025,4,Abril,Otono,CUST-1246,Colombia,Andina,Medellin,Estandar,Tecnologia,Camara Sport,Online,No Aplica,Desktop,1,281.08,0.0,269.84,206.16,63.67,0,4.9,5
+ARG-2025-00002,17/04/2025,2025,4,Abril,Otono,CUST-1067,Peru,Costa,Trujillo,Estandar,Hogar,Cafetera Plus,Online,Back to School,Desktop,2,116.41,0.129,194.68,127.12,67.56,0,3.2,6
+ARG-2025-00064,18/04/2025,2025,4,Abril,Otono,CUST-1092,Mexico,Centro,CDMX,Basico,Moda,Chaqueta Urbana,Tienda,Temporada Alta,No Aplica,1,130.25,0.076,115.52,60.3,55.22,0,3.8,1
+ARG-2025-00626,19/04/2025,2025,4,Abril,Otono,CUST-1002,Colombia,Andina,Medellin,Estandar,Belleza,Serum Facial,Tienda,Back to School,No Aplica,1,44.8,0.176,35.44,18.72,16.72,0,3.7,1
+ARG-2025-00732,20/04/2025,2025,4,Abril,Otono,CUST-1174,Peru,Costa,Lima,Estandar,Moda,Chaqueta Urbana,Online,Always On,Desktop,1,118.51,0.035,109.75,63.09,46.67,0,4.0,6
+ARG-2025-00072,20/04/2025,2025,4,Abril,Otono,CUST-1214,Colombia,Pacifico,Cali,Estandar,Hogar,Lampara Desk,Tienda,Always On,No Aplica,2,66.36,0.096,115.14,72.27,42.86,0,4.7,2
+ARG-2025-00398,20/04/2025,2025,4,Abril,Otono,CUST-1013,Colombia,Andina,Medellin,Estandar,Hogar,Aspiradora Max,Tienda,Back to School,No Aplica,1,236.91,0.17,188.84,110.78,78.06,0,4.4,2
+ARG-2025-00278,23/04/2025,2025,4,Abril,Otono,CUST-1164,Peru,Sierra,Cusco,Premium,Hogar,Organizador Cocina,Online,Cyber Days,Mobile,2,62.23,0.177,98.32,62.89,35.43,0,4.3,5
+ARG-2025-00702,24/04/2025,2025,4,Abril,Otono,CUST-1008,Colombia,Pacifico,Cali,Premium,Tecnologia,Audifonos Pro,Marketplace,Cyber Days,Desktop,1,177.94,0.218,133.57,97.75,35.82,0,4.0,4
+ARG-2025-00576,25/04/2025,2025,4,Abril,Otono,CUST-1164,Chile,Centro,Valparaiso,Estandar,Moda,Jeans Slim,Tienda,Back to School,No Aplica,1,91.1,0.091,79.47,47.02,32.45,0,3.5,1
+ARG-2025-00223,25/04/2025,2025,4,Abril,Otono,CUST-1144,Peru,Costa,Trujillo,Estandar,Moda,Zapatillas Run,Online,No Aplica,Mobile,1,132.58,0.0,127.28,69.2,58.08,0,3.9,3
+ARG-2025-00422,29/04/2025,2025,4,Abril,Otono,CUST-1131,Colombia,Andina,Medellin,Basico,Moda,Jeans Slim,Marketplace,Always On,Mobile,2,59.37,0.0,113.98,66.52,47.47,0,3.6,6
+ARG-2025-00387,30/04/2025,2025,4,Abril,Otono,CUST-1282,Peru,Costa,Trujillo,Estandar,Belleza,Kit Skin Care,Tienda,Back to School,No Aplica,1,70.99,0.17,56.6,28.11,28.49,0,3.2,1
+ARG-2025-00669,30/04/2025,2025,4,Abril,Otono,CUST-1213,Colombia,Pacifico,Cali,Basico,Belleza,Kit Skin Care,Tienda,Always On,No Aplica,1,64.59,0.055,58.6,28.55,30.05,0,4.8,1
+ARG-2025-00694,02/05/2025,2025,5,Mayo,Otono,CUST-1006,Mexico,Centro,CDMX,Basico,Deportes,Set Mancuernas,Online,No Aplica,Tablet,1,86.25,0.004,82.46,54.85,27.61,0,4.0,4
+ARG-2025-00164,03/05/2025,2025,5,Mayo,Otono,CUST-1223,Chile,Norte,Antofagasta,Estandar,Hogar,Cafetera Plus,Online,No Aplica,Mobile,3,127.18,0.018,359.52,225.43,134.08,0,4.3,2
+ARG-2025-00110,03/05/2025,2025,5,Mayo,Otono,CUST-1034,Chile,Centro,Valparaiso,Premium,Tecnologia,Camara Sport,Marketplace,,Desktop,1,398.57,0.168,318.34,231.17,87.16,0,4.3,5
+ARG-2025-00177,05/05/2025,2025,5,Mayo,Otono,CUST-1248,Colombia,Andina,Bogota,Estandar,Tecnologia,Audifonos Pro,Tienda,Always On,No Aplica,1,148.31,0.028,138.42,96.41,42.01,0,3.9,3
+ARG-2025-00271,05/05/2025,2025,5,Mayo,Otono,CUST-1296,Peru,Sierra,Arequipa,Estandar,Hogar,Lampara Desk,Online,No Aplica,Mobile,2,58.59,0.0,112.49,67.38,45.11,0,4.8,4
+ARG-2025-00663,05/05/2025,2025,5,Mayo,Otono,CUST-1093,Chile,Norte,Antofagasta,Premium,Moda,Zapatillas Run,Marketplace,Always On,Mobile,1,167.77,0.023,157.37,86.32,71.05,0,4.0,5
+ARG-2025-00277,06/05/2025,2025,5,Mayo,Otono,CUST-1271,Peru,Sierra,Cusco,Premium,Moda,Camisa Oxford,Tienda,No Aplica,No Aplica,3,67.55,0.0,194.56,102.0,92.56,0,4.6,1
+ARG-2025-00318,06/05/2025,2025,5,Mayo,Otono,CUST-1228,Mexico,Norte,Monterrey,Basico,Moda,Camisa Oxford,Online,Temporada Alta,Desktop,1,54.14,0.071,48.28,25.56,22.72,0,4.1,5
+ARG-2025-00564,06/05/2025,2025,5,Mayo,Otono,CUST-1016,Colombia,Pacifico,Cali,Estandar,Moda,Zapatillas Run,Tienda,Temporada Alta,No Aplica,2,129.58,0.072,230.83,127.23,103.61,0,4.9,3
+ARG-2025-00599,07/05/2025,2025,5,Mayo,Otono,CUST-1009,Mexico,Centro,Puebla,Estandar,Tecnologia,Audifonos Pro,Online,Cyber Days,Mobile,2,166.2,0.148,271.76,190.4,81.36,0,4.0,1
+ARG-2025-00443,07/05/2025,2025,5,Mayo,Otono,CUST-1197,Chile,Centro,Valparaiso,Premium,Moda,Bolso Ejecutivo,Tienda,Cyber Days,No Aplica,2,168.33,0.163,270.63,154.2,116.43,0,3.6,2
+ARG-2025-00449,07/05/2025,2025,5,Mayo,Otono,CUST-1128,Colombia,Pacifico,Cali,Basico,Tecnologia,Camara Sport,Marketplace,Always On,Mobile,1,207.48,0.098,179.61,130.07,49.53,0,3.8,6
+ARG-2025-00287,07/05/2025,2025,5,Mayo,Otono,CUST-1087,Colombia,Pacifico,Cali,Estandar,Deportes,Casco Ciclismo,Tienda,Always On,No Aplica,1,81.51,0.047,74.56,46.25,28.31,0,4.1,1
+ARG-2025-00621,08/05/2025,2025,5,Mayo,Otono,CUST-1023,Peru,Sierra,Arequipa,Premium,Deportes,Casco Ciclismo,Tienda,No Aplica,No Aplica,1,89.39,0.012,84.82,52.03,32.79,0,4.3,3
+ARG-2025-00261,08/05/2025,2025,5,Mayo,Otono,CUST-1290,Mexico,Occidente,Guadalajara,Estandar,Belleza,Kit Skin Care,Tienda,Temporada Alta,No Aplica,1,83.24,0.055,75.48,38.68,36.81,0,4.0,1
+ARG-2025-00262,09/05/2025,2025,5,Mayo,Otono,CUST-1181,Peru,Sierra,Cusco,Estandar,Moda,Jeans Slim,Tienda,Always On,No Aplica,1,74.0,0.087,64.84,35.87,28.97,0,4.4,1
+ARG-2025-00482,09/05/2025,2025,5,Mayo,Otono,CUST-1180,Peru,Sierra,Arequipa,Estandar,Belleza,Perfume Urban,Online,No Aplica,Mobile,1,78.36,0.006,74.8,36.82,37.98,0,4.3,8
+ARG-2025-00369,10/05/2025,2025,5,Mayo,Otono,CUST-1277,Mexico,Centro,CDMX,Premium,Deportes,Bicicleta Indoor,Tienda,Always On,No Aplica,1,801.61,0.071,715.29,439.94,275.36,0,4.3,1
+ARG-2025-00038,11/05/2025,2025,5,Mayo,Otono,CUST-1003,Mexico,Norte,Monterrey,Estandar,Tecnologia,Audifonos Pro,Tienda,Temporada Alta,No Aplica,1,160.11,0.078,141.73,101.44,40.29,0,4.2,1
+ARG-2025-00473,12/05/2025,2025,5,Mayo,Otono,CUST-1061,Mexico,Occidente,Guadalajara,Premium,Hogar,Cafetera Plus,Marketplace,Always On,Desktop,1,161.81,0.056,146.65,85.24,61.41,0,4.5,4
+ARG-2025-00392,12/05/2025,2025,5,Mayo,Otono,CUST-1027,Peru,Costa,Trujillo,Basico,Moda,Zapatillas Run,Online,No Aplica,Mobile,1,97.08,0.011,92.17,52.54,39.62,0,3.0,5
+ARG-2025-00211,12/05/2025,2025,5,Mayo,Otono,CUST-1255,Colombia,Andina,Medellin,Estandar,Tecnologia,Camara Sport,Tienda,No Aplica,No Aplica,1,260.72,0.007,248.48,178.19,70.29,0,3.8,1
+ARG-2025-00213,12/05/2025,2025,5,Mayo,Otono,CUST-1143,Chile,Sur,Concepcion,Estandar,Belleza,Kit Skin Care,Marketplace,No Aplica,Desktop,1,80.06,0.0,76.86,36.98,39.88,0,4.5,5
+ARG-2025-00214,12/05/2025,2025,5,Mayo,Otono,CUST-1222,Colombia,Andina,Medellin,Basico,Moda,Camisa Oxford,Online,Back to School,Mobile,4,53.32,0.1,184.36,108.24,76.12,0,3.8,2
+ARG-2025-00511,13/05/2025,2025,5,Mayo,Otono,CUST-1097,Colombia,Andina,Bogota,Estandar,Tecnologia,Parlante Home,Online,Back to School,Tablet,2,136.98,0.061,247.09,171.99,75.11,0,4.1,7
+ARG-2025-00062,13/05/2025,2025,5,Mayo,Otono,CUST-1259,Colombia,Andina,Medellin,Estandar,Moda,Jeans Slim,Online,Temporada Alta,Desktop,1,77.21,0.051,70.38,39.22,31.16,0,4.5,4
+ARG-2025-00584,15/05/2025,2025,5,Mayo,Otono,CUST-1284,Mexico,Occidente,Guadalajara,Premium,Moda,Bolso Ejecutivo,Tienda,Temporada Alta,No Aplica,1,121.11,0.028,113.04,64.5,48.54,0,4.0,1
+ARG-2025-00651,15/05/2025,2025,5,Mayo,Otono,CUST-1217,Mexico,Norte,Monterrey,Estandar,Deportes,Bicicleta Indoor,Online,Cyber Days,Desktop,1,555.31,0.165,445.15,268.48,176.67,0,4.3,3
+ARG-2025-00459,15/05/2025,2025,5,Mayo,Otono,CUST-1054,Colombia,Pacifico,Cali,Basico,Tecnologia,Audifonos Pro,Online,Temporada Alta,Mobile,2,97.41,0.024,182.46,119.94,62.51,0,4.1,6
+ARG-2025-00378,16/05/2025,2025,5,Mayo,Otono,CUST-1052,Mexico,Norte,Monterrey,Premium,Tecnologia,Camara Sport,Online,Always On,Tablet,1,333.23,0.055,302.38,212.56,89.81,0,4.2,5
+ARG-2025-00460,16/05/2025,2025,5,Mayo,Otono,CUST-1203,Colombia,Caribe,Barranquilla,Basico,Moda,Bolso Ejecutivo,Tienda,Temporada Alta,No Aplica,1,82.6,0.057,74.81,40.27,34.54,0,4.3,1
+ARG-2025-00349,18/05/2025,2025,5,Mayo,Otono,CUST-1145,Colombia,Andina,Bogota,Estandar,Hogar,Cafetera Plus,Tienda,Temporada Alta,No Aplica,1,114.01,0.063,102.51,62.83,39.68,0,4.6,1
+ARG-2025-00538,19/05/2025,2025,5,Mayo,Otono,CUST-1124,Colombia,Pacifico,Cali,Premium,Tecnologia,Audifonos Pro,Tienda,Always On,No Aplica,1,227.09,0.032,211.08,160.2,50.88,0,4.1,2
+ARG-2025-00139,19/05/2025,2025,5,Mayo,Otono,CUST-1104,Chile,Sur,Concepcion,Estandar,Hogar,Cafetera Plus,Online,No Aplica,Desktop,2,166.4,0.021,312.88,198.07,114.81,0,4.5,4
+ARG-2025-00448,20/05/2025,2025,5,Mayo,Otono,CUST-1234,Peru,Sierra,Arequipa,Basico,Hogar,Lampara Desk,Tienda,Temporada Alta,No Aplica,1,53.51,0.039,49.35,30.94,18.41,0,4.4,3
+ARG-2025-00312,20/05/2025,2025,5,Mayo,Otono,CUST-1139,Mexico,Centro,CDMX,Estandar,Hogar,Aspiradora Max,Marketplace,No Aplica,Mobile,2,266.97,0.012,506.51,313.68,192.83,0,3.9,3
+ARG-2025-00760,21/05/2025,2025,5,Mayo,Otono,CUST-1067,Colombia,Caribe,Barranquilla,Estandar,Belleza,Secador Ionic,Online,Back to School,Tablet,1,89.35,0.13,74.62,37.94,36.68,0,3.5,5
+ARG-2025-00452,21/05/2025,2025,5,Mayo,Otono,CUST-1050,Peru,Sierra,Cusco,Estandar,Tecnologia,Smartwatch Fit,Tienda,Back to School,No Aplica,1,180.96,0.091,157.94,110.6,47.34,0,4.5,4
+ARG-2025-00152,21/05/2025,2025,5,Mayo,Otono,CUST-1190,Chile,Centro,Valparaiso,Estandar,Hogar,Lampara Desk,Marketplace,Always On,Mobile,3,68.15,0.05,186.47,127.92,58.55,0,4.8,5
+ARG-2025-00077,23/05/2025,2025,5,Mayo,Otono,CUST-1190,Mexico,Occidente,Guadalajara,Estandar,Moda,Chaqueta Urbana,Tienda,Back to School,No Aplica,1,147.17,0.108,125.99,70.64,55.35,0,4.1,2
+ARG-2025-00185,24/05/2025,2025,5,Mayo,Otono,CUST-1243,Colombia,Andina,Medellin,Estandar,Moda,Jeans Slim,Online,Cyber Days,Mobile,2,78.21,0.151,127.46,66.38,61.08,0,3.3,5
+ARG-2025-00509,24/05/2025,2025,5,Mayo,Otono,CUST-1017,Chile,Norte,Antofagasta,Premium,Tecnologia,Audifonos Pro,Online,Always On,Desktop,1,218.45,0.079,193.11,138.57,54.54,0,4.2,5
+ARG-2025-00685,24/05/2025,2025,5,Mayo,Otono,CUST-1060,Chile,Centro,Valparaiso,Basico,Hogar,Lampara Desk,Marketplace,No Aplica,Desktop,1,57.01,0.016,53.86,34.21,19.65,0,4.0,5
+ARG-2025-00085,25/05/2025,2025,5,Mayo,Otono,CUST-1069,Colombia,Andina,Medellin,Estandar,Belleza,Kit Skin Care,Tienda,Temporada Alta,No Aplica,1,88.38,0.063,79.5,39.61,39.89,0,3.6,1
+ARG-2025-00352,25/05/2025,2025,5,Mayo,Otono,CUST-1017,Chile,Centro,Santiago,Basico,Hogar,Organizador Cocina,Online,No Aplica,Mobile,2,49.38,0.0,94.82,61.03,33.79,0,3.0,5
+ARG-2025-00610,25/05/2025,2025,5,Mayo,Otono,CUST-1278,Mexico,Centro,Puebla,Estandar,Deportes,Casco Ciclismo,Online,,Mobile,2,81.0,0.057,146.63,93.98,52.66,0,4.7,5
+ARG-2025-00590,27/05/2025,2025,5,Mayo,Otono,CUST-1157,Chile,Centro,Santiago,Basico,Moda,Jeans Slim,Online,Cyber Days,Desktop,2,81.89,0.225,121.92,65.24,56.68,0,4.9,5
+ARG-2025-00331,27/05/2025,2025,5,Mayo,Otono,CUST-1158,Mexico,Centro,CDMX,Estandar,Hogar,Organizador Cocina,Online,Cyber Days,Desktop,3,54.93,0.172,130.97,80.6,50.37,0,4.4,5
+ARG-2025-00401,30/05/2025,2025,5,Mayo,Otono,CUST-1013,Chile,Centro,Valparaiso,Estandar,Moda,Camisa Oxford,Online,Always On,Tablet,1,57.83,0.084,50.83,25.36,25.46,0,4.4,5
+ARG-2025-00325,31/05/2025,2025,5,Mayo,Otono,CUST-1252,Colombia,Pacifico,Cali,Estandar,Deportes,Bicicleta Indoor,Online,,Desktop,1,511.76,0.0,491.29,308.78,182.5,0,3.4,1
+ARG-2025-00427,02/06/2025,2025,6,Junio,Invierno,CUST-1004,Peru,Sierra,Arequipa,Estandar,Belleza,Cepillo Electrico,Online,Back to School,Tablet,1,56.27,0.111,44.04,21.9,22.14,0,4.8,3
+ARG-2025-00472,03/06/2025,2025,6,Junio,Invierno,CUST-1234,Colombia,Pacifico,Cali,Premium,Belleza,Secador Ionic,Online,Always On,Mobile,1,111.87,0.014,97.07,51.3,28.3,1,4.8,4
+ARG-2025-00653,04/06/2025,2025,6,Junio,Invierno,CUST-1197,Colombia,Andina,Bogota,Basico,Belleza,Perfume Urban,Tienda,Cyber Days,No Aplica,1,78.46,0.187,56.11,28.24,27.87,0,5.0,2
+ARG-2025-00297,04/06/2025,2025,6,Junio,Invierno,CUST-1288,Peru,Sierra,Arequipa,Estandar,Tecnologia,Parlante Home,Marketplace,Always On,Desktop,1,126.93,0.032,108.07,77.3,30.77,0,4.8,5
+ARG-2025-00667,04/06/2025,2025,6,Junio,Invierno,CUST-1158,Peru,Sierra,Arequipa,Estandar,Moda,Zapatillas Run,Tienda,Temporada Alta,No Aplica,2,114.81,0.074,187.03,89.25,97.78,0,3.8,2
+ARG-2025-00192,04/06/2025,2025,6,Junio,Invierno,CUST-1085,Chile,Centro,Valparaiso,Estandar,Deportes,Bicicleta Indoor,Online,No Aplica,Mobile,1,637.7,0.036,540.73,313.03,130.36,1,3.0,5
+ARG-2025-00198,05/06/2025,2025,6,Junio,Invierno,CUST-1130,Mexico,Centro,Puebla,Premium,Moda,Jeans Slim,Tienda,Back to School,No Aplica,2,120.92,0.104,190.62,105.94,84.68,0,4.4,1
+ARG-2025-00758,06/06/2025,2025,6,Junio,Invierno,CUST-1092,Chile,Sur,Concepcion,Premium,Tecnologia,Smartwatch Fit,Tienda,Always On,No Aplica,2,300.79,0.041,507.58,373.89,133.69,0,4.6,1
+ARG-2025-00541,06/06/2025,2025,6,Junio,Invierno,CUST-1229,Colombia,Andina,Medellin,Estandar,Tecnologia,Smartwatch Fit,Online,Always On,Tablet,1,218.98,0.03,186.94,134.81,52.13,0,4.7,2
+ARG-2025-00717,06/06/2025,2025,6,Junio,Invierno,CUST-1058,Mexico,Centro,Puebla,Estandar,Belleza,Serum Facial,Tienda,Cyber Days,No Aplica,1,53.94,0.201,37.95,18.33,19.62,0,3.7,1
+ARG-2025-00657,07/06/2025,2025,6,Junio,Invierno,CUST-1110,Chile,Centro,Santiago,Premium,Hogar,Cafetera Plus,Marketplace,Temporada Alta,Mobile,3,172.18,0.048,432.82,266.22,166.6,0,4.3,5
+ARG-2025-00107,07/06/2025,2025,6,Junio,Invierno,CUST-1140,Peru,Sierra,Cusco,Basico,Deportes,Casco Ciclismo,Tienda,Back to School,No Aplica,1,52.18,0.16,38.59,24.76,13.83,0,4.5,2
+ARG-2025-00228,08/06/2025,2025,6,Junio,Invierno,CUST-1063,Peru,Sierra,Cusco,Estandar,Deportes,Reloj Deportivo,Marketplace,No Aplica,Mobile,1,193.93,0.0,170.66,108.52,62.14,0,4.0,6
+ARG-2025-00293,08/06/2025,2025,6,Junio,Invierno,CUST-1192,Colombia,Caribe,Barranquilla,Estandar,Belleza,Kit Skin Care,Online,Cyber Days,Mobile,2,80.25,0.189,114.62,62.44,52.18,0,4.0,6
+ARG-2025-00543,11/06/2025,2025,6,Junio,Invierno,CUST-1144,Peru,Costa,Lima,Premium,Hogar,Licuadora Pro,Marketplace,Back to School,Mobile,3,118.57,0.084,286.73,191.36,95.37,0,4.5,6
+ARG-2025-00205,11/06/2025,2025,6,Junio,Invierno,CUST-1121,Peru,Sierra,Arequipa,Estandar,Belleza,Serum Facial,Online,Temporada Alta,Mobile,4,41.08,0.054,136.81,69.95,66.85,0,,3
+ARG-2025-00444,12/06/2025,2025,6,Junio,Invierno,CUST-1073,Peru,Costa,Trujillo,Estandar,Hogar,Cafetera Plus,Tienda,Always On,No Aplica,1,108.71,0.065,89.4,55.48,33.93,0,4.1,1
+ARG-2025-00245,12/06/2025,2025,6,Junio,Invierno,CUST-1105,Mexico,Centro,CDMX,Premium,Hogar,Aspiradora Max,Online,Always On,Mobile,2,338.89,0.103,535.0,333.67,201.33,0,4.4,3
+ARG-2025-00620,12/06/2025,2025,6,Junio,Invierno,CUST-1209,Mexico,Occidente,Guadalajara,Basico,Tecnologia,Audifonos Pro,Online,Always On,Mobile,2,139.91,0.074,227.95,170.98,56.97,0,4.4,3
+ARG-2025-00684,13/06/2025,2025,6,Junio,Invierno,CUST-1072,Peru,Costa,Trujillo,Estandar,Tecnologia,Smartwatch Fit,Online,Always On,Tablet,2,197.24,0.082,318.58,214.76,103.82,0,4.2,5
+ARG-2025-00215,14/06/2025,2025,6,Junio,Invierno,CUST-1006,Colombia,Andina,Bogota,Basico,Tecnologia,Parlante Home,Tienda,Always On,No Aplica,1,100.31,0.008,87.57,66.3,21.28,0,4.1,2
+ARG-2025-00419,15/06/2025,2025,6,Junio,Invierno,CUST-1088,Mexico,Centro,CDMX,Premium,Deportes,Bicicleta Indoor,Online,Always On,Mobile,1,743.32,0.055,618.04,401.9,216.14,0,4.4,3
+ARG-2025-00421,15/06/2025,2025,6,Junio,Invierno,CUST-1100,Peru,Costa,Lima,Estandar,Belleza,Perfume Urban,Tienda,Temporada Alta,No Aplica,2,82.69,0.07,135.34,67.12,68.22,0,3.5,1
+ARG-2025-00343,16/06/2025,2025,6,Junio,Invierno,CUST-1127,Colombia,Pacifico,Cali,Basico,Tecnologia,Smartwatch Fit,Tienda,Back to School,No Aplica,1,150.73,0.115,117.41,88.92,28.49,0,4.4,1
+ARG-2025-00681,17/06/2025,2025,6,Junio,Invierno,CUST-1196,Mexico,Centro,CDMX,Estandar,Moda,Jeans Slim,Online,Temporada Alta,Mobile,2,90.65,0.058,150.26,76.47,73.79,0,4.7,4
+ARG-2025-00222,17/06/2025,2025,6,Junio,Invierno,CUST-1114,Mexico,Centro,CDMX,Estandar,Hogar,Organizador Cocina,Tienda,Always On,No Aplica,1,51.53,0.085,41.49,26.47,15.03,0,4.3,1
+ARG-2025-00268,17/06/2025,2025,6,Junio,Invierno,CUST-1209,Chile,Centro,Santiago,Basico,Tecnologia,Smartwatch Fit,Online,Temporada Alta,Desktop,4,188.27,0.089,603.73,423.07,180.66,0,3.9,1
+ARG-2025-00516,18/06/2025,2025,6,Junio,Invierno,CUST-1107,Mexico,Centro,CDMX,Estandar,Tecnologia,Audifonos Pro,Tienda,Always On,No Aplica,2,166.72,0.061,275.56,203.89,71.67,0,4.7,1
+ARG-2025-00029,18/06/2025,2025,6,Junio,Invierno,CUST-1148,Chile,Centro,Santiago,Basico,Hogar,Organizador Cocina,Online,Cyber Days,Desktop,1,41.73,0.175,30.32,19.25,11.06,0,4.3,3
+ARG-2025-00493,18/06/2025,2025,6,Junio,Invierno,CUST-1028,Mexico,Occidente,Guadalajara,Estandar,Hogar,Cafetera Plus,Online,Back to School,Desktop,1,103.51,0.094,82.51,53.19,29.32,0,3.9,6
+ARG-2025-00671,18/06/2025,2025,6,Junio,Invierno,CUST-1155,Colombia,Pacifico,Cali,Estandar,Tecnologia,Audifonos Pro,Online,Always On,Desktop,3,135.72,0.016,352.61,261.96,90.64,0,4.0,5
+ARG-2025-00145,20/06/2025,2025,6,Junio,Invierno,CUST-1228,Colombia,Caribe,Barranquilla,Estandar,Deportes,Casco Ciclismo,Tienda,No Aplica,No Aplica,1,73.3,0.008,64.0,41.29,22.71,0,4.5,1
+ARG-2025-00411,20/06/2025,2025,6,Junio,Invierno,CUST-1252,Colombia,Andina,Medellin,Basico,Tecnologia,Parlante Home,Tienda,Temporada Alta,No Aplica,1,108.11,0.058,89.59,68.31,21.28,0,3.9,1
+ARG-2025-00150,21/06/2025,2025,6,Junio,Invierno,CUST-1139,Peru,Costa,Lima,Estandar,Moda,Camisa Oxford,Tienda,Cyber Days,No Aplica,2,61.8,0.178,89.38,47.83,41.55,0,3.3,1
+ARG-2025-00672,21/06/2025,2025,6,Junio,Invierno,CUST-1054,Chile,Sur,Concepcion,Basico,Tecnologia,Audifonos Pro,Marketplace,Back to School,Mobile,1,117.51,0.123,90.67,64.14,26.52,0,4.3,4
+ARG-2025-00386,22/06/2025,2025,6,Junio,Invierno,CUST-1028,Colombia,Caribe,Barranquilla,Premium,Moda,Camisa Oxford,Marketplace,Always On,Mobile,1,75.15,0.076,61.13,32.01,29.11,0,4.3,6
+ARG-2025-00453,22/06/2025,2025,6,Junio,Invierno,CUST-1287,Colombia,Andina,Bogota,Basico,Tecnologia,Smartwatch Fit,Online,Temporada Alta,Mobile,1,176.31,0.025,151.29,107.48,43.81,0,4.5,5
+ARG-2025-00643,23/06/2025,2025,6,Junio,Invierno,CUST-1126,Peru,Costa,Lima,Premium,Deportes,Set Mancuernas,Online,Temporada Alta,Mobile,1,134.4,0.054,111.93,70.06,41.88,0,4.3,6
+ARG-2025-00733,23/06/2025,2025,6,Junio,Invierno,CUST-1005,Colombia,Andina,Bogota,Basico,Belleza,Cepillo Electrico,Tienda,Always On,No Aplica,2,45.17,0.036,76.62,38.51,38.11,0,4.6,1
+ARG-2025-00285,24/06/2025,2025,6,Junio,Invierno,CUST-1079,Colombia,Caribe,Barranquilla,Estandar,Tecnologia,Camara Sport,Marketplace,Always On,Mobile,2,261.27,0.023,449.26,348.72,19.67,1,3.1,7
+ARG-2025-00217,24/06/2025,2025,6,Junio,Invierno,CUST-1032,Colombia,Andina,Bogota,Estandar,Hogar,Lampara Desk,Tienda,Always On,No Aplica,1,64.19,0.063,52.93,32.87,20.05,0,4.6,1
+ARG-2025-00551,25/06/2025,2025,6,Junio,Invierno,CUST-1252,Peru,Sierra,Cusco,Estandar,Hogar,Cafetera Plus,Online,Cyber Days,Mobile,1,93.82,0.197,66.26,39.94,26.32,0,4.5,5
+ARG-2025-00233,26/06/2025,2025,6,Junio,Invierno,CUST-1165,Colombia,Andina,Medellin,Estandar,Tecnologia,Parlante Home,Tienda,No Aplica,No Aplica,3,124.63,0.0,329.03,247.5,81.52,0,4.1,1
+ARG-2025-00641,28/06/2025,2025,6,Junio,Invierno,CUST-1076,Colombia,Andina,Medellin,Premium,Tecnologia,Audifonos Pro,Tienda,Cyber Days,No Aplica,1,178.62,0.174,129.85,93.19,36.66,0,3.8,1
+ARG-2025-00380,28/06/2025,2025,6,Junio,Invierno,CUST-1169,Chile,Centro,Valparaiso,Estandar,Moda,Bolso Ejecutivo,Marketplace,No Aplica,Mobile,1,117.42,0.028,100.4,53.95,46.46,0,3.3,6
+ARG-2025-00598,02/07/2025,2025,7,Julio,Invierno,CUST-1078,Mexico,Centro,CDMX,Basico,Deportes,Casco Ciclismo,Online,Temporada Alta,Mobile,1,73.94,0.088,59.33,38.26,21.08,0,4.2,4
+ARG-2025-00471,05/07/2025,2025,7,Julio,Invierno,CUST-1024,Colombia,Pacifico,Cali,Basico,Belleza,Perfume Urban,Online,Always On,Mobile,2,71.14,0.068,116.67,59.5,57.17,0,4.2,2
+ARG-2025-00714,05/07/2025,2025,7,Julio,Invierno,CUST-1038,Mexico,Norte,Monterrey,Premium,Tecnologia,Smartwatch Fit,Tienda,Always On,No Aplica,1,289.2,0.065,237.96,166.54,71.43,0,4.3,2
+ARG-2025-00189,06/07/2025,2025,7,Julio,Invierno,CUST-1183,Colombia,Andina,Bogota,Basico,Moda,Bolso Ejecutivo,Tienda,No Aplica,No Aplica,1,83.13,0.0,73.15,40.8,32.35,0,3.7,1
+ARG-2025-00154,06/07/2025,2025,7,Julio,Invierno,CUST-1181,Colombia,Caribe,Barranquilla,Estandar,Belleza,Kit Skin Care,Online,Temporada Alta,Mobile,1,76.61,0.066,62.99,29.14,33.85,0,5.0,3
+ARG-2025-00082,06/07/2025,2025,7,Julio,Invierno,CUST-1105,Chile,Norte,Antofagasta,Basico,Hogar,Aspiradora Max,Online,Always On,Desktop,1,222.7,0.05,186.17,121.23,64.94,0,4.0,4
+ARG-2025-00495,09/07/2025,2025,7,Julio,Invierno,CUST-1188,Mexico,Norte,Monterrey,Estandar,Tecnologia,Smartwatch Fit,Tienda,Cyber Days,No Aplica,1,241.51,0.168,176.89,125.06,51.83,0,3.9,4
+ARG-2025-00221,11/07/2025,2025,7,Julio,Invierno,CUST-1081,Colombia,Andina,Bogota,Premium,Deportes,Reloj Deportivo,Online,No Aplica,Mobile,1,296.45,0.0,260.88,166.05,94.82,0,5.0,5
+ARG-2025-00731,13/07/2025,2025,7,Julio,Invierno,CUST-1238,Colombia,Andina,Bogota,Premium,Hogar,Licuadora Pro,Marketplace,Back to School,Mobile,1,115.89,0.075,94.29,58.87,35.42,0,4.9,5
+ARG-2025-00673,17/07/2025,2025,7,Julio,Invierno,CUST-1024,Mexico,Centro,CDMX,Basico,Belleza,Kit Skin Care,Marketplace,No Aplica,Mobile,1,69.94,0.0,61.54,28.41,33.14,0,3.7,7
+ARG-2025-00037,17/07/2025,2025,7,Julio,Invierno,CUST-1278,Colombia,Andina,Bogota,Estandar,Moda,Chaqueta Urbana,Marketplace,Cyber Days,Tablet,1,153.63,0.182,110.54,65.65,44.89,0,4.3,5
+ARG-2025-00409,20/07/2025,2025,7,Julio,Invierno,CUST-1046,Mexico,Centro,Puebla,Estandar,Deportes,Mat Yoga,Online,Always On,Desktop,2,36.42,0.08,58.96,37.58,21.37,0,4.1,4
+ARG-2025-00668,20/07/2025,2025,7,Julio,Invierno,CUST-1208,Mexico,Centro,CDMX,Estandar,Tecnologia,Camara Sport,Online,No Aplica,Mobile,1,274.87,0.004,241.01,167.29,73.72,0,4.4,4
+ARG-2025-00090,21/07/2025,2025,7,Julio,Invierno,CUST-1167,Chile,Norte,Antofagasta,Estandar,Hogar,Organizador Cocina,Tienda,Cyber Days,No Aplica,2,51.93,0.15,77.68,49.92,27.76,0,4.4,1
+ARG-2025-00703,21/07/2025,2025,7,Julio,Invierno,CUST-1293,Colombia,Caribe,Barranquilla,Basico,Deportes,Set Mancuernas,Tienda,Temporada Alta,No Aplica,1,81.41,0.036,69.04,45.38,23.66,0,4.4,2
+ARG-2025-00613,22/07/2025,2025,7,Julio,Invierno,CUST-1039,Mexico,Centro,Puebla,Estandar,Tecnologia,Camara Sport,Online,Back to School,Desktop,2,275.79,0.133,420.92,305.23,39.92,1,3.6,5
+ARG-2025-00698,23/07/2025,2025,7,Julio,Invierno,CUST-1011,Mexico,Occidente,Guadalajara,Premium,Moda,Zapatillas Run,Online,Cyber Days,Mobile,1,175.55,0.196,124.19,66.52,57.67,0,4.9,5
+ARG-2025-00687,26/07/2025,2025,7,Julio,Invierno,CUST-1248,Peru,Sierra,Cusco,Basico,Moda,Jeans Slim,Tienda,No Aplica,No Aplica,1,58.39,0.022,50.28,26.72,23.56,0,4.2,1
+ARG-2025-00639,29/07/2025,2025,7,Julio,Invierno,CUST-1107,Peru,Sierra,Arequipa,Premium,Deportes,Casco Ciclismo,Online,Temporada Alta,Mobile,1,81.11,0.075,66.01,43.76,22.26,0,4.2,2
+ARG-2025-00534,29/07/2025,2025,7,Julio,Invierno,CUST-1196,Colombia,Caribe,Barranquilla,Estandar,Deportes,Reloj Deportivo,Marketplace,Temporada Alta,Tablet,1,221.1,0.102,174.75,107.1,67.65,0,4.1,4
+ARG-2025-00009,30/07/2025,2025,7,Julio,Invierno,CUST-1281,Colombia,Andina,Bogota,Basico,Hogar,Lampara Desk,Marketplace,Cyber Days,Mobile,1,53.8,0.199,37.95,23.75,14.19,0,4.1,7
+ARG-2025-00012,01/08/2025,2025,8,Agosto,Invierno,CUST-1197,Peru,Sierra,Arequipa,Premium,Tecnologia,Camara Sport,Online,Always On,Mobile,2,329.49,0.026,564.65,421.03,143.62,0,4.1,3
+ARG-2025-00306,02/08/2025,2025,8,Agosto,Invierno,CUST-1253,Peru,Sierra,Cusco,Premium,Moda,Camisa Oxford,Online,Cyber Days,Mobile,2,76.8,0.249,101.5,55.93,45.57,0,4.0,1
+ARG-2025-00574,03/08/2025,2025,8,Agosto,Invierno,CUST-1278,Chile,Centro,Valparaiso,Estandar,Tecnologia,Camara Sport,Online,Cyber Days,Mobile,1,299.41,0.181,215.84,149.26,66.58,0,4.2,3
+ARG-2025-00544,03/08/2025,2025,8,Agosto,Invierno,CUST-1078,Peru,Costa,Lima,Estandar,Belleza,Kit Skin Care,Tienda,Always On,No Aplica,1,74.53,0.105,58.73,27.36,31.37,0,4.6,1
+ARG-2025-00491,03/08/2025,2025,8,Agosto,Invierno,CUST-1208,Chile,Norte,Antofagasta,Premium,Moda,Jeans Slim,Tienda,Always On,No Aplica,3,110.23,0.045,277.8,170.65,107.15,0,3.8,3
+ARG-2025-00730,04/08/2025,2025,8,Agosto,Invierno,CUST-1085,Chile,Centro,Santiago,Estandar,Hogar,Licuadora Pro,Online,Always On,Mobile,1,91.08,0.036,77.28,46.99,30.29,0,4.3,5
+ARG-2025-00282,05/08/2025,2025,8,Agosto,Invierno,CUST-1259,Chile,Centro,Valparaiso,Estandar,Deportes,Bicicleta Indoor,Tienda,,No Aplica,1,631.66,0.116,491.22,322.12,169.1,0,4.6,1
+ARG-2025-00196,05/08/2025,2025,8,Agosto,Invierno,CUST-1291,Mexico,Occidente,Guadalajara,Basico,Tecnologia,Smartwatch Fit,Online,Always On,Mobile,2,183.02,0.068,300.32,215.43,84.88,0,4.0,2
+ARG-2025-00125,05/08/2025,2025,8,Agosto,Invierno,CUST-1016,Peru,Sierra,Arequipa,Premium,Deportes,Set Mancuernas,Marketplace,No Aplica,Desktop,1,130.06,0.0,114.45,72.16,42.29,0,3.0,5
+ARG-2025-00455,09/08/2025,2025,8,Agosto,Invierno,CUST-1252,Peru,Costa,Lima,Basico,Deportes,Mat Yoga,Tienda,Back to School,No Aplica,2,26.63,0.108,41.82,27.82,14.0,0,4.0,1
+ARG-2025-00549,10/08/2025,2025,8,Agosto,Invierno,CUST-1229,Mexico,Centro,CDMX,Basico,Belleza,Serum Facial,Online,Back to School,Mobile,2,34.49,0.117,53.61,26.49,27.12,0,4.9,7
+ARG-2025-00146,10/08/2025,2025,8,Agosto,Invierno,CUST-1083,Mexico,Norte,Monterrey,Premium,Moda,Jeans Slim,Tienda,Always On,No Aplica,1,108.48,0.049,90.8,48.98,41.83,0,3.8,1
+ARG-2025-00415,11/08/2025,2025,8,Agosto,Invierno,CUST-1039,Mexico,Norte,Monterrey,Premium,Belleza,Kit Skin Care,Online,Back to School,Mobile,2,89.99,0.146,135.28,66.71,68.57,0,3.5,4
+ARG-2025-00405,13/08/2025,2025,8,Agosto,Invierno,CUST-1180,Peru,Costa,Lima,Premium,Tecnologia,Audifonos Pro,Tienda,Cyber Days,No Aplica,1,170.2,0.171,124.17,92.58,31.59,0,3.2,2
+ARG-2025-00601,15/08/2025,2025,8,Agosto,Invierno,CUST-1232,Peru,Costa,Trujillo,Estandar,Tecnologia,Camara Sport,Online,No Aplica,Desktop,1,260.67,0.015,225.86,160.65,65.21,0,3.9,4
+ARG-2025-00316,20/08/2025,2025,8,Agosto,Invierno,CUST-1133,Peru,Sierra,Arequipa,Basico,Deportes,Bicicleta Indoor,Online,Temporada Alta,Mobile,1,400.0,0.106,314.76,197.71,117.04,0,4.6,4
+ARG-2025-00462,20/08/2025,2025,8,Agosto,Invierno,CUST-1111,Peru,Costa,Trujillo,Estandar,Tecnologia,Smartwatch Fit,Online,Always On,Tablet,1,185.15,0.012,161.05,127.63,33.41,0,3.7,5
+ARG-2025-00320,22/08/2025,2025,8,Agosto,Invierno,CUST-1171,Chile,Sur,Concepcion,Estandar,Moda,Chaqueta Urbana,Marketplace,Back to School,Mobile,1,174.88,0.129,133.99,74.98,34.9,1,3.7,5
+ARG-2025-00721,23/08/2025,2025,8,Agosto,Invierno,CUST-1168,Colombia,Andina,Medellin,Basico,Deportes,Bicicleta Indoor,Tienda,Back to School,No Aplica,1,459.82,0.131,351.43,224.9,126.53,0,4.6,1
+ARG-2025-00330,24/08/2025,2025,8,Agosto,Invierno,CUST-1004,Mexico,Occidente,Guadalajara,Estandar,Moda,Zapatillas Run,Marketplace,Always On,Desktop,1,135.41,0.039,114.48,61.99,52.49,0,3.9,6
+ARG-2025-00172,24/08/2025,2025,8,Agosto,Invierno,CUST-1231,Colombia,Andina,Medellin,Basico,Moda,Bolso Ejecutivo,Online,Temporada Alta,Tablet,2,86.63,0.034,147.33,79.95,67.38,0,3.4,4
+ARG-2025-00640,25/08/2025,2025,8,Agosto,Invierno,CUST-1295,Peru,Costa,Lima,Basico,Tecnologia,Audifonos Pro,Online,Cyber Days,Mobile,1,110.22,0.227,74.97,54.58,20.38,0,4.4,4
+ARG-2025-00167,26/08/2025,2025,8,Agosto,Invierno,CUST-1030,Colombia,Caribe,Barranquilla,Premium,Moda,Camisa Oxford,Marketplace,No Aplica,Desktop,1,77.86,0.0,68.51,38.11,30.4,0,4.4,5
+ARG-2025-00026,27/08/2025,2025,8,Agosto,Invierno,CUST-1147,Colombia,Andina,Medellin,Basico,Hogar,Licuadora Pro,Tienda,Back to School,No Aplica,1,81.17,0.152,60.56,35.65,24.91,0,3.9,1
+ARG-2025-00226,30/08/2025,2025,8,Agosto,Invierno,CUST-1127,Chile,Centro,Santiago,Estandar,Belleza,Secador Ionic,Online,Temporada Alta,Desktop,1,108.03,0.051,90.26,47.73,42.53,0,5.0,3
+ARG-2025-00490,31/08/2025,2025,8,Agosto,Invierno,CUST-1219,Mexico,Occidente,Guadalajara,Basico,Hogar,Licuadora Pro,Tienda,Cyber Days,No Aplica,1,95.79,0.193,68.0,41.56,26.43,0,3.8,2
+ARG-2025-00232,01/09/2025,2025,9,Septiembre,Primavera,CUST-1036,Colombia,Pacifico,Cali,Basico,Moda,Camisa Oxford,Online,Back to School,Desktop,1,52.41,0.121,47.48,26.79,20.68,0,4.2,4
+ARG-2025-00375,03/09/2025,2025,9,Septiembre,Primavera,CUST-1140,Colombia,Pacifico,Cali,Basico,Moda,Bolso Ejecutivo,Tienda,Always On,No Aplica,1,90.91,0.056,88.39,49.67,38.72,0,,1
+ARG-2025-00393,04/09/2025,2025,9,Septiembre,Primavera,CUST-1291,Chile,Norte,Antofagasta,Estandar,Tecnologia,Tablet 10,Online,Cyber Days,Mobile,3,475.58,0.191,1189.42,862.4,327.02,0,4.6,4
+ARG-2025-00161,04/09/2025,2025,9,Septiembre,Primavera,CUST-1036,Colombia,Andina,Bogota,Estandar,Belleza,Serum Facial,Online,No Aplica,Mobile,1,47.4,0.026,47.55,23.72,23.83,0,3.7,5
+ARG-2025-00244,05/09/2025,2025,9,Septiembre,Primavera,CUST-1215,Peru,Sierra,Cusco,Estandar,Moda,Zapatillas Run,Online,No Aplica,Mobile,2,110.79,0.0,228.23,124.23,104.0,0,3.1,3
+ARG-2025-00749,11/09/2025,2025,9,Septiembre,Primavera,CUST-1216,Chile,Norte,Antofagasta,Estandar,Belleza,Secador Ionic,Online,Always On,Tablet,1,97.87,0.044,96.37,43.37,53.0,0,4.5,1
+ARG-2025-00190,14/09/2025,2025,9,Septiembre,Primavera,CUST-1289,Mexico,Centro,CDMX,Premium,Belleza,Kit Skin Care,Marketplace,Always On,Desktop,1,112.65,0.052,109.98,57.18,52.79,0,3.7,3
+ARG-2025-00567,17/09/2025,2025,9,Septiembre,Primavera,CUST-1240,Mexico,Occidente,Guadalajara,Premium,Tecnologia,Parlante Home,Tienda,Always On,No Aplica,1,171.26,0.057,166.31,122.42,43.89,0,4.0,3
+ARG-2025-00266,17/09/2025,2025,9,Septiembre,Primavera,CUST-1190,Chile,Centro,Valparaiso,Estandar,Tecnologia,Camara Sport,Tienda,Always On,No Aplica,2,315.4,0.016,639.05,465.06,173.99,0,4.7,1
+ARG-2025-00365,17/09/2025,2025,9,Septiembre,Primavera,CUST-1020,Colombia,Caribe,Barranquilla,Basico,Belleza,Cepillo Electrico,Online,Back to School,Mobile,1,46.0,0.142,40.64,20.87,12.45,1,3.8,3
+ARG-2025-00729,20/09/2025,2025,9,Septiembre,Primavera,CUST-1010,Mexico,Centro,CDMX,Estandar,Tecnologia,Parlante Home,Tienda,Cyber Days,No Aplica,2,149.52,0.205,244.98,174.18,70.8,0,4.4,3
+ARG-2025-00023,21/09/2025,2025,9,Septiembre,Primavera,CUST-1271,Colombia,Andina,Bogota,Estandar,Deportes,Set Mancuernas,Online,No Aplica,Desktop,3,119.96,0.0,370.67,239.64,131.03,0,3.6,5
+ARG-2025-00522,23/09/2025,2025,9,Septiembre,Primavera,CUST-1115,Colombia,Andina,Bogota,Estandar,Belleza,Secador Ionic,Online,Back to School,Tablet,2,93.25,0.162,160.89,79.44,81.46,0,5.0,1
+ARG-2025-00715,24/09/2025,2025,9,Septiembre,Primavera,CUST-1219,Peru,Sierra,Cusco,Basico,Moda,Jeans Slim,Marketplace,No Aplica,Desktop,1,60.77,0.0,62.6,33.53,29.07,0,3.8,5
+ARG-2025-00662,26/09/2025,2025,9,Septiembre,Primavera,CUST-1085,Mexico,Centro,Puebla,Premium,Tecnologia,Audifonos Pro,Online,Always On,Mobile,3,208.7,0.103,578.53,399.23,179.3,0,4.0,4
+ARG-2025-00010,27/09/2025,2025,9,Septiembre,Primavera,CUST-1227,Mexico,Centro,Puebla,Premium,Deportes,Casco Ciclismo,Online,Always On,Mobile,3,114.13,0.088,321.48,200.2,121.28,0,3.5,4
+ARG-2025-00017,28/09/2025,2025,9,Septiembre,Primavera,CUST-1148,Mexico,Centro,Puebla,Estandar,Hogar,Aspiradora Max,Online,Cyber Days,Mobile,1,314.34,0.145,276.92,179.25,97.67,0,3.5,5
+ARG-2025-00463,29/09/2025,2025,9,Septiembre,Primavera,CUST-1170,Colombia,Caribe,Barranquilla,Estandar,Tecnologia,Parlante Home,Marketplace,No Aplica,Tablet,1,124.64,0.0,128.37,92.55,35.83,0,4.4,7
+ARG-2025-00327,01/10/2025,2025,10,Octubre,Primavera,CUST-1212,Mexico,Centro,CDMX,Estandar,Tecnologia,Camara Sport,Tienda,Always On,No Aplica,1,266.41,0.043,262.64,194.08,68.56,0,3.8,1
+ARG-2025-00219,01/10/2025,2025,10,Octubre,Primavera,CUST-1203,Colombia,Caribe,Barranquilla,Basico,Deportes,Mat Yoga,Tienda,No Aplica,No Aplica,2,28.34,0.027,56.79,36.27,20.51,0,4.1,1
+ARG-2025-00578,03/10/2025,2025,10,Octubre,Primavera,CUST-1203,Mexico,Centro,CDMX,Estandar,Deportes,Casco Ciclismo,Tienda,Always On,No Aplica,1,89.35,0.077,84.98,56.4,28.58,0,3.7,1
+ARG-2025-00554,04/10/2025,2025,10,Octubre,Primavera,CUST-1156,Mexico,Centro,CDMX,Estandar,Belleza,Secador Ionic,Online,Temporada Alta,Mobile,1,92.33,0.062,89.22,46.15,43.07,0,3.2,4
+ARG-2025-00117,05/10/2025,2025,10,Octubre,Primavera,CUST-1125,Chile,Sur,Concepcion,Estandar,Belleza,Perfume Urban,Online,Always On,Desktop,1,106.29,0.031,106.13,50.68,55.45,0,3.9,7
+ARG-2025-00654,06/10/2025,2025,10,Octubre,Primavera,CUST-1023,Mexico,Occidente,Guadalajara,Basico,Tecnologia,Parlante Home,Tienda,Temporada Alta,No Aplica,2,110.05,0.045,216.6,161.46,55.14,0,4.8,1
+ARG-2025-00587,07/10/2025,2025,10,Octubre,Primavera,CUST-1201,Mexico,Centro,CDMX,Estandar,Moda,Camisa Oxford,Tienda,Cyber Days,No Aplica,2,64.93,0.209,105.75,55.93,49.82,0,3.6,2
+ARG-2025-00142,08/10/2025,2025,10,Octubre,Primavera,CUST-1243,Peru,Sierra,Cusco,Basico,Moda,Zapatillas Run,Marketplace,Always On,Desktop,2,109.71,0.056,213.24,122.87,90.37,0,4.6,6
+ARG-2025-00743,09/10/2025,2025,10,Octubre,Primavera,CUST-1221,Colombia,Andina,Bogota,Premium,Deportes,Reloj Deportivo,Marketplace,Always On,Desktop,1,264.43,0.046,259.94,171.75,88.19,0,4.9,3
+ARG-2025-00629,10/10/2025,2025,10,Octubre,Primavera,CUST-1015,Peru,Costa,Lima,Estandar,Deportes,Mat Yoga,Online,Cyber Days,Desktop,1,30.08,0.197,24.88,15.6,9.28,0,3.5,4
+ARG-2025-00623,11/10/2025,2025,10,Octubre,Primavera,CUST-1046,Peru,Sierra,Arequipa,Estandar,Tecnologia,Audifonos Pro,Online,Cyber Days,Desktop,1,141.11,0.165,121.35,84.81,36.55,0,3.7,6
+ARG-2025-00636,12/10/2025,2025,10,Octubre,Primavera,CUST-1054,Peru,Sierra,Cusco,Basico,Hogar,Lampara Desk,Tienda,Cyber Days,No Aplica,1,51.41,0.184,43.19,26.2,16.99,0,4.4,1
+ARG-2025-00292,15/10/2025,2025,10,Octubre,Primavera,CUST-1034,Peru,Sierra,Arequipa,Basico,Tecnologia,Tablet 10,Online,No Aplica,Mobile,1,271.01,0.033,270.03,205.23,64.8,0,4.6,5
+ARG-2025-00016,15/10/2025,2025,10,Octubre,Primavera,CUST-1034,Mexico,Centro,Puebla,Basico,Hogar,Licuadora Pro,Online,Back to School,Mobile,1,88.44,0.107,81.33,48.57,32.76,0,3.4,5
+ARG-2025-00296,16/10/2025,2025,10,Octubre,Primavera,CUST-1216,Chile,Centro,Valparaiso,Basico,Tecnologia,Tablet 10,Marketplace,Back to School,Mobile,1,401.43,0.106,369.6,263.61,105.99,0,4.2,7
+ARG-2025-00720,16/10/2025,2025,10,Octubre,Primavera,CUST-1080,Peru,Sierra,Cusco,Premium,Hogar,Lampara Desk,Online,No Aplica,Mobile,1,69.12,0.0,71.19,41.66,29.53,0,4.4,5
+ARG-2025-00329,18/10/2025,2025,10,Octubre,Primavera,CUST-1071,Peru,Costa,Lima,Basico,Deportes,Mat Yoga,Online,Always On,Tablet,3,28.23,0.09,79.35,48.46,30.89,0,5.0,4
+ARG-2025-00512,20/10/2025,2025,10,Octubre,Primavera,CUST-1110,Colombia,Pacifico,Cali,Estandar,Tecnologia,Camara Sport,Tienda,No Aplica,No Aplica,1,257.98,0.02,260.46,207.49,52.97,0,4.5,1
+ARG-2025-00078,20/10/2025,2025,10,Octubre,Primavera,CUST-1295,Chile,Norte,Antofagasta,Estandar,Hogar,Licuadora Pro,Tienda,Temporada Alta,No Aplica,3,115.48,0.121,313.49,192.87,120.63,0,4.1,1
+ARG-2025-00169,20/10/2025,2025,10,Octubre,Primavera,CUST-1120,Peru,Sierra,Arequipa,Premium,Tecnologia,Smartwatch Fit,Online,Back to School,Mobile,1,261.18,0.094,243.76,175.96,67.8,0,3.1,3
+ARG-2025-00368,22/10/2025,2025,10,Octubre,Primavera,CUST-1161,Peru,Sierra,Cusco,Estandar,Deportes,Reloj Deportivo,Online,Cyber Days,Mobile,1,218.47,0.199,180.31,111.07,69.25,0,3.9,5
+ARG-2025-00724,22/10/2025,2025,10,Octubre,Primavera,CUST-1280,Mexico,Norte,Monterrey,Estandar,Tecnologia,Smartwatch Fit,Tienda,Always On,No Aplica,1,249.24,0.052,243.3,171.54,71.76,0,4.3,1
+ARG-2025-00412,28/10/2025,2025,10,Octubre,Primavera,CUST-1093,Mexico,Occidente,Guadalajara,Estandar,Moda,Zapatillas Run,Marketplace,No Aplica,Desktop,2,151.4,0.0,311.89,162.37,149.52,0,3.9,6
+ARG-2025-00605,30/10/2025,2025,10,Octubre,Primavera,CUST-1090,Peru,Costa,Lima,Premium,Deportes,Bicicleta Indoor,Tienda,Cyber Days,No Aplica,1,562.75,0.168,482.08,293.88,188.2,0,4.0,1
+ARG-2025-00086,31/10/2025,2025,10,Octubre,Primavera,CUST-1126,Mexico,Norte,Monterrey,Estandar,Hogar,Organizador Cocina,Tienda,Always On,No Aplica,3,56.29,0.06,163.45,108.88,54.57,0,4.1,1
+ARG-2025-00193,01/11/2025,2025,11,Noviembre,Primavera,CUST-1235,Chile,Centro,Valparaiso,Estandar,Tecnologia,Smartwatch Fit,Tienda,Back to School,No Aplica,2,258.57,0.097,481.2,342.06,139.14,0,4.4,2
+ARG-2025-00742,03/11/2025,2025,11,Noviembre,Primavera,CUST-1077,Chile,Norte,Antofagasta,Estandar,Moda,Bolso Ejecutivo,Online,Back to School,Tablet,3,118.56,0.118,323.02,182.7,140.32,0,4.0,5
+ARG-2025-00633,06/11/2025,2025,11,Noviembre,Primavera,CUST-1055,Colombia,Andina,Bogota,Premium,Moda,Bolso Ejecutivo,Tienda,Back to School,No Aplica,1,133.63,0.111,122.42,70.24,52.18,0,4.1,2
+ARG-2025-00147,08/11/2025,2025,11,Noviembre,Primavera,CUST-1065,Mexico,Occidente,Guadalajara,Estandar,Moda,Chaqueta Urbana,Tienda,Temporada Alta,No Aplica,2,169.43,0.032,337.71,186.38,151.33,0,4.1,1
+ARG-2025-00563,09/11/2025,2025,11,Noviembre,Primavera,CUST-1081,Colombia,Caribe,Barranquilla,Estandar,Tecnologia,Audifonos Pro,Online,Back to School,Desktop,2,153.21,0.148,268.95,204.5,64.45,0,4.7,4
+ARG-2025-00253,09/11/2025,2025,11,Noviembre,Primavera,CUST-1019,Chile,Centro,Valparaiso,Estandar,Deportes,Casco Ciclismo,Tienda,Always On,No Aplica,1,91.56,0.043,90.25,59.81,30.44,0,4.7,3
+ARG-2025-00166,09/11/2025,2025,11,Noviembre,Primavera,CUST-1026,Peru,Sierra,Cusco,Estandar,Hogar,Lampara Desk,Tienda,No Aplica,No Aplica,1,61.14,0.031,61.01,39.46,21.56,0,4.2,1
+ARG-2025-00202,11/11/2025,2025,11,Noviembre,Primavera,CUST-1294,Colombia,Andina,Bogota,Estandar,Tecnologia,Camara Sport,Online,Always On,Mobile,2,290.86,0.078,552.37,393.02,159.35,0,3.5,4
+ARG-2025-00334,11/11/2025,2025,11,Noviembre,Primavera,CUST-1059,Peru,Sierra,Cusco,Estandar,Tecnologia,Tablet 10,Online,Always On,Mobile,1,394.65,0.0,406.49,304.53,101.97,0,4.7,7
+ARG-2025-00032,13/11/2025,2025,11,Noviembre,Primavera,CUST-1056,Colombia,Pacifico,Cali,Basico,Hogar,Cafetera Plus,Tienda,No Aplica,No Aplica,1,101.82,0.027,102.04,64.36,37.68,0,4.1,3
+ARG-2025-00431,14/11/2025,2025,11,Noviembre,Primavera,CUST-1173,Colombia,Pacifico,Cali,Basico,Hogar,Lampara Desk,Tienda,Back to School,No Aplica,1,46.49,0.142,41.08,25.25,15.83,0,3.6,2
+ARG-2025-00128,14/11/2025,2025,11,Noviembre,Primavera,CUST-1280,Colombia,Caribe,Barranquilla,Basico,Hogar,Aspiradora Max,Online,Back to School,Desktop,2,201.25,0.119,365.25,213.91,151.34,0,3.9,5
+ARG-2025-00735,15/11/2025,2025,11,Noviembre,Primavera,CUST-1000,Colombia,Caribe,Barranquilla,Basico,Belleza,Perfume Urban,Online,Always On,Mobile,1,78.09,0.026,78.32,38.92,39.4,0,4.9,3
+ARG-2025-00706,15/11/2025,2025,11,Noviembre,Primavera,CUST-1121,Peru,Costa,Trujillo,Estandar,Tecnologia,Tablet 10,Tienda,Always On,No Aplica,3,377.41,0.049,1109.1,837.0,272.1,0,4.3,1
+ARG-2025-00568,15/11/2025,2025,11,Noviembre,Primavera,CUST-1273,Peru,Sierra,Arequipa,Basico,Moda,Bolso Ejecutivo,Online,Cyber Days,Desktop,1,73.93,0.194,61.4,36.07,25.33,0,4.0,6
+ARG-2025-00683,15/11/2025,2025,11,Noviembre,Primavera,CUST-1191,Mexico,Occidente,Guadalajara,Premium,Belleza,Secador Ionic,Online,No Aplica,Mobile,1,129.73,0.0,133.63,62.96,70.67,0,4.3,4
+ARG-2025-00235,16/11/2025,2025,11,Noviembre,Primavera,CUST-1029,Colombia,Andina,Bogota,Estandar,Deportes,Bicicleta Indoor,Online,Always On,Mobile,3,537.62,0.041,1592.41,1012.0,580.42,0,4.1,2
+ARG-2025-00053,17/11/2025,2025,11,Noviembre,Primavera,CUST-1265,Colombia,Pacifico,Cali,Premium,Tecnologia,Audifonos Pro,Tienda,Back to School,No Aplica,1,192.04,0.125,172.98,124.14,48.83,0,4.0,2
+ARG-2025-00528,17/11/2025,2025,11,Noviembre,Primavera,CUST-1120,Chile,Centro,Valparaiso,Basico,Hogar,Organizador Cocina,Online,No Aplica,Tablet,1,50.97,0.025,51.2,32.09,9.89,1,3.3,5
+ARG-2025-00602,19/11/2025,2025,11,Noviembre,Primavera,CUST-1026,Colombia,Pacifico,Cali,Basico,Hogar,Licuadora Pro,Online,Cyber Days,Mobile,1,85.69,0.204,70.26,44.39,25.88,0,4.2,4
+ARG-2025-00437,19/11/2025,2025,11,Noviembre,Primavera,CUST-1026,Colombia,Pacifico,Cali,Estandar,Deportes,Casco Ciclismo,Marketplace,Cyber Days,Mobile,1,77.13,0.161,66.62,42.75,23.87,0,3.3,6
+ARG-2025-00076,19/11/2025,2025,11,Noviembre,Primavera,CUST-1092,Colombia,Andina,Bogota,Estandar,Moda,Zapatillas Run,Marketplace,Always On,Desktop,1,121.07,0.064,116.77,68.17,48.61,0,4.0,5
+ARG-2025-00047,20/11/2025,2025,11,Noviembre,Primavera,CUST-1013,Colombia,Caribe,Barranquilla,Estandar,Moda,Camisa Oxford,Tienda,Back to School,No Aplica,3,67.47,0.124,182.55,104.9,77.65,0,4.3,1
+ARG-2025-00270,22/11/2025,2025,11,Noviembre,Primavera,CUST-1263,Peru,Sierra,Arequipa,Premium,Tecnologia,Smartwatch Fit,Tienda,Back to School,No Aplica,3,211.03,0.09,593.18,457.23,135.95,0,3.7,1
+ARG-2025-00294,22/11/2025,2025,11,Noviembre,Primavera,CUST-1078,Mexico,Occidente,Guadalajara,Premium,Tecnologia,Tablet 10,Tienda,Temporada Alta,No Aplica,1,551.77,0.098,512.41,357.3,155.11,0,4.1,1
+ARG-2025-00424,22/11/2025,2025,11,Noviembre,Primavera,CUST-1166,Chile,Centro,Santiago,Estandar,Tecnologia,Parlante Home,Tienda,Cyber Days,No Aplica,1,156.61,0.174,133.29,95.41,37.88,0,3.1,1
+ARG-2025-00624,22/11/2025,2025,11,Noviembre,Primavera,CUST-1213,Colombia,Caribe,Barranquilla,Premium,Hogar,Cafetera Plus,Online,Back to School,Desktop,2,156.38,0.117,284.49,174.37,110.13,0,4.5,3
+ARG-2025-00438,23/11/2025,2025,11,Noviembre,Primavera,CUST-1094,Chile,Norte,Antofagasta,Estandar,Deportes,Casco Ciclismo,Marketplace,Always On,Mobile,1,88.9,0.091,83.26,56.33,26.92,0,3.5,5
+ARG-2025-00005,23/11/2025,2025,11,Noviembre,Primavera,CUST-1270,Peru,Costa,Trujillo,Estandar,Tecnologia,Smartwatch Fit,Online,Always On,Mobile,1,186.02,0.077,176.82,128.8,48.03,0,4.4,4
+ARG-2025-00242,24/11/2025,2025,11,Noviembre,Primavera,CUST-1029,Chile,Centro,Valparaiso,Basico,Moda,Chaqueta Urbana,Marketplace,Cyber Days,Mobile,1,133.07,0.189,111.18,59.38,51.8,0,4.2,4
+ARG-2025-00241,24/11/2025,2025,11,Noviembre,Primavera,CUST-1165,Colombia,Pacifico,Cali,Estandar,Tecnologia,Camara Sport,Online,Cyber Days,Mobile,1,228.85,0.137,203.52,153.2,50.32,0,4.2,4
+ARG-2025-00099,24/11/2025,2025,11,Noviembre,Primavera,CUST-1153,Peru,Costa,Lima,Estandar,Tecnologia,Audifonos Pro,Online,Always On,Mobile,1,134.28,0.048,131.71,96.56,35.15,0,3.9,5
+ARG-2025-00263,24/11/2025,2025,11,Noviembre,Primavera,CUST-1163,Colombia,Andina,Bogota,Premium,Hogar,Lampara Desk,Online,Always On,Desktop,3,76.21,0.013,232.52,132.43,100.09,0,4.2,3
+ARG-2025-00321,25/11/2025,2025,11,Noviembre,Primavera,CUST-1111,Mexico,Occidente,Guadalajara,Basico,Hogar,Cafetera Plus,Marketplace,Always On,Mobile,1,89.89,0.049,88.02,51.65,36.38,0,4.6,4
+ARG-2025-00432,26/11/2025,2025,11,Noviembre,Primavera,CUST-1051,Mexico,Centro,CDMX,Estandar,Belleza,Kit Skin Care,Online,No Aplica,Desktop,2,86.5,0.002,177.8,88.25,89.55,0,4.3,4
+ARG-2025-00137,26/11/2025,2025,11,Noviembre,Primavera,CUST-1172,Peru,Costa,Trujillo,Estandar,Tecnologia,Audifonos Pro,Online,Always On,Desktop,2,145.41,0.088,273.26,200.32,72.94,0,3.0,7
+ARG-2025-00019,26/11/2025,2025,11,Noviembre,Primavera,CUST-1227,Chile,Norte,Antofagasta,Premium,Tecnologia,Smartwatch Fit,Marketplace,Always On,Mobile,1,314.86,0.041,310.87,206.84,104.03,0,3.9,6
+ARG-2025-00759,26/11/2025,2025,11,Noviembre,Primavera,CUST-1097,Mexico,Centro,Puebla,Basico,Belleza,Serum Facial,Online,Cyber Days,Mobile,2,40.58,0.177,68.83,36.17,32.65,0,4.0,5
+ARG-2025-00566,26/11/2025,2025,11,Noviembre,Primavera,CUST-1247,Chile,Centro,Valparaiso,Estandar,Hogar,Lampara Desk,Tienda,Cyber Days,No Aplica,3,91.08,0.18,230.69,143.74,86.95,0,4.5,1
+ARG-2025-00400,26/11/2025,2025,11,Noviembre,Primavera,CUST-1250,Colombia,Andina,Medellin,Estandar,Hogar,Lampara Desk,Online,Cyber Days,Desktop,1,59.43,0.143,52.46,32.75,19.71,0,3.5,4
+ARG-2025-00734,27/11/2025,2025,11,Noviembre,Primavera,CUST-1097,Colombia,Andina,Medellin,Estandar,Hogar,Aspiradora Max,Marketplace,Temporada Alta,Desktop,1,248.63,0.027,249.28,157.58,91.7,0,3.1,6
+ARG-2025-00535,27/11/2025,2025,11,Noviembre,Primavera,CUST-1232,Chile,Centro,Santiago,Estandar,Hogar,Cafetera Plus,Tienda,Cyber Days,No Aplica,1,121.97,0.193,101.41,61.82,39.6,0,4.0,1
+ARG-2025-00488,27/11/2025,2025,11,Noviembre,Primavera,CUST-1024,Mexico,Occidente,Guadalajara,Estandar,Belleza,Serum Facial,Online,Always On,Tablet,2,48.82,0.048,95.77,48.85,46.92,0,4.4,5
+ARG-2025-00397,27/11/2025,2025,11,Noviembre,Primavera,CUST-1061,Colombia,Pacifico,Cali,Estandar,Belleza,Serum Facial,Marketplace,Always On,Mobile,1,47.77,0.012,48.6,21.79,26.81,0,4.4,4
+ARG-2025-00284,27/11/2025,2025,11,Noviembre,Primavera,CUST-1137,Peru,Sierra,Arequipa,Basico,Deportes,Set Mancuernas,Online,No Aplica,Mobile,1,83.95,0.004,86.14,58.04,28.1,0,4.3,3
+ARG-2025-00376,28/11/2025,2025,11,Noviembre,Primavera,CUST-1179,Colombia,Andina,Medellin,Estandar,Belleza,Perfume Urban,Online,Temporada Alta,Desktop,1,93.55,0.103,86.42,41.07,45.35,0,3.8,5
+ARG-2025-00020,28/11/2025,2025,11,Noviembre,Primavera,CUST-1009,Chile,Centro,Santiago,Premium,Belleza,Serum Facial,Online,Cyber Days,Mobile,1,58.52,0.166,50.28,27.07,23.21,0,3.8,5
+ARG-2025-00135,28/11/2025,2025,11,Noviembre,Primavera,CUST-1099,Colombia,Andina,Bogota,Basico,Tecnologia,Tablet 10,Online,Temporada Alta,Mobile,1,288.29,0.106,265.4,191.15,74.25,0,4.6,5
+ARG-2025-00542,30/11/2025,2025,11,Noviembre,Primavera,CUST-1032,Colombia,Andina,Medellin,Basico,Belleza,Perfume Urban,Online,Cyber Days,Mobile,2,70.24,0.205,115.04,58.82,56.22,0,3.8,6
+ARG-2025-00218,02/12/2025,2025,12,Diciembre,Verano,CUST-1017,Chile,Centro,Santiago,Premium,Hogar,Aspiradora Max,Tienda,Back to School,No Aplica,1,315.82,0.133,306.59,189.2,117.39,0,4.4,1
+ARG-2025-00680,03/12/2025,2025,12,Diciembre,Verano,CUST-1296,Peru,Sierra,Arequipa,Estandar,Hogar,Cafetera Plus,Online,Back to School,Mobile,1,112.62,0.091,114.63,75.12,39.51,0,4.2,2
+ARG-2025-00097,03/12/2025,2025,12,Diciembre,Verano,CUST-1088,Peru,Costa,Lima,Premium,Belleza,Serum Facial,Tienda,Temporada Alta,No Aplica,4,48.18,0.104,193.3,93.41,99.89,0,4.3,1
+ARG-2025-00153,05/12/2025,2025,12,Diciembre,Verano,CUST-1212,Colombia,Andina,Medellin,Premium,Moda,Bolso Ejecutivo,Tienda,Always On,No Aplica,1,140.27,0.043,150.35,81.42,68.93,0,4.2,1
+ARG-2025-00058,05/12/2025,2025,12,Diciembre,Verano,CUST-1248,Colombia,Caribe,Barranquilla,Estandar,Tecnologia,Parlante Home,Online,Back to School,Tablet,1,141.57,0.118,139.86,96.01,43.86,0,3.5,6
+ARG-2025-00027,07/12/2025,2025,12,Diciembre,Verano,CUST-1235,Peru,Costa,Trujillo,Basico,Hogar,Cafetera Plus,Tienda,No Aplica,No Aplica,1,73.27,0.0,82.07,47.01,35.05,0,4.5,1
+ARG-2025-00367,07/12/2025,2025,12,Diciembre,Verano,CUST-1261,Peru,Costa,Lima,Premium,Tecnologia,Parlante Home,Marketplace,Temporada Alta,Desktop,3,144.33,0.028,471.26,363.64,107.62,0,3.2,4
+ARG-2025-00539,07/12/2025,2025,12,Diciembre,Verano,CUST-1142,Mexico,Occidente,Guadalajara,Estandar,Belleza,Kit Skin Care,Online,Temporada Alta,Mobile,3,74.32,0.011,246.89,121.25,125.64,0,4.4,5
+ARG-2025-00004,08/12/2025,2025,12,Diciembre,Verano,CUST-1297,Peru,Sierra,Arequipa,Estandar,Moda,Chaqueta Urbana,Online,Always On,Mobile,1,144.64,0.038,155.84,86.71,69.12,0,4.3,3
+ARG-2025-00051,09/12/2025,2025,12,Diciembre,Verano,CUST-1289,Mexico,Centro,CDMX,Premium,Tecnologia,Audifonos Pro,Tienda,Always On,No Aplica,1,229.74,0.068,239.87,180.54,59.33,0,4.4,1
+ARG-2025-00606,09/12/2025,2025,12,Diciembre,Verano,CUST-1240,Colombia,Andina,Medellin,Basico,Deportes,Set Mancuernas,Marketplace,Cyber Days,Mobile,1,79.7,0.229,68.78,46.78,22.0,0,4.2,7
+ARG-2025-00596,10/12/2025,2025,12,Diciembre,Verano,CUST-1047,Peru,Sierra,Cusco,Estandar,Tecnologia,Parlante Home,Online,No Aplica,Mobile,1,135.08,0.0,151.29,113.28,38.01,0,4.7,6
+ARG-2025-00565,11/12/2025,2025,12,Diciembre,Verano,CUST-1274,Peru,Costa,Lima,Estandar,Tecnologia,Smartwatch Fit,Online,No Aplica,Desktop,1,175.99,0.0,197.11,148.93,48.18,0,3.3,5
+ARG-2025-00373,11/12/2025,2025,12,Diciembre,Verano,CUST-1153,Mexico,Centro,CDMX,Basico,Hogar,Organizador Cocina,Tienda,Always On,No Aplica,1,44.21,0.028,48.11,31.12,16.99,0,4.6,1
+ARG-2025-00496,12/12/2025,2025,12,Diciembre,Verano,CUST-1028,Chile,Norte,Antofagasta,Estandar,Hogar,Cafetera Plus,Tienda,No Aplica,No Aplica,1,141.35,0.005,157.58,94.72,62.85,0,4.3,1
+ARG-2025-00728,12/12/2025,2025,12,Diciembre,Verano,CUST-1255,Chile,Sur,Concepcion,Premium,Tecnologia,Camara Sport,Online,Temporada Alta,Mobile,1,331.42,0.063,347.68,243.8,103.88,0,4.1,5
+ARG-2025-00661,13/12/2025,2025,12,Diciembre,Verano,CUST-1085,Colombia,Andina,Medellin,Estandar,Deportes,Casco Ciclismo,Online,Back to School,Desktop,1,63.46,0.131,61.74,38.54,23.2,0,4.1,5
+ARG-2025-00350,14/12/2025,2025,12,Diciembre,Verano,CUST-1267,Mexico,Centro,CDMX,Basico,Belleza,Cepillo Electrico,Online,Always On,Mobile,1,48.89,0.063,51.3,26.7,24.61,0,4.1,6
+ARG-2025-00201,15/12/2025,2025,12,Diciembre,Verano,CUST-1022,Chile,Norte,Antofagasta,Basico,Hogar,Licuadora Pro,Online,No Aplica,Mobile,3,101.26,0.0,340.23,215.44,124.79,0,3.9,4
+ARG-2025-00092,15/12/2025,2025,12,Diciembre,Verano,CUST-1114,Mexico,Occidente,Guadalajara,Premium,Deportes,Mat Yoga,Tienda,Back to School,No Aplica,2,50.96,0.099,102.86,63.9,38.96,0,4.5,1
+ARG-2025-00305,16/12/2025,2025,12,Diciembre,Verano,CUST-1062,Peru,Sierra,Cusco,Premium,Moda,Bolso Ejecutivo,Tienda,Back to School,No Aplica,3,113.9,0.142,328.37,187.76,81.5,1,3.4,1
+ARG-2025-00134,17/12/2025,2025,12,Diciembre,Verano,CUST-1053,Mexico,Norte,Monterrey,Premium,Hogar,Cafetera Plus,Tienda,No Aplica,No Aplica,1,183.59,0.0,205.62,135.5,70.12,0,4.1,1
+ARG-2025-00259,19/12/2025,2025,12,Diciembre,Verano,CUST-1093,Peru,Sierra,Arequipa,Estandar,Hogar,Lampara Desk,Online,Temporada Alta,Desktop,1,63.28,0.058,66.77,44.62,22.15,0,4.8,4
+ARG-2025-00537,20/12/2025,2025,12,Diciembre,Verano,CUST-1092,Peru,Costa,Lima,Estandar,Tecnologia,Parlante Home,Marketplace,Temporada Alta,Desktop,1,107.22,0.075,111.06,80.5,30.56,0,4.2,6
+ARG-2025-00527,20/12/2025,2025,12,Diciembre,Verano,CUST-1161,Peru,Sierra,Cusco,Estandar,Hogar,Lampara Desk,Tienda,Always On,No Aplica,4,55.5,0.05,236.13,147.1,89.03,0,3.9,3
+ARG-2025-00126,21/12/2025,2025,12,Diciembre,Verano,CUST-1285,Colombia,Andina,Bogota,Estandar,Deportes,Bicicleta Indoor,Tienda,Always On,No Aplica,1,535.39,0.025,584.43,381.2,203.23,0,4.8,1
+ARG-2025-00712,21/12/2025,2025,12,Diciembre,Verano,CUST-1045,Chile,Centro,Santiago,Premium,Moda,Chaqueta Urbana,Online,Always On,Desktop,1,201.69,0.059,212.55,120.25,92.31,0,4.8,2
+ARG-2025-00075,21/12/2025,2025,12,Diciembre,Verano,CUST-1273,Peru,Costa,Trujillo,Estandar,Tecnologia,Parlante Home,Tienda,Cyber Days,No Aplica,1,130.98,0.134,127.03,90.86,36.18,0,4.5,2
+ARG-2025-00120,23/12/2025,2025,12,Diciembre,Verano,CUST-1294,Chile,Sur,Concepcion,Estandar,Tecnologia,Camara Sport,Tienda,No Aplica,No Aplica,2,311.28,0.0,697.27,522.12,175.15,0,4.5,1
+ARG-2025-00517,24/12/2025,2025,12,Diciembre,Verano,CUST-1076,Chile,Norte,Antofagasta,Premium,Tecnologia,Parlante Home,Tienda,Always On,No Aplica,1,215.29,0.024,235.37,179.23,56.15,0,4.1,3
+ARG-2025-00138,26/12/2025,2025,12,Diciembre,Verano,CUST-1084,Peru,Costa,Trujillo,Estandar,Moda,Chaqueta Urbana,Online,Back to School,Mobile,2,148.37,0.122,291.77,162.51,129.26,0,3.4,4
+ARG-2025-00073,27/12/2025,2025,12,Diciembre,Verano,CUST-1190,Mexico,Occidente,Guadalajara,Basico,Belleza,Secador Ionic,Online,Always On,Desktop,4,77.67,0.043,333.18,173.95,159.24,0,4.9,4
+ARG-2025-00274,27/12/2025,2025,12,Diciembre,Verano,CUST-1227,Colombia,Andina,Medellin,Premium,Tecnologia,Smartwatch Fit,Online,Back to School,Tablet,2,253.32,0.137,489.82,387.48,102.34,0,3.6,5
+ARG-2025-00028,27/12/2025,2025,12,Diciembre,Verano,CUST-1068,Colombia,Andina,Bogota,Estandar,Deportes,Mat Yoga,Online,No Aplica,Mobile,3,37.87,0.004,126.78,82.53,44.25,0,4.3,4
+ARG-2025-00317,28/12/2025,2025,12,Diciembre,Verano,CUST-1008,Peru,Costa,Lima,Estandar,Deportes,Reloj Deportivo,Online,Back to School,Mobile,1,176.13,0.159,165.99,96.33,69.67,0,4.1,4
+ARG-2025-00255,28/12/2025,2025,12,Diciembre,Verano,CUST-1062,Mexico,Centro,Puebla,Basico,Tecnologia,Camara Sport,Online,No Aplica,Mobile,1,248.86,0.035,269.09,191.89,77.2,0,4.4,5
+ARG-2025-00303,29/12/2025,2025,12,Diciembre,Verano,CUST-1056,Mexico,Centro,CDMX,Premium,Deportes,Set Mancuernas,Online,Always On,Desktop,2,160.26,0.049,341.51,203.81,137.7,0,5.0,4
+ARG-2025-00414,30/12/2025,2025,12,Diciembre,Verano,CUST-1239,Peru,Sierra,Cusco,Estandar,Tecnologia,Camara Sport,Online,Cyber Days,Desktop,1,229.8,0.187,209.35,153.62,55.73,0,3.1,6
+ARG-2025-00580,31/12/2025,2025,12,Diciembre,Verano,CUST-1200,Colombia,Caribe,Barranquilla,Estandar,Hogar,Cafetera Plus,Marketplace,Back to School,Desktop,2,113.95,0.145,218.27,139.04,79.23,0,4.7,6
