@@ -1,0 +1,651 @@
+﻿id_cliente,segmento_comprador,pais_cliente,ciudad_cliente,canal_origen,fecha_registro,edad
+CUST00001,Investor,Colombia,Bogotá,Redes Sociales,2022-07-17,48
+CUST00002,Repeat Buyer,Ecuador,Cali,Web,2023-07-02,50
+CUST00003,Investor,Colombia,Barranquilla,Broker,2022-09-17,43
+CUST00004,Investor,Colombia,Bogotá,Redes Sociales,2023-10-28,37
+CUST00005,First-time Buyer,Ecuador,Cartagena,Redes Sociales,2021-02-13,69
+CUST00006,Corporate,Colombia,Bucaramanga,Redes Sociales,2021-07-17,47
+CUST00007,Investor,Ecuador,Cali,Referido,2023-04-21,56
+CUST00008,Investor,Colombia,Cali,Web,2021-11-15,25
+CUST00009,First-time Buyer,Colombia,Bogotá,Evento,2023-07-01,37
+CUST00010,Repeat Buyer,Colombia,Bucaramanga,Broker,2022-04-26,62
+CUST00011,First-time Buyer,Colombia,Medellín,Broker,2024-04-27,28
+CUST00012,Corporate,Ecuador,Bucaramanga,Referido,2024-01-26,28
+CUST00013,Repeat Buyer,Colombia,Cali,Broker,2022-11-06,62
+CUST00014,Investor,Colombia,Bogotá,Web,2023-11-24,38
+CUST00015,Repeat Buyer,Colombia,Bogotá,Broker,2022-01-06,37
+CUST00016,First-time Buyer,Colombia,Cali,Web,2022-11-08,51
+CUST00017,Repeat Buyer,Venezuela,Cali,Broker,2021-09-28,33
+CUST00018,First-time Buyer,Estados Unidos,Bogotá,Evento,2024-03-23,26
+CUST00019,Investor,Colombia,Barranquilla,Referido,2024-01-31,24
+CUST00020,Repeat Buyer,Colombia,Cartagena,Referido,2024-05-19,27
+CUST00021,Investor,Colombia,Medellín,Web,2024-04-15,31
+CUST00022,First-time Buyer,Colombia,Medellín,Redes Sociales,2024-08-05,57
+CUST00023,Corporate,Estados Unidos,Bogotá,Broker,2021-11-09,38
+CUST00024,Investor,Colombia,Barranquilla,Referido,2024-06-28,27
+CUST00025,Investor,Colombia,Medellín,Web,2023-02-21,24
+CUST00026,First-time Buyer,Colombia,Cartagena,Web,2022-08-01,46
+CUST00027,Repeat Buyer,Perú,Medellín,Referido,2023-02-06,64
+CUST00028,First-time Buyer,Colombia,Cali,Redes Sociales,2022-04-14,40
+CUST00029,First-time Buyer,Colombia,Bogotá,Broker,2022-01-30,27
+CUST00030,Repeat Buyer,Colombia,Bogotá,Web,2021-11-27,34
+CUST00031,Investor,Colombia,Barranquilla,Redes Sociales,2021-04-23,47
+CUST00032,Corporate,Colombia,Medellín,Referido,2022-11-11,33
+CUST00033,First-time Buyer,Colombia,Cali,Redes Sociales,2024-04-29,70
+CUST00034,First-time Buyer,Colombia,Bucaramanga,Web,2023-05-13,60
+CUST00035,Repeat Buyer,Colombia,Bucaramanga,Broker,2022-12-14,40
+CUST00036,First-time Buyer,Colombia,Cartagena,Redes Sociales,2022-08-10,69
+CUST00037,First-time Buyer,Colombia,Bogotá,Web,2022-09-28,39
+CUST00038,Repeat Buyer,Perú,Cali,Broker,2021-10-14,30
+CUST00039,First-time Buyer,México,Cartagena,Redes Sociales,2024-01-31,69
+CUST00040,Repeat Buyer,Colombia,Medellín,Web,2021-09-29,70
+CUST00041,Repeat Buyer,Colombia,Bogotá,Web,2023-09-08,39
+CUST00042,Investor,Ecuador,Barranquilla,Broker,2023-11-06,52
+CUST00043,Investor,Colombia,Medellín,Web,2023-02-26,32
+CUST00044,First-time Buyer,Colombia,Cali,Web,2024-03-26,54
+CUST00045,Investor,Ecuador,Bucaramanga,Referido,2022-02-03,57
+CUST00046,Investor,Colombia,Cali,Broker,2024-04-21,58
+CUST00047,First-time Buyer,México,Medellín,Web,2023-09-25,51
+CUST00048,First-time Buyer,Colombia,Medellín,Web,2023-12-29,57
+CUST00049,Repeat Buyer,Colombia,Medellín,Evento,2023-06-29,50
+CUST00050,First-time Buyer,Colombia,Bogotá,Referido,2024-03-03,63
+CUST00051,First-time Buyer,Colombia,Barranquilla,Evento,2024-09-20,32
+CUST00052,First-time Buyer,Colombia,Cartagena,Referido,2022-07-29,47
+CUST00053,Investor,Colombia,Bogotá,Redes Sociales,2024-01-19,43
+CUST00054,Repeat Buyer,Ecuador,Bogotá,Broker,2023-10-16,49
+CUST00055,Investor,Colombia,Cartagena,Web,2022-09-12,30
+CUST00056,Investor,Colombia,Bogotá,Redes Sociales,2024-06-22,39
+CUST00057,Repeat Buyer,Venezuela,Medellín,Referido,2022-06-24,69
+CUST00058,Repeat Buyer,México,Medellín,Web,2023-02-13,29
+CUST00059,First-time Buyer,Colombia,Cali,Web,2021-05-25,54
+CUST00060,First-time Buyer,Colombia,Bogotá,Broker,2021-11-05,55
+CUST00061,Repeat Buyer,Estados Unidos,Cali,Web,2024-02-25,46
+CUST00062,Repeat Buyer,Colombia,Medellín,Web,2022-06-27,25
+CUST00063,Repeat Buyer,Venezuela,Cali,Web,2022-06-24,25
+CUST00064,Investor,Ecuador,Bogotá,Referido,2021-12-03,37
+CUST00065,Repeat Buyer,México,Medellín,Referido,2022-11-04,28
+CUST00066,Repeat Buyer,Colombia,Medellín,Referido,2024-01-08,28
+CUST00067,Repeat Buyer,Colombia,Bogotá,Web,2024-05-09,31
+CUST00068,First-time Buyer,Colombia,Bogotá,Web,2021-04-06,33
+CUST00069,First-time Buyer,Colombia,Bogotá,Broker,2023-02-26,64
+CUST00070,Repeat Buyer,Perú,Medellín,Referido,2022-10-02,54
+CUST00071,First-time Buyer,Colombia,Bogotá,Broker,2023-04-21,25
+CUST00072,First-time Buyer,Colombia,Bucaramanga,Web,2022-09-04,54
+CUST00073,Investor,Colombia,Medellín,Web,2022-06-30,30
+CUST00074,First-time Buyer,Perú,Barranquilla,Web,2022-10-08,44
+CUST00075,First-time Buyer,Colombia,Bucaramanga,Referido,2023-03-08,25
+CUST00076,First-time Buyer,Colombia,Bogotá,Referido,2022-11-17,28
+CUST00077,First-time Buyer,Colombia,Cali,Evento,2022-10-08,30
+CUST00078,Repeat Buyer,Colombia,Cartagena,Referido,2024-01-24,44
+CUST00079,Repeat Buyer,Colombia,Cali,Referido,2023-10-18,46
+CUST00080,Investor,Colombia,Medellín,Broker,2022-04-13,40
+CUST00081,Repeat Buyer,Colombia,Medellín,Web,2024-01-01,53
+CUST00082,First-time Buyer,Colombia,Bogotá,Referido,2024-03-13,58
+CUST00083,Investor,Colombia,Cali,Web,2021-07-29,58
+CUST00084,First-time Buyer,Colombia,Bucaramanga,Referido,2023-03-09,51
+CUST00085,First-time Buyer,Colombia,Bucaramanga,Web,2022-01-26,50
+CUST00086,First-time Buyer,Colombia,Bogotá,Evento,2023-10-09,47
+CUST00087,Investor,Colombia,Barranquilla,Redes Sociales,2021-11-23,35
+CUST00088,Repeat Buyer,Colombia,Bogotá,Web,2023-07-08,47
+CUST00089,First-time Buyer,Colombia,Cartagena,Broker,2021-12-16,24
+CUST00090,Repeat Buyer,Colombia,Bogotá,Broker,2022-12-01,70
+CUST00091,First-time Buyer,Colombia,Bucaramanga,Web,2024-07-21,41
+CUST00092,Investor,Colombia,Cartagena,Evento,2022-06-06,60
+CUST00093,Repeat Buyer,Ecuador,Bogotá,Broker,2024-04-13,69
+CUST00094,First-time Buyer,Colombia,Bogotá,Redes Sociales,2024-09-12,47
+CUST00095,First-time Buyer,Colombia,Cartagena,Redes Sociales,2024-04-11,65
+CUST00096,Repeat Buyer,Colombia,Bogotá,Web,2021-08-15,47
+CUST00097,First-time Buyer,Colombia,Cali,Referido,2024-01-27,30
+CUST00098,First-time Buyer,Colombia,Cartagena,Referido,2021-02-13,25
+CUST00099,First-time Buyer,México,Cali,Web,2022-06-23,30
+CUST00100,Corporate,Venezuela,Medellín,Web,2024-04-06,69
+CUST00101,Investor,Colombia,Medellín,Redes Sociales,2023-08-01,46
+CUST00102,Investor,Colombia,Bogotá,Web,2022-12-30,39
+CUST00103,First-time Buyer,Colombia,Bucaramanga,Referido,2022-06-15,45
+CUST00104,Corporate,Colombia,Medellín,Evento,2024-01-17,36
+CUST00105,Investor,Colombia,Bogotá,Web,2023-08-29,65
+CUST00106,Investor,Colombia,Bogotá,Referido,2022-10-03,71
+CUST00107,Repeat Buyer,Colombia,Bucaramanga,Redes Sociales,2024-05-05,28
+CUST00108,First-time Buyer,Perú,Bogotá,Referido,2021-11-11,58
+CUST00109,First-time Buyer,Colombia,Cartagena,Web,2021-08-22,40
+CUST00110,Investor,Colombia,Barranquilla,Web,2023-05-30,26
+CUST00111,Repeat Buyer,Colombia,Cartagena,Redes Sociales,2024-08-22,68
+CUST00112,First-time Buyer,Colombia,Bucaramanga,Web,2021-12-05,26
+CUST00113,First-time Buyer,Colombia,Cartagena,Referido,2021-12-08,33
+CUST00114,Repeat Buyer,Colombia,Bucaramanga,Web,2021-07-10,25
+CUST00115,First-time Buyer,Perú,Bogotá,Referido,2024-03-23,46
+CUST00116,Investor,Colombia,Barranquilla,Redes Sociales,2021-11-06,52
+CUST00117,Investor,Colombia,Cali,Referido,2022-11-20,39
+CUST00118,Investor,Colombia,Cali,Redes Sociales,2024-09-17,27
+CUST00119,Repeat Buyer,Colombia,Cartagena,Web,2021-01-17,29
+CUST00120,Repeat Buyer,Colombia,Bucaramanga,Referido,2023-02-01,68
+CUST00121,Repeat Buyer,Colombia,Barranquilla,Redes Sociales,2022-12-02,62
+CUST00122,Repeat Buyer,Colombia,Medellín,Referido,2024-01-10,68
+CUST00123,First-time Buyer,Colombia,Medellín,Web,2022-05-02,49
+CUST00124,First-time Buyer,Venezuela,Medellín,Redes Sociales,2022-07-16,50
+CUST00125,First-time Buyer,Colombia,Medellín,Referido,2021-08-18,61
+CUST00126,Repeat Buyer,Ecuador,Medellín,Referido,2023-10-11,53
+CUST00127,First-time Buyer,Colombia,Bogotá,Redes Sociales,2023-12-10,44
+CUST00128,First-time Buyer,Colombia,Bogotá,Web,2021-07-06,38
+CUST00129,First-time Buyer,México,Barranquilla,Web,2022-06-23,47
+CUST00130,Repeat Buyer,Ecuador,Medellín,Web,2024-05-06,27
+CUST00131,First-time Buyer,Colombia,Bucaramanga,Referido,2021-01-04,33
+CUST00132,Corporate,Perú,Cali,Web,2022-02-13,59
+CUST00133,Repeat Buyer,Colombia,Bogotá,Broker,2023-01-30,65
+CUST00134,First-time Buyer,Colombia,Bogotá,Web,2022-04-03,28
+CUST00135,Repeat Buyer,Estados Unidos,Bogotá,Broker,2022-01-08,28
+CUST00136,First-time Buyer,Colombia,Bucaramanga,Web,2022-09-22,28
+CUST00137,Corporate,Venezuela,Bogotá,Web,2021-09-06,61
+CUST00138,Repeat Buyer,Colombia,Medellín,Web,2022-12-26,38
+CUST00139,Investor,Venezuela,Bucaramanga,Broker,2023-08-25,39
+CUST00140,First-time Buyer,Colombia,Bucaramanga,Referido,2023-02-27,24
+CUST00141,Repeat Buyer,Colombia,Bogotá,Referido,2021-05-08,70
+CUST00142,Repeat Buyer,Colombia,Bogotá,Redes Sociales,2024-03-01,44
+CUST00143,Corporate,Colombia,Bogotá,Broker,2021-08-28,62
+CUST00144,Repeat Buyer,Colombia,Bogotá,Web,2023-11-13,57
+CUST00145,Repeat Buyer,Colombia,Bogotá,Redes Sociales,2022-05-09,30
+CUST00146,First-time Buyer,Colombia,Cali,Web,2023-12-07,62
+CUST00147,First-time Buyer,Colombia,Cartagena,Web,2021-10-10,50
+CUST00148,Repeat Buyer,Colombia,Cali,Referido,2021-09-13,53
+CUST00149,Repeat Buyer,México,Cali,Web,2022-11-11,33
+CUST00150,First-time Buyer,Colombia,Bogotá,Web,2021-02-15,64
+CUST00151,Investor,México,Barranquilla,Broker,2021-11-05,68
+CUST00152,Investor,Colombia,Cali,Web,2023-09-18,43
+CUST00153,First-time Buyer,Ecuador,Cartagena,Evento,2024-02-20,28
+CUST00154,Repeat Buyer,Colombia,Bucaramanga,Redes Sociales,2021-04-21,64
+CUST00155,First-time Buyer,Colombia,Medellín,Broker,2024-04-21,66
+CUST00156,Repeat Buyer,Colombia,Bogotá,Broker,2023-12-28,48
+CUST00157,First-time Buyer,Colombia,Bogotá,Broker,2024-04-04,51
+CUST00158,Repeat Buyer,Colombia,Medellín,Redes Sociales,2023-08-14,34
+CUST00159,Investor,Colombia,Bucaramanga,Web,2023-07-12,27
+CUST00160,Investor,Estados Unidos,Medellín,Web,2022-12-20,69
+CUST00161,First-time Buyer,Colombia,Barranquilla,Referido,2023-06-13,47
+CUST00162,Investor,Colombia,Cali,Referido,2024-06-11,37
+CUST00163,First-time Buyer,Estados Unidos,Bogotá,Web,2021-05-18,57
+CUST00164,First-time Buyer,Colombia,Medellín,Broker,2022-03-08,25
+CUST00165,Repeat Buyer,Colombia,Cali,Web,2021-04-10,27
+CUST00166,First-time Buyer,Ecuador,Cali,Redes Sociales,2024-07-16,35
+CUST00167,Investor,Ecuador,Medellín,Web,2022-09-02,45
+CUST00168,Investor,Colombia,Bogotá,Web,2023-07-13,41
+CUST00169,First-time Buyer,Colombia,Barranquilla,Web,2024-02-25,32
+CUST00170,Corporate,Colombia,Bogotá,Web,2024-09-17,40
+CUST00171,First-time Buyer,Colombia,Bucaramanga,Web,2021-08-10,40
+CUST00172,Repeat Buyer,Colombia,Bogotá,Web,2023-12-30,49
+CUST00173,First-time Buyer,Colombia,Bogotá,Web,2024-04-28,51
+CUST00174,Corporate,Colombia,Medellín,Web,2021-03-08,66
+CUST00175,First-time Buyer,Venezuela,Medellín,Referido,2023-10-29,62
+CUST00176,First-time Buyer,Colombia,Medellín,Referido,2022-05-01,38
+CUST00177,Repeat Buyer,Colombia,Medellín,Web,2023-06-07,67
+CUST00178,Corporate,Colombia,Bucaramanga,Web,2022-12-05,48
+CUST00179,Investor,Ecuador,Medellín,Web,2021-12-22,33
+CUST00180,Investor,Colombia,Medellín,Web,2021-07-04,40
+CUST00181,Investor,Colombia,Medellín,Web,2021-06-09,59
+CUST00182,Investor,Colombia,Bogotá,Broker,2021-05-22,63
+CUST00183,Repeat Buyer,Colombia,Cali,Redes Sociales,2023-05-23,41
+CUST00184,First-time Buyer,Colombia,Bogotá,Redes Sociales,2022-04-26,31
+CUST00185,Investor,México,Cali,Referido,2021-10-24,33
+CUST00186,Repeat Buyer,Colombia,Bogotá,Referido,2023-08-05,28
+CUST00187,First-time Buyer,México,Bucaramanga,Web,2023-07-29,57
+CUST00188,First-time Buyer,Estados Unidos,Medellín,Broker,2023-01-08,48
+CUST00189,Investor,Colombia,Cartagena,Broker,2024-07-03,45
+CUST00190,First-time Buyer,Colombia,Medellín,Evento,2022-06-12,56
+CUST00191,Corporate,Colombia,Bogotá,Redes Sociales,2024-02-18,63
+CUST00192,First-time Buyer,Venezuela,Cartagena,Referido,2021-04-13,62
+CUST00193,First-time Buyer,Colombia,Cali,Broker,2023-10-10,30
+CUST00194,Investor,Colombia,Barranquilla,Evento,2024-09-14,52
+CUST00195,First-time Buyer,Colombia,Medellín,Web,2024-03-04,66
+CUST00196,First-time Buyer,Ecuador,Cali,Redes Sociales,2023-03-04,61
+CUST00197,Repeat Buyer,Colombia,Cartagena,Web,2023-05-08,39
+CUST00198,Investor,Colombia,Cali,Redes Sociales,2022-04-29,42
+CUST00199,First-time Buyer,Colombia,Medellín,Broker,2023-07-19,66
+CUST00200,First-time Buyer,Estados Unidos,Cali,Web,2023-11-20,25
+CUST00201,Investor,Colombia,Cali,Broker,2024-09-27,49
+CUST00202,Corporate,Colombia,Bucaramanga,Web,2022-11-05,29
+CUST00203,Repeat Buyer,Ecuador,Medellín,Broker,2021-03-25,66
+CUST00204,First-time Buyer,Perú,Medellín,Evento,2023-03-27,25
+CUST00205,First-time Buyer,Colombia,Barranquilla,Broker,2021-06-12,25
+CUST00206,First-time Buyer,Colombia,Medellín,Redes Sociales,2021-12-01,39
+CUST00207,First-time Buyer,México,Barranquilla,Web,2022-03-26,33
+CUST00208,Repeat Buyer,Ecuador,Medellín,Web,2023-09-28,47
+CUST00209,First-time Buyer,Colombia,Bogotá,Referido,2021-09-09,38
+CUST00210,Repeat Buyer,Colombia,Barranquilla,Web,2021-08-15,41
+CUST00211,Investor,México,Bogotá,Referido,2021-03-03,51
+CUST00212,Repeat Buyer,México,Bogotá,Web,2024-04-09,50
+CUST00213,First-time Buyer,México,Cali,Referido,2023-08-07,68
+CUST00214,Investor,Colombia,Barranquilla,Referido,2021-02-24,47
+CUST00215,Investor,Colombia,Cartagena,Redes Sociales,2021-02-08,51
+CUST00216,Investor,Ecuador,Bogotá,Web,2023-02-04,56
+CUST00217,First-time Buyer,Ecuador,Bogotá,Redes Sociales,2022-01-22,32
+CUST00218,First-time Buyer,Venezuela,Bucaramanga,Referido,2023-03-28,56
+CUST00219,Corporate,Colombia,Bogotá,Web,2022-08-18,65
+CUST00220,First-time Buyer,Colombia,Bogotá,Referido,2024-06-17,39
+CUST00221,First-time Buyer,México,Bogotá,Referido,2022-01-29,32
+CUST00222,Repeat Buyer,Colombia,Medellín,Web,2023-07-19,40
+CUST00223,Repeat Buyer,Estados Unidos,Cartagena,Referido,2021-03-15,37
+CUST00224,Corporate,Colombia,Barranquilla,Web,2024-07-31,52
+CUST00225,First-time Buyer,Colombia,Barranquilla,Web,2024-09-03,65
+CUST00226,Corporate,Ecuador,Bogotá,Broker,2023-10-09,52
+CUST00227,First-time Buyer,Colombia,Medellín,Referido,2022-09-29,30
+CUST00228,Repeat Buyer,Colombia,Medellín,Evento,2021-10-28,39
+CUST00229,Repeat Buyer,Colombia,Bogotá,Web,2024-01-17,57
+CUST00230,First-time Buyer,Colombia,Bogotá,Redes Sociales,2023-10-05,39
+CUST00231,First-time Buyer,Colombia,Bogotá,Evento,2021-10-31,52
+CUST00232,First-time Buyer,Colombia,Bogotá,Redes Sociales,2022-09-10,57
+CUST00233,Corporate,Perú,Cali,Evento,2022-09-26,39
+CUST00234,Repeat Buyer,Colombia,Barranquilla,Web,2024-02-05,55
+CUST00235,Corporate,Colombia,Bogotá,Referido,2023-07-25,43
+CUST00236,Investor,Colombia,Medellín,Web,2023-05-30,30
+CUST00237,Repeat Buyer,Colombia,Barranquilla,Evento,2023-06-08,41
+CUST00238,Investor,Colombia,Barranquilla,Broker,2022-01-06,45
+CUST00239,First-time Buyer,Colombia,Barranquilla,Web,2022-05-24,24
+CUST00240,First-time Buyer,Colombia,Medellín,Redes Sociales,2021-03-04,66
+CUST00241,Investor,Colombia,Cartagena,Web,2023-12-13,49
+CUST00242,Investor,Perú,Bogotá,Broker,2022-08-16,25
+CUST00243,First-time Buyer,Colombia,Medellín,Broker,2022-08-23,65
+CUST00244,Repeat Buyer,Colombia,Bogotá,Web,2021-12-02,65
+CUST00245,Repeat Buyer,México,Medellín,Broker,2021-10-14,24
+CUST00246,Investor,Ecuador,Medellín,Evento,2023-03-16,31
+CUST00247,Repeat Buyer,Colombia,Bogotá,Web,2021-11-15,41
+CUST00248,First-time Buyer,Colombia,Barranquilla,Referido,2021-03-29,48
+CUST00249,First-time Buyer,Colombia,Medellín,Web,2023-11-16,58
+CUST00250,Repeat Buyer,Colombia,Bogotá,Broker,2022-05-31,44
+CUST00251,Repeat Buyer,Colombia,Bogotá,Web,2022-06-05,53
+CUST00252,Investor,Colombia,Medellín,Redes Sociales,2022-08-14,24
+CUST00253,Repeat Buyer,Colombia,Bogotá,Redes Sociales,2024-01-20,55
+CUST00254,First-time Buyer,Colombia,Medellín,Web,2022-03-15,67
+CUST00255,First-time Buyer,Perú,Bogotá,Web,2023-11-03,49
+CUST00256,Investor,Colombia,Barranquilla,Broker,2024-07-09,45
+CUST00257,Investor,Colombia,Bucaramanga,Broker,2023-06-24,38
+CUST00258,First-time Buyer,Colombia,Medellín,Referido,2022-08-14,69
+CUST00259,First-time Buyer,Colombia,Cali,Web,2023-10-20,25
+CUST00260,Repeat Buyer,Colombia,Cartagena,Web,2022-09-19,37
+CUST00261,First-time Buyer,México,Bucaramanga,Redes Sociales,2022-07-21,30
+CUST00262,Investor,Ecuador,Cali,Referido,2022-12-20,65
+CUST00263,First-time Buyer,Ecuador,Cartagena,Redes Sociales,2022-03-11,47
+CUST00264,First-time Buyer,Estados Unidos,Cartagena,Referido,2021-05-23,68
+CUST00265,Corporate,Estados Unidos,Barranquilla,Redes Sociales,2022-07-22,55
+CUST00266,First-time Buyer,Perú,Medellín,Web,2021-06-19,50
+CUST00267,First-time Buyer,Colombia,Bogotá,Web,2022-07-16,48
+CUST00268,First-time Buyer,Colombia,Bogotá,Redes Sociales,2023-02-01,33
+CUST00269,First-time Buyer,Colombia,Medellín,Redes Sociales,2024-06-27,50
+CUST00270,First-time Buyer,Colombia,Medellín,Web,2021-02-19,56
+CUST00271,First-time Buyer,Colombia,Medellín,Web,2023-05-01,70
+CUST00272,First-time Buyer,Venezuela,Cali,Referido,2022-09-19,50
+CUST00273,First-time Buyer,Colombia,Cali,Referido,2021-01-28,69
+CUST00274,Repeat Buyer,Colombia,Cartagena,Web,2021-12-08,69
+CUST00275,Repeat Buyer,Colombia,Bogotá,Redes Sociales,2021-06-12,49
+CUST00276,First-time Buyer,Colombia,Bogotá,Web,2021-10-24,45
+CUST00277,First-time Buyer,Colombia,Barranquilla,Broker,2022-01-11,30
+CUST00278,Repeat Buyer,Ecuador,Cartagena,Web,2022-07-03,36
+CUST00279,Investor,Colombia,Bucaramanga,Web,2022-12-25,66
+CUST00280,Investor,México,Cartagena,Broker,2021-01-02,30
+CUST00281,First-time Buyer,Colombia,Cartagena,Web,2021-08-10,43
+CUST00282,First-time Buyer,Colombia,Medellín,Broker,2021-05-08,57
+CUST00283,First-time Buyer,Colombia,Medellín,Web,2023-01-22,35
+CUST00284,First-time Buyer,México,Bogotá,Redes Sociales,2022-03-27,70
+CUST00285,Repeat Buyer,México,Cali,Broker,2023-01-21,55
+CUST00286,First-time Buyer,Colombia,Bucaramanga,Redes Sociales,2021-10-31,25
+CUST00287,First-time Buyer,Perú,Medellín,Web,2021-02-03,35
+CUST00288,First-time Buyer,Colombia,Cali,Web,2024-07-11,59
+CUST00289,Repeat Buyer,Ecuador,Bogotá,Referido,2021-05-29,65
+CUST00290,First-time Buyer,Colombia,Bogotá,Referido,2021-06-23,68
+CUST00291,Investor,Colombia,Bogotá,Web,2021-07-20,64
+CUST00292,First-time Buyer,Venezuela,Bogotá,Web,2024-09-04,27
+CUST00293,Corporate,Colombia,Bucaramanga,Referido,2023-04-25,59
+CUST00294,First-time Buyer,Colombia,Medellín,Web,2023-04-15,29
+CUST00295,Investor,Colombia,Cartagena,Referido,2024-09-11,27
+CUST00296,Investor,Colombia,Cali,Web,2021-05-01,57
+CUST00297,Corporate,Colombia,Bogotá,Web,2024-08-26,46
+CUST00298,Investor,Ecuador,Bogotá,Broker,2021-10-07,55
+CUST00299,Investor,Ecuador,Barranquilla,Referido,2023-05-03,64
+CUST00300,Repeat Buyer,Colombia,Bogotá,Web,2022-07-29,27
+CUST00301,Investor,Colombia,Cartagena,Referido,2022-06-10,49
+CUST00302,First-time Buyer,Colombia,Bogotá,Broker,2024-06-27,64
+CUST00303,Repeat Buyer,Colombia,Cali,Referido,2021-07-24,45
+CUST00304,Repeat Buyer,Colombia,Barranquilla,Broker,2024-09-25,49
+CUST00305,Investor,Perú,Bogotá,Redes Sociales,2022-06-03,47
+CUST00306,Repeat Buyer,Ecuador,Bogotá,Referido,2023-06-07,67
+CUST00307,First-time Buyer,México,Bucaramanga,Redes Sociales,2024-08-17,26
+CUST00308,Repeat Buyer,Colombia,Bogotá,Evento,2021-03-20,66
+CUST00309,First-time Buyer,Colombia,Medellín,Web,2024-06-16,63
+CUST00310,First-time Buyer,Colombia,Medellín,Referido,2023-02-16,63
+CUST00311,Repeat Buyer,Colombia,Bogotá,Broker,2023-08-22,43
+CUST00312,First-time Buyer,Colombia,Barranquilla,Redes Sociales,2021-07-24,48
+CUST00313,First-time Buyer,Colombia,Barranquilla,Referido,2022-12-31,41
+CUST00314,First-time Buyer,Colombia,Medellín,Web,2023-07-11,36
+CUST00315,First-time Buyer,Perú,Cartagena,Broker,2022-09-17,66
+CUST00316,First-time Buyer,Colombia,Bogotá,Web,2021-08-01,48
+CUST00317,First-time Buyer,Perú,Bogotá,Broker,2021-11-30,58
+CUST00318,Repeat Buyer,Colombia,Cali,Referido,2024-03-14,28
+CUST00319,First-time Buyer,Colombia,Bucaramanga,Broker,2021-02-17,61
+CUST00320,Corporate,Colombia,Bogotá,Redes Sociales,2023-08-28,55
+CUST00321,Investor,Colombia,Bogotá,Broker,2024-09-29,71
+CUST00322,Repeat Buyer,Colombia,Medellín,Broker,2021-01-11,30
+CUST00323,First-time Buyer,Colombia,Barranquilla,Broker,2021-08-09,49
+CUST00324,Repeat Buyer,Perú,Bogotá,Evento,2023-07-12,48
+CUST00325,Investor,Colombia,Medellín,Redes Sociales,2021-03-24,49
+CUST00326,Repeat Buyer,Colombia,Barranquilla,Web,2023-03-18,26
+CUST00327,Investor,Colombia,Medellín,Referido,2023-07-25,46
+CUST00328,Repeat Buyer,Colombia,Bogotá,Web,2023-03-16,38
+CUST00329,Repeat Buyer,Colombia,Bogotá,Redes Sociales,2022-05-15,53
+CUST00330,First-time Buyer,Colombia,Medellín,Broker,2023-08-12,35
+CUST00331,Investor,Estados Unidos,Medellín,Referido,2023-03-24,44
+CUST00332,First-time Buyer,Venezuela,Cartagena,Web,2021-10-12,53
+CUST00333,Investor,México,Cali,Web,2023-02-10,27
+CUST00334,Investor,Colombia,Cali,Broker,2024-04-21,61
+CUST00335,First-time Buyer,Colombia,Bucaramanga,Web,2023-07-02,58
+CUST00336,Repeat Buyer,Perú,Medellín,Web,2022-10-08,26
+CUST00337,First-time Buyer,Colombia,Medellín,Redes Sociales,2022-03-16,27
+CUST00338,Investor,Colombia,Bucaramanga,Broker,2021-04-28,64
+CUST00339,First-time Buyer,Colombia,Bogotá,Web,2021-12-01,37
+CUST00340,Corporate,Venezuela,Barranquilla,Web,2021-01-16,65
+CUST00341,First-time Buyer,Colombia,Barranquilla,Redes Sociales,2024-09-11,47
+CUST00342,Corporate,México,Bogotá,Broker,2021-11-01,40
+CUST00343,Investor,Venezuela,Medellín,Broker,2024-01-20,37
+CUST00344,Repeat Buyer,Colombia,Bogotá,Web,2021-08-19,55
+CUST00345,Investor,Perú,Bogotá,Web,2022-01-23,29
+CUST00346,Investor,Colombia,Medellín,Web,2022-07-27,43
+CUST00347,Corporate,Colombia,Bogotá,Broker,2022-03-20,40
+CUST00348,First-time Buyer,Colombia,Barranquilla,Web,2023-12-29,31
+CUST00349,Repeat Buyer,Estados Unidos,Cartagena,Web,2024-08-03,40
+CUST00350,First-time Buyer,Colombia,Barranquilla,Broker,2024-04-12,49
+CUST00351,Repeat Buyer,Colombia,Bogotá,Redes Sociales,2021-07-30,56
+CUST00352,First-time Buyer,Colombia,Bogotá,Broker,2023-11-29,28
+CUST00353,Repeat Buyer,Colombia,Bogotá,Referido,2021-07-22,65
+CUST00354,Repeat Buyer,Colombia,Bogotá,Referido,2024-06-03,66
+CUST00355,Repeat Buyer,Colombia,Bucaramanga,Referido,2022-12-10,57
+CUST00356,Repeat Buyer,Colombia,Medellín,Web,2022-04-06,68
+CUST00357,Investor,Perú,Bogotá,Referido,2021-08-03,44
+CUST00358,Investor,Colombia,Cartagena,Referido,2021-01-17,63
+CUST00359,Repeat Buyer,México,Medellín,Broker,2021-12-06,58
+CUST00360,Repeat Buyer,Colombia,Bogotá,Redes Sociales,2024-06-04,51
+CUST00361,Corporate,Colombia,Bogotá,Redes Sociales,2023-12-27,32
+CUST00362,First-time Buyer,Colombia,Cali,Web,2024-08-19,50
+CUST00363,First-time Buyer,Colombia,Barranquilla,Referido,2021-05-18,67
+CUST00364,First-time Buyer,Perú,Bogotá,Web,2023-03-22,71
+CUST00365,Repeat Buyer,Colombia,Cartagena,Web,2021-12-18,45
+CUST00366,First-time Buyer,Colombia,Cartagena,Web,2023-01-13,35
+CUST00367,Investor,Colombia,Cartagena,Web,2022-03-15,59
+CUST00368,Repeat Buyer,Venezuela,Bogotá,Broker,2022-01-23,27
+CUST00369,First-time Buyer,Colombia,Bogotá,Referido,2023-02-25,31
+CUST00370,Investor,Colombia,Cartagena,Redes Sociales,2021-09-08,50
+CUST00371,Investor,Ecuador,Bogotá,Web,2022-10-04,71
+CUST00372,First-time Buyer,México,Cali,Web,2023-06-10,39
+CUST00373,First-time Buyer,Estados Unidos,Barranquilla,Referido,2021-06-25,45
+CUST00374,First-time Buyer,Colombia,Bogotá,Web,2024-06-27,39
+CUST00375,First-time Buyer,Colombia,Barranquilla,Web,2022-11-23,45
+CUST00376,First-time Buyer,Colombia,Bucaramanga,Redes Sociales,2024-01-27,24
+CUST00377,Corporate,Perú,Barranquilla,Web,2023-06-14,52
+CUST00378,Repeat Buyer,Colombia,Medellín,Web,2023-08-30,52
+CUST00379,First-time Buyer,México,Cartagena,Broker,2023-09-07,39
+CUST00380,Investor,Colombia,Medellín,Referido,2024-04-12,36
+CUST00381,Repeat Buyer,Colombia,Barranquilla,Broker,2023-04-20,60
+CUST00382,Corporate,Colombia,Cartagena,Referido,2022-01-16,33
+CUST00383,Investor,Colombia,Barranquilla,Evento,2021-05-17,26
+CUST00384,Repeat Buyer,Ecuador,Bogotá,Web,2023-04-10,25
+CUST00385,First-time Buyer,Colombia,Bogotá,Referido,2021-04-01,66
+CUST00386,Corporate,Colombia,Bogotá,Broker,2021-11-27,41
+CUST00387,Investor,Colombia,Medellín,Redes Sociales,2021-03-25,28
+CUST00388,Corporate,Colombia,Medellín,Referido,2023-01-21,66
+CUST00389,First-time Buyer,Colombia,Cali,Broker,2021-08-08,31
+CUST00390,Investor,Colombia,Medellín,Web,2023-04-16,40
+CUST00391,Repeat Buyer,Colombia,Barranquilla,Web,2023-12-18,24
+CUST00392,First-time Buyer,Colombia,Cartagena,Web,2024-01-30,56
+CUST00393,Repeat Buyer,Colombia,Bogotá,Broker,2022-02-28,57
+CUST00394,Repeat Buyer,Colombia,Barranquilla,Web,2023-01-21,60
+CUST00395,First-time Buyer,Colombia,Cali,Broker,2023-02-10,36
+CUST00396,Repeat Buyer,Colombia,Medellín,Web,2022-10-09,39
+CUST00397,Investor,Colombia,Bogotá,Redes Sociales,2023-06-16,69
+CUST00398,First-time Buyer,México,Barranquilla,Evento,2021-10-15,63
+CUST00399,Repeat Buyer,Ecuador,Bucaramanga,Web,2024-09-01,25
+CUST00400,Repeat Buyer,Colombia,Barranquilla,Web,2021-05-15,57
+CUST00401,First-time Buyer,Colombia,Cartagena,Web,2024-02-09,63
+CUST00402,Investor,Colombia,Bucaramanga,Redes Sociales,2023-03-24,50
+CUST00403,Investor,Colombia,Medellín,Web,2021-12-01,54
+CUST00404,First-time Buyer,Colombia,Cali,Referido,2023-10-18,24
+CUST00405,Corporate,Colombia,Medellín,Referido,2021-04-26,25
+CUST00406,Investor,Colombia,Bucaramanga,Evento,2023-11-26,25
+CUST00407,First-time Buyer,Perú,Bogotá,Referido,2023-03-19,31
+CUST00408,Investor,Colombia,Medellín,Referido,2021-06-01,71
+CUST00409,First-time Buyer,Colombia,Cartagena,Redes Sociales,2021-04-19,54
+CUST00410,Corporate,Colombia,Bogotá,Web,2023-10-25,61
+CUST00411,Repeat Buyer,Perú,Barranquilla,Evento,2022-02-05,38
+CUST00412,Repeat Buyer,Colombia,Medellín,Web,2024-05-01,69
+CUST00413,First-time Buyer,Colombia,Bucaramanga,Referido,2023-11-09,33
+CUST00414,Investor,Colombia,Cartagena,Redes Sociales,2023-08-14,67
+CUST00415,First-time Buyer,Colombia,Bogotá,Broker,2022-01-17,25
+CUST00416,First-time Buyer,Estados Unidos,Barranquilla,Broker,2023-08-28,24
+CUST00417,First-time Buyer,Colombia,Medellín,Web,2024-07-21,27
+CUST00418,Investor,Colombia,Cali,Referido,2021-05-06,62
+CUST00419,First-time Buyer,Colombia,Cali,Referido,2022-03-23,36
+CUST00420,Investor,Colombia,Cartagena,Referido,2021-11-18,45
+CUST00421,Repeat Buyer,Ecuador,Bogotá,Referido,2022-06-22,46
+CUST00422,First-time Buyer,Colombia,Bogotá,Web,2023-10-13,61
+CUST00423,First-time Buyer,Colombia,Barranquilla,Web,2022-10-11,40
+CUST00424,First-time Buyer,Perú,Cali,Web,2023-02-20,24
+CUST00425,Repeat Buyer,Ecuador,Medellín,Referido,2022-03-06,42
+CUST00426,Investor,Colombia,Bogotá,Web,2021-07-13,37
+CUST00427,First-time Buyer,Colombia,Medellín,Redes Sociales,2022-01-01,59
+CUST00428,Investor,Colombia,Cartagena,Broker,2024-03-22,60
+CUST00429,First-time Buyer,Colombia,Bogotá,Web,2023-04-05,28
+CUST00430,Investor,Colombia,Medellín,Broker,2022-06-02,62
+CUST00431,Corporate,Colombia,Bucaramanga,Evento,2023-12-17,27
+CUST00432,Investor,Perú,Bogotá,Web,2021-03-30,53
+CUST00433,Investor,Perú,Barranquilla,Web,2021-12-14,42
+CUST00434,Investor,Venezuela,Bogotá,Web,2021-11-11,38
+CUST00435,First-time Buyer,Estados Unidos,Cartagena,Web,2024-09-09,47
+CUST00436,First-time Buyer,México,Barranquilla,Broker,2023-08-24,38
+CUST00437,First-time Buyer,México,Cartagena,Redes Sociales,2023-04-26,62
+CUST00438,Repeat Buyer,México,Bogotá,Web,2021-01-07,70
+CUST00439,Investor,Colombia,Cali,Broker,2021-09-10,63
+CUST00440,Repeat Buyer,Colombia,Barranquilla,Web,2023-05-20,45
+CUST00441,Investor,Colombia,Bogotá,Broker,2022-06-04,48
+CUST00442,First-time Buyer,Colombia,Bogotá,Broker,2024-06-18,45
+CUST00443,Investor,Colombia,Bogotá,Web,2023-11-13,62
+CUST00444,First-time Buyer,Colombia,Bucaramanga,Web,2022-09-05,50
+CUST00445,First-time Buyer,Colombia,Barranquilla,Broker,2023-10-23,46
+CUST00446,Investor,Colombia,Cali,Redes Sociales,2024-08-27,43
+CUST00447,Corporate,Colombia,Barranquilla,Web,2022-09-23,42
+CUST00448,Repeat Buyer,Venezuela,Cali,Web,2023-05-29,50
+CUST00449,First-time Buyer,Ecuador,Medellín,Web,2024-06-10,57
+CUST00450,Repeat Buyer,Colombia,Medellín,Referido,2021-12-07,44
+CUST00451,First-time Buyer,Colombia,Cali,Broker,2024-04-27,62
+CUST00452,Investor,Colombia,Bogotá,Evento,2021-05-14,63
+CUST00453,Investor,Venezuela,Cartagena,Broker,2023-06-07,44
+CUST00454,First-time Buyer,Venezuela,Barranquilla,Redes Sociales,2023-12-07,67
+CUST00455,First-time Buyer,Colombia,Medellín,Evento,2023-04-21,32
+CUST00456,First-time Buyer,México,Cali,Web,2022-11-09,68
+CUST00457,Corporate,Colombia,Bogotá,Referido,2023-04-25,38
+CUST00458,Repeat Buyer,Colombia,Bucaramanga,Web,2021-07-27,51
+CUST00459,Investor,Estados Unidos,Cartagena,Web,2021-10-22,37
+CUST00460,Repeat Buyer,Colombia,Bucaramanga,Redes Sociales,2022-01-05,45
+CUST00461,Repeat Buyer,Colombia,Medellín,Broker,2023-03-29,40
+CUST00462,First-time Buyer,Colombia,Bogotá,Redes Sociales,2022-08-28,57
+CUST00463,Corporate,Colombia,Bogotá,Referido,2021-12-01,27
+CUST00464,First-time Buyer,Perú,Bogotá,Referido,2024-04-22,64
+CUST00465,Repeat Buyer,Estados Unidos,Bogotá,Referido,2022-05-27,67
+CUST00466,Investor,Colombia,Bogotá,Web,2022-09-03,51
+CUST00467,Repeat Buyer,Colombia,Bucaramanga,Web,2022-07-15,50
+CUST00468,Corporate,Venezuela,Bogotá,Referido,2021-09-06,57
+CUST00469,First-time Buyer,Colombia,Bogotá,Web,2023-09-28,33
+CUST00470,Repeat Buyer,Ecuador,Cartagena,Redes Sociales,2022-09-06,59
+CUST00471,First-time Buyer,Colombia,Cali,Web,2021-01-23,34
+CUST00472,Repeat Buyer,Colombia,Barranquilla,Web,2024-08-11,56
+CUST00473,First-time Buyer,Venezuela,Cali,Broker,2024-01-21,38
+CUST00474,First-time Buyer,Colombia,Cartagena,Web,2023-09-17,59
+CUST00475,First-time Buyer,Colombia,Cali,Redes Sociales,2024-04-03,61
+CUST00476,First-time Buyer,Colombia,Medellín,Broker,2024-05-25,34
+CUST00477,Repeat Buyer,Colombia,Barranquilla,Web,2022-04-07,53
+CUST00478,Repeat Buyer,Colombia,Medellín,Broker,2023-04-16,47
+CUST00479,Repeat Buyer,Colombia,Medellín,Broker,2023-04-13,38
+CUST00480,First-time Buyer,Estados Unidos,Medellín,Broker,2022-01-01,52
+CUST00481,First-time Buyer,Estados Unidos,Bogotá,Evento,2021-10-31,71
+CUST00482,First-time Buyer,Colombia,Barranquilla,Broker,2021-06-05,24
+CUST00483,Repeat Buyer,Colombia,Bogotá,Broker,2023-06-21,69
+CUST00484,First-time Buyer,México,Bogotá,Web,2023-12-05,65
+CUST00485,First-time Buyer,Estados Unidos,Bogotá,Broker,2023-11-07,49
+CUST00486,First-time Buyer,Colombia,Cartagena,Redes Sociales,2022-03-09,53
+CUST00487,Repeat Buyer,Colombia,Medellín,Broker,2021-10-08,41
+CUST00488,First-time Buyer,Colombia,Cali,Broker,2022-09-13,30
+CUST00489,Repeat Buyer,Colombia,Cartagena,Referido,2023-01-19,51
+CUST00490,Repeat Buyer,Colombia,Bogotá,Broker,2024-06-11,63
+CUST00491,Investor,Colombia,Barranquilla,Redes Sociales,2024-04-11,35
+CUST00492,Repeat Buyer,México,Bogotá,Web,2024-06-07,58
+CUST00493,Repeat Buyer,Venezuela,Bogotá,Web,2024-03-09,59
+CUST00494,First-time Buyer,Venezuela,Cali,Referido,2024-08-12,60
+CUST00495,Investor,Colombia,Cartagena,Referido,2022-09-29,40
+CUST00496,Repeat Buyer,Colombia,Bogotá,Broker,2021-03-06,42
+CUST00497,Repeat Buyer,México,Cali,Web,2021-04-25,43
+CUST00498,Repeat Buyer,Venezuela,Bogotá,Referido,2022-06-18,65
+CUST00499,First-time Buyer,Colombia,Cali,Broker,2021-12-19,67
+CUST00500,Repeat Buyer,Ecuador,Cali,Broker,2021-08-21,43
+CUST00501,Investor,Colombia,Cali,Broker,2024-07-27,70
+CUST00502,Investor,Ecuador,Cali,Broker,2021-09-25,51
+CUST00503,Corporate,Colombia,Bogotá,Broker,2024-08-05,42
+CUST00504,Repeat Buyer,Colombia,Cali,Evento,2023-11-07,24
+CUST00505,Repeat Buyer,Colombia,Cali,Broker,2023-05-27,53
+CUST00506,Investor,Colombia,Cali,Referido,2023-07-14,54
+CUST00507,First-time Buyer,Colombia,Bogotá,Broker,2022-03-30,70
+CUST00508,Investor,Colombia,Medellín,Web,2023-06-04,58
+CUST00509,Repeat Buyer,Colombia,Medellín,Web,2021-09-13,25
+CUST00510,First-time Buyer,México,Bogotá,Referido,2024-07-06,51
+CUST00511,First-time Buyer,Colombia,Bogotá,Redes Sociales,2022-02-17,59
+CUST00512,Investor,Colombia,Medellín,Broker,2021-12-16,47
+CUST00513,First-time Buyer,Venezuela,Barranquilla,Web,2023-08-31,44
+CUST00514,First-time Buyer,Colombia,Bogotá,Broker,2023-06-18,62
+CUST00515,First-time Buyer,Colombia,Cartagena,Web,2022-09-10,53
+CUST00516,First-time Buyer,Ecuador,Cali,Broker,2023-05-16,56
+CUST00517,First-time Buyer,Venezuela,Barranquilla,Evento,2021-08-07,46
+CUST00518,Investor,Colombia,Medellín,Broker,2023-07-11,37
+CUST00519,First-time Buyer,Venezuela,Medellín,Broker,2022-01-06,48
+CUST00520,Investor,Colombia,Cali,Web,2022-01-09,70
+CUST00521,Investor,Colombia,Bucaramanga,Referido,2021-08-10,52
+CUST00522,First-time Buyer,México,Medellín,Redes Sociales,2022-03-31,57
+CUST00523,First-time Buyer,Colombia,Medellín,Broker,2022-03-30,29
+CUST00524,Repeat Buyer,México,Cali,Referido,2022-09-14,71
+CUST00525,First-time Buyer,Colombia,Barranquilla,Referido,2021-09-18,35
+CUST00526,First-time Buyer,México,Bogotá,Web,2021-09-22,70
+CUST00527,Corporate,Colombia,Medellín,Web,2023-01-12,45
+CUST00528,Corporate,Colombia,Medellín,Web,2021-06-26,68
+CUST00529,Investor,Colombia,Bucaramanga,Referido,2023-08-01,66
+CUST00530,First-time Buyer,Colombia,Medellín,Redes Sociales,2024-07-15,60
+CUST00531,Repeat Buyer,México,Medellín,Referido,2022-08-07,67
+CUST00532,Investor,Colombia,Bucaramanga,Web,2024-05-17,53
+CUST00533,First-time Buyer,Colombia,Medellín,Web,2021-05-15,64
+CUST00534,Repeat Buyer,Colombia,Bogotá,Web,2021-02-28,32
+CUST00535,First-time Buyer,Colombia,Bogotá,Evento,2023-09-14,27
+CUST00536,First-time Buyer,Venezuela,Bogotá,Referido,2023-11-08,50
+CUST00537,Repeat Buyer,Colombia,Bogotá,Broker,2024-02-28,62
+CUST00538,First-time Buyer,Estados Unidos,Medellín,Evento,2021-03-19,60
+CUST00539,First-time Buyer,Colombia,Barranquilla,Web,2023-11-29,49
+CUST00540,Investor,Colombia,Barranquilla,Broker,2022-05-31,49
+CUST00541,Corporate,Colombia,Bogotá,Redes Sociales,2022-02-19,53
+CUST00542,Repeat Buyer,Colombia,Cali,Referido,2021-08-25,65
+CUST00543,Investor,Ecuador,Bogotá,Web,2024-09-24,64
+CUST00544,Corporate,Estados Unidos,Bucaramanga,Redes Sociales,2021-03-29,29
+CUST00545,First-time Buyer,Ecuador,Bogotá,Redes Sociales,2024-02-06,52
+CUST00546,Repeat Buyer,Colombia,Cali,Referido,2023-05-25,42
+CUST00547,First-time Buyer,Colombia,Medellín,Referido,2023-10-03,62
+CUST00548,First-time Buyer,Colombia,Cali,Web,2023-09-01,48
+CUST00549,Investor,Colombia,Medellín,Evento,2024-03-20,71
+CUST00550,Repeat Buyer,México,Barranquilla,Referido,2021-09-09,44
+CUST00551,Repeat Buyer,Colombia,Bogotá,Web,2021-01-02,56
+CUST00552,First-time Buyer,Colombia,Cartagena,Broker,2023-03-30,29
+CUST00553,First-time Buyer,Venezuela,Medellín,Redes Sociales,2022-04-30,68
+CUST00554,Investor,Colombia,Barranquilla,Evento,2021-06-19,31
+CUST00555,First-time Buyer,Colombia,Cartagena,Web,2021-09-12,42
+CUST00556,First-time Buyer,Colombia,Bucaramanga,Web,2022-03-30,64
+CUST00557,First-time Buyer,Colombia,Bogotá,Redes Sociales,2021-04-07,70
+CUST00558,Repeat Buyer,Colombia,Bogotá,Redes Sociales,2021-03-19,47
+CUST00559,Repeat Buyer,Colombia,Bogotá,Referido,2024-06-07,47
+CUST00560,Repeat Buyer,Colombia,Bogotá,Broker,2022-03-03,26
+CUST00561,First-time Buyer,México,Cali,Referido,2024-09-05,70
+CUST00562,First-time Buyer,Venezuela,Bucaramanga,Referido,2024-08-12,24
+CUST00563,Investor,Colombia,Bucaramanga,Web,2021-07-15,25
+CUST00564,Repeat Buyer,Colombia,Medellín,Web,2023-09-06,46
+CUST00565,Repeat Buyer,Colombia,Cali,Web,2023-04-02,24
+CUST00566,Repeat Buyer,Colombia,Cartagena,Evento,2023-08-03,31
+CUST00567,Investor,Colombia,Bucaramanga,Web,2021-05-12,54
+CUST00568,First-time Buyer,Colombia,Bogotá,Web,2021-09-15,57
+CUST00569,First-time Buyer,Colombia,Medellín,Referido,2021-04-15,38
+CUST00570,Repeat Buyer,Colombia,Cartagena,Web,2023-04-07,62
+CUST00571,First-time Buyer,Colombia,Bogotá,Web,2024-09-11,53
+CUST00572,Investor,Colombia,Medellín,Broker,2023-07-09,34
+CUST00573,Repeat Buyer,Ecuador,Bucaramanga,Referido,2023-08-31,58
+CUST00574,Investor,Colombia,Bucaramanga,Broker,2024-09-08,52
+CUST00575,Investor,Colombia,Cartagena,Redes Sociales,2023-07-17,62
+CUST00576,Repeat Buyer,Ecuador,Barranquilla,Web,2021-02-24,31
+CUST00577,Investor,Colombia,Bogotá,Redes Sociales,2024-04-01,35
+CUST00578,Repeat Buyer,Colombia,Medellín,Redes Sociales,2022-05-14,38
+CUST00579,Investor,Perú,Cali,Evento,2021-01-06,40
+CUST00580,First-time Buyer,Colombia,Cali,Broker,2022-11-25,66
+CUST00581,Repeat Buyer,Colombia,Medellín,Broker,2024-07-05,59
+CUST00582,Repeat Buyer,Colombia,Cali,Broker,2021-12-19,50
+CUST00583,First-time Buyer,Colombia,Medellín,Broker,2022-11-04,49
+CUST00584,First-time Buyer,Colombia,Barranquilla,Web,2021-08-26,66
+CUST00585,Investor,Colombia,Medellín,Redes Sociales,2021-03-20,45
+CUST00586,Repeat Buyer,Colombia,Medellín,Broker,2021-04-21,34
+CUST00587,First-time Buyer,Colombia,Bogotá,Evento,2023-09-22,30
+CUST00588,First-time Buyer,Colombia,Bogotá,Referido,2024-03-28,39
+CUST00589,First-time Buyer,Colombia,Cartagena,Web,2021-07-16,55
+CUST00590,First-time Buyer,Colombia,Medellín,Referido,2022-01-30,46
+CUST00591,Corporate,Ecuador,Bogotá,Referido,2021-09-24,44
+CUST00592,Repeat Buyer,Colombia,Barranquilla,Referido,2021-02-06,47
+CUST00593,First-time Buyer,Colombia,Cali,Web,2023-01-28,70
+CUST00594,Repeat Buyer,Colombia,Bogotá,Web,2023-08-16,71
+CUST00595,First-time Buyer,Colombia,Medellín,Referido,2023-06-06,31
+CUST00596,First-time Buyer,Colombia,Bogotá,Referido,2022-06-15,29
+CUST00597,Investor,Colombia,Cali,Redes Sociales,2023-01-30,35
+CUST00598,Repeat Buyer,Colombia,Bogotá,Web,2021-05-09,64
+CUST00599,Corporate,Ecuador,Bogotá,Web,2021-07-31,46
+CUST00600,Repeat Buyer,Perú,Bogotá,Web,2024-06-28,65
+CUST00601,Repeat Buyer,Colombia,Cali,Referido,2023-11-08,55
+CUST00602,Investor,Colombia,Bogotá,Referido,2024-06-16,50
+CUST00603,Investor,Colombia,Cartagena,Broker,2024-06-08,37
+CUST00604,Investor,Colombia,Bogotá,Redes Sociales,2023-06-08,40
+CUST00605,Corporate,Colombia,Cali,Web,2024-06-23,31
+CUST00606,Investor,Ecuador,Medellín,Broker,2021-01-05,48
+CUST00607,Investor,México,Medellín,Web,2021-03-27,37
+CUST00608,First-time Buyer,Venezuela,Bogotá,Web,2021-05-30,38
+CUST00609,Investor,Colombia,Barranquilla,Referido,2021-05-11,25
+CUST00610,Repeat Buyer,Estados Unidos,Cartagena,Web,2022-04-27,62
+CUST00611,Repeat Buyer,Colombia,Bogotá,Broker,2023-08-18,69
+CUST00612,Repeat Buyer,Colombia,Bogotá,Broker,2023-12-18,47
+CUST00613,Corporate,Colombia,Cartagena,Broker,2023-03-19,49
+CUST00614,Corporate,Perú,Cali,Referido,2021-07-20,68
+CUST00615,First-time Buyer,Colombia,Bogotá,Broker,2023-10-21,48
+CUST00616,Investor,Venezuela,Bogotá,Referido,2022-05-01,53
+CUST00617,Investor,Colombia,Cali,Web,2021-01-18,44
+CUST00618,First-time Buyer,Estados Unidos,Barranquilla,Web,2022-01-19,48
+CUST00619,First-time Buyer,Colombia,Cali,Broker,2022-03-29,49
+CUST00620,First-time Buyer,Colombia,Bucaramanga,Redes Sociales,2022-01-11,58
+CUST00621,Investor,Estados Unidos,Medellín,Web,2024-01-16,53
+CUST00622,Repeat Buyer,Colombia,Bogotá,Referido,2023-11-06,48
+CUST00623,Corporate,Colombia,Medellín,Broker,2023-08-10,27
+CUST00624,Repeat Buyer,Colombia,Medellín,Evento,2021-07-10,67
+CUST00625,Corporate,Colombia,Bogotá,Referido,2024-01-11,66
+CUST00626,First-time Buyer,Colombia,Bogotá,Broker,2023-07-16,32
+CUST00627,Investor,Colombia,Medellín,Broker,2021-09-24,38
+CUST00628,First-time Buyer,Colombia,Barranquilla,Redes Sociales,2023-06-06,70
+CUST00629,Repeat Buyer,Ecuador,Bogotá,Web,2022-10-24,39
+CUST00630,Investor,Colombia,Medellín,Redes Sociales,2022-08-25,62
+CUST00631,Corporate,Colombia,Cali,Web,2021-06-03,61
+CUST00632,Investor,Colombia,Cali,Evento,2022-12-11,65
+CUST00633,First-time Buyer,Colombia,Barranquilla,Web,2021-05-17,24
+CUST00634,First-time Buyer,Colombia,Barranquilla,Web,2021-08-13,47
+CUST00635,First-time Buyer,Perú,Barranquilla,Web,2021-07-01,51
+CUST00636,First-time Buyer,Perú,Bogotá,Referido,2024-07-29,64
+CUST00637,Repeat Buyer,Colombia,Medellín,Web,2022-01-25,34
+CUST00638,Investor,Colombia,Cali,Web,2022-05-01,38
+CUST00639,Investor,Colombia,Bogotá,Referido,2022-03-17,32
+CUST00640,Investor,Colombia,Bogotá,Referido,2024-05-13,60
+CUST00641,Investor,Colombia,Bogotá,Broker,2023-02-10,71
+CUST00642,Investor,Colombia,Medellín,Redes Sociales,2024-06-11,30
+CUST00643,First-time Buyer,Colombia,Medellín,Broker,2022-02-15,35
+CUST00644,First-time Buyer,Colombia,Bogotá,Web,2021-06-07,38
+CUST00645,Repeat Buyer,Colombia,Cartagena,Web,2023-01-31,66
+CUST00646,Investor,Colombia,Bucaramanga,Redes Sociales,2022-04-18,45
+CUST00647,First-time Buyer,Colombia,Bogotá,Web,2024-01-03,37
+CUST00648,Repeat Buyer,Colombia,Bucaramanga,Referido,2024-04-18,39
+CUST00649,Repeat Buyer,México,Bogotá,Redes Sociales,2022-10-09,52
+CUST00650,First-time Buyer,Colombia,Bucaramanga,Redes Sociales,2024-08-21,42
