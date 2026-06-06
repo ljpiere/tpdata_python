@@ -1,0 +1,61 @@
+track_id,song_title,artist,album,country,platform,release_year,genre,streams_millions,duration_seconds,explicit,skip_rate,added_to_playlist,listener_segment
+TRK001,Anti-Hero,Taylor Swift,Midnights,Colombia,Spotify,2022,Pop,1420.5,200,False,0.14,True,superfan
+TRK002,Blinding Lights,The Weeknd,After Hours,México,Spotify,2020,R&B,2100.0,202,False,0.1,True,fan
+TRK003,City Dreams 3,Feid,Feliz Cumpleaños Ferxxo,España,Spotify,2020,Reggaeton,336.3,234,False,0.2,True,casual
+TRK004,Blue Sky 4,Billie Eilish,Happier Than Ever,México,Spotify,2023,Alternative,287.0,178,True,0.33,True,casual
+TRK005,Wild Sky 5,Shakira,El Dorado,México,YouTube Music,2023,Pop Latino,201.2,169,False,0.1,True,casual
+TRK006,Summer Sky 6,The Weeknd,After Hours,México,Spotify,2020,R&B,1072.5,192,False,0.15,False,superfan
+TRK007,Electric Fire 7,Dua Lipa,Future Nostalgia,Argentina,YouTube Music,2022,Pop,478.0,179,False,0.31,True,superfan
+TRK008,Blue Stories 8,Billie Eilish,Happier Than Ever,Colombia,Spotify,2021,Alternative,601.3,153,True,0.39,True,superfan
+TRK009,Summer Lights 9,Billie Eilish,Happier Than Ever,Chile,YouTube Music,2021,Alternative,332.0,162,True,0.33,True,fan
+TRK010,Ocean Lights 10,Coldplay,Music of the Spheres,España,YouTube Music,2023,Alternative,268.6,208,True,0.34,True,casual
+TRK011,Summer Road 11,Bad Bunny,Un Verano Sin Ti,España,YouTube Music,2023,Reggaeton,93.9,255,True,0.31,True,superfan
+TRK012,City Stories 12,Feid,Feliz Cumpleaños Ferxxo,Perú,YouTube Music,2020,Reggaeton,231.0,203,True,0.4,True,fan
+TRK013,City Heart 13,Feid,Feliz Cumpleaños Ferxxo,Argentina,YouTube Music,2020,Reggaeton,594.5,192,True,0.26,True,casual
+TRK014,Blue Road 14,Coldplay,Music of the Spheres,Estados Unidos,Apple Music,2020,Alternative,27.4,152,True,0.38,True,casual
+TRK015,Electric Fire 15,Adele,30,México,YouTube Music,2023,Soul,501.3,166,False,0.26,True,fan
+TRK016,Blue Fire 16,Karol G,Mañana Será Bonito,Chile,YouTube Music,2023,Reggaeton,212.9,202,True,0.16,True,fan
+TRK017,Golden Heart 17,Taylor Swift,Midnights,Chile,YouTube Music,2019,Pop,200.1,260,True,0.37,True,superfan
+TRK018,Silent Lights 18,Karol G,Mañana Será Bonito,Perú,YouTube Music,2024,Reggaeton,323.2,264,False,0.28,True,fan
+TRK019,Neon Sky 19,Shakira,El Dorado,Chile,Spotify,2022,Pop Latino,85.7,197,False,0.37,True,superfan
+TRK020,Midnight Heart 20,Dua Lipa,Future Nostalgia,Colombia,Apple Music,2020,Pop,477.4,169,False,0.23,False,casual
+TRK021,Silent Echoes 21,The Weeknd,After Hours,Brasil,Spotify,2019,R&B,829.1,228,False,0.36,True,casual
+TRK022,Golden Lights 22,Bad Bunny,Un Verano Sin Ti,España,Apple Music,2022,Reggaeton,745.2,145,False,0.17,False,fan
+TRK023,Ocean Dreams 23,Shakira,El Dorado,Brasil,Spotify,2023,Pop Latino,151.9,239,False,0.1,False,casual
+TRK024,Golden Echoes 24,Taylor Swift,Midnights,Brasil,YouTube Music,2020,Pop,1132.0,153,False,0.1,True,fan
+TRK025,Wild Echoes 25,Dua Lipa,Future Nostalgia,Chile,YouTube Music,2022,Pop,392.5,229,False,0.27,False,fan
+TRK026,Electric Road 26,Karol G,Mañana Será Bonito,Estados Unidos,Spotify,2022,Reggaeton,205.7,185,True,0.08,True,superfan
+TRK027,City Lights 27,Dua Lipa,Future Nostalgia,México,YouTube Music,2021,Pop,150.4,257,True,0.38,False,fan
+TRK028,Silent Dreams 28,Bad Bunny,Un Verano Sin Ti,Brasil,YouTube Music,2024,Reggaeton,921.3,249,False,0.18,True,casual
+TRK029,Electric Road 29,Bad Bunny,Un Verano Sin Ti,Perú,Spotify,2021,Reggaeton,1406.4,222,True,0.32,True,superfan
+TRK030,Midnight Stories 30,The Weeknd,After Hours,Brasil,Apple Music,2021,R&B,1356.7,150,True,0.19,True,superfan
+TRK031,Silent Dreams 31,The Weeknd,After Hours,Argentina,YouTube Music,2019,R&B,625.8,154,False,0.39,True,casual
+TRK032,City Sky 32,Billie Eilish,Happier Than Ever,Argentina,Apple Music,2019,Alternative,95.9,260,False,0.15,True,superfan
+TRK033,Neon Lights 33,Dua Lipa,Future Nostalgia,Estados Unidos,YouTube Music,2020,Pop,576.4,255,True,0.41,True,fan
+TRK034,Neon Heart 34,Taylor Swift,Midnights,Argentina,YouTube Music,2021,Pop,1334.8,165,False,0.12,True,fan
+TRK035,Ocean Heart 35,Karol G,Mañana Será Bonito,Chile,Apple Music,2019,Reggaeton,237.0,229,True,0.22,False,casual
+TRK036,Silent Sky 36,The Weeknd,After Hours,Estados Unidos,YouTube Music,2019,R&B,705.2,159,False,0.14,False,casual
+TRK037,Blue Stories 37,Dua Lipa,Future Nostalgia,España,Apple Music,2023,Pop,477.6,210,True,0.21,True,casual
+TRK038,Silent Heart 38,The Weeknd,After Hours,Colombia,YouTube Music,2021,R&B,547.6,200,True,0.4,False,superfan
+TRK039,Silent Road 39,Billie Eilish,Happier Than Ever,México,YouTube Music,2024,Alternative,586.5,197,False,0.22,False,superfan
+TRK040,Electric Road 40,Bad Bunny,Un Verano Sin Ti,Chile,Apple Music,2022,Reggaeton,740.2,215,True,0.18,True,fan
+TRK041,Ocean Fire 41,Coldplay,Music of the Spheres,Estados Unidos,Apple Music,2024,Alternative,295.5,166,False,0.11,True,superfan
+TRK042,Ocean Road 42,Coldplay,Music of the Spheres,Estados Unidos,Spotify,2020,Alternative,598.9,248,True,0.13,True,casual
+TRK043,Wild Heart 43,Adele,30,México,Apple Music,2024,Soul,278.2,234,False,0.25,True,casual
+TRK044,Silent Fire 44,Taylor Swift,Midnights,México,Apple Music,2019,Pop,345.7,216,True,0.39,True,fan
+TRK045,Blue Fire 45,Bad Bunny,Un Verano Sin Ti,Brasil,YouTube Music,2023,Reggaeton,678.7,249,False,0.38,False,superfan
+TRK046,Summer Road 46,Adele,30,Argentina,YouTube Music,2020,Soul,562.0,252,False,0.17,True,fan
+TRK047,City Heart 47,Karol G,Mañana Será Bonito,Perú,Apple Music,2021,Reggaeton,64.2,187,False,0.38,True,casual
+TRK048,Midnight Stories 48,Bad Bunny,Un Verano Sin Ti,Chile,Apple Music,2022,Reggaeton,965.2,187,False,0.24,True,casual
+TRK049,Golden Stories 49,Shakira,El Dorado,España,YouTube Music,2022,Pop Latino,615.7,145,False,0.18,False,fan
+TRK050,Neon Fire 50,Feid,Feliz Cumpleaños Ferxxo,Chile,Apple Music,2019,Reggaeton,154.3,194,False,0.31,False,superfan
+TRK051,Neon Dreams 51,Bad Bunny,Un Verano Sin Ti,Brasil,Spotify,2019,Reggaeton,1353.1,227,False,0.13,False,casual
+TRK052,Blue Stories 52,Taylor Swift,Midnights,Perú,Apple Music,2021,Pop,399.2,241,False,0.17,True,fan
+TRK053,Golden Dreams 53,Taylor Swift,Midnights,Colombia,Apple Music,2020,Pop,202.9,170,True,0.29,True,casual
+TRK054,Summer Road 54,Adele,30,México,YouTube Music,2021,Soul,616.8,166,False,0.29,True,superfan
+TRK055,Golden Road 55,Dua Lipa,Future Nostalgia,Argentina,Apple Music,2023,Pop,83.6,231,False,0.21,True,casual
+TRK056,City Echoes 56,Dua Lipa,Future Nostalgia,Chile,Spotify,2023,Pop,512.6,245,True,0.2,False,superfan
+TRK057,Golden Stories 57,Billie Eilish,Happier Than Ever,México,YouTube Music,2022,Alternative,426.2,158,False,0.41,True,fan
+TRK058,City Fire 58,Bad Bunny,Un Verano Sin Ti,España,Spotify,2022,Reggaeton,1322.5,200,False,0.28,False,casual
+TRK059,Summer Stories 59,Dua Lipa,Future Nostalgia,Perú,Apple Music,2021,Pop,169.9,148,False,0.37,True,fan
+TRK060,Wild Road 60,Karol G,Mañana Será Bonito,Estados Unidos,Apple Music,2023,Reggaeton,231.1,146,False,0.4,True,casual
