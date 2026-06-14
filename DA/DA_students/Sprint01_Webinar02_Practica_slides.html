@@ -1,0 +1,1357 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sprint 1 Sesión 2 · Exploración, documentación y limpieza básica en Google Sheets</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&amp;display=swap" rel="stylesheet"/>
+<script>
+      window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+      };
+    </script>
+<script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<style>
+    :root {
+        --color-orange: #F2855A;
+        --color-green: #66B37D;
+        --color-light-gray: #F2F2F2;
+        --color-dark-mode: #111111;
+        --color-black: #0A0A0A;
+        --color-dark-gray-1: #333333;
+        --color-dark-gray-2: #5F5F5F;
+        --color-white-soft: #F5F5F5;
+        --font-main: 'Montserrat', sans-serif;
+    }
+
+    body {
+        margin: 0;
+        font-family: var(--font-main);
+        overflow: hidden;
+    }
+
+    .presentation {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        box-sizing: border-box;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out;
+    }
+
+    .slide.active {
+        opacity: 1;
+        visibility: visible;
+        z-index: 1;
+    }
+
+    .slide h1 { font-size: 3rem; font-weight: 700; margin: 0 0 0.5rem 0; }
+    .slide h2 { font-size: 1.8rem; font-weight: 300; margin: 0; }
+
+    .slide-countdown { background-color: var(--color-orange); color: var(--color-black); }
+    .slide-countdown h2 { color: var(--color-dark-gray-2); }
+    .slide-countdown .timer { font-size: 5rem; font-weight: 300; letter-spacing: 5px; margin: 1.5rem 0; text-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .slide-countdown .start-message { font-size: 2.5rem; font-weight: 700; display: none; }
+    
+    .bouncing-logo-container { position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; overflow: hidden; z-index: 0; pointer-events: none; }
+    .bouncing-logo { position: absolute; width: 250px; opacity: 0.15; animation: bounceX 13s linear infinite alternate, bounceY 9s linear infinite alternate; }
+    @keyframes bounceX { 0% { left: 0; } 100% { left: calc(100vw - 250px); } }
+    @keyframes bounceY { 0% { top: 0; } 100% { top: calc(100vh - 75px); } }
+
+    .traffic-logo-container { position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; overflow: hidden; z-index: 0; pointer-events: none; }
+    .traffic-logo-img { position: absolute; width: 220px; opacity: 0.15; left: -250px; transform: translateY(-50%); }
+    @keyframes driveRight { 0% { transform: translateY(-50%) translateX(0); } 100% { transform: translateY(-50%) translateX(calc(100vw + 500px)); } }
+
+    .slide-transition { background-color: var(--color-green); color: var(--color-black); }
+    
+    .slide-warnup-mood { background-color: var(--color-green); color: var(--color-black); justify-content: center; position: relative; }
+    .content-wrapper { position: relative; z-index: 1; background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); padding: 2rem 4rem; border-radius: 20px; box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1); border: 1px solid rgba(255, 255, 255, 0.18); }
+    .slide-warnup-mood h1, .slide-warnup-mood h2 { font-weight: bold; }
+    .emoji-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: 0; }
+    .emoji { position: absolute; top: -10%; font-size: 2rem; animation: fall 10s linear infinite; }
+    @keyframes fall {
+        0% { transform: translateY(0) rotate(0); }
+        100% { transform: translateY(110vh) rotate(360deg); }
+    }
+
+    .slide-agenda, .slide-warnup-question, .slide-basic_slide, .slide-two_columns_slide { background-color: var(--color-light-gray); color: var(--color-black); }
+    .slide-agenda .content-wrapper, .slide-basic_slide .content-wrapper, .slide-two_columns_slide .content-wrapper { width: 90%; text-align: left; overflow-y: auto; max-height: 85vh; padding: 2rem 3rem; }
+    .slide-basic_slide .content-wrapper img, .slide-two_columns_slide .content-wrapper img { max-width: 100%; border-radius: 10px; display: block; margin: 1rem auto; padding: 0; }
+    .slide-basic_slide .content-wrapper p, .slide-basic_slide .content-wrapper ul, .slide-basic_slide .content-wrapper ol, .slide-two_columns_slide .content-wrapper p, .slide-two_columns_slide .content-wrapper ul, .slide-two_columns_slide .content-wrapper ol { font-size: 1.5rem; line-height: 1.6; }
+    .slide-basic_slide .content-wrapper ul, .slide-basic_slide .content-wrapper ol, .slide-two_columns_slide .content-wrapper ul, .slide-two_columns_slide .content-wrapper ol { padding-left: 3rem; }
+    
+    .slide-two_columns_slide .column-left { padding-right: 2rem; width: 50%; display: flex; flex-direction: column; justify-content: center; }
+    .slide-two_columns_slide .column-right { width: 50%; display: flex; align-items: center; justify-content: center; height: 100%; }
+    .slide-two_columns_slide .column-right img { width: 100%; max-height: 70vh; object-fit: contain; }
+    .slide-agenda h1 { color: var(--color-black); margin-bottom: 1.5rem; }
+    .slide-agenda ul { list-style: none; padding: 0; font-size: 1.5rem; }
+    .slide-agenda li { margin: 0.8rem 0; }
+    .slide-agenda li strong { color: var(--color-black); }
+    .slide-agenda li span { color: var(--color-dark-gray-1); margin-left: 1rem; }
+
+    .two-column-layout { display: flex; align-items: center; justify-content: center; width: 100%; gap: 2rem; }
+    .column-left { width: 50%; text-align: left; }
+    .column-right { width: 50%; }
+    .column-right img { max-width: 100%; border-radius: 10px; }
+
+    .slide-objectives { background-color: var(--color-light-gray); color: var(--color-black); }
+    .slide-objectives .content-wrapper { padding: 3rem; text-align: center; width: 95%; max-width: 1600px; max-height: 85vh; overflow-y: auto; }
+    .slide-objectives .objectives-container > ul { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; list-style: none; padding: 0; margin: 2rem 0; width: 100%; }
+    .slide-objectives .objectives-container > ul > li { background-color: var(--color-light-gray); color: var(--color-dark-gray-1); padding: 2.5rem; border-radius: 15px; flex: 1; min-width: 300px; max-width: 480px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: left; font-size: 1.3rem; line-height: 1.5; display: flex; flex-direction: column; }
+    .slide-objectives .objectives-container > ul > li p { margin: 0; }
+    .slide-objectives .objectives-container img { max-width: 100%; max-height: 100px; object-fit: contain; display: block; margin: 0 auto 1rem auto; }
+    .slide-objectives .objectives-container > ul > li > ul { list-style: none; padding-left: 0; margin-top: 1rem; font-size: 1.1rem; }
+    .slide-objectives .objectives-container > ul > li > ul > li { position: relative; padding-left: 1.2rem; margin-bottom: 0.8rem; color: var(--color-dark-gray-2); }
+    .slide-objectives .objectives-container > ul > li > ul > li::before { content: "•"; position: absolute; left: 0; color: var(--color-green); font-weight: bold; }
+    .slide-objectives h1 { color: var(--color-black); margin-bottom: 1rem; }
+
+    .slide-overlay { background-color: var(--color-black); color: var(--color-white-soft); }
+    .slide-overlay h1, .slide-overlay h2 { color: var(--color-white-soft); margin-bottom: 0.5rem; }
+    .slide-overlay p { font-size: 3rem; font-weight: 500; margin: 1rem 0; line-height: 1.4; color: var(--color-white-soft); text-align: center; }
+
+    .slide-gotocode { background-color: var(--color-dark-mode); color: var(--color-white-soft); }
+    .slide-finale { background-color: var(--color-orange); color: var(--color-black); }
+    .slide-finale h2 { color: var(--color-dark-gray-2); }
+    .slide-gotocode a { color: var(--color-white-soft); }
+    .slide-gotocode .qr-container { display: flex; gap: 2rem; margin-top: 2rem; }
+    .slide-gotocode .qr-item { display: flex; flex-direction: column; align-items: center; }
+    .slide-gotocode .qr-item img { width: 150px; height: 150px; border-radius: 10px; }
+
+    #transition-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10; display: flex; justify-content: center; align-items: center; opacity: 0; visibility: hidden; transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out; background-color: var(--color-green); color: var(--color-black); }
+    #transition-overlay h1 { color: var(--color-black); margin-bottom: 0; }
+    #transition-overlay .content-wrapper { width: 90%; text-align: left; padding: 2rem 3rem; }
+    #transition-overlay.visible { opacity: 1; visibility: visible; }
+    
+    .slide-nav { position: absolute; bottom: 20px; right: 20px; z-index: 100; display: flex; gap: 10px; }
+    .slide-nav button { background: rgba(128, 128, 128, 0.5); border: none; color: white; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 1.5rem; transition: background 0.3s; }
+    .slide-nav button:hover { background: rgba(128, 128, 128, 0.9); }
+
+    .slide-menu { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); z-index: 200; display: flex; justify-content: center; align-items: center; opacity: 0; visibility: hidden; transition: opacity 0.3s, visibility 0.3s; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+    .slide-menu.active { opacity: 1; visibility: visible; }
+    .slide-menu-content { background: var(--color-light-gray); padding: 3rem; border-radius: 15px; width: 80%; max-width: 800px; max-height: 80vh; overflow-y: auto; position: relative; color: var(--color-black); box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+    .slide-menu-content h2 { margin-top: 0; border-bottom: 2px solid var(--color-dark-gray-1); padding-bottom: 1rem; color: var(--color-black); }
+    .close-menu { position: absolute; top: 15px; right: 20px; background: none; border: none; font-size: 2.5rem; cursor: pointer; color: var(--color-dark-gray-2); transition: color 0.3s; }
+    .close-menu:hover { color: var(--color-orange); }
+    .slide-list { list-style: none; padding: 0; }
+    .slide-list li { margin: 0.5rem 0; }
+    .menu-jump-btn { width: 100%; text-align: left; background: var(--color-white-soft); border: 1px solid rgba(0,0,0,0.1); padding: 1rem; border-radius: 8px; font-size: 1.2rem; cursor: pointer; transition: background 0.2s, transform 0.1s; font-family: var(--font-main); color: var(--color-dark-gray-1); }
+    .menu-jump-btn:hover { background: var(--color-orange); color: var(--color-black); transform: translateX(5px); }
+    
+    .company-logo { position: absolute; top: 30px; left: 40px; max-height: 60px; opacity: 0; z-index: 50; pointer-events: none; }
+    .slide-countdown .company-logo, .slide-warnup-mood .company-logo, .slide-finale .company-logo, .slide-overlay .company-logo { display: none !important; animation: none !important; }
+    .slide.active .company-logo { animation: showAndHideLogo 4s ease-in-out forwards; }
+    @keyframes showAndHideLogo {
+        0% { opacity: 0; transform: translateY(-10px); }
+        10% { opacity: 1; transform: translateY(0); }
+        80% { opacity: 1; transform: translateY(0); }
+        100% { opacity: 0; transform: translateY(-10px); }
+    }
+
+    .quiz-container { display: flex; flex-direction: column; width: 90%; max-width: 1000px; padding: 3rem; align-items: stretch; text-align: left; overflow-y: auto; max-height: 85vh;}
+    .quiz-container h1, .quiz-container h2 { text-align: center; }
+    .quiz-intro { text-align: center; font-size: 1.5rem; margin-bottom: 2rem; color: var(--color-dark-gray-1); }
+    .quiz-start-btn, .quiz-next-btn { align-self: center; background: var(--color-orange); border: none; color: var(--color-black); font-size: 1.5rem; font-weight: bold; padding: 1rem 3rem; border-radius: 10px; cursor: pointer; transition: transform 0.2s; margin-top: 2rem; }
+    .quiz-start-btn:hover, .quiz-next-btn:hover, .quiz-show-answer-btn:hover { transform: scale(1.05); }
+    .quiz-header { display: flex; justify-content: space-between; font-size: 1.2rem; font-weight: bold; margin-bottom: 1rem; color: var(--color-dark-gray-2); border-bottom: 2px solid rgba(0,0,0,0.1); padding-bottom: 10px; }
+    .quiz-timer { color: #d9534f; }
+    .quiz-question-box { font-size: 1.8rem; margin: 1.5rem 0; font-weight: 700; color: var(--color-black); }
+    .quiz-question-box p { margin: 0; }
+    .quiz-question-box img { max-width: 100%; border-radius: 10px; max-height: 350px; object-fit: contain; display: block; margin: 15px auto; }
+    .quiz-options-box { display: flex; flex-direction: column; gap: 1rem; perspective: 1000px; }
+    .quiz-option-card { background: var(--color-white-soft); border: 2px solid var(--color-light-gray); text-align: left; padding: 1rem 1.5rem; font-size: 1.4rem; border-radius: 10px; transition: all 0.6s cubic-bezier(0.4, 0.2, 0.2, 1); font-family: var(--font-main); color: var(--color-dark-gray-1); transform-style: preserve-3d; }
+    .quiz-option-card p { margin: 0; }
+    .quiz-option-card.flip-correct { background: #d4edda; border-color: #28a745; color: #155724; transform: rotateX(360deg); box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3); }
+    .quiz-option-card.fade-out { opacity: 0.4; filter: grayscale(100%); }
+    .quiz-feedback-box { margin-top: 2rem; background: rgba(0,0,0,0.05); padding: 1.5rem; border-radius: 10px; border-left: 5px solid var(--color-orange); font-size: 1.3rem; opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease, transform 0.5s ease; }
+    .quiz-feedback-box.show { opacity: 1; transform: translateY(0); display: block; }
+    
+    .quiz-nav-menu { display: flex; justify-content: center; gap: 10px; margin-bottom: 2rem; }
+    .quiz-nav-dot { width: 40px; height: 40px; border-radius: 50%; background: rgba(0,0,0,0.1); color: var(--color-dark-gray-2); border: none; font-size: 1.2rem; font-weight: bold; cursor: pointer; transition: all 0.3s; display: flex; justify-content: center; align-items: center; }
+    .quiz-nav-dot:hover { background: rgba(0,0,0,0.2); }
+    .quiz-nav-dot.active { background: var(--color-orange); color: var(--color-black); transform: scale(1.1); box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .quiz-intro { transition: opacity 0.5s, transform 0.5s; }
+    .quiz-ui { transition: opacity 0.5s, transform 0.5s; }
+    .slide-quizz .content-wrapper { overflow-x: hidden; }
+    pre { border-radius: 8px; font-size: 1.1rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 1.2rem; color: var(--color-dark-gray-1); }
+    th, td { border: 1px solid rgba(0,0,0,0.1); padding: 1rem; text-align: left; }
+    th { background-color: var(--color-light-gray); font-weight: bold; color: var(--color-black); }
+    tr:nth-child(even) { background-color: rgba(0,0,0,0.02); }
+    .slide-overlay table, .slide-gotocode table { color: var(--color-white-soft); }
+    .slide-overlay th, .slide-gotocode th { background-color: rgba(255,255,255,0.1); color: var(--color-white-soft); border-color: rgba(255,255,255,0.2); }
+    .slide-overlay td, .slide-gotocode td { border-color: rgba(255,255,255,0.2); }
+    .slide-overlay tr:nth-child(even), .slide-gotocode tr:nth-child(even) { background-color: rgba(255,255,255,0.05); }
+
+    /* Ajustes agregados para convertir notebooks en presentaciones de clase */
+    .slide-basic_slide .content-wrapper h1,
+    .slide-agenda .content-wrapper h1,
+    .slide-objectives .content-wrapper h1 { font-size: 2.55rem; margin-bottom: 1.1rem; }
+    .slide-basic_slide .content-wrapper h2,
+    .slide-agenda .content-wrapper h2,
+    .slide-objectives .content-wrapper h2 { font-size: 2rem; font-weight: 700; margin: 1rem 0 0.6rem 0; color: var(--color-black); }
+    .slide-basic_slide .content-wrapper h3,
+    .slide-agenda .content-wrapper h3,
+    .slide-objectives .content-wrapper h3 { font-size: 1.45rem; font-weight: 700; margin: 0.9rem 0 0.4rem 0; color: var(--color-dark-gray-1); }
+    .slide-basic_slide .content-wrapper p,
+    .slide-basic_slide .content-wrapper li,
+    .slide-agenda .content-wrapper p,
+    .slide-agenda .content-wrapper li,
+    .slide-objectives .content-wrapper p,
+    .slide-objectives .content-wrapper li { font-size: 1.28rem; line-height: 1.5; }
+    .slide-basic_slide .content-wrapper table,
+    .slide-agenda .content-wrapper table,
+    .slide-objectives .content-wrapper table { font-size: 1.03rem; }
+    .slide-basic_slide .content-wrapper th,
+    .slide-basic_slide .content-wrapper td,
+    .slide-agenda .content-wrapper th,
+    .slide-agenda .content-wrapper td,
+    .slide-objectives .content-wrapper th,
+    .slide-objectives .content-wrapper td { padding: 0.65rem; vertical-align: top; }
+    .content-wrapper code { background: rgba(0,0,0,0.08); padding: 0.08rem 0.28rem; border-radius: 5px; }
+    .content-wrapper pre code { background: transparent; padding: 0; border-radius: 0; }
+    .content-wrapper pre { max-height: 42vh; overflow: auto; }
+    .content-wrapper blockquote { border-left: 6px solid var(--color-orange); margin: 1rem 0; padding: 0.8rem 1.2rem; background: rgba(255,255,255,0.45); border-radius: 8px; }
+    .class-moment { display: inline-block; background: var(--color-green); color: var(--color-black); padding: 0.35rem 0.8rem; border-radius: 999px; font-size: 1rem; font-weight: 700; margin-bottom: 0.8rem; }
+    .slide-overlay .content-wrapper { background: transparent; box-shadow: none; border: none; text-align: center; }
+    .slide-overlay .content-wrapper p { font-size: 1.6rem; }
+    .quiz-show-answer-btn { align-self: center; background: var(--color-green); border: none; color: var(--color-black); font-size: 1.2rem; font-weight: bold; padding: 0.8rem 2rem; border-radius: 10px; cursor: pointer; margin-top: 1rem; display: none; }
+    .session-tag { position: absolute; top: 30px; right: 40px; font-size: 1rem; font-weight: 700; color: var(--color-dark-gray-2); z-index: 2; }
+
+
+    /* Ajustes solicitados: reglas persistentes, respuestas separadas y jerarquía visual */
+    .slide-objectives .content-wrapper,
+    .slide-objectives .objectives-container,
+    .slide-objectives .objectives-container > p,
+    .slide-objectives .objectives-container > ol { text-align: left !important; }
+    .slide-objectives .objectives-container > ol { padding-left: 2rem; }
+
+    .class-rules-footer {
+        position: absolute;
+        left: 22px;
+        right: 285px;
+        bottom: 12px;
+        z-index: 60;
+        padding: 0.55rem 0.85rem;
+        border-radius: 12px;
+        background: rgba(255,255,255,0.90);
+        color: var(--color-dark-gray-1);
+        box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+        font-size: 0.82rem;
+        line-height: 1.25;
+        font-weight: 700;
+        text-align: left;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+    }
+    .slide-gotocode .class-rules-footer,
+    .slide-overlay .class-rules-footer { background: rgba(245,245,245,0.94); color: var(--color-black); }
+    .slide-countdown .dynamic-date { bottom: 62px !important; }
+    .slide-basic_slide .content-wrapper,
+    .slide-agenda .content-wrapper,
+    .slide-objectives .content-wrapper,
+    .slide-quizz .content-wrapper { max-height: 78vh; }
+
+    .slide-basic_slide .content-wrapper > h1,
+    .slide-agenda .content-wrapper > h1,
+    .slide-objectives .content-wrapper > h1 {
+        border-left: 8px solid var(--color-orange);
+        padding-left: 1rem;
+    }
+    .answer-reveal-section {
+        margin-top: 42vh !important;
+        padding-top: 2rem;
+        border-top: 3px dashed rgba(242,133,90,0.75);
+    }
+    .answer-reveal-section::before {
+        content: "Desplázate para revelar la respuesta";
+        display: block;
+        margin-bottom: 1rem;
+        color: var(--color-dark-gray-2);
+        font-size: 0.95rem;
+        font-weight: 700;
+    }
+    .project-checkpoint {
+        font-size: 1.15rem;
+        line-height: 1.7;
+        background: rgba(102,179,125,0.16);
+        border-left: 6px solid var(--color-green);
+        border-radius: 12px;
+        padding: 1rem 1.25rem;
+        margin-top: 1rem;
+    }
+    </style>
+</head>
+<body>
+<div class="presentation">
+<div id="transition-overlay"><div class="content-wrapper"><h1></h1></div></div>
+<div class="slide slide-countdown" data-timer="300" data-transition-title="¡Comenzamos en breve!" data-type="countdown" id="slide-0">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><div class="traffic-logo-container"><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 15%; animation: driveRight 24.00s linear -0.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 15%; animation: driveRight 24.00s linear -8.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 15%; animation: driveRight 24.00s linear -16.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 35%; animation: driveRight 27.00s linear -0.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 35%; animation: driveRight 27.00s linear -6.75s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 35%; animation: driveRight 27.00s linear -13.50s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 35%; animation: driveRight 27.00s linear -20.25s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 55%; animation: driveRight 30.00s linear -0.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 55%; animation: driveRight 30.00s linear -10.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 55%; animation: driveRight 30.00s linear -20.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 75%; animation: driveRight 33.00s linear -0.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 75%; animation: driveRight 33.00s linear -8.25s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 75%; animation: driveRight 33.00s linear -16.50s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 75%; animation: driveRight 33.00s linear -24.75s infinite;"/></div><div class="content-wrapper"><h1>Sprint 1 Sesión 2</h1><h2>Exploración, documentación y limpieza básica en Google Sheets</h2><div class="timer">--:--</div><div class="start-message">¡Comenzamos!</div><p></p></div><div class="dynamic-date" style="position: absolute; bottom: 30px; left: 40px; font-size: 1.5rem; font-weight: bold; color: var(--color-black); z-index: 1;"></div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-warnup-mood" data-transition-title="Midamos los ánimos" data-type="warnup-mood" id="slide-1">
+<div class="emoji-container"><span class="emoji" style="left:0%; animation-delay:0.00s; animation-duration:8s; font-size:1.50rem;">📊</span><span class="emoji" style="left:13%; animation-delay:-0.55s; animation-duration:9s; font-size:1.68rem;">🧹</span><span class="emoji" style="left:26%; animation-delay:-1.10s; animation-duration:10s; font-size:1.86rem;">🗂️</span><span class="emoji" style="left:39%; animation-delay:-1.65s; animation-duration:11s; font-size:2.04rem;">✅</span><span class="emoji" style="left:52%; animation-delay:-2.20s; animation-duration:12s; font-size:2.22rem;">📈</span><span class="emoji" style="left:65%; animation-delay:-2.75s; animation-duration:13s; font-size:1.50rem;">🧠</span><span class="emoji" style="left:78%; animation-delay:-3.30s; animation-duration:8s; font-size:1.68rem;">🔎</span><span class="emoji" style="left:91%; animation-delay:-3.85s; animation-duration:9s; font-size:1.86rem;">📝</span><span class="emoji" style="left:4%; animation-delay:-4.40s; animation-duration:10s; font-size:2.04rem;">💡</span><span class="emoji" style="left:17%; animation-delay:-4.95s; animation-duration:11s; font-size:2.22rem;">🚀</span><span class="emoji" style="left:30%; animation-delay:-5.50s; animation-duration:12s; font-size:1.50rem;">📊</span><span class="emoji" style="left:43%; animation-delay:-6.05s; animation-duration:13s; font-size:1.68rem;">🧹</span><span class="emoji" style="left:56%; animation-delay:0.00s; animation-duration:8s; font-size:1.86rem;">🗂️</span><span class="emoji" style="left:69%; animation-delay:-0.55s; animation-duration:9s; font-size:2.04rem;">✅</span><span class="emoji" style="left:82%; animation-delay:-1.10s; animation-duration:10s; font-size:2.22rem;">📈</span><span class="emoji" style="left:95%; animation-delay:-1.65s; animation-duration:11s; font-size:1.50rem;">🧠</span><span class="emoji" style="left:8%; animation-delay:-2.20s; animation-duration:12s; font-size:1.68rem;">🔎</span><span class="emoji" style="left:21%; animation-delay:-2.75s; animation-duration:13s; font-size:1.86rem;">📝</span><span class="emoji" style="left:34%; animation-delay:-3.30s; animation-duration:8s; font-size:2.04rem;">💡</span><span class="emoji" style="left:47%; animation-delay:-3.85s; animation-duration:9s; font-size:2.22rem;">🚀</span><span class="emoji" style="left:60%; animation-delay:-4.40s; animation-duration:10s; font-size:1.50rem;">📊</span><span class="emoji" style="left:73%; animation-delay:-4.95s; animation-duration:11s; font-size:1.68rem;">🧹</span><span class="emoji" style="left:86%; animation-delay:-5.50s; animation-duration:12s; font-size:1.86rem;">🗂️</span><span class="emoji" style="left:99%; animation-delay:-6.05s; animation-duration:13s; font-size:2.04rem;">✅</span><span class="emoji" style="left:12%; animation-delay:0.00s; animation-duration:8s; font-size:2.22rem;">📈</span><span class="emoji" style="left:25%; animation-delay:-0.55s; animation-duration:9s; font-size:1.50rem;">🧠</span><span class="emoji" style="left:38%; animation-delay:-1.10s; animation-duration:10s; font-size:1.68rem;">🔎</span><span class="emoji" style="left:51%; animation-delay:-1.65s; animation-duration:11s; font-size:1.86rem;">📝</span><span class="emoji" style="left:64%; animation-delay:-2.20s; animation-duration:12s; font-size:2.04rem;">💡</span><span class="emoji" style="left:77%; animation-delay:-2.75s; animation-duration:13s; font-size:2.22rem;">🚀</span><span class="emoji" style="left:90%; animation-delay:-3.30s; animation-duration:8s; font-size:1.50rem;">📊</span><span class="emoji" style="left:3%; animation-delay:-3.85s; animation-duration:9s; font-size:1.68rem;">🧹</span><span class="emoji" style="left:16%; animation-delay:-4.40s; animation-duration:10s; font-size:1.86rem;">🗂️</span><span class="emoji" style="left:29%; animation-delay:-4.95s; animation-duration:11s; font-size:2.04rem;">✅</span></div><div class="content-wrapper"><h1>🚀 ¿Cómo vas avanzando con tu proyecto?</h1><h2>Comparte en el chat: 🟢 voy bien · 🟡 tengo dudas · 🔴 estoy bloqueado/a · 💡 logré un avance</h2></div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Contexto de clase" data-type="basic_slide" id="slide-2">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Inicio</div><h1>🧭 Contexto de la sesión</h1><p><strong>Tipo de sesión:</strong> práctica guiada hands-on<br/>
+<strong>Duración total:</strong> 90 minutos<br/><strong>Distribución:</strong> 84 min de apertura y Coding Together + 6 min de quiz final<br/>
+<strong>Herramienta principal:</strong> Google Sheets<br/>
+<strong>Dataset:</strong> <code>sp1_w1_taylor_swift_da_intro.xlsx</code></p>
+<p>Esta sesión consolida la práctica de exploración inicial, documentación de problemas, limpieza básica, verificación y trazabilidad.</p>
+</div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Punto de partida" data-type="basic_slide" id="slide-3">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><h1>🧭 Introducción</h1><p>En la sesión teórica vimos cómo pensar el trabajo inicial de un/a Data Analyst: abrir el archivo, entender su estructura, detectar problemas, decidir qué limpiar y documentar cada paso.</p>
+<p>Ahora aplicaremos ese criterio sobre el dataset.</p>
+<p>La práctica está diseñada para que cada estudiante produzca una versión inicial trabajable del archivo:</p>
+<ul>
+<li><code>songs_audit</code></li>
+<li><code>albums_audit</code></li>
+<li><code>issues_log</code></li>
+<li><code>songs_clean_v1</code></li>
+<li><code>albums_clean_v1</code></li>
+<li><code>change_log</code></li>
+<li><code>summary_template</code> con métricas básicas</li>
+</ul>
+</div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-objectives" data-transition-title="Objetivos de aprendizaje" data-type="objectives" id="slide-4">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><h1>Metas de contenido para esta sesión</h1><div class="objectives-container"><p>Al finalizar la sesión podrás:</p>
+<ol>
+<li>Importar el Excel del sprint en Google Sheets.</li>
+<li>Preparar copias de auditoría sin dañar hojas originales.</li>
+<li>Crear y completar un <code>issues_log</code> con hallazgos priorizados.</li>
+<li>Crear copias limpias de trabajo.</li>
+<li>Renombrar columnas con una convención consistente.</li>
+<li>Aplicar Buscar y reemplazar sobre rangos específicos.</li>
+<li>Normalizar texto con funciones simples.</li>
+<li>Verificar métricas básicas en <code>summary_template</code>.</li>
+<li>Documentar cambios en <code>change_log</code>.</li>
+</ol>
+</div></div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-agenda" data-transition-title="Estructura de clase" data-type="agenda" id="slide-5">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><h1>Plan de nuestra sesión</h1><table>
+<thead>
+<tr>
+<th style="text-align:right">Minutos</th>
+<th>Bloque</th>
+<th>Actividad</th>
+</tr>
+</thead>
+<tbody><tr><td style="text-align:right">0–5</td><td>Apertura y reglas</td><td>Revisar avance del proyecto, participación y dinámica</td></tr><tr><td style="text-align:right">5–11</td><td>Setup</td><td>Abrir archivo, verificar hojas y preparar entorno</td></tr><tr><td style="text-align:right">11–19</td><td>Ejercicio 0</td><td>Mapear el dataset mediante Coding Together</td></tr><tr><td style="text-align:right">19–30</td><td>Ejercicio 1</td><td>Crear copias de auditoría e <code>issues_log</code></td></tr><tr><td style="text-align:right">30–44</td><td>Ejercicio 2</td><td>Auditar datos y priorizar hallazgos</td></tr><tr><td style="text-align:right">44–55</td><td>Ejercicio 3</td><td>Crear copias limpias y renombrar columnas</td></tr><tr><td style="text-align:right">55–69</td><td>Ejercicio 4</td><td>Limpiar texto, categorías y números con control</td></tr><tr><td style="text-align:right">69–78</td><td>Ejercicio 5</td><td>Verificar métricas y documentar en <code>change_log</code></td></tr><tr><td style="text-align:right">78–84</td><td>Cierre</td><td>Validar entregables, responder preguntas y consolidar aprendizajes</td></tr><tr><td style="text-align:right">84–90</td><td>Quiz final</td><td>Validar comprensión de la práctica</td></tr></tbody>
+</table>
+</div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Materiales" data-type="basic_slide" id="slide-6">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><h1>📂 Dataset y material de trabajo</h1><p><strong>Dataset principal:</strong> <code>sp1_w1_taylor_swift_da_intro.xlsx</code></p>
+<p><strong>Hojas del archivo:</strong></p>
+<ul>
+<li><code>raw_songs</code>: canciones con problemas intencionales de formato, fechas, nulos, duplicados y categorías.</li>
+<li><code>raw_albums</code>: información agregada por álbum.</li>
+<li><code>data_dictionary</code>: definición de columnas y tipos esperados.</li>
+<li><code>change_log</code>: plantilla para documentar cambios.</li>
+<li><code>summary_template</code>: plantilla para métricas de cierre.</li>
+<li><code>README</code>: guía rápida del archivo.</li>
+</ul>
+<p><strong>Regla del Sprint 1:</strong> trabajar primero en Google Sheets. Google Colab se usa como entorno para abrir notebooks, seguir guías y ejecutar verificaciones simples, pero el análisis central de estas sesiones ocurre en Sheets.</p>
+</div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-gotocode" data-transition-title="Vamos al material" data-type="gotocode" id="slide-7">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><h1>Momento de abrir el archivo de trabajo</h1><p style="font-size:1.6rem; max-width:1000px; line-height:1.5;">Comparte el enlace del notebook/dataset y verifica que todos puedan abrir Google Sheets o Colab antes de avanzar.</p>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Reglas de la sesión" data-type="basic_slide" id="slide-8">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><h1>⚖️ Reglas de trabajo</h1><ol><li>Participa por voz o chat durante cada ejercicio.</li><li>Levanta la mano antes de intervenir para mantener el orden.</li><li>Mantén Google Sheets y el archivo de práctica abiertos.</li><li>Pregunta en cuanto te sientas perdido/a; no esperes al cierre.</li><li>Todos los ejercicios se desarrollan mediante Coding Together.</li>
+<li>No editar directamente <code>raw_songs</code> ni <code>raw_albums</code>.</li>
+<li>No intentar arreglar todo durante esta clase.</li>
+<li>Toda sospecha relevante debe quedar documentada.</li>
+<li>Todo cambio aplicado debe quedar en <code>change_log</code>.</li>
+<li>Cada hallazgo debe tener evidencia: hoja, columna, ejemplo y posible impacto.</li>
+<li>Buscar y reemplazar se aplica por rango específico, no sobre todo el archivo.</li>
+<li>Evitar fórmulas complejas, <code>ARRAYFORMULA</code>, <code>REGEXREPLACE</code>, <code>IFERROR</code>, macros y Apps Script.</li>
+</ol>
+<h3>Entrega mínima al final</h3>
+<p>El archivo de Google Sheets debe contener:</p>
+<ul>
+<li><code>songs_audit</code></li>
+<li><code>albums_audit</code></li>
+<li><code>issues_log</code> con mínimo 8 hallazgos</li>
+<li><code>songs_clean_v1</code></li>
+<li><code>albums_clean_v1</code></li>
+<li>encabezados renombrados</li>
+<li>mínimo 8 cambios documentados en <code>change_log</code></li>
+<li><code>summary_template</code> con al menos 4 métricas calculadas</li>
+</ul>
+</div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-basic_slide" data-transition-title="0) Setup inicial (6 min)" data-type="basic_slide" id="slide-9">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>0) Setup inicial (6 min)</h1><h3>Paso 1 — Importar el archivo</h3>
+<ol>
+<li>Abre Google Drive.</li>
+<li>Crea una hoja de cálculo nueva.</li>
+<li>Ve a <strong>Archivo → Importar → Subir</strong>.</li>
+<li>Selecciona <code>sp1_w1_taylor_swift_da_intro.xlsx</code>.</li>
+<li>Elige <strong>Crear una hoja de cálculo nueva</strong>.</li>
+</ol>
+<h3>Paso 2 — Verificar hojas esperadas</h3>
+<p>Confirma que existen:</p>
+<ul>
+<li><code>raw_songs</code></li>
+<li><code>raw_albums</code></li>
+<li><code>data_dictionary</code></li>
+<li><code>change_log</code></li>
+<li><code>summary_template</code></li>
+<li><code>README</code></li>
+</ul>
+<h3>Paso 3 — Nombrar el archivo</h3>
+<p>Usa un nombre claro:</p>
+<pre><code class="language-text">Sprint01_SesionPractica_ApellidoNombre
+</code></pre>
+<h3>Control inicial</h3>
+<p>Antes de modificar algo, anota:</p>
+<ul>
+<li>número de hojas,</li>
+<li>número de filas en <code>raw_songs</code>,</li>
+<li>número de filas en <code>raw_albums</code>,</li>
+<li>si existe <code>data_dictionary</code>.</li>
+</ul>
+</div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Materiales" data-type="basic_slide" id="slide-10">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><h1>📂 Dataset y material de trabajo</h1><h2>Ejercicio 0 — Mapa rápido del dataset en salas (8 min)</h2>
+<h3>Objetivo</h3>
+<p>Entender qué representa cada hoja antes de auditar o limpiar.</p>
+<h3>Descripción</h3>
+<p>En grupos de 2 a 4 personas, completen esta tabla en una zona libre del archivo o en una nota compartida:</p>
+<table>
+<thead>
+<tr>
+<th>Hoja</th>
+<th>¿Qué contiene?</th>
+<th>Unidad de fila</th>
+<th>¿Se modifica hoy?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>raw_songs</code></td>
+<td></td>
+<td></td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>raw_albums</code></td>
+<td></td>
+<td></td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>data_dictionary</code></td>
+<td></td>
+<td></td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>change_log</code></td>
+<td></td>
+<td></td>
+<td>Sí</td>
+</tr>
+<tr>
+<td><code>summary_template</code></td>
+<td></td>
+<td></td>
+<td>Sí</td>
+</tr>
+<tr>
+<td><code>README</code></td>
+<td></td>
+<td></td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h3>Pistas</h3>
+<ul>
+<li>La unidad de fila responde: <strong>una fila representa...</strong></li>
+<li>No todas las hojas son datos para analizar.</li>
+<li>Algunas hojas son metadatos o plantillas.</li>
+</ul>
+<h3 class="answer-reveal-section">Solución esperada</h3>
+<table>
+<thead>
+<tr>
+<th>Hoja</th>
+<th>¿Qué contiene?</th>
+<th>Unidad de fila</th>
+<th>¿Se modifica hoy?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>raw_songs</code></td>
+<td>Canciones y métricas</td>
+<td>Una canción/registro</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>raw_albums</code></td>
+<td>Álbumes y métricas agregadas</td>
+<td>Un álbum</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>data_dictionary</code></td>
+<td>Definición de columnas</td>
+<td>Una columna documentada</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>change_log</code></td>
+<td>Registro de cambios</td>
+<td>Un cambio documentado</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td><code>summary_template</code></td>
+<td>Métricas finales</td>
+<td>Una métrica</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td><code>README</code></td>
+<td>Guía del archivo</td>
+<td>Una instrucción</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-gotocode" data-transition-title="Vamos al material" data-type="gotocode" id="slide-11">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><h1>Momento de abrir el archivo de trabajo</h1><p style="font-size:1.6rem; max-width:1000px; line-height:1.5;">Comparte el enlace del notebook/dataset y verifica que todos puedan abrir Google Sheets o Colab antes de avanzar.</p>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Ejercicio 1 — Crear copias de auditoría e issues_log (11 min)" data-type="basic_slide" id="slide-12">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>Ejercicio 1 — Crear copias de auditoría e issues_log (11 min)</h1><h3>Objetivo</h3>
+<p>Dejar el archivo listo para exploración sin dañar los datos originales.</p>
+<h3>Descripción</h3>
+<p>Realiza estos pasos:</p>
+<ol>
+<li>Duplica <code>raw_songs</code> y nómbrala <code>songs_audit</code>.</li>
+<li>Duplica <code>raw_albums</code> y nómbrala <code>albums_audit</code>.</li>
+<li>En ambas hojas:<ul>
+<li>congela la fila 1,</li>
+<li>activa filtros,</li>
+<li>ajusta el ancho de columnas si es necesario.</li>
+</ul>
+</li>
+<li>Crea una hoja nueva llamada <code>issues_log</code>.</li>
+</ol>
+<h3>Estructura de <code>issues_log</code></h3>
+<p>Crea estas columnas:</p>
+<table>
+<thead>
+<tr>
+<th>Columna</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td>Número del hallazgo</td>
+</tr>
+<tr>
+<td><code>sheet</code></td>
+<td>Hoja donde aparece</td>
+</tr>
+<tr>
+<td><code>column</code></td>
+<td>Columna afectada</td>
+</tr>
+<tr>
+<td><code>issue_type</code></td>
+<td>Tipo de problema</td>
+</tr>
+<tr>
+<td><code>example_value</code></td>
+<td>Ejemplo observado</td>
+</tr>
+<tr>
+<td><code>business_risk</code></td>
+<td>Impacto del problema</td>
+</tr>
+<tr>
+<td><code>priority</code></td>
+<td>Alta, media o baja</td>
+</tr>
+<tr>
+<td><code>suggested_action</code></td>
+<td>Qué se recomienda hacer después</td>
+</tr>
+</tbody>
+</table>
+<h3 class="answer-reveal-section">Solución esperada</h3>
+<p>El archivo contiene <code>songs_audit</code>, <code>albums_audit</code> e <code>issues_log</code>, y las hojas de auditoría tienen filtros activos.</p>
+</div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Ejercicio 2 — Auditar raw_songs, raw_albums y priorizar hallazgos (14 min)" data-type="basic_slide" id="slide-13">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>Ejercicio 2 — Auditar raw_songs, raw_albums y priorizar hallazgos (14 min)</h1><h3>Objetivo</h3>
+<p>Identificar problemas frecuentes y convertir observaciones en evidencia documentada.</p>
+<h3>Parte A — Auditoría de <code>songs_audit</code></h3>
+<p>Documenta mínimo 6 hallazgos en <code>issues_log</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Categoría</th>
+<th>Qué buscar</th>
+<th>Columnas sugeridas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Espacios extra</td>
+<td>Valores con espacios antes/después</td>
+<td><code>Song</code>, <code>Album</code>, <code>Tour Era</code></td>
+</tr>
+<tr>
+<td>Mayúsculas/minúsculas</td>
+<td>Categorías iguales escritas distinto</td>
+<td><code>Album</code>, <code>Tour Era</code></td>
+</tr>
+<tr>
+<td>Fechas mixtas</td>
+<td>Formatos diferentes de fecha</td>
+<td><code>Release Date</code>, <code>Date Added</code></td>
+</tr>
+<tr>
+<td>Números como texto</td>
+<td>Comas, puntos o espacios inconsistentes</td>
+<td><code>Spotify Streams (M)</code>, <code>YouTube Views (M)</code></td>
+</tr>
+<tr>
+<td>Booleanos inconsistentes</td>
+<td><code>Y</code>, <code>N</code>, <code>1</code>, <code>0</code>, <code>TRUE</code>, <code>FALSE</code>, <code>maybe</code></td>
+<td><code>Explicit</code></td>
+</tr>
+<tr>
+<td>Duplicados</td>
+<td>Canciones repetidas</td>
+<td><code>Song</code>, <code>Album</code>, <code>ISRC</code></td>
+</tr>
+<tr>
+<td>Delimitadores mixtos</td>
+<td>Separadores diferentes en una misma columna</td>
+<td><code>Writers</code></td>
+</tr>
+</tbody>
+</table>
+<h3>Parte B — Auditoría de <code>albums_audit</code></h3>
+<p>Documenta mínimo 2 hallazgos adicionales.</p>
+<p>Preguntas guía:</p>
+<ul>
+<li>¿Los álbumes se escriben igual en ambas hojas?</li>
+<li>¿<code>Release Year</code> parece numérico?</li>
+<li>¿<code>Units Sold (M)</code> y <code>Total Streams (B)</code> parecen útiles para análisis?</li>
+<li>¿Hay diferencias de capitalización entre hojas?</li>
+</ul>
+<h3>Criterio de prioridad</h3>
+<table>
+<thead>
+<tr>
+<th>Prioridad</th>
+<th>Cuándo usarla</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>Impide calcular métricas o produce resultados incorrectos</td>
+</tr>
+<tr>
+<td>Media</td>
+<td>Afecta consistencia, filtros o agrupaciones</td>
+</tr>
+<tr>
+<td>Baja</td>
+<td>Problema estético o de documentación menor</td>
+</tr>
+</tbody>
+</table>
+<h3 class="answer-reveal-section">Solución esperada</h3>
+<p><code>issues_log</code> tiene mínimo 8 hallazgos, cada uno con hoja, columna, ejemplo, riesgo, prioridad y acción sugerida.</p>
+</div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Ejercicio 3 — Crear copias limpias y renombrar columnas (11 min)" data-type="basic_slide" id="slide-14">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>Ejercicio 3 — Crear copias limpias y renombrar columnas (11 min)</h1><h3>Objetivo</h3>
+<p>Preparar hojas de trabajo para limpieza sin alterar los datos originales ni las copias de auditoría.</p>
+<h3>Descripción</h3>
+<ol>
+<li>Duplica <code>raw_songs</code> y nómbrala <code>songs_clean_v1</code>.</li>
+<li>Duplica <code>raw_albums</code> y nómbrala <code>albums_clean_v1</code>.</li>
+<li>Congela la fila 1 y activa filtros.</li>
+<li>Renombra encabezados usando <code>snake_case</code>.</li>
+</ol>
+<h3>Encabezados sugeridos para <code>songs_clean_v1</code></h3>
+<table>
+<thead>
+<tr>
+<th>Original</th>
+<th>Nuevo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Song</code></td>
+<td><code>song</code></td>
+</tr>
+<tr>
+<td><code>Album</code></td>
+<td><code>album</code></td>
+</tr>
+<tr>
+<td><code>Release Date</code></td>
+<td><code>release_date</code></td>
+</tr>
+<tr>
+<td><code>Duration</code></td>
+<td><code>duration</code></td>
+</tr>
+<tr>
+<td><code>Spotify Streams (M)</code></td>
+<td><code>spotify_streams_m</code></td>
+</tr>
+<tr>
+<td><code>YouTube Views (M)</code></td>
+<td><code>youtube_views_m</code></td>
+</tr>
+<tr>
+<td><code>Explicit</code></td>
+<td><code>explicit</code></td>
+</tr>
+<tr>
+<td><code>Writers</code></td>
+<td><code>writers</code></td>
+</tr>
+<tr>
+<td><code>ISRC</code></td>
+<td><code>isrc</code></td>
+</tr>
+<tr>
+<td><code>Tour Era</code></td>
+<td><code>tour_era</code></td>
+</tr>
+<tr>
+<td><code>Date Added</code></td>
+<td><code>date_added</code></td>
+</tr>
+</tbody>
+</table>
+<h3>Encabezados sugeridos para <code>albums_clean_v1</code></h3>
+<table>
+<thead>
+<tr>
+<th>Original</th>
+<th>Nuevo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Album</code></td>
+<td><code>album</code></td>
+</tr>
+<tr>
+<td><code>Release Year</code></td>
+<td><code>release_year</code></td>
+</tr>
+<tr>
+<td><code>Units Sold (M)</code></td>
+<td><code>units_sold_m</code></td>
+</tr>
+<tr>
+<td><code>Total Streams (B)</code></td>
+<td><code>total_streams_b</code></td>
+</tr>
+<tr>
+<td><code>Label</code></td>
+<td><code>label</code></td>
+</tr>
+</tbody>
+</table>
+<h3 class="answer-reveal-section">Solución esperada</h3>
+<p>Las dos hojas limpias existen, tienen filtros activos y sus encabezados son consistentes.</p>
+</div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Ejercicio 4 — Limpiar texto, categorías y números con control (14 min)" data-type="basic_slide" id="slide-15">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>Ejercicio 4 — Limpiar texto, categorías y números con control (14 min)</h1><h3>Objetivo</h3>
+<p>Aplicar una limpieza inicial usando herramientas simples y verificables.</p>
+<h3>Parte A — Normalizar texto con columnas auxiliares</h3>
+<p>Crea columnas auxiliares al final de <code>songs_clean_v1</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Nueva columna</th>
+<th>Fórmula base</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>song_trim</code></td>
+<td><code>=TRIM(A2)</code> / <code>=ESPACIOS(A2)</code></td>
+</tr>
+<tr>
+<td><code>album_trim</code></td>
+<td><code>=TRIM(B2)</code> / <code>=ESPACIOS(B2)</code></td>
+</tr>
+<tr>
+<td><code>tour_era_trim</code></td>
+<td><code>=TRIM(J2)</code> / <code>=ESPACIOS(J2)</code></td>
+</tr>
+<tr>
+<td><code>tour_era_clean</code></td>
+<td><code>=PROPER(celda)</code> / <code>=NOMPROPIO(celda)</code></td>
+</tr>
+</tbody>
+</table>
+<p>Ajusta las referencias si tus columnas están en posiciones diferentes.</p>
+<h3>Parte B — Estandarizar <code>explicit</code></h3>
+<p>Convención sugerida:</p>
+<table>
+<thead>
+<tr>
+<th>Valor original</th>
+<th>Valor limpio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Y</code>, <code>Yes</code>, <code>1</code>, <code>TRUE</code></td>
+<td><code>TRUE</code></td>
+</tr>
+<tr>
+<td><code>N</code>, <code>No</code>, <code>0</code>, <code>FALSE</code></td>
+<td><code>FALSE</code></td>
+</tr>
+<tr>
+<td><code>maybe</code>, vacío</td>
+<td>dejar pendiente / revisar</td>
+</tr>
+</tbody>
+</table>
+<p>Aplica los reemplazos solo sobre el rango de la columna <code>explicit</code>.</p>
+<h3>Parte C — Revisar columnas numéricas</h3>
+<p>En <code>songs_clean_v1</code>, revisa:</p>
+<ul>
+<li><code>spotify_streams_m</code></li>
+<li><code>youtube_views_m</code></li>
+</ul>
+<p>Busca casos como:</p>
+<ul>
+<li><code>1,863.12</code></li>
+<li><code>349,76</code></li>
+<li><code>1.493,44</code></li>
+<li>espacios antes o después</li>
+</ul>
+<h3>Pistas</h3>
+<ul>
+<li>No reemplaces <code>1</code> en todo el archivo.</li>
+<li>Revisa 3 valores antes y después.</li>
+<li>Si no hay regla clara para separadores, documenta el caso.</li>
+<li>No borres columnas originales antes de verificar.</li>
+</ul>
+<h3 class="answer-reveal-section">Solución esperada</h3>
+<p>El archivo tiene columnas auxiliares visibles, <code>explicit</code> está parcialmente estandarizada y las columnas numéricas fueron revisadas sin cambios globales peligrosos.</p>
+</div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Ejercicio 5 — Verificar métricas y documentar en change_log (9 min)" data-type="basic_slide" id="slide-16">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>Ejercicio 5 — Verificar métricas y documentar en change_log (9 min)</h1><h3>Objetivo</h3>
+<p>Demostrar que la limpieza permite calcular métricas básicas y que el proceso queda trazable.</p>
+<h3>Parte A — Completar <code>summary_template</code></h3>
+<p>Calcula al menos 4 métricas:</p>
+<table>
+<thead>
+<tr>
+<th>Métrica</th>
+<th>Fórmula sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total Tracks</td>
+<td><code>=COUNTA(songs_clean_v1!A2:A)</code> / <code>=CONTARA(...)</code></td>
+</tr>
+<tr>
+<td>Unique Albums</td>
+<td><code>=COUNTUNIQUE(songs_clean_v1!B2:B)</code> o lista con <code>UNIQUE/UNICOS</code></td>
+</tr>
+<tr>
+<td>Average Spotify Streams (M)</td>
+<td><code>=AVERAGE(songs_clean_v1!E2:E)</code> / <code>=PROMEDIO(...)</code></td>
+</tr>
+<tr>
+<td>Average YouTube Views (M)</td>
+<td><code>=AVERAGE(songs_clean_v1!F2:F)</code> / <code>=PROMEDIO(...)</code></td>
+</tr>
+<tr>
+<td>Tracks Marked Explicit</td>
+<td><code>=COUNTIF(songs_clean_v1!G2:G,"TRUE")</code> / <code>=CONTAR.SI(...)</code></td>
+</tr>
+</tbody>
+</table>
+<h3>Parte B — Completar <code>change_log</code></h3>
+<p>Documenta mínimo 8 cambios. Ejemplos válidos:</p>
+<ol>
+<li>Renombrar encabezados de <code>songs_clean_v1</code>.</li>
+<li>Renombrar encabezados de <code>albums_clean_v1</code>.</li>
+<li>Aplicar <code>TRIM/ESPACIOS</code> a <code>song</code>.</li>
+<li>Aplicar <code>TRIM/ESPACIOS</code> a <code>album</code>.</li>
+<li>Estandarizar <code>Y</code> como <code>TRUE</code> en <code>explicit</code>.</li>
+<li>Estandarizar <code>N</code> como <code>FALSE</code> en <code>explicit</code>.</li>
+<li>Revisar separador numérico en <code>spotify_streams_m</code>.</li>
+<li>Revisar separador numérico en <code>youtube_views_m</code>.</li>
+</ol>
+<h3 class="answer-reveal-section">Solución esperada</h3>
+<p><code>summary_template</code> tiene métricas iniciales y <code>change_log</code> explica qué cambió, dónde y con qué ejemplo de antes/después.</p>
+</div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Cierre de la práctica (6 min)" data-type="basic_slide" id="slide-17">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>Cierre de la práctica (6 min)</h1><h3>Validación final del archivo</h3>
+<p>Antes de terminar, confirma:</p>
+<ul>
+<li>[ ] <code>raw_songs</code> y <code>raw_albums</code> siguen intactas.</li>
+<li>[ ] Existen <code>songs_audit</code> y <code>albums_audit</code>.</li>
+<li>[ ] <code>issues_log</code> tiene mínimo 8 hallazgos.</li>
+<li>[ ] Existen <code>songs_clean_v1</code> y <code>albums_clean_v1</code>.</li>
+<li>[ ] Los encabezados están estandarizados.</li>
+<li>[ ] Hay columnas auxiliares de limpieza.</li>
+<li>[ ] <code>summary_template</code> tiene al menos 4 métricas.</li>
+<li>[ ] <code>change_log</code> tiene mínimo 8 entradas.</li>
+</ul>
+<h3>Preguntas de validación de conocimiento</h3>
+<ol>
+<li>¿Por qué se crean hojas de auditoría y hojas limpias por separado?</li>
+<li>¿Cuál es la diferencia entre un hallazgo en <code>issues_log</code> y un cambio en <code>change_log</code>?</li>
+<li>¿Qué puede salir mal si reemplazas <code>1</code> por <code>TRUE</code> en todo el archivo?</li>
+<li>¿Qué fórmula usarías para quitar espacios extra en una columna de texto?</li>
+<li>¿Qué harías si <code>AVERAGE/PROMEDIO</code> no calcula correctamente una columna numérica?</li>
+<li>¿Cuándo un problema debe quedar pendiente en vez de corregirse?</li>
+</ol>
+<h3 class="answer-reveal-section">Criterio esperado</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">Pregunta</th>
+<th>Respuesta esperada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">1</td>
+<td>Para separar observación, limpieza y fuente original; así se preserva trazabilidad.</td>
+</tr>
+<tr>
+<td style="text-align:right">2</td>
+<td><code>issues_log</code> documenta problemas; <code>change_log</code> documenta acciones aplicadas.</td>
+</tr>
+<tr>
+<td style="text-align:right">3</td>
+<td>Puede modificar números o valores no relacionados.</td>
+</tr>
+<tr>
+<td style="text-align:right">4</td>
+<td><code>TRIM/ESPACIOS</code>.</td>
+</tr>
+<tr>
+<td style="text-align:right">5</td>
+<td>Revisar si hay números como texto, separadores inconsistentes o espacios.</td>
+</tr>
+<tr>
+<td style="text-align:right">6</td>
+<td>Cuando falta regla de negocio, hay ambigüedad o el cambio puede dañar datos.</td>
+</tr>
+</tbody>
+</table>
+<h3>Takeaways</h3>
+<ol>
+<li>Explorar no es lo mismo que limpiar.</li>
+<li>Un buen diagnóstico evita arreglos improvisados.</li>
+<li>Las copias protegen los datos originales.</li>
+<li>Buscar y reemplazar debe aplicarse por rango específico.</li>
+<li>Las funciones simples son suficientes para muchas limpiezas iniciales.</li>
+<li>El análisis empieza a ser confiable cuando la limpieza está documentada.</li>
+</ol>
+<blockquote>
+<p><strong>Nota sobre idioma de funciones en Google Sheets:</strong> según la configuración regional, algunas funciones pueden verse en inglés o español.<br/>
+En estos notebooks usaremos ambos nombres cuando sea útil:<br/>
+<code>TRIM/ESPACIOS</code>, <code>LOWER/MINUSC</code>, <code>UPPER/MAYUSC</code>, <code>PROPER/NOMPROPIO</code>, <code>COUNT/CONTAR</code>, <code>COUNTA/CONTARA</code>, <code>COUNTBLANK/CONTAR.BLANCO</code>, <code>AVERAGE/PROMEDIO</code>, <code>COUNTIF/CONTAR.SI</code>, <code>UNIQUE/UNICOS</code>, <code>SUMIF/SUMAR.SI</code>.</p>
+</blockquote>
+<h3>¿Necesitas ayuda?</h3>
+<p>Recuerda los canales de ayuda disponibles:</p>
+<ul>
+<li><code>OFFICE HOURS</code>: revisa los horarios de atención en la guía del estudiante. Hay espacios de apoyo para resolver dudas puntuales.</li>
+<li><code>DA_CONSULTA</code>: puedes publicar preguntas sobre el contenido de la plataforma o el proyecto 24/7. En tu pregunta agrega el tag <code>@Dataconsulta</code>.</li>
+<li><code>SPRINT FOCUS</code>: para los Sprints 1 al 5 hay sesiones extra donde se abordan temáticas de cada sprint con mayor profundidad. Revisa la guía del estudiante para conocer los horarios.</li>
+<li><code>SESIONES 1:1</code>: puedes agendar sesiones 1:1 con un tutor. Agenda con antelación y lleva dudas concretas sobre proyecto, curso, carrera o problemas técnicos.</li>
+<li><code>CANAL DE DISCORD DE COMMUNITY</code>: tu cohorte tiene un canal especial para compartir dudas, hallazgos, recursos o elementos interesantes con tus compañeros de curso.</li>
+</ul>
+</div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-quizz slide-basic_slide" data-transition-title="Pongamos a prueba lo aprendido" data-type="quizz" id="slide-18">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><div class="quiz-container content-wrapper" data-quiz='[{"text": "&lt;p&gt;¿Por qué se crean copias de auditoría antes de limpiar?&lt;/p&gt;", "options": [{"text": "&lt;p&gt;Para conservar la fuente original y poder comparar cambios.&lt;/p&gt;", "correct": true}, {"text": "&lt;p&gt;Para duplicar trabajo sin motivo.&lt;/p&gt;", "correct": false}, {"text": "&lt;p&gt;Para evitar usar filtros.&lt;/p&gt;", "correct": false}], "feedback": "La copia protege la fuente y permite reconciliar resultados."}, {"text": "&lt;p&gt;¿Qué problema resuelve &lt;code&gt;TRIM()&lt;/code&gt;?&lt;/p&gt;", "options": [{"text": "&lt;p&gt;Fechas ambiguas.&lt;/p&gt;", "correct": false}, {"text": "&lt;p&gt;Espacios extra que afectan búsquedas y categorías.&lt;/p&gt;", "correct": true}, {"text": "&lt;p&gt;Duplicados exactos.&lt;/p&gt;", "correct": false}], "feedback": "&lt;code&gt;TRIM()&lt;/code&gt; elimina espacios sobrantes; luego se valida si la categoría queda consistente."}, {"text": "&lt;p&gt;¿Qué debe tener una entrega mínima de práctica?&lt;/p&gt;", "options": [{"text": "&lt;p&gt;Solo el dashboard final.&lt;/p&gt;", "correct": false}, {"text": "&lt;p&gt;Hojas limpias, logs y validaciones mínimas.&lt;/p&gt;", "correct": true}, {"text": "&lt;p&gt;Macros y automatizaciones.&lt;/p&gt;", "correct": false}], "feedback": "El foco es trazabilidad: limpiar, validar y documentar."}]' data-timer="20">
+<h1>Pongamos a prueba lo aprendido</h1><h2>Preguntas rápidas de validación</h2>
+<div class="quiz-intro">Reserva 6 minutos. Responde por voz o chat; la respuesta se muestra sólo al revelarla.</div>
+<button class="quiz-start-btn">Iniciar quiz</button>
+<div class="quiz-ui" style="display:none;">
+<div class="quiz-nav-menu"></div>
+<div class="quiz-header"><span>Pregunta activa</span><span class="quiz-timer">Tiempo: <span class="time-left">20</span>s</span></div>
+<div class="quiz-question-box"></div>
+<div class="quiz-options-box"></div>
+<div class="quiz-feedback-box"></div>
+<button class="quiz-show-answer-btn">Mostrar respuesta</button>
+<button class="quiz-next-btn" style="display:none;">Siguiente pregunta</button>
+</div>
+</div><div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Ahora para finalizar" data-type="basic_slide" id="slide-19">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 1 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Cierre</div><h1>🚀 Checkpoint de tu proyecto</h1><h2>Cuéntanos cómo vas avanzando</h2><ul class="project-checkpoint"><li>🟢 ¿Qué parte ya lograste completar?</li><li>🟡 ¿Qué duda necesitas resolver para continuar?</li><li>🔴 ¿En qué paso te encuentras bloqueado/a?</li><li>💡 Comparte un hallazgo o una captura de tu avance.</li></ul></div>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide slide-finale" data-type="finale" id="slide-20">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><h1>¡Excelente trabajo! 🚀📊</h1><h2>¡Gracias por participar!</h2>
+<div class="class-rules-footer">🤝 Coding Together · 🙋 Levanta la mano antes de participar · 💬 Participa por voz o chat · 🛠️ Mantén Google Sheets abierto · 🆘 Pregunta en cuanto te sientas perdido/a</div></div>
+<div class="slide-menu" id="slide-menu"><div class="slide-menu-content"><button class="close-menu" id="close-menu-btn" title="Cerrar">×</button><h2>Índice de Diapositivas</h2><ul class="slide-list"><li><button class="menu-jump-btn" data-index="0">1. Sprint 1 Sesión 2</button></li><li><button class="menu-jump-btn" data-index="1">2. 🚀 ¿Cómo vas avanzando con tu proyecto?</button></li><li><button class="menu-jump-btn" data-index="2">3. 🧭 Contexto de la sesión</button></li><li><button class="menu-jump-btn" data-index="3">4. 🧭 Introducción</button></li><li><button class="menu-jump-btn" data-index="4">5. Metas de contenido para esta sesión</button></li><li><button class="menu-jump-btn" data-index="5">6. Plan de nuestra sesión</button></li><li><button class="menu-jump-btn" data-index="6">7. 📂 Dataset y material de trabajo</button></li><li><button class="menu-jump-btn" data-index="7">8. Momento de abrir el archivo de trabajo</button></li><li><button class="menu-jump-btn" data-index="8">9. ⚖️ Reglas de trabajo</button></li><li><button class="menu-jump-btn" data-index="9">10. 0) Setup inicial (6 min)</button></li><li><button class="menu-jump-btn" data-index="10">11. 📂 Dataset y material de trabajo</button></li><li><button class="menu-jump-btn" data-index="11">12. Momento de abrir el archivo de trabajo</button></li><li><button class="menu-jump-btn" data-index="12">13. Ejercicio 1 — Crear copias de auditoría e issues_log (11 min)</button></li><li><button class="menu-jump-btn" data-index="13">14. Ejercicio 2 — Auditar raw_songs, raw_albums y priorizar hallazgos (14 min)</button></li><li><button class="menu-jump-btn" data-index="14">15. Ejercicio 3 — Crear copias limpias y renombrar columnas (11 min)</button></li><li><button class="menu-jump-btn" data-index="15">16. Ejercicio 4 — Limpiar texto, categorías y números con control (14 min)</button></li><li><button class="menu-jump-btn" data-index="16">17. Ejercicio 5 — Verificar métricas y documentar en change_log (9 min)</button></li><li><button class="menu-jump-btn" data-index="17">18. Cierre de la práctica (6 min)</button></li><li><button class="menu-jump-btn" data-index="18">19. Pongamos a prueba lo aprendido</button></li><li><button class="menu-jump-btn" data-index="19">20. 🚀 Checkpoint de tu proyecto</button></li><li><button class="menu-jump-btn" data-index="20">21. ¡Excelente trabajo! 🚀📊</button></li></ul></div></div>
+<div class="slide-nav">
+<button id="prev-btn" title="Anterior (Flecha Izquierda)">←</button>
+<button id="menu-btn" title="Índice de Diapositivas">☰</button>
+<button id="next-btn" title="Siguiente (Flecha Derecha)">→</button>
+</div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const dateObj = new Date();
+        const day = dateObj.getDate();
+        const months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+        const month = months[dateObj.getMonth()];
+        const year = dateObj.getFullYear();
+        const dateStr = `${day} de ${month} ${year}`;
+        document.querySelectorAll('.dynamic-date').forEach(el => el.textContent = dateStr);
+
+        const slides = document.querySelectorAll('.slide');
+        const transitionOverlay = document.getElementById('transition-overlay');
+        const transitionTitleElement = transitionOverlay.querySelector('h1');
+        
+        let currentSlide = -1;
+        let isTransitioning = false;
+        let slideIntervals = {}; 
+
+        function showSlide(index) {
+            if (isTransitioning || index === currentSlide) return;
+            
+            const nextSlideElement = slides[index];
+            if (!nextSlideElement) return;
+
+            isTransitioning = true;
+            
+            const transitionTitle = nextSlideElement.dataset.transitionTitle;
+
+            if (currentSlide > -1) {
+                slides[currentSlide].classList.remove('active');
+            }
+
+            if (transitionTitle && index > currentSlide) {
+                transitionTitleElement.textContent = transitionTitle;
+                transitionOverlay.className = 'slide';
+                transitionOverlay.classList.add(`slide-${nextSlideElement.dataset.type}`);
+                transitionOverlay.classList.add('visible');
+
+                setTimeout(() => {
+                    transitionOverlay.classList.remove('visible');
+                    currentSlide = index;
+                    slides[currentSlide].classList.add('active');
+                    activateSlide(currentSlide);
+                    setTimeout(() => isTransitioning = false, 500);
+                }, 1000);
+            } else {
+                currentSlide = index;
+                slides[currentSlide].classList.add('active');
+                activateSlide(currentSlide);
+                isTransitioning = false;
+            }
+        }
+
+        function nextSlide() {
+            if (currentSlide < slides.length - 1) {
+                showSlide(currentSlide + 1);
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+                showSlide(currentSlide - 1);
+            }
+        }
+        
+        function activateSlide(index) {
+            const slideElement = slides[index];
+            if (!slideElement) return;
+            const slideType = slideElement.dataset.type;
+
+            Object.values(slideIntervals).forEach(clearInterval);
+
+            if (slideType === 'countdown') {
+                const timerElement = slideElement.querySelector('.timer');
+                const startMessage = slideElement.querySelector('.start-message');
+                let duration = parseInt(slideElement.dataset.timer || '300', 10);
+
+                slideIntervals[index] = setInterval(() => {
+                    if (duration < 0) {
+                        clearInterval(slideIntervals[index]);
+                        timerElement.style.display = 'none';
+                        startMessage.style.display = 'block';
+                        setTimeout(nextSlide, 2000); 
+                        return;
+                    }
+                    const minutes = Math.floor(duration / 60);
+                    const seconds = duration % 60;
+                    timerElement.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+                    duration--;
+                }, 1000);
+            }
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') nextSlide();
+            else if (e.key === 'ArrowLeft') prevSlide();
+        });
+
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const menuBtn = document.getElementById('menu-btn');
+        const slideMenu = document.getElementById('slide-menu');
+        const closeMenuBtn = document.getElementById('close-menu-btn');
+
+        if (prevBtn) prevBtn.addEventListener('click', prevSlide);
+        if (nextBtn) nextBtn.addEventListener('click', nextSlide);
+        if (menuBtn) menuBtn.addEventListener('click', () => slideMenu.classList.add('active'));
+        if (closeMenuBtn) closeMenuBtn.addEventListener('click', () => slideMenu.classList.remove('active'));
+
+        document.querySelectorAll('.menu-jump-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const index = parseInt(e.currentTarget.dataset.index, 10);
+                slideMenu.classList.remove('active');
+                showSlide(index);
+            });
+        });
+
+        document.querySelectorAll('.quiz-container').forEach(container => {
+            const startBtn = container.querySelector('.quiz-start-btn');
+            const nextBtn = container.querySelector('.quiz-next-btn');
+            const uiBox = container.querySelector('.quiz-ui');
+            const introBox = container.querySelector('.quiz-intro');
+            const qBox = container.querySelector('.quiz-question-box');
+            const optBox = container.querySelector('.quiz-options-box');
+            const feedBox = container.querySelector('.quiz-feedback-box');
+            const timerDiv = container.querySelector('.quiz-timer');
+            const timerSpan = container.querySelector('.time-left');
+            const navMenu = container.querySelector('.quiz-nav-menu');
+            const showAnsBtn = container.querySelector('.quiz-show-answer-btn');
+
+            const h1 = container.querySelector('h1');
+            const h2 = container.querySelector('h2');
+
+            let rawData = container.getAttribute('data-quiz') || "[]";
+            const questions = JSON.parse(rawData);
+            const timeLimit = parseInt(container.getAttribute('data-timer') || "0", 10);
+            
+            let currentQIndex = 0;
+            let timerInterval;
+            let timeLeft = timeLimit;
+            let canAnswer = false;
+
+            function buildNavMenu() {
+                navMenu.innerHTML = '';
+                questions.forEach((q, idx) => {
+                    const dot = document.createElement('button');
+                    dot.className = 'quiz-nav-dot';
+                    dot.textContent = idx + 1;
+                    dot.addEventListener('click', () => jumpToQuestion(idx));
+                    navMenu.appendChild(dot);
+                });
+            }
+
+            function updateNavMenu() {
+                const dots = navMenu.querySelectorAll('.quiz-nav-dot');
+                dots.forEach((dot, idx) => {
+                    if (idx === currentQIndex) dot.classList.add('active');
+                    else dot.classList.remove('active');
+                });
+            }
+
+            function renderQuestion() {
+                clearInterval(timerInterval);
+
+                if(currentQIndex >= questions.length) {
+                    uiBox.innerHTML = '<div style="text-align:center; padding: 5rem;"><h2>¡Quiz Terminado!</h2><p>Continúa con las flechas de navegación convencionales.</p></div>';
+                    return;
+                }
+                
+                uiBox.style.opacity = '0';
+                uiBox.style.transform = 'translateX(20px)';
+                
+                setTimeout(() => {
+                    const q = questions[currentQIndex];
+                    canAnswer = true;
+                    qBox.innerHTML = q.text;
+                    optBox.innerHTML = '';
+                    feedBox.className = 'quiz-feedback-box'; 
+                    feedBox.innerHTML = q.feedback || '';
+                    nextBtn.style.display = 'none';
+                    if (showAnsBtn) showAnsBtn.style.display = 'none';
+                    updateNavMenu();
+
+                    q.options.forEach((opt, idx) => {
+                        const card = document.createElement('div');
+                        card.className = 'quiz-option-card';
+                        card.innerHTML = opt.text;
+                        optBox.appendChild(card);
+                    });
+
+                    uiBox.style.display = 'block';
+                    void uiBox.offsetWidth;
+                    uiBox.style.opacity = '1';
+                    uiBox.style.transform = 'translateX(0)';
+                    
+                    if (window.MathJax) {
+                        MathJax.typesetPromise().catch((err) => console.log('MathJax error: ', err));
+                    }
+                    if (window.hljs) {
+                        uiBox.querySelectorAll('pre code').forEach((block) => hljs.highlightElement(block));
+                    }
+
+                    if (timeLimit > 0) {
+                        timerDiv.style.display = 'inline-block';
+                        if (showAnsBtn) showAnsBtn.style.display = 'inline-block';
+                        timeLeft = timeLimit;
+                        timerSpan.textContent = timeLeft;
+                        timerInterval = setInterval(() => {
+                            timeLeft--;
+                            timerSpan.textContent = timeLeft;
+                            if (timeLeft <= 0) {
+                                clearInterval(timerInterval);
+                                revealAnswer();
+                            }
+                        }, 1000);
+                    } else {
+                        timerDiv.style.display = 'none';
+                        if (showAnsBtn) showAnsBtn.style.display = 'inline-block';
+                        setTimeout(revealAnswer, 5000);
+                    }
+                }, 400);
+            }
+
+            function revealAnswer() {
+                if(!canAnswer) return;
+                canAnswer = false;
+                clearInterval(timerInterval);
+                if (showAnsBtn) showAnsBtn.style.display = 'none';
+                
+                const q = questions[currentQIndex];
+                const cards = optBox.querySelectorAll('.quiz-option-card');
+                
+                cards.forEach((card, idx) => {
+                    if(q.options[idx].correct) {
+                        card.classList.add('flip-correct');
+                    } else {
+                        card.classList.add('fade-out');
+                    }
+                });
+
+                if (q.feedback) {
+                    feedBox.classList.add('show');
+                }
+                
+                if (currentQIndex < questions.length - 1) {
+                    nextBtn.style.display = 'inline-block';
+                    
+                    if (timeLimit > 0) {
+                        timeLeft = timeLimit;
+                        timerSpan.textContent = timeLeft;
+                        timerInterval = setInterval(() => {
+                            timeLeft--;
+                            timerSpan.textContent = timeLeft;
+                            if (timeLeft <= 0) {
+                                clearInterval(timerInterval);
+                                currentQIndex++;
+                                renderQuestion();
+                            }
+                        }, 1000);
+                    }
+                } else {
+                    setTimeout(() => {
+                        currentQIndex++;
+                        renderQuestion();
+                    }, timeLimit > 0 ? timeLimit * 1000 : 5000);
+                }
+            }
+            
+            function jumpToQuestion(idx) {
+                clearInterval(timerInterval);
+                currentQIndex = idx;
+                renderQuestion();
+            }
+
+            startBtn.addEventListener('click', () => {
+                startBtn.style.display = 'none';
+                
+                if(introBox) {
+                    introBox.style.opacity = '0';
+                    introBox.style.transform = 'scale(0.95)';
+                    setTimeout(() => introBox.style.display = 'none', 500);
+                }
+                if(h1) h1.style.display = 'none';
+                if(h2) h2.style.display = 'none';
+                
+                buildNavMenu();
+                
+                setTimeout(() => {
+                    uiBox.style.display = 'block';
+                    renderQuestion();
+                }, 500);
+            });
+
+            nextBtn.addEventListener('click', () => {
+                currentQIndex++;
+                renderQuestion();
+            });
+
+            if (showAnsBtn) {
+                showAnsBtn.addEventListener('click', () => {
+                    revealAnswer();
+                });
+            }
+        });
+
+        if (slides.length > 0) {
+            showSlide(0);
+        }
+    });
+</script>
+</body>
+</html>

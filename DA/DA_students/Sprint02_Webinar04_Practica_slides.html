@@ -1,0 +1,1221 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sprint 2 Sesión 4 · Limpieza, enriquecimiento, KPIs y dashboard retail</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&amp;display=swap" rel="stylesheet"/>
+<script>
+      window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+      };
+    </script>
+<script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<style>
+    :root {
+        --color-orange: #F2855A;
+        --color-green: #66B37D;
+        --color-light-gray: #F2F2F2;
+        --color-dark-mode: #111111;
+        --color-black: #0A0A0A;
+        --color-dark-gray-1: #333333;
+        --color-dark-gray-2: #5F5F5F;
+        --color-white-soft: #F5F5F5;
+        --font-main: 'Montserrat', sans-serif;
+    }
+
+    body {
+        margin: 0;
+        font-family: var(--font-main);
+        overflow: hidden;
+    }
+
+    .presentation {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        box-sizing: border-box;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out;
+    }
+
+    .slide.active {
+        opacity: 1;
+        visibility: visible;
+        z-index: 1;
+    }
+
+    .slide h1 { font-size: 3rem; font-weight: 700; margin: 0 0 0.5rem 0; }
+    .slide h2 { font-size: 1.8rem; font-weight: 300; margin: 0; }
+
+    .slide-countdown { background-color: var(--color-orange); color: var(--color-black); }
+    .slide-countdown h2 { color: var(--color-dark-gray-2); }
+    .slide-countdown .timer { font-size: 5rem; font-weight: 300; letter-spacing: 5px; margin: 1.5rem 0; text-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .slide-countdown .start-message { font-size: 2.5rem; font-weight: 700; display: none; }
+    
+    .bouncing-logo-container { position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; overflow: hidden; z-index: 0; pointer-events: none; }
+    .bouncing-logo { position: absolute; width: 250px; opacity: 0.15; animation: bounceX 13s linear infinite alternate, bounceY 9s linear infinite alternate; }
+    @keyframes bounceX { 0% { left: 0; } 100% { left: calc(100vw - 250px); } }
+    @keyframes bounceY { 0% { top: 0; } 100% { top: calc(100vh - 75px); } }
+
+    .traffic-logo-container { position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; overflow: hidden; z-index: 0; pointer-events: none; }
+    .traffic-logo-img { position: absolute; width: 220px; opacity: 0.15; left: -250px; transform: translateY(-50%); }
+    @keyframes driveRight { 0% { transform: translateY(-50%) translateX(0); } 100% { transform: translateY(-50%) translateX(calc(100vw + 500px)); } }
+
+    .slide-transition { background-color: var(--color-green); color: var(--color-black); }
+    
+    .slide-warnup-mood { background-color: var(--color-green); color: var(--color-black); justify-content: center; position: relative; }
+    .content-wrapper { position: relative; z-index: 1; background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); padding: 2rem 4rem; border-radius: 20px; box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1); border: 1px solid rgba(255, 255, 255, 0.18); }
+    .slide-warnup-mood h1, .slide-warnup-mood h2 { font-weight: bold; }
+    .emoji-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: 0; }
+    .emoji { position: absolute; top: -10%; font-size: 2rem; animation: fall 10s linear infinite; }
+    @keyframes fall {
+        0% { transform: translateY(0) rotate(0); }
+        100% { transform: translateY(110vh) rotate(360deg); }
+    }
+
+    .slide-agenda, .slide-warnup-question, .slide-basic_slide, .slide-two_columns_slide { background-color: var(--color-light-gray); color: var(--color-black); }
+    .slide-agenda .content-wrapper, .slide-basic_slide .content-wrapper, .slide-two_columns_slide .content-wrapper { width: 90%; text-align: left; overflow-y: auto; max-height: 85vh; padding: 2rem 3rem; }
+    .slide-basic_slide .content-wrapper img, .slide-two_columns_slide .content-wrapper img { max-width: 100%; border-radius: 10px; display: block; margin: 1rem auto; padding: 0; }
+    .slide-basic_slide .content-wrapper p, .slide-basic_slide .content-wrapper ul, .slide-basic_slide .content-wrapper ol, .slide-two_columns_slide .content-wrapper p, .slide-two_columns_slide .content-wrapper ul, .slide-two_columns_slide .content-wrapper ol { font-size: 1.5rem; line-height: 1.6; }
+    .slide-basic_slide .content-wrapper ul, .slide-basic_slide .content-wrapper ol, .slide-two_columns_slide .content-wrapper ul, .slide-two_columns_slide .content-wrapper ol { padding-left: 3rem; }
+    
+    .slide-two_columns_slide .column-left { padding-right: 2rem; width: 50%; display: flex; flex-direction: column; justify-content: center; }
+    .slide-two_columns_slide .column-right { width: 50%; display: flex; align-items: center; justify-content: center; height: 100%; }
+    .slide-two_columns_slide .column-right img { width: 100%; max-height: 70vh; object-fit: contain; }
+    .slide-agenda h1 { color: var(--color-black); margin-bottom: 1.5rem; }
+    .slide-agenda ul { list-style: none; padding: 0; font-size: 1.5rem; }
+    .slide-agenda li { margin: 0.8rem 0; }
+    .slide-agenda li strong { color: var(--color-black); }
+    .slide-agenda li span { color: var(--color-dark-gray-1); margin-left: 1rem; }
+
+    .two-column-layout { display: flex; align-items: center; justify-content: center; width: 100%; gap: 2rem; }
+    .column-left { width: 50%; text-align: left; }
+    .column-right { width: 50%; }
+    .column-right img { max-width: 100%; border-radius: 10px; }
+
+    .slide-objectives { background-color: var(--color-light-gray); color: var(--color-black); }
+    .slide-objectives .content-wrapper { padding: 3rem; text-align: center; width: 95%; max-width: 1600px; max-height: 85vh; overflow-y: auto; }
+    .slide-objectives .objectives-container > ul { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; list-style: none; padding: 0; margin: 2rem 0; width: 100%; }
+    .slide-objectives .objectives-container > ul > li { background-color: var(--color-light-gray); color: var(--color-dark-gray-1); padding: 2.5rem; border-radius: 15px; flex: 1; min-width: 300px; max-width: 480px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: left; font-size: 1.3rem; line-height: 1.5; display: flex; flex-direction: column; }
+    .slide-objectives .objectives-container > ul > li p { margin: 0; }
+    .slide-objectives .objectives-container img { max-width: 100%; max-height: 100px; object-fit: contain; display: block; margin: 0 auto 1rem auto; }
+    .slide-objectives .objectives-container > ul > li > ul { list-style: none; padding-left: 0; margin-top: 1rem; font-size: 1.1rem; }
+    .slide-objectives .objectives-container > ul > li > ul > li { position: relative; padding-left: 1.2rem; margin-bottom: 0.8rem; color: var(--color-dark-gray-2); }
+    .slide-objectives .objectives-container > ul > li > ul > li::before { content: "•"; position: absolute; left: 0; color: var(--color-green); font-weight: bold; }
+    .slide-objectives h1 { color: var(--color-black); margin-bottom: 1rem; }
+
+    .slide-overlay { background-color: var(--color-black); color: var(--color-white-soft); }
+    .slide-overlay h1, .slide-overlay h2 { color: var(--color-white-soft); margin-bottom: 0.5rem; }
+    .slide-overlay p { font-size: 3rem; font-weight: 500; margin: 1rem 0; line-height: 1.4; color: var(--color-white-soft); text-align: center; }
+
+    .slide-gotocode { background-color: var(--color-dark-mode); color: var(--color-white-soft); }
+    .slide-finale { background-color: var(--color-orange); color: var(--color-black); }
+    .slide-finale h2 { color: var(--color-dark-gray-2); }
+    .slide-gotocode a { color: var(--color-white-soft); }
+    .slide-gotocode .qr-container { display: flex; gap: 2rem; margin-top: 2rem; }
+    .slide-gotocode .qr-item { display: flex; flex-direction: column; align-items: center; }
+    .slide-gotocode .qr-item img { width: 150px; height: 150px; border-radius: 10px; }
+
+    #transition-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10; display: flex; justify-content: center; align-items: center; opacity: 0; visibility: hidden; transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out; background-color: var(--color-green); color: var(--color-black); }
+    #transition-overlay h1 { color: var(--color-black); margin-bottom: 0; }
+    #transition-overlay .content-wrapper { width: 90%; text-align: left; padding: 2rem 3rem; }
+    #transition-overlay.visible { opacity: 1; visibility: visible; }
+    
+    .slide-nav { position: absolute; bottom: 20px; right: 20px; z-index: 100; display: flex; gap: 10px; }
+    .slide-nav button { background: rgba(128, 128, 128, 0.5); border: none; color: white; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 1.5rem; transition: background 0.3s; }
+    .slide-nav button:hover { background: rgba(128, 128, 128, 0.9); }
+
+    .slide-menu { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); z-index: 200; display: flex; justify-content: center; align-items: center; opacity: 0; visibility: hidden; transition: opacity 0.3s, visibility 0.3s; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+    .slide-menu.active { opacity: 1; visibility: visible; }
+    .slide-menu-content { background: var(--color-light-gray); padding: 3rem; border-radius: 15px; width: 80%; max-width: 800px; max-height: 80vh; overflow-y: auto; position: relative; color: var(--color-black); box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+    .slide-menu-content h2 { margin-top: 0; border-bottom: 2px solid var(--color-dark-gray-1); padding-bottom: 1rem; color: var(--color-black); }
+    .close-menu { position: absolute; top: 15px; right: 20px; background: none; border: none; font-size: 2.5rem; cursor: pointer; color: var(--color-dark-gray-2); transition: color 0.3s; }
+    .close-menu:hover { color: var(--color-orange); }
+    .slide-list { list-style: none; padding: 0; }
+    .slide-list li { margin: 0.5rem 0; }
+    .menu-jump-btn { width: 100%; text-align: left; background: var(--color-white-soft); border: 1px solid rgba(0,0,0,0.1); padding: 1rem; border-radius: 8px; font-size: 1.2rem; cursor: pointer; transition: background 0.2s, transform 0.1s; font-family: var(--font-main); color: var(--color-dark-gray-1); }
+    .menu-jump-btn:hover { background: var(--color-orange); color: var(--color-black); transform: translateX(5px); }
+    
+    .company-logo { position: absolute; top: 30px; left: 40px; max-height: 60px; opacity: 0; z-index: 50; pointer-events: none; }
+    .slide-countdown .company-logo, .slide-warnup-mood .company-logo, .slide-finale .company-logo, .slide-overlay .company-logo { display: none !important; animation: none !important; }
+    .slide.active .company-logo { animation: showAndHideLogo 4s ease-in-out forwards; }
+    @keyframes showAndHideLogo {
+        0% { opacity: 0; transform: translateY(-10px); }
+        10% { opacity: 1; transform: translateY(0); }
+        80% { opacity: 1; transform: translateY(0); }
+        100% { opacity: 0; transform: translateY(-10px); }
+    }
+
+    .quiz-container { display: flex; flex-direction: column; width: 90%; max-width: 1000px; padding: 3rem; align-items: stretch; text-align: left; overflow-y: auto; max-height: 85vh;}
+    .quiz-container h1, .quiz-container h2 { text-align: center; }
+    .quiz-intro { text-align: center; font-size: 1.5rem; margin-bottom: 2rem; color: var(--color-dark-gray-1); }
+    .quiz-start-btn, .quiz-next-btn { align-self: center; background: var(--color-orange); border: none; color: var(--color-black); font-size: 1.5rem; font-weight: bold; padding: 1rem 3rem; border-radius: 10px; cursor: pointer; transition: transform 0.2s; margin-top: 2rem; }
+    .quiz-start-btn:hover, .quiz-next-btn:hover, .quiz-show-answer-btn:hover { transform: scale(1.05); }
+    .quiz-header { display: flex; justify-content: space-between; font-size: 1.2rem; font-weight: bold; margin-bottom: 1rem; color: var(--color-dark-gray-2); border-bottom: 2px solid rgba(0,0,0,0.1); padding-bottom: 10px; }
+    .quiz-timer { color: #d9534f; }
+    .quiz-question-box { font-size: 1.8rem; margin: 1.5rem 0; font-weight: 700; color: var(--color-black); }
+    .quiz-question-box p { margin: 0; }
+    .quiz-question-box img { max-width: 100%; border-radius: 10px; max-height: 350px; object-fit: contain; display: block; margin: 15px auto; }
+    .quiz-options-box { display: flex; flex-direction: column; gap: 1rem; perspective: 1000px; }
+    .quiz-option-card { background: var(--color-white-soft); border: 2px solid var(--color-light-gray); text-align: left; padding: 1rem 1.5rem; font-size: 1.4rem; border-radius: 10px; transition: all 0.6s cubic-bezier(0.4, 0.2, 0.2, 1); font-family: var(--font-main); color: var(--color-dark-gray-1); transform-style: preserve-3d; }
+    .quiz-option-card p { margin: 0; }
+    .quiz-option-card.flip-correct { background: #d4edda; border-color: #28a745; color: #155724; transform: rotateX(360deg); box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3); }
+    .quiz-option-card.fade-out { opacity: 0.4; filter: grayscale(100%); }
+    .quiz-feedback-box { margin-top: 2rem; background: rgba(0,0,0,0.05); padding: 1.5rem; border-radius: 10px; border-left: 5px solid var(--color-orange); font-size: 1.3rem; opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease, transform 0.5s ease; }
+    .quiz-feedback-box.show { opacity: 1; transform: translateY(0); display: block; }
+    
+    .quiz-nav-menu { display: flex; justify-content: center; gap: 10px; margin-bottom: 2rem; }
+    .quiz-nav-dot { width: 40px; height: 40px; border-radius: 50%; background: rgba(0,0,0,0.1); color: var(--color-dark-gray-2); border: none; font-size: 1.2rem; font-weight: bold; cursor: pointer; transition: all 0.3s; display: flex; justify-content: center; align-items: center; }
+    .quiz-nav-dot:hover { background: rgba(0,0,0,0.2); }
+    .quiz-nav-dot.active { background: var(--color-orange); color: var(--color-black); transform: scale(1.1); box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .quiz-intro { transition: opacity 0.5s, transform 0.5s; }
+    .quiz-ui { transition: opacity 0.5s, transform 0.5s; }
+    .slide-quizz .content-wrapper { overflow-x: hidden; }
+    pre { border-radius: 8px; font-size: 1.1rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 1.2rem; color: var(--color-dark-gray-1); }
+    th, td { border: 1px solid rgba(0,0,0,0.1); padding: 1rem; text-align: left; }
+    th { background-color: var(--color-light-gray); font-weight: bold; color: var(--color-black); }
+    tr:nth-child(even) { background-color: rgba(0,0,0,0.02); }
+    .slide-overlay table, .slide-gotocode table { color: var(--color-white-soft); }
+    .slide-overlay th, .slide-gotocode th { background-color: rgba(255,255,255,0.1); color: var(--color-white-soft); border-color: rgba(255,255,255,0.2); }
+    .slide-overlay td, .slide-gotocode td { border-color: rgba(255,255,255,0.2); }
+    .slide-overlay tr:nth-child(even), .slide-gotocode tr:nth-child(even) { background-color: rgba(255,255,255,0.05); }
+
+    /* Ajustes agregados para convertir notebooks en presentaciones de clase */
+    .slide-basic_slide .content-wrapper h1,
+    .slide-agenda .content-wrapper h1,
+    .slide-objectives .content-wrapper h1 { font-size: 2.55rem; margin-bottom: 1.1rem; }
+    .slide-basic_slide .content-wrapper h2,
+    .slide-agenda .content-wrapper h2,
+    .slide-objectives .content-wrapper h2 { font-size: 2rem; font-weight: 700; margin: 1rem 0 0.6rem 0; color: var(--color-black); }
+    .slide-basic_slide .content-wrapper h3,
+    .slide-agenda .content-wrapper h3,
+    .slide-objectives .content-wrapper h3 { font-size: 1.45rem; font-weight: 700; margin: 0.9rem 0 0.4rem 0; color: var(--color-dark-gray-1); }
+    .slide-basic_slide .content-wrapper p,
+    .slide-basic_slide .content-wrapper li,
+    .slide-agenda .content-wrapper p,
+    .slide-agenda .content-wrapper li,
+    .slide-objectives .content-wrapper p,
+    .slide-objectives .content-wrapper li { font-size: 1.28rem; line-height: 1.5; }
+    .slide-basic_slide .content-wrapper table,
+    .slide-agenda .content-wrapper table,
+    .slide-objectives .content-wrapper table { font-size: 1.03rem; }
+    .slide-basic_slide .content-wrapper th,
+    .slide-basic_slide .content-wrapper td,
+    .slide-agenda .content-wrapper th,
+    .slide-agenda .content-wrapper td,
+    .slide-objectives .content-wrapper th,
+    .slide-objectives .content-wrapper td { padding: 0.65rem; vertical-align: top; }
+    .content-wrapper code { background: rgba(0,0,0,0.08); padding: 0.08rem 0.28rem; border-radius: 5px; }
+    .content-wrapper pre code { background: transparent; padding: 0; border-radius: 0; }
+    .content-wrapper pre { max-height: 42vh; overflow: auto; }
+    .content-wrapper blockquote { border-left: 6px solid var(--color-orange); margin: 1rem 0; padding: 0.8rem 1.2rem; background: rgba(255,255,255,0.45); border-radius: 8px; }
+    .class-moment { display: inline-block; background: var(--color-green); color: var(--color-black); padding: 0.35rem 0.8rem; border-radius: 999px; font-size: 1rem; font-weight: 700; margin-bottom: 0.8rem; }
+    .slide-overlay .content-wrapper { background: transparent; box-shadow: none; border: none; text-align: center; }
+    .slide-overlay .content-wrapper p { font-size: 1.6rem; }
+    .quiz-show-answer-btn { align-self: center; background: var(--color-green); border: none; color: var(--color-black); font-size: 1.2rem; font-weight: bold; padding: 0.8rem 2rem; border-radius: 10px; cursor: pointer; margin-top: 1rem; display: none; }
+    .session-tag { position: absolute; top: 30px; right: 40px; font-size: 1rem; font-weight: 700; color: var(--color-dark-gray-2); z-index: 2; }
+
+
+
+    /* Ajustes pedagógicos y visuales */
+    .class-rules-footer {
+        position: absolute;
+        left: 22px;
+        right: 285px;
+        bottom: 12px;
+        z-index: 60;
+        padding: 0.55rem 0.85rem;
+        border-radius: 12px;
+        background: rgba(255,255,255,0.92);
+        color: var(--color-dark-gray-1);
+        box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+        font-size: 0.82rem;
+        line-height: 1.25;
+        font-weight: 700;
+        text-align: left;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+    }
+    .slide-gotocode .class-rules-footer,
+    .slide-overlay .class-rules-footer,
+    .slide-finale .class-rules-footer {
+        background: rgba(245,245,245,0.95);
+        color: var(--color-black);
+    }
+    .slide-countdown .dynamic-date { bottom: 62px !important; }
+    .slide-basic_slide .content-wrapper,
+    .slide-agenda .content-wrapper,
+    .slide-objectives .content-wrapper,
+    .slide-quizz .content-wrapper { max-height: 78vh; }
+    .slide-objectives .content-wrapper,
+    .slide-objectives .objectives-container { text-align: left !important; }
+    .slide-basic_slide .content-wrapper > h1,
+    .slide-agenda .content-wrapper > h1,
+    .slide-objectives .content-wrapper > h1 {
+        border-left: 8px solid var(--color-orange);
+        padding-left: 1rem;
+    }
+    .answer-reveal-section {
+        margin-top: 42vh !important;
+        padding-top: 2rem;
+        border-top: 3px dashed rgba(242,133,90,0.75);
+    }
+    .answer-reveal-section::before {
+        content: "Desplázate para revelar la respuesta";
+        display: block;
+        margin-bottom: 1rem;
+        color: var(--color-dark-gray-2);
+        font-size: 0.95rem;
+        font-weight: 700;
+    }
+    .project-checkpoint {
+        font-size: 1.15rem;
+        line-height: 1.7;
+        background: rgba(102,179,125,0.16);
+        border-left: 6px solid var(--color-green);
+        border-radius: 12px;
+        padding: 1rem 1.25rem;
+        margin-top: 1rem;
+    }
+
+</style>
+</head>
+<body>
+<div class="presentation">
+<div id="transition-overlay"><div class="content-wrapper"><h1></h1></div></div>
+<div class="slide slide-countdown" data-timer="300" data-transition-title="¡Comenzamos en breve!" data-type="countdown" id="slide-0">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><div class="traffic-logo-container"><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 15%; animation: driveRight 24.00s linear -0.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 15%; animation: driveRight 24.00s linear -8.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 15%; animation: driveRight 24.00s linear -16.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 35%; animation: driveRight 27.00s linear -0.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 35%; animation: driveRight 27.00s linear -6.75s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 35%; animation: driveRight 27.00s linear -13.50s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 35%; animation: driveRight 27.00s linear -20.25s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 55%; animation: driveRight 30.00s linear -0.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 55%; animation: driveRight 30.00s linear -10.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 55%; animation: driveRight 30.00s linear -20.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 75%; animation: driveRight 33.00s linear -0.00s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 75%; animation: driveRight 33.00s linear -8.25s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 75%; animation: driveRight 33.00s linear -16.50s infinite;"/><img class="traffic-logo-img" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png" style="top: 75%; animation: driveRight 33.00s linear -24.75s infinite;"/></div><div class="content-wrapper"><h1>Sprint 2 Sesión 4</h1><h2>Limpieza, enriquecimiento, KPIs y dashboard retail</h2><div class="timer">--:--</div><div class="start-message">¡Comenzamos!</div><p></p></div><div class="dynamic-date" style="position: absolute; bottom: 30px; left: 40px; font-size: 1.5rem; font-weight: bold; color: var(--color-black); z-index: 1;"></div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-warnup-mood" data-transition-title="Checkpoint del proyecto" data-type="warnup-mood" id="slide-1">
+<div class="emoji-container"><span class="emoji" style="left:0%; animation-delay:0.00s; animation-duration:8s; font-size:1.50rem;">📊</span><span class="emoji" style="left:13%; animation-delay:-0.55s; animation-duration:9s; font-size:1.68rem;">🧹</span><span class="emoji" style="left:26%; animation-delay:-1.10s; animation-duration:10s; font-size:1.86rem;">🗂️</span><span class="emoji" style="left:39%; animation-delay:-1.65s; animation-duration:11s; font-size:2.04rem;">✅</span><span class="emoji" style="left:52%; animation-delay:-2.20s; animation-duration:12s; font-size:2.22rem;">📈</span><span class="emoji" style="left:65%; animation-delay:-2.75s; animation-duration:13s; font-size:1.50rem;">🧠</span><span class="emoji" style="left:78%; animation-delay:-3.30s; animation-duration:8s; font-size:1.68rem;">🔎</span><span class="emoji" style="left:91%; animation-delay:-3.85s; animation-duration:9s; font-size:1.86rem;">📝</span><span class="emoji" style="left:4%; animation-delay:-4.40s; animation-duration:10s; font-size:2.04rem;">💡</span><span class="emoji" style="left:17%; animation-delay:-4.95s; animation-duration:11s; font-size:2.22rem;">🚀</span><span class="emoji" style="left:30%; animation-delay:-5.50s; animation-duration:12s; font-size:1.50rem;">📊</span><span class="emoji" style="left:43%; animation-delay:-6.05s; animation-duration:13s; font-size:1.68rem;">🧹</span><span class="emoji" style="left:56%; animation-delay:0.00s; animation-duration:8s; font-size:1.86rem;">🗂️</span><span class="emoji" style="left:69%; animation-delay:-0.55s; animation-duration:9s; font-size:2.04rem;">✅</span><span class="emoji" style="left:82%; animation-delay:-1.10s; animation-duration:10s; font-size:2.22rem;">📈</span><span class="emoji" style="left:95%; animation-delay:-1.65s; animation-duration:11s; font-size:1.50rem;">🧠</span><span class="emoji" style="left:8%; animation-delay:-2.20s; animation-duration:12s; font-size:1.68rem;">🔎</span><span class="emoji" style="left:21%; animation-delay:-2.75s; animation-duration:13s; font-size:1.86rem;">📝</span><span class="emoji" style="left:34%; animation-delay:-3.30s; animation-duration:8s; font-size:2.04rem;">💡</span><span class="emoji" style="left:47%; animation-delay:-3.85s; animation-duration:9s; font-size:2.22rem;">🚀</span><span class="emoji" style="left:60%; animation-delay:-4.40s; animation-duration:10s; font-size:1.50rem;">📊</span><span class="emoji" style="left:73%; animation-delay:-4.95s; animation-duration:11s; font-size:1.68rem;">🧹</span><span class="emoji" style="left:86%; animation-delay:-5.50s; animation-duration:12s; font-size:1.86rem;">🗂️</span><span class="emoji" style="left:99%; animation-delay:-6.05s; animation-duration:13s; font-size:2.04rem;">✅</span><span class="emoji" style="left:12%; animation-delay:0.00s; animation-duration:8s; font-size:2.22rem;">📈</span><span class="emoji" style="left:25%; animation-delay:-0.55s; animation-duration:9s; font-size:1.50rem;">🧠</span><span class="emoji" style="left:38%; animation-delay:-1.10s; animation-duration:10s; font-size:1.68rem;">🔎</span><span class="emoji" style="left:51%; animation-delay:-1.65s; animation-duration:11s; font-size:1.86rem;">📝</span><span class="emoji" style="left:64%; animation-delay:-2.20s; animation-duration:12s; font-size:2.04rem;">💡</span><span class="emoji" style="left:77%; animation-delay:-2.75s; animation-duration:13s; font-size:2.22rem;">🚀</span><span class="emoji" style="left:90%; animation-delay:-3.30s; animation-duration:8s; font-size:1.50rem;">📊</span><span class="emoji" style="left:3%; animation-delay:-3.85s; animation-duration:9s; font-size:1.68rem;">🧹</span><span class="emoji" style="left:16%; animation-delay:-4.40s; animation-duration:10s; font-size:1.86rem;">🗂️</span><span class="emoji" style="left:29%; animation-delay:-4.95s; animation-duration:11s; font-size:2.04rem;">✅</span></div><div class="project-checkpoint content-wrapper"><h1>¿Cómo vas avanzando con tu proyecto? 🚀</h1><h2>Responde con un emoji: 🟢 avanzo bien · 🟡 tengo dudas · 🔴 estoy bloqueado/a · 💡 quiero compartir un logro</h2></div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Contexto de clase" data-type="basic_slide" id="slide-2">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Inicio</div><h1>🧭 Contexto de la sesión</h1><p><strong>Tipo de sesión:</strong> práctica guiada mediante Coding Together<br/>
+<strong>Duración:</strong> 90 minutos<br/><strong>Distribución:</strong> 84 minutos de contenido y Coding Together + 6 minutos de quiz final<br/>
+<strong>Herramientas:</strong> Google Sheets o Excel<br/>
+<strong>Dataset:</strong> <code>sp2_sesion_practica_walmart_retail.xlsx</code></p>
+<p>Esta sesión consolida la práctica del Sprint 2 sobre un caso tipo retail: limpiar ventas semanales, enriquecer con dimensiones de tienda y departamento, calcular KPIs, construir un resumen visual y documentar el trabajo.</p>
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Punto de partida" data-type="basic_slide" id="slide-3">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><h1>🧭 Introducción</h1><p>En la sesión teórica el foco estuvo en preguntas, métricas, PivotTables e interpretación. En esta sesión el foco cambia: ahora el archivo tiene problemas intencionales y se debe trabajar como lo haría un/a analista en un proyecto.</p>
+<p>El objetivo no es que el resultado quede “bonito” solamente. El objetivo es que sea trazable, verificable y explicable.</p>
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div><div class="slide slide-basic_slide" data-transition-title="Reglas y metodología" data-type="basic_slide" id="slide-4">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/>
+<span class="session-tag">Sprint 2 · Sesión práctica</span>
+<div class="content-wrapper">
+<div class="class-moment">Inicio</div>
+<h1>⚖️ Reglas y metodología de la sesión</h1>
+<p><strong>Modalidad:</strong> toda la sesión se desarrolla mediante <strong>Coding Together</strong>. El instructor demuestra cada paso y el grupo lo reproduce en su propio archivo.</p>
+<ul>
+<li>Participa por voz o chat durante la explicación y los ejercicios.</li>
+<li>Levanta la mano antes de intervenir para mantener el orden.</li>
+<li>Mantén abiertas las herramientas y el dataset de la sesión.</li>
+<li>Pregunta en cuanto te sientas perdido/a; podemos pausar y repetir.</li>
+<li>No habrá breakout rooms ni trabajo aislado durante la sesión en vivo.</li>
+</ul>
+<blockquote><strong>Objetivo común:</strong> avanzar al mismo ritmo y comprender cada decisión, no terminar más rápido.</blockquote>
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-objectives" data-transition-title="Objetivos de aprendizaje" data-type="objectives" id="slide-5">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><h1>Metas de contenido para esta sesión</h1><div class="objectives-container"><p>Al finalizar la sesión podrás:</p>
+<ol>
+<li>Duplicar datos crudos y trabajar sobre una hoja limpia sin destruir la fuente.</li>
+<li>Detectar problemas de calidad: fechas como texto, IDs con espacios, ventas como texto, booleanos no estandarizados, duplicados y llaves sin match.</li>
+<li>Crear columnas limpias para <code>store_id</code>, <code>dept</code>, <code>week_date</code>, <code>weekly_sales</code> e <code>is_holiday</code>.</li>
+<li>Enriquecer ventas con datos de tienda y departamento usando <code>XLOOKUP</code> o <code>VLOOKUP</code>.</li>
+<li>Construir KPIs de eficiencia, crecimiento y participación.</li>
+<li>Crear un dashboard mínimo con tablas dinámicas, gráficos y formato condicional.</li>
+<li>Documentar supuestos, validaciones y cambios en hojas auxiliares.</li>
+<li>Comunicar hallazgos usando Cifra → Factor → Iniciativa.</li>
+</ol>
+</div></div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-agenda" data-transition-title="Estructura de clase" data-type="agenda" id="slide-6">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><h1>Plan de nuestra sesión</h1><table>
+<thead>
+<tr>
+<th style="text-align:right">Minutos</th>
+<th>Bloque</th>
+<th>Propósito</th>
+</tr>
+</thead>
+<tbody><tr><td style="text-align:right">0–5</td><td>Apertura y reglas</td><td>Revisar avance del proyecto y alinear la metodología</td></tr><tr><td style="text-align:right">5–11</td><td>Setup y revisión del archivo</td><td>Importar dataset y entender hojas</td></tr><tr><td style="text-align:right">11–27</td><td>Parte 1 — Limpieza</td><td>Normalizar columnas, fechas, ventas y booleanos</td></tr><tr><td style="text-align:right">27–42</td><td>Parte 2 — Enriquecimiento</td><td>Unir ventas con tiendas y departamentos</td></tr><tr><td style="text-align:right">42–62</td><td>Parte 3 — KPIs</td><td>Calcular eficiencia, crecimiento y participación</td></tr><tr><td style="text-align:right">62–72</td><td>Parte 4 — Dashboard + C→F→I</td><td>Visualizar y redactar hallazgos</td></tr><tr><td style="text-align:right">72–78</td><td>Parte 5 — QA y README</td><td>Validar resultados y documentar</td></tr><tr><td style="text-align:right">78–84</td><td>Cierre y validación</td><td>Revisar el resultado esperado y consolidar aprendizajes</td></tr><tr><td style="text-align:right">84–90</td><td>Quiz final</td><td>Validar comprensión de la práctica</td></tr></tbody>
+</table><p><strong>Todos los ejercicios se realizan mediante Coding Together. El quiz está incluido dentro de los 90 minutos.</strong></p>
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Materiales" data-type="basic_slide" id="slide-7">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><h1>📂 Dataset y material de trabajo</h1><h2>Dataset de la sesión</h2>
+<p><strong>Archivo:</strong> <code>sp2_sesion_practica_walmart_retail.xlsx</code></p>
+<p><strong>Hojas incluidas:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Hoja</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>README</code></td>
+<td>Contexto general y problemas intencionales</td>
+</tr>
+<tr>
+<td><code>raw_sales</code></td>
+<td>Ventas semanales por tienda y departamento</td>
+</tr>
+<tr>
+<td><code>raw_stores</code></td>
+<td>Dimensión de tiendas</td>
+</tr>
+<tr>
+<td><code>raw_departments</code></td>
+<td>Dimensión de departamentos</td>
+</tr>
+<tr>
+<td><code>data_dictionary</code></td>
+<td>Diccionario de columnas y reglas de limpieza</td>
+</tr>
+<tr>
+<td><code>kpi_template</code></td>
+<td>Definición de KPIs esperados</td>
+</tr>
+<tr>
+<td><code>cfi_template</code></td>
+<td>Plantilla de comunicación Cifra → Factor → Iniciativa</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Unidad de análisis:</strong> una fila en <code>raw_sales</code> representa ventas semanales de un departamento en una tienda.</p>
+<p>El archivo contiene problemas intencionales. No los corrijas directamente sobre <code>raw_sales</code>; crea hojas de trabajo limpias.</p>
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-gotocode" data-transition-title="Vamos al material" data-type="gotocode" id="slide-8">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><h1>Momento de abrir el archivo de trabajo</h1><p style="font-size:1.6rem; max-width:1000px; line-height:1.5;">Comparte el enlace del notebook/dataset y verifica que todos puedan abrir Google Sheets o Colab antes de avanzar.</p>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Celda opcional" data-type="basic_slide" id="slide-9">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>🧪 Verificación opcional en Colab</h1><pre><code class="language-python"># Celda opcional para Colab
+# Sirve solo para confirmar que el notebook ejecuta correctamente.
+print("Sprint 2 - sesión práctica cargada correctamente.")</code></pre></div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Parte 1 — Limpieza de datos (16 min)" data-type="basic_slide" id="slide-10">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>Parte 1 — Limpieza de datos (16 min)</h1><h3>1.1 Duplicar hoja de trabajo</h3>
+<p>Duplica <code>raw_sales</code> y renómbrala:</p>
+<pre><code class="language-text">clean_sales
+</code></pre>
+<p>No modifiques <code>raw_sales</code>.</p>
+<h3>1.2 Renombrar columnas</h3>
+<p>Estandariza encabezados en <code>clean_sales</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Original</th>
+<th>Nuevo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Store</code></td>
+<td><code>store_id_raw</code></td>
+</tr>
+<tr>
+<td><code>Dept</code></td>
+<td><code>dept_raw</code></td>
+</tr>
+<tr>
+<td><code>Date</code></td>
+<td><code>week_date_raw</code></td>
+</tr>
+<tr>
+<td><code>Weekly Sales</code></td>
+<td><code>weekly_sales_raw</code></td>
+</tr>
+<tr>
+<td><code>IsHoliday</code></td>
+<td><code>is_holiday_raw</code></td>
+</tr>
+</tbody>
+</table>
+<h3>1.3 Crear columnas limpias</h3>
+<p>Agrega estas columnas al final:</p>
+<table>
+<thead>
+<tr>
+<th>Columna nueva</th>
+<th>Propósito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>store_id</code></td>
+<td>tienda convertida a número</td>
+</tr>
+<tr>
+<td><code>dept</code></td>
+<td>departamento convertido a número</td>
+</tr>
+<tr>
+<td><code>week_date</code></td>
+<td>fecha semanal estandarizada</td>
+</tr>
+<tr>
+<td><code>weekly_sales</code></td>
+<td>venta semanal numérica</td>
+</tr>
+<tr>
+<td><code>is_holiday</code></td>
+<td>indicador normalizado</td>
+</tr>
+<tr>
+<td><code>week_key</code></td>
+<td>llave temporal año-semana</td>
+</tr>
+</tbody>
+</table>
+<h3>Fórmulas guía</h3>
+<p>Para quitar espacios:</p>
+<pre><code class="language-excel">=TRIM(A2)
+</code></pre>
+<p>Para convertir a número:</p>
+<pre><code class="language-excel">=VALUE(TRIM(A2))
+</code></pre>
+<p>Para crear semana:</p>
+<pre><code class="language-excel">=YEAR(C2)&amp;"-"&amp;TEXT(WEEKNUM(C2,2),"00")
+</code></pre>
+<p>Para normalizar feriado, define una regla sencilla:</p>
+<table>
+<thead>
+<tr>
+<th>Valor original</th>
+<th>Valor limpio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>TRUE</code>, <code>YES</code>, <code>1</code></td>
+<td><code>1</code></td>
+</tr>
+<tr>
+<td><code>FALSE</code>, <code>NO</code>, <code>0</code></td>
+<td><code>0</code></td>
+</tr>
+</tbody>
+</table>
+<h3>Coding Together — diagnóstico de calidad</h3>
+<p>En conjunto, identifiquemos al menos tres problemas de calidad. El instructor registra un ejemplo en pantalla y cada estudiante lo reproduce en una hoja llamada issues_log. Levanta la mano para proponer un hallazgo o pedir que repitamos el paso.</p>
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Parte 2 — Enriquecimiento con dimensiones (15 min)" data-type="basic_slide" id="slide-11">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>Parte 2 — Enriquecimiento con dimensiones (15 min)</h1><p>El archivo de ventas solo tiene IDs. Para analizar correctamente se deben traer atributos desde dimensiones.</p>
+<h3>2.1 Crear columnas enriquecidas</h3>
+<p>En <code>clean_sales</code>, agrega:</p>
+<table>
+<thead>
+<tr>
+<th>Columna</th>
+<th>Fuente</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>store_name</code></td>
+<td><code>raw_stores</code></td>
+</tr>
+<tr>
+<td><code>store_type</code></td>
+<td><code>raw_stores</code></td>
+</tr>
+<tr>
+<td><code>size_m2</code></td>
+<td><code>raw_stores</code></td>
+</tr>
+<tr>
+<td><code>city</code></td>
+<td><code>raw_stores</code></td>
+</tr>
+<tr>
+<td><code>dept_name</code></td>
+<td><code>raw_departments</code></td>
+</tr>
+<tr>
+<td><code>dept_group</code></td>
+<td><code>raw_departments</code></td>
+</tr>
+</tbody>
+</table>
+<h3>2.2 Fórmulas sugeridas</h3>
+<p>Con <code>XLOOKUP</code>:</p>
+<pre><code class="language-excel">=XLOOKUP([@store_id], raw_stores!A:A, raw_stores!B:B, "No Match")
+</code></pre>
+<p>Con <code>VLOOKUP</code>:</p>
+<pre><code class="language-excel">=VLOOKUP([@store_id], raw_stores!A:F, 2, FALSE)
+</code></pre>
+<p>Para departamentos:</p>
+<pre><code class="language-excel">=XLOOKUP([@dept], raw_departments!A:A, raw_departments!B:B, "No Match")
+</code></pre>
+<h3>2.3 Validación del merge</h3>
+<p>Crea una hoja <code>JOIN_DOC</code> con:</p>
+<table>
+<thead>
+<tr>
+<th>validación</th>
+<th>resultado esperado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conteo de <code>No Match</code> en tiendas</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Conteo de <code>No Match</code> en departamentos</td>
+<td>Revisar: hay un dept intencionalmente inexistente</td>
+</tr>
+<tr>
+<td>Duplicados en <code>clean_sales</code></td>
+<td>Identificar y decidir si se eliminan</td>
+</tr>
+<tr>
+<td>Total ventas antes vs. después de limpieza</td>
+<td>Debe reconciliar o explicar diferencias</td>
+</tr>
+</tbody>
+</table>
+<p>No elimines un registro sin documentar la decisión.</p>
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Parte 3 — KPIs principales (20 min)" data-type="basic_slide" id="slide-12">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>Parte 3 — KPIs principales (20 min)</h1><p>Crea tres hojas:</p>
+<pre><code class="language-text">kpi_efficiency
+kpi_growth
+kpi_share
+</code></pre>
+<h3>KPI 1 — Eficiencia: ventas por m²</h3>
+<p><strong>Definición:</strong></p>
+<pre><code class="language-text">Sales_per_m2 = SUM(weekly_sales) / size_m2
+</code></pre>
+<p><strong>Pivot sugerida:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Área</th>
+<th>Campo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rows</td>
+<td><code>store_name</code></td>
+</tr>
+<tr>
+<td>Columns</td>
+<td><code>store_type</code></td>
+</tr>
+<tr>
+<td>Values</td>
+<td><code>SUM weekly_sales</code></td>
+</tr>
+<tr>
+<td>Helper</td>
+<td>dividir por <code>size_m2</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Interpretación:</strong> una tienda pequeña puede ser más eficiente que una tienda grande si genera más ventas por metro cuadrado.</p>
+<h3>KPI 2 — Crecimiento semanal</h3>
+<p><strong>Definición:</strong></p>
+<pre><code class="language-text">Weekly_growth_pct = (sales_current_week - sales_previous_week) / sales_previous_week
+</code></pre>
+<p><strong>Pasos sugeridos:</strong></p>
+<ol>
+<li>Crea una Pivot por <code>week_key</code> con suma de ventas.</li>
+<li>Ordena semanas ascendentemente.</li>
+<li>Agrega una columna de crecimiento.</li>
+<li>Evita división por cero o semanas vacías.</li>
+</ol>
+<h3>KPI 3 — Participación por departamento</h3>
+<p><strong>Definición:</strong></p>
+<pre><code class="language-text">Dept_share_pct = department_sales / total_sales
+</code></pre>
+<p><strong>Pivot sugerida:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Área</th>
+<th>Campo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rows</td>
+<td><code>dept_name</code></td>
+</tr>
+<tr>
+<td>Values</td>
+<td><code>SUM weekly_sales</code></td>
+</tr>
+<tr>
+<td>Show as</td>
+<td><code>% of grand total</code></td>
+</tr>
+</tbody>
+</table>
+<p>Si la herramienta no permite porcentaje del total, calcula fuera de la Pivot:</p>
+<pre><code class="language-excel">=B2/SUM($B$2:$B$10)
+</code></pre>
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Parte 4 — Dashboard y comunicación C→F→I (10 min)" data-type="basic_slide" id="slide-13">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>Parte 4 — Dashboard y comunicación C→F→I (10 min)</h1><p>Crea una hoja <code>dashboard</code> con una versión mínima:</p>
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Contenido</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KPI 1</td>
+<td>Ventas totales</td>
+</tr>
+<tr>
+<td>KPI 2</td>
+<td>Tienda con mayor eficiencia</td>
+</tr>
+<tr>
+<td>KPI 3</td>
+<td>Departamento con mayor participación</td>
+</tr>
+<tr>
+<td>Gráfico 1</td>
+<td>Ventas por semana</td>
+</tr>
+<tr>
+<td>Gráfico 2</td>
+<td>Ventas por departamento</td>
+</tr>
+<tr>
+<td>Texto</td>
+<td>2 hallazgos C→F→I</td>
+</tr>
+</tbody>
+</table>
+<h3>C→F→I</h3>
+<p>Usa la plantilla <code>cfi_template</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Pregunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cifra</td>
+<td>¿Qué pasó?</td>
+</tr>
+<tr>
+<td>Factor</td>
+<td>¿Qué podría explicarlo?</td>
+</tr>
+<tr>
+<td>Iniciativa</td>
+<td>¿Qué acción o siguiente análisis propondrías?</td>
+</tr>
+</tbody>
+</table>
+<p>Ejemplo:</p>
+<blockquote>
+<p><strong>Cifra:</strong> Electronics concentra una alta proporción de ventas.<br/>
+<strong>Factor:</strong> puede tener tickets más altos que otros departamentos.<br/>
+<strong>Iniciativa:</strong> revisar margen y rotación antes de aumentar inventario.</p>
+</blockquote>
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Parte 5 — QA y README (6 min)" data-type="basic_slide" id="slide-14">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>Parte 5 — QA y README (6 min)</h1><p>Crea una hoja <code>QA_checks</code>.</p>
+<p>Incluye al menos estas validaciones:</p>
+<table>
+<thead>
+<tr>
+<th>Validación</th>
+<th>Fórmula o método</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total ventas crudas vs. limpias</td>
+<td><code>SUM(raw)</code> vs. <code>SUM(clean)</code></td>
+</tr>
+<tr>
+<td>Conteo de tiendas sin match</td>
+<td><code>COUNTIF(range,"No Match")</code></td>
+</tr>
+<tr>
+<td>Conteo de departamentos sin match</td>
+<td><code>COUNTIF(range,"No Match")</code></td>
+</tr>
+<tr>
+<td>Fechas válidas</td>
+<td>revisar filtros en <code>week_date</code></td>
+</tr>
+<tr>
+<td>Duplicados</td>
+<td>revisar <code>store_id + dept + week_date</code></td>
+</tr>
+<tr>
+<td>Divisiones por cero</td>
+<td>revisar KPIs de crecimiento</td>
+</tr>
+</tbody>
+</table>
+<p>Actualiza <code>README</code> con:</p>
+<ul>
+<li>objetivo del análisis;</li>
+<li>hojas creadas;</li>
+<li>cambios realizados;</li>
+<li>supuestos;</li>
+<li>pendientes;</li>
+<li>autor y fecha.</li>
+</ul>
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Resultado esperado al cierre de la sesión" data-type="basic_slide" id="slide-15">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>Resultado esperado al cierre de la sesión</h1><p>Este resultado se construye paso a paso mediante Coding Together. No corresponde a breakout rooms ni a una entrega independiente durante la sesión.</p><p>Al finalizar, el archivo de trabajo debe tener:</p>
+<ol>
+<li><code>clean_sales</code> con columnas limpias y enriquecidas.</li>
+<li><code>issues_log</code> con problemas encontrados.</li>
+<li><code>JOIN_DOC</code> con validaciones de llaves y matches.</li>
+<li><code>kpi_efficiency</code>, <code>kpi_growth</code>, <code>kpi_share</code>.</li>
+<li><code>dashboard</code> con KPIs y gráficos básicos.</li>
+<li><code>QA_checks</code> con controles mínimos.</li>
+<li><code>README</code> actualizado con supuestos y pendientes.</li>
+</ol>
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Cierre y validación de conocimiento (6 min)" data-type="basic_slide" id="slide-16">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Validación</div><h1>Cierre y validación de conocimiento (6 min)</h1><ol>
+<li>¿Por qué no se debe limpiar directamente sobre <code>raw_sales</code>?</li>
+<li>¿Qué problema resuelve <code>TRIM()</code>?</li>
+<li>¿Por qué se crea una columna <code>week_key</code>?</li>
+<li>¿Qué significa un resultado <code>No Match</code> en un lookup?</li>
+<li>¿Por qué <code>Sales_per_m2</code> puede cambiar la lectura frente a ventas totales?</li>
+<li>¿Qué validación harías antes de confiar en una Pivot?</li>
+<li>¿Qué diferencia hay entre una cifra y una iniciativa en C→F→I?</li>
+</ol><div class="answer-reveal-section"><h3>Respuestas o criterios esperados</h3><ol>
+<li>Para preservar la fuente original y poder auditar cambios.</li>
+<li>Elimina espacios extra que afectan llaves, categorías y búsquedas exactas.</li>
+<li>Permite agrupar semanas de forma consistente.</li>
+<li>La llave no existe en la dimensión o está mal estandarizada.</li>
+<li>Normaliza ventas por tamaño de tienda; permite comparar eficiencia.</li>
+<li>Reconciliar totales, revisar matches, fechas válidas y duplicados.</li>
+<li>La cifra describe evidencia; la iniciativa propone una acción o análisis siguiente.</li>
+</ol></div>
+
+
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Takeaways" data-type="basic_slide" id="slide-17">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Cierre</div><h1>Takeaways</h1><ul>
+<li>La práctica profesional exige conservar datos crudos y trabajar en copias.</li>
+<li>La limpieza debe ser documentada, no solo aplicada.</li>
+<li>Los lookups conectan hechos con dimensiones y permiten análisis más ricos.</li>
+<li>Un KPI debe tener definición explícita y unidad de medida clara.</li>
+<li>Las tablas dinámicas aceleran el resumen, pero no reemplazan la validación.</li>
+<li>El dashboard debe comunicar pocos elementos bien seleccionados.</li>
+<li>C→F→I ayuda a pasar de datos a decisión.</li>
+</ul>
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Cierre y canales de ayuda" data-type="basic_slide" id="slide-18">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>Cierre y canales de ayuda</h1><p>En esta sesión aplicaste limpieza, enriquecimiento, KPIs, dashboard y comunicación sobre un dataset distinto al de la teoría. El foco fue construir un archivo de análisis que otro estudiante o tutor pueda revisar.</p>
+<h3>¿Necesitas ayuda?</h3>
+<p>Recuerda los canales de ayuda disponibles:</p>
+<ul>
+<li><code>OFFICE HOURS</code>: revisa los horarios de atención en la guía del estudiante. Hay horarios de apoyo todos los días para dudas puntuales.</li>
+<li><code>DA_CONSULTA</code>: publica preguntas sobre el contenido de la plataforma o el proyecto 24/7. Incluye el tag <code>@Dataconsulta</code>.</li>
+<li><code>SPRINT FOCUS</code>: para los Sprints 1 al 5 hay sesiones extra donde se abordan temas de cada sprint a profundidad. Revisa la guía del estudiante para horarios.</li>
+<li><code>SESIONES 1:1</code>: puedes agendar sesiones 1:1 con un tutor. Agenda con antelación y lleva dudas concretas sobre proyecto, curso, carrera o problemas técnicos.</li>
+<li><code>CANAL DE DISCORD DE COMMUNITY</code>: usa el canal de tu cohorte para compartir hallazgos, recursos o preguntas con tus compañeros.</li>
+</ul>
+<p><strong>Q&amp;A y próximos pasos.</strong></p>
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Siguientes pasos" data-type="basic_slide" id="slide-19">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Coding Together</div><h1>Siguientes pasos</h1><ul>
+<li>Revisa si tus KPIs reconciliaron con los totales del dataset limpio.</li>
+<li>Comparte en Discord una captura de tu dashboard o una duda específica.</li>
+<li>Antes del Sprint 3, repasa cómo una tabla estructurada puede convertirse en una tabla para SQL.</li>
+</ul>
+</div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-quizz slide-basic_slide" data-transition-title="Pongamos a prueba lo aprendido" data-type="quizz" id="slide-20">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><div class="quiz-container content-wrapper" data-quiz='[{"text": "&lt;p&gt;¿Por qué no se debe limpiar directamente sobre &lt;code&gt;raw_sales&lt;/code&gt;?&lt;/p&gt;", "options": [{"text": "&lt;p&gt;Porque se pierde trazabilidad sobre la fuente original.&lt;/p&gt;", "correct": true}, {"text": "&lt;p&gt;Porque Google Sheets no permite editar hojas.&lt;/p&gt;", "correct": false}, {"text": "&lt;p&gt;Porque los KPIs siempre se calculan en &lt;code&gt;README&lt;/code&gt;.&lt;/p&gt;", "correct": false}], "feedback": "Se trabaja en copias limpias para auditar y reconciliar."}, {"text": "&lt;p&gt;¿Qué significa un resultado &lt;code&gt;No Match&lt;/code&gt; en un lookup?&lt;/p&gt;", "options": [{"text": "&lt;p&gt;Que la llave no existe en la dimensión o está mal estandarizada.&lt;/p&gt;", "correct": true}, {"text": "&lt;p&gt;Que la venta semanal es cero.&lt;/p&gt;", "correct": false}, {"text": "&lt;p&gt;Que la PivotTable falló.&lt;/p&gt;", "correct": false}], "feedback": "Los &lt;code&gt;No Match&lt;/code&gt; deben contarse y documentarse antes de confiar en el análisis."}, {"text": "&lt;p&gt;¿Por qué &lt;code&gt;Sales_per_m2&lt;/code&gt; cambia la lectura frente a ventas totales?&lt;/p&gt;", "options": [{"text": "&lt;p&gt;Porque normaliza la venta por tamaño de tienda.&lt;/p&gt;", "correct": true}, {"text": "&lt;p&gt;Porque elimina ventas bajas.&lt;/p&gt;", "correct": false}, {"text": "&lt;p&gt;Porque convierte fechas en semanas.&lt;/p&gt;", "correct": false}], "feedback": "La eficiencia permite comparar tiendas de tamaños distintos."}]' data-timer="20">
+<h1>Pongamos a prueba lo aprendido</h1><h2>Preguntas rápidas de validación</h2>
+<div class="quiz-intro">Responde mentalmente o por chat. La respuesta se revela automáticamente.</div>
+<button class="quiz-start-btn">Iniciar quiz</button>
+<div class="quiz-ui" style="display:none;">
+<div class="quiz-nav-menu"></div>
+<div class="quiz-header"><span>Pregunta activa</span><span class="quiz-timer">Tiempo: <span class="time-left">20</span>s</span></div>
+<div class="quiz-question-box"></div>
+<div class="quiz-options-box"></div>
+<div class="quiz-feedback-box"></div>
+<button class="quiz-show-answer-btn">Mostrar respuesta</button>
+<button class="quiz-next-btn" style="display:none;">Siguiente pregunta</button>
+</div>
+</div><div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-basic_slide" data-transition-title="Ahora para finalizar" data-type="basic_slide" id="slide-21">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><span class="session-tag">Sprint 2 · Sesión práctica</span><div class="content-wrapper"><div class="class-moment">Cierre</div><h1>🎉 Espero que hayas disfrutado la sesión</h1><h2>Qué te parece si:</h2><ul>
+<li>Aplicas lo aprendido en el archivo de práctica.</li>
+<li>Documentas dudas concretas para revisarlas en comunidad o tutoría.</li>
+<li>Comparte un hallazgo, un problema detectado o una captura de tu avance.</li>
+<li>Responde la encuesta de satisfacción al finalizar la sesión.</li>
+</ul></div>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide slide-finale" data-type="finale" id="slide-22">
+<img alt="Logo" class="company-logo" src="https://logoimg.careerjet.net/2f2f984040414fbcf1747ea52b99ee70.png"/><h1>¡Excelente trabajo! 🚀📊</h1><h2>¡Gracias por participar!</h2>
+<div class="class-rules-footer">🙋 Levanta la mano · 💬 Participa por voz o chat · 🛠️ Mantén Sheets/Excel abiertos · 🧑‍💻 Coding Together · 🆘 Pregunta si te pierdes</div></div>
+<div class="slide-menu" id="slide-menu"><div class="slide-menu-content"><button class="close-menu" id="close-menu-btn" title="Cerrar">×</button><h2>Índice de Diapositivas</h2><ul class="slide-list"><li><button class="menu-jump-btn" data-index="0">1. Sprint 2 Sesión 4</button></li><li><button class="menu-jump-btn" data-index="1">2. ¿Cómo vas avanzando con tu proyecto? 🚀</button></li><li><button class="menu-jump-btn" data-index="2">3. 🧭 Contexto de la sesión</button></li><li><button class="menu-jump-btn" data-index="3">4. 🧭 Introducción</button></li><li><button class="menu-jump-btn" data-index="4">5. ⚖️ Reglas y metodología de la sesión</button></li><li><button class="menu-jump-btn" data-index="5">6. Metas de contenido para esta sesión</button></li><li><button class="menu-jump-btn" data-index="6">7. Plan de nuestra sesión</button></li><li><button class="menu-jump-btn" data-index="7">8. 📂 Dataset y material de trabajo</button></li><li><button class="menu-jump-btn" data-index="8">9. Momento de abrir el archivo de trabajo</button></li><li><button class="menu-jump-btn" data-index="9">10. 🧪 Verificación opcional en Colab</button></li><li><button class="menu-jump-btn" data-index="10">11. Parte 1 — Limpieza de datos (16 min)</button></li><li><button class="menu-jump-btn" data-index="11">12. Parte 2 — Enriquecimiento con dimensiones (15 min)</button></li><li><button class="menu-jump-btn" data-index="12">13. Parte 3 — KPIs principales (20 min)</button></li><li><button class="menu-jump-btn" data-index="13">14. Parte 4 — Dashboard y comunicación C→F→I (10 min)</button></li><li><button class="menu-jump-btn" data-index="14">15. Parte 5 — QA y README (6 min)</button></li><li><button class="menu-jump-btn" data-index="15">16. Resultado esperado al cierre de la sesión</button></li><li><button class="menu-jump-btn" data-index="16">17. Cierre y validación de conocimiento (6 min)</button></li><li><button class="menu-jump-btn" data-index="17">18. Takeaways</button></li><li><button class="menu-jump-btn" data-index="18">19. Cierre y canales de ayuda</button></li><li><button class="menu-jump-btn" data-index="19">20. Siguientes pasos</button></li><li><button class="menu-jump-btn" data-index="20">21. Pongamos a prueba lo aprendido</button></li><li><button class="menu-jump-btn" data-index="21">22. 🎉 Espero que hayas disfrutado la sesión</button></li><li><button class="menu-jump-btn" data-index="22">23. ¡Excelente trabajo! 🚀📊</button></li></ul></div></div>
+<div class="slide-nav">
+<button id="prev-btn" title="Anterior (Flecha Izquierda)">←</button>
+<button id="menu-btn" title="Índice de Diapositivas">☰</button>
+<button id="next-btn" title="Siguiente (Flecha Derecha)">→</button>
+</div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const dateObj = new Date();
+        const day = dateObj.getDate();
+        const months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+        const month = months[dateObj.getMonth()];
+        const year = dateObj.getFullYear();
+        const dateStr = `${day} de ${month} ${year}`;
+        document.querySelectorAll('.dynamic-date').forEach(el => el.textContent = dateStr);
+
+        const slides = document.querySelectorAll('.slide');
+        const transitionOverlay = document.getElementById('transition-overlay');
+        const transitionTitleElement = transitionOverlay.querySelector('h1');
+        
+        let currentSlide = -1;
+        let isTransitioning = false;
+        let slideIntervals = {}; 
+
+        function showSlide(index) {
+            if (isTransitioning || index === currentSlide) return;
+            
+            const nextSlideElement = slides[index];
+            if (!nextSlideElement) return;
+
+            isTransitioning = true;
+            
+            const transitionTitle = nextSlideElement.dataset.transitionTitle;
+
+            if (currentSlide > -1) {
+                slides[currentSlide].classList.remove('active');
+            }
+
+            if (transitionTitle && index > currentSlide) {
+                transitionTitleElement.textContent = transitionTitle;
+                transitionOverlay.className = 'slide';
+                transitionOverlay.classList.add(`slide-${nextSlideElement.dataset.type}`);
+                transitionOverlay.classList.add('visible');
+
+                setTimeout(() => {
+                    transitionOverlay.classList.remove('visible');
+                    currentSlide = index;
+                    slides[currentSlide].classList.add('active');
+                    activateSlide(currentSlide);
+                    setTimeout(() => isTransitioning = false, 500);
+                }, 1000);
+            } else {
+                currentSlide = index;
+                slides[currentSlide].classList.add('active');
+                activateSlide(currentSlide);
+                isTransitioning = false;
+            }
+        }
+
+        function nextSlide() {
+            if (currentSlide < slides.length - 1) {
+                showSlide(currentSlide + 1);
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+                showSlide(currentSlide - 1);
+            }
+        }
+        
+        function activateSlide(index) {
+            const slideElement = slides[index];
+            if (!slideElement) return;
+            const slideType = slideElement.dataset.type;
+
+            Object.values(slideIntervals).forEach(clearInterval);
+
+            if (slideType === 'countdown') {
+                const timerElement = slideElement.querySelector('.timer');
+                const startMessage = slideElement.querySelector('.start-message');
+                let duration = parseInt(slideElement.dataset.timer || '300', 10);
+
+                slideIntervals[index] = setInterval(() => {
+                    if (duration < 0) {
+                        clearInterval(slideIntervals[index]);
+                        timerElement.style.display = 'none';
+                        startMessage.style.display = 'block';
+                        setTimeout(nextSlide, 2000); 
+                        return;
+                    }
+                    const minutes = Math.floor(duration / 60);
+                    const seconds = duration % 60;
+                    timerElement.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+                    duration--;
+                }, 1000);
+            }
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') nextSlide();
+            else if (e.key === 'ArrowLeft') prevSlide();
+        });
+
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const menuBtn = document.getElementById('menu-btn');
+        const slideMenu = document.getElementById('slide-menu');
+        const closeMenuBtn = document.getElementById('close-menu-btn');
+
+        if (prevBtn) prevBtn.addEventListener('click', prevSlide);
+        if (nextBtn) nextBtn.addEventListener('click', nextSlide);
+        if (menuBtn) menuBtn.addEventListener('click', () => slideMenu.classList.add('active'));
+        if (closeMenuBtn) closeMenuBtn.addEventListener('click', () => slideMenu.classList.remove('active'));
+
+        document.querySelectorAll('.menu-jump-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const index = parseInt(e.currentTarget.dataset.index, 10);
+                slideMenu.classList.remove('active');
+                showSlide(index);
+            });
+        });
+
+        document.querySelectorAll('.quiz-container').forEach(container => {
+            const startBtn = container.querySelector('.quiz-start-btn');
+            const nextBtn = container.querySelector('.quiz-next-btn');
+            const uiBox = container.querySelector('.quiz-ui');
+            const introBox = container.querySelector('.quiz-intro');
+            const qBox = container.querySelector('.quiz-question-box');
+            const optBox = container.querySelector('.quiz-options-box');
+            const feedBox = container.querySelector('.quiz-feedback-box');
+            const timerDiv = container.querySelector('.quiz-timer');
+            const timerSpan = container.querySelector('.time-left');
+            const navMenu = container.querySelector('.quiz-nav-menu');
+            const showAnsBtn = container.querySelector('.quiz-show-answer-btn');
+
+            const h1 = container.querySelector('h1');
+            const h2 = container.querySelector('h2');
+
+            let rawData = container.getAttribute('data-quiz') || "[]";
+            const questions = JSON.parse(rawData);
+            const timeLimit = parseInt(container.getAttribute('data-timer') || "0", 10);
+            
+            let currentQIndex = 0;
+            let timerInterval;
+            let timeLeft = timeLimit;
+            let canAnswer = false;
+
+            function buildNavMenu() {
+                navMenu.innerHTML = '';
+                questions.forEach((q, idx) => {
+                    const dot = document.createElement('button');
+                    dot.className = 'quiz-nav-dot';
+                    dot.textContent = idx + 1;
+                    dot.addEventListener('click', () => jumpToQuestion(idx));
+                    navMenu.appendChild(dot);
+                });
+            }
+
+            function updateNavMenu() {
+                const dots = navMenu.querySelectorAll('.quiz-nav-dot');
+                dots.forEach((dot, idx) => {
+                    if (idx === currentQIndex) dot.classList.add('active');
+                    else dot.classList.remove('active');
+                });
+            }
+
+            function renderQuestion() {
+                clearInterval(timerInterval);
+
+                if(currentQIndex >= questions.length) {
+                    uiBox.innerHTML = '<div style="text-align:center; padding: 5rem;"><h2>¡Quiz Terminado!</h2><p>Continúa con las flechas de navegación convencionales.</p></div>';
+                    return;
+                }
+                
+                uiBox.style.opacity = '0';
+                uiBox.style.transform = 'translateX(20px)';
+                
+                setTimeout(() => {
+                    const q = questions[currentQIndex];
+                    canAnswer = true;
+                    qBox.innerHTML = q.text;
+                    optBox.innerHTML = '';
+                    feedBox.className = 'quiz-feedback-box'; 
+                    feedBox.innerHTML = q.feedback || '';
+                    nextBtn.style.display = 'none';
+                    if (showAnsBtn) showAnsBtn.style.display = 'none';
+                    updateNavMenu();
+
+                    q.options.forEach((opt, idx) => {
+                        const card = document.createElement('div');
+                        card.className = 'quiz-option-card';
+                        card.innerHTML = opt.text;
+                        optBox.appendChild(card);
+                    });
+
+                    uiBox.style.display = 'block';
+                    void uiBox.offsetWidth;
+                    uiBox.style.opacity = '1';
+                    uiBox.style.transform = 'translateX(0)';
+                    
+                    if (window.MathJax) {
+                        MathJax.typesetPromise().catch((err) => console.log('MathJax error: ', err));
+                    }
+                    if (window.hljs) {
+                        uiBox.querySelectorAll('pre code').forEach((block) => hljs.highlightElement(block));
+                    }
+
+                    if (timeLimit > 0) {
+                        timerDiv.style.display = 'inline-block';
+                        if (showAnsBtn) showAnsBtn.style.display = 'inline-block';
+                        timeLeft = timeLimit;
+                        timerSpan.textContent = timeLeft;
+                        timerInterval = setInterval(() => {
+                            timeLeft--;
+                            timerSpan.textContent = timeLeft;
+                            if (timeLeft <= 0) {
+                                clearInterval(timerInterval);
+                                revealAnswer();
+                            }
+                        }, 1000);
+                    } else {
+                        timerDiv.style.display = 'none';
+                        if (showAnsBtn) showAnsBtn.style.display = 'inline-block';
+                        setTimeout(revealAnswer, 5000);
+                    }
+                }, 400);
+            }
+
+            function revealAnswer() {
+                if(!canAnswer) return;
+                canAnswer = false;
+                clearInterval(timerInterval);
+                if (showAnsBtn) showAnsBtn.style.display = 'none';
+                
+                const q = questions[currentQIndex];
+                const cards = optBox.querySelectorAll('.quiz-option-card');
+                
+                cards.forEach((card, idx) => {
+                    if(q.options[idx].correct) {
+                        card.classList.add('flip-correct');
+                    } else {
+                        card.classList.add('fade-out');
+                    }
+                });
+
+                if (q.feedback) {
+                    feedBox.classList.add('show');
+                }
+                
+                if (currentQIndex < questions.length - 1) {
+                    nextBtn.style.display = 'inline-block';
+                    
+                    if (timeLimit > 0) {
+                        timeLeft = timeLimit;
+                        timerSpan.textContent = timeLeft;
+                        timerInterval = setInterval(() => {
+                            timeLeft--;
+                            timerSpan.textContent = timeLeft;
+                            if (timeLeft <= 0) {
+                                clearInterval(timerInterval);
+                                currentQIndex++;
+                                renderQuestion();
+                            }
+                        }, 1000);
+                    }
+                } else {
+                    setTimeout(() => {
+                        currentQIndex++;
+                        renderQuestion();
+                    }, timeLimit > 0 ? timeLimit * 1000 : 5000);
+                }
+            }
+            
+            function jumpToQuestion(idx) {
+                clearInterval(timerInterval);
+                currentQIndex = idx;
+                renderQuestion();
+            }
+
+            startBtn.addEventListener('click', () => {
+                startBtn.style.display = 'none';
+                
+                if(introBox) {
+                    introBox.style.opacity = '0';
+                    introBox.style.transform = 'scale(0.95)';
+                    setTimeout(() => introBox.style.display = 'none', 500);
+                }
+                if(h1) h1.style.display = 'none';
+                if(h2) h2.style.display = 'none';
+                
+                buildNavMenu();
+                
+                setTimeout(() => {
+                    uiBox.style.display = 'block';
+                    renderQuestion();
+                }, 500);
+            });
+
+            nextBtn.addEventListener('click', () => {
+                currentQIndex++;
+                renderQuestion();
+            });
+
+            if (showAnsBtn) {
+                showAnsBtn.addEventListener('click', () => {
+                    revealAnswer();
+                });
+            }
+        });
+
+        if (slides.length > 0) {
+            showSlide(0);
+        }
+    });
+</script>
+</body>
+</html>
