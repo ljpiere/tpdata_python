@@ -1,0 +1,901 @@
+﻿id_propiedad,tipo_propiedad,categoria_propiedad,ciudad_propiedad,barrio,habitaciones,tamano_m2,precio_publicado,estado_propiedad
+PROP00001,House,Residential,Cartagena,El Cabrero,2,265,465276.0,Vendida
+PROP00002,Apartment,Residential,Bogotá,Usaquén,1,192,238079.0,Disponible
+PROP00003,Office,Commercial,Barranquilla,Alto Prado,0,201,614777.0,Reservada
+PROP00004,Land,Land,Bogotá,Kennedy,0,585,319513.0,Disponible
+PROP00005,House,Residential,Barranquilla,El Prado,2,217,371585.0,Disponible
+PROP00006,House,Residential,Barranquilla,Alto Prado,2,284,409315.0,Disponible
+PROP00007,Office,Commercial,Medellín,Belén,0,156,532498.0,Disponible
+PROP00008,Apartment,Residential,Barranquilla,El Prado,1,215,424437.0,Disponible
+PROP00009,Commercial,Commercial,Cartagena,Manga,0,234,503455.0,Disponible
+PROP00010,Apartment,Residential,Cartagena,Crespo,4,189,226212.0,Vendida
+PROP00011,Office,Commercial,Medellín,Envigado,0,235,654278.0,Vendida
+PROP00012,Apartment,Residential,Medellín,Laureles,1,109,381429.0,Vendida
+PROP00013,Apartment,Residential,Barranquilla,Villa Country,3,221,448242.0,Disponible
+PROP00014,House,Residential,Bogotá,Usaquén,4,213,800555.0,Vendida
+PROP00015,House,Residential,Cartagena,Manga,5,213,917761.0,Vendida
+PROP00016,Commercial,Commercial,Medellín,El Poblado,0,331,493046.0,Disponible
+PROP00017,Land,Land,Cartagena,Crespo,0,1089,173379.0,Disponible
+PROP00018,Apartment,Residential,Bogotá,Teusaquillo,3,163,232345.0,Reservada
+PROP00019,Apartment,Residential,Bogotá,Chapinero,3,94,173016.0,Vendida
+PROP00020,Apartment,Residential,Bucaramanga,Provenza,4,65,408208.0,Disponible
+PROP00021,House,Residential,Cartagena,Crespo,5,426,716610.0,Disponible
+PROP00022,House,Residential,Cartagena,El Cabrero,2,413,319339.0,Vendida
+PROP00023,Commercial,Commercial,Bucaramanga,Cabecera,0,418,500487.0,Disponible
+PROP00024,Office,Commercial,Medellín,Sabaneta,0,155,314918.0,Vendida
+PROP00025,Apartment,Residential,Bogotá,Usaquén,4,235,285952.0,Vendida
+PROP00026,House,Residential,Bogotá,Usaquén,3,265,574316.0,Vendida
+PROP00027,House,Residential,Medellín,Laureles,1,117,459404.0,Vendida
+PROP00028,House,Residential,Bogotá,Teusaquillo,4,163,901825.0,Disponible
+PROP00029,Apartment,Residential,Bucaramanga,Provenza,5,103,224149.0,Vendida
+PROP00030,Apartment,Residential,Bogotá,Kennedy,1,126,337610.0,Vendida
+PROP00031,Apartment,Residential,Bogotá,Teusaquillo,1,246,297343.0,Vendida
+PROP00032,Apartment,Residential,Bogotá,Teusaquillo,5,116,280995.0,Disponible
+PROP00033,Office,Commercial,Bogotá,Teusaquillo,0,176,664184.0,Disponible
+PROP00034,Apartment,Residential,Bogotá,Teusaquillo,3,103,472970.0,Disponible
+PROP00035,House,Residential,Cali,Centenario,2,328,264054.0,Disponible
+PROP00036,House,Residential,Medellín,Sabaneta,4,299,579960.0,Reservada
+PROP00037,Commercial,Commercial,Cali,Chipichape,0,145,436516.0,Vendida
+PROP00038,Apartment,Residential,Cartagena,Bocagrande,2,144,295963.0,Vendida
+PROP00039,Apartment,Residential,Cali,Granada,2,67,355535.0,Vendida
+PROP00040,Apartment,Residential,Barranquilla,Villa Country,2,236,288784.0,Disponible
+PROP00041,House,Residential,Medellín,Laureles,3,350,473276.0,Disponible
+PROP00042,Apartment,Residential,Bogotá,Teusaquillo,1,247,256458.0,Disponible
+PROP00043,Office,Commercial,Medellín,Sabaneta,0,233,374926.0,Disponible
+PROP00044,Apartment,Residential,Bucaramanga,Provenza,2,92,260850.0,Disponible
+PROP00045,Apartment,Residential,Cali,Chipichape,2,197,276545.0,Disponible
+PROP00046,Apartment,Residential,Bogotá,Usaquén,1,66,378547.0,Disponible
+PROP00047,Office,Commercial,Medellín,Belén,0,251,262802.0,Reservada
+PROP00048,Commercial,Commercial,Cartagena,Crespo,0,380,373076.0,Disponible
+PROP00049,Office,Commercial,Cali,Centenario,0,191,494209.0,Disponible
+PROP00050,House,Residential,Cali,El Peñón,4,458,730453.0,Disponible
+PROP00051,Office,Commercial,Cartagena,Crespo,0,227,352294.0,Vendida
+PROP00052,House,Residential,Cali,Ciudad Jardín,1,409,398831.0,Reservada
+PROP00053,Apartment,Residential,Cali,Centenario,5,66,358047.0,Disponible
+PROP00054,House,Residential,Bogotá,Suba,1,98,525103.0,Disponible
+PROP00055,Office,Commercial,Bogotá,Kennedy,0,251,614837.0,Vendida
+PROP00056,Apartment,Residential,Bucaramanga,Cabecera,2,99,202625.0,Reservada
+PROP00057,House,Residential,Cali,El Peñón,1,247,343567.0,Vendida
+PROP00058,House,Residential,Medellín,Envigado,2,106,641398.0,Reservada
+PROP00059,House,Residential,Cali,Centenario,4,320,530816.0,Vendida
+PROP00060,Apartment,Residential,Bogotá,Chapinero,1,221,392038.0,Vendida
+PROP00061,House,Residential,Cartagena,Bocagrande,3,401,609227.0,Disponible
+PROP00062,Commercial,Commercial,Bogotá,Kennedy,0,305,627271.0,Vendida
+PROP00063,Apartment,Residential,Cartagena,Manga,4,187,206895.0,Disponible
+PROP00064,Apartment,Residential,Cali,Centenario,3,155,208110.0,Vendida
+PROP00065,Apartment,Residential,Bogotá,Chapinero,1,140,400650.0,Disponible
+PROP00066,Apartment,Residential,Bogotá,Usaquén,4,164,228614.0,Disponible
+PROP00067,Land,Land,Cartagena,Bocagrande,0,1513,248295.0,Vendida
+PROP00068,House,Residential,Bogotá,Kennedy,1,183,824497.0,Vendida
+PROP00069,Apartment,Residential,Bogotá,Teusaquillo,1,146,446796.0,Disponible
+PROP00070,Apartment,Residential,Barranquilla,El Prado,3,174,241985.0,Vendida
+PROP00071,Land,Land,Medellín,Laureles,0,1019,120626.0,Disponible
+PROP00072,Apartment,Residential,Medellín,Sabaneta,2,51,406778.0,Disponible
+PROP00073,Office,Commercial,Bogotá,Chapinero,0,106,588002.0,Vendida
+PROP00074,Apartment,Residential,Cartagena,Crespo,1,183,262639.0,Disponible
+PROP00075,Apartment,Residential,Bogotá,Teusaquillo,4,194,347909.0,Disponible
+PROP00076,House,Residential,Bogotá,Chapinero,3,361,390225.0,Vendida
+PROP00077,Apartment,Residential,Medellín,El Poblado,5,258,382721.0,Disponible
+PROP00078,House,Residential,Bogotá,Kennedy,3,339,761842.0,Disponible
+PROP00079,Apartment,Residential,Medellín,El Poblado,3,169,252294.0,Disponible
+PROP00080,Office,Commercial,Bogotá,Suba,0,116,467699.0,Vendida
+PROP00081,Office,Commercial,Bogotá,Chapinero,0,124,393737.0,Disponible
+PROP00082,Office,Commercial,Medellín,Belén,0,222,227202.0,Disponible
+PROP00083,Apartment,Residential,Cartagena,Manga,5,145,196375.0,Vendida
+PROP00084,Office,Commercial,Bogotá,Kennedy,0,198,737968.0,Disponible
+PROP00085,Land,Land,Bogotá,Teusaquillo,0,417,233211.0,Disponible
+PROP00086,Apartment,Residential,Cartagena,Manga,1,72,203019.0,Vendida
+PROP00087,Apartment,Residential,Cartagena,El Cabrero,2,91,169387.0,Vendida
+PROP00088,Office,Commercial,Cali,Chipichape,0,86,404373.0,Disponible
+PROP00089,Apartment,Residential,Bogotá,Teusaquillo,4,175,474416.0,Vendida
+PROP00090,House,Residential,Medellín,Laureles,2,325,525508.0,Vendida
+PROP00091,Office,Commercial,Bogotá,Usaquén,0,164,759703.0,Disponible
+PROP00092,Apartment,Residential,Bogotá,Usaquén,5,107,314064.0,Vendida
+PROP00093,House,Residential,Medellín,Envigado,2,303,787130.0,Vendida
+PROP00094,House,Residential,Cali,Centenario,3,134,801956.0,Reservada
+PROP00095,Apartment,Residential,Medellín,Laureles,5,146,164152.0,Reservada
+PROP00096,Commercial,Commercial,Cali,Granada,0,147,344933.0,Vendida
+PROP00097,Apartment,Residential,Bogotá,Kennedy,2,61,454804.0,Vendida
+PROP00098,Apartment,Residential,Medellín,Belén,5,80,458053.0,Reservada
+PROP00099,Commercial,Commercial,Barranquilla,Riomar,0,131,447427.0,Vendida
+PROP00100,Apartment,Residential,Cartagena,Bocagrande,1,147,364946.0,Vendida
+PROP00101,Office,Commercial,Medellín,Sabaneta,0,162,718054.0,Vendida
+PROP00102,Apartment,Residential,Cali,Centenario,2,175,463960.0,Vendida
+PROP00103,House,Residential,Bogotá,Kennedy,3,252,464498.0,Disponible
+PROP00104,Apartment,Residential,Bogotá,Suba,3,82,420651.0,Disponible
+PROP00105,House,Residential,Barranquilla,Riomar,5,97,705969.0,Reservada
+PROP00106,Office,Commercial,Bogotá,Suba,0,198,720311.0,Disponible
+PROP00107,Commercial,Commercial,Medellín,El Poblado,0,453,458842.0,Reservada
+PROP00108,Land,Land,Medellín,Laureles,0,629,280325.0,Vendida
+PROP00109,House,Residential,Bogotá,Suba,5,165,276898.0,Vendida
+PROP00110,Office,Commercial,Bogotá,Suba,0,111,406519.0,Disponible
+PROP00111,House,Residential,Medellín,El Poblado,4,169,267871.0,Vendida
+PROP00112,Commercial,Commercial,Bucaramanga,Lagos,0,172,698760.0,Disponible
+PROP00113,House,Residential,Cali,El Peñón,4,272,819649.0,Reservada
+PROP00114,Commercial,Commercial,Medellín,Belén,0,380,873006.0,Disponible
+PROP00115,Apartment,Residential,Bogotá,Suba,2,198,257983.0,Reservada
+PROP00116,House,Residential,Cali,Ciudad Jardín,5,445,554582.0,Reservada
+PROP00117,Office,Commercial,Bogotá,Teusaquillo,0,121,412094.0,Vendida
+PROP00118,Apartment,Residential,Cali,Chipichape,4,150,392793.0,Vendida
+PROP00119,Apartment,Residential,Barranquilla,Villa Country,1,126,241518.0,Disponible
+PROP00120,Land,Land,Medellín,Laureles,0,306,114850.0,Disponible
+PROP00121,House,Residential,Bogotá,Usaquén,5,233,609643.0,Disponible
+PROP00122,Apartment,Residential,Bogotá,Suba,2,101,424745.0,Vendida
+PROP00123,Apartment,Residential,Bogotá,Suba,3,147,310069.0,Vendida
+PROP00124,Apartment,Residential,Medellín,Laureles,3,78,221361.0,Disponible
+PROP00125,House,Residential,Cartagena,Manga,5,364,291782.0,Disponible
+PROP00126,Commercial,Commercial,Bogotá,Chapinero,0,401,1104597.0,Disponible
+PROP00127,Land,Land,Cali,Ciudad Jardín,0,1547,332235.0,Vendida
+PROP00128,House,Residential,Barranquilla,Alto Prado,2,121,367326.0,Disponible
+PROP00129,Office,Commercial,Bogotá,Suba,0,70,250661.0,Disponible
+PROP00130,Apartment,Residential,Bogotá,Teusaquillo,2,252,196978.0,Disponible
+PROP00131,Commercial,Commercial,Medellín,Sabaneta,0,403,644990.0,Disponible
+PROP00132,Apartment,Residential,Cali,Centenario,1,171,418859.0,Disponible
+PROP00133,Apartment,Residential,Medellín,El Poblado,2,114,206958.0,Disponible
+PROP00134,Land,Land,Barranquilla,Villa Country,0,948,351078.0,Vendida
+PROP00135,Commercial,Commercial,Cartagena,Manga,0,288,341530.0,Reservada
+PROP00136,Apartment,Residential,Barranquilla,Riomar,1,227,395096.0,Disponible
+PROP00137,House,Residential,Bucaramanga,La Ciudadela,3,285,454866.0,Reservada
+PROP00138,House,Residential,Barranquilla,Riomar,5,100,922766.0,Reservada
+PROP00139,Apartment,Residential,Cartagena,Crespo,3,195,309649.0,Vendida
+PROP00140,Apartment,Residential,Cartagena,El Cabrero,5,212,242925.0,Vendida
+PROP00141,Apartment,Residential,Barranquilla,Villa Country,5,109,233950.0,Disponible
+PROP00142,House,Residential,Cartagena,Crespo,1,133,830387.0,Vendida
+PROP00143,House,Residential,Bucaramanga,La Ciudadela,3,142,538068.0,Vendida
+PROP00144,House,Residential,Medellín,Envigado,3,401,502907.0,Vendida
+PROP00145,Apartment,Residential,Cali,Ciudad Jardín,2,141,394092.0,Disponible
+PROP00146,Commercial,Commercial,Medellín,Belén,0,285,775292.0,Disponible
+PROP00147,House,Residential,Cartagena,El Cabrero,5,445,718046.0,Disponible
+PROP00148,Commercial,Commercial,Medellín,Envigado,0,112,700936.0,Vendida
+PROP00149,Apartment,Residential,Cartagena,Crespo,2,89,175800.0,Reservada
+PROP00150,House,Residential,Barranquilla,Villa Country,1,398,264036.0,Disponible
+PROP00151,Commercial,Commercial,Bucaramanga,Provenza,0,289,371675.0,Reservada
+PROP00152,Apartment,Residential,Bogotá,Teusaquillo,3,50,341700.0,Disponible
+PROP00153,Apartment,Residential,Barranquilla,El Prado,2,196,321928.0,Disponible
+PROP00154,Apartment,Residential,Barranquilla,Villa Country,2,74,397939.0,Vendida
+PROP00155,Apartment,Residential,Bucaramanga,La Ciudadela,3,213,445757.0,Reservada
+PROP00156,House,Residential,Cartagena,Manga,4,385,380441.0,Vendida
+PROP00157,Apartment,Residential,Cali,Chipichape,2,222,466118.0,Vendida
+PROP00158,Apartment,Residential,Cali,El Peñón,2,144,457788.0,Reservada
+PROP00159,House,Residential,Bogotá,Teusaquillo,1,189,684996.0,Vendida
+PROP00160,Apartment,Residential,Bucaramanga,La Ciudadela,2,234,327379.0,Disponible
+PROP00161,Apartment,Residential,Bogotá,Usaquén,3,165,212414.0,Vendida
+PROP00162,House,Residential,Barranquilla,Riomar,4,325,382989.0,Vendida
+PROP00163,Apartment,Residential,Barranquilla,Riomar,2,74,161065.0,Disponible
+PROP00164,Apartment,Residential,Medellín,Sabaneta,1,179,364932.0,Disponible
+PROP00165,Apartment,Residential,Bogotá,Chapinero,3,169,295771.0,Disponible
+PROP00166,Apartment,Residential,Bogotá,Suba,4,107,217374.0,Disponible
+PROP00167,House,Residential,Cartagena,Crespo,1,373,352354.0,Reservada
+PROP00168,Apartment,Residential,Medellín,Belén,3,73,175648.0,Disponible
+PROP00169,Apartment,Residential,Bogotá,Suba,1,199,363311.0,Vendida
+PROP00170,Land,Land,Barranquilla,Riomar,0,1547,307727.0,Disponible
+PROP00171,Commercial,Commercial,Bogotá,Chapinero,0,299,851624.0,Disponible
+PROP00172,Apartment,Residential,Cartagena,El Cabrero,3,67,190975.0,Disponible
+PROP00173,Apartment,Residential,Medellín,Sabaneta,4,163,168441.0,Disponible
+PROP00174,House,Residential,Bogotá,Suba,4,285,333290.0,Vendida
+PROP00175,Commercial,Commercial,Bogotá,Suba,0,294,948794.0,Disponible
+PROP00176,Office,Commercial,Medellín,El Poblado,0,103,616968.0,Disponible
+PROP00177,Apartment,Residential,Medellín,Sabaneta,4,179,250820.0,Disponible
+PROP00178,Apartment,Residential,Barranquilla,Villa Country,4,101,172940.0,Disponible
+PROP00179,Apartment,Residential,Medellín,Sabaneta,2,164,258913.0,Reservada
+PROP00180,Commercial,Commercial,Medellín,Laureles,0,309,995913.0,Vendida
+PROP00181,Commercial,Commercial,Bogotá,Kennedy,0,328,456167.0,Disponible
+PROP00182,Apartment,Residential,Bogotá,Suba,5,216,413748.0,Vendida
+PROP00183,House,Residential,Bucaramanga,Cabecera,2,416,579700.0,Reservada
+PROP00184,Apartment,Residential,Bogotá,Usaquén,2,212,200952.0,Vendida
+PROP00185,House,Residential,Bucaramanga,La Ciudadela,4,384,904386.0,Reservada
+PROP00186,Commercial,Commercial,Medellín,Belén,0,411,759888.0,Disponible
+PROP00187,House,Residential,Bogotá,Chapinero,2,179,723370.0,Vendida
+PROP00188,Apartment,Residential,Bogotá,Kennedy,1,107,186403.0,Vendida
+PROP00189,House,Residential,Bogotá,Suba,4,287,516433.0,Disponible
+PROP00190,Apartment,Residential,Barranquilla,Villa Country,4,145,360585.0,Vendida
+PROP00191,Office,Commercial,Medellín,Laureles,0,195,564944.0,Vendida
+PROP00192,Apartment,Residential,Medellín,El Poblado,3,47,175452.0,Disponible
+PROP00193,Commercial,Commercial,Cali,El Peñón,0,141,829462.0,Vendida
+PROP00194,Apartment,Residential,Cali,Centenario,1,205,461956.0,Reservada
+PROP00195,Apartment,Residential,Bucaramanga,La Ciudadela,4,221,410574.0,Reservada
+PROP00196,Apartment,Residential,Bucaramanga,Provenza,1,110,222512.0,Reservada
+PROP00197,Apartment,Residential,Barranquilla,Villa Country,3,111,451595.0,Vendida
+PROP00198,Apartment,Residential,Cartagena,Manga,3,165,376940.0,Reservada
+PROP00199,House,Residential,Barranquilla,Alto Prado,4,266,299292.0,Reservada
+PROP00200,Apartment,Residential,Medellín,Laureles,5,81,196694.0,Disponible
+PROP00201,Apartment,Residential,Barranquilla,Riomar,1,152,454409.0,Disponible
+PROP00202,Apartment,Residential,Bogotá,Usaquén,1,221,223118.0,Vendida
+PROP00203,Apartment,Residential,Barranquilla,Alto Prado,3,201,186446.0,Vendida
+PROP00204,Commercial,Commercial,Bucaramanga,Lagos,0,392,705269.0,Disponible
+PROP00205,Land,Land,Bogotá,Usaquén,0,1119,255821.0,Vendida
+PROP00206,Apartment,Residential,Cartagena,Manga,5,233,341256.0,Vendida
+PROP00207,Office,Commercial,Bucaramanga,Lagos,0,98,572375.0,Reservada
+PROP00208,Office,Commercial,Bogotá,Suba,0,54,759374.0,Disponible
+PROP00209,Land,Land,Medellín,Belén,0,403,331753.0,Reservada
+PROP00210,Apartment,Residential,Bucaramanga,Provenza,1,258,163426.0,Disponible
+PROP00211,Apartment,Residential,Bucaramanga,Cabecera,3,182,183786.0,Disponible
+PROP00212,House,Residential,Bogotá,Teusaquillo,3,181,260216.0,Vendida
+PROP00213,Commercial,Commercial,Medellín,Laureles,0,406,660141.0,Vendida
+PROP00214,Office,Commercial,Barranquilla,Alto Prado,0,111,402701.0,Disponible
+PROP00215,House,Residential,Bogotá,Suba,2,310,904143.0,Vendida
+PROP00216,Apartment,Residential,Medellín,Envigado,4,98,274000.0,Vendida
+PROP00217,Office,Commercial,Bogotá,Kennedy,0,65,226859.0,Disponible
+PROP00218,Commercial,Commercial,Bogotá,Chapinero,0,188,1055908.0,Disponible
+PROP00219,Apartment,Residential,Cali,Granada,2,94,239588.0,Vendida
+PROP00220,House,Residential,Cali,Centenario,3,294,889681.0,Vendida
+PROP00221,Apartment,Residential,Cali,Ciudad Jardín,5,49,406695.0,Disponible
+PROP00222,House,Residential,Barranquilla,Riomar,2,178,867562.0,Vendida
+PROP00223,House,Residential,Medellín,El Poblado,1,300,825606.0,Reservada
+PROP00224,Office,Commercial,Bogotá,Chapinero,0,129,288748.0,Vendida
+PROP00225,Land,Land,Bogotá,Teusaquillo,0,1108,288508.0,Vendida
+PROP00226,House,Residential,Bogotá,Teusaquillo,5,332,544352.0,Disponible
+PROP00227,Apartment,Residential,Medellín,Laureles,2,252,359352.0,Disponible
+PROP00228,Apartment,Residential,Bogotá,Usaquén,4,224,397412.0,Disponible
+PROP00229,Apartment,Residential,Bogotá,Suba,4,94,317810.0,Vendida
+PROP00230,Apartment,Residential,Bogotá,Chapinero,3,193,256598.0,Vendida
+PROP00231,Apartment,Residential,Cali,Ciudad Jardín,1,179,452808.0,Vendida
+PROP00232,House,Residential,Cali,Chipichape,5,309,717634.0,Disponible
+PROP00233,Apartment,Residential,Bucaramanga,Lagos,4,216,442801.0,Reservada
+PROP00234,Apartment,Residential,Barranquilla,Riomar,3,76,232071.0,Disponible
+PROP00235,Office,Commercial,Cali,Granada,0,125,671042.0,Disponible
+PROP00236,Apartment,Residential,Bogotá,Chapinero,5,220,260111.0,Disponible
+PROP00237,House,Residential,Cali,El Peñón,4,420,577735.0,Vendida
+PROP00238,Commercial,Commercial,Bogotá,Kennedy,0,103,1036948.0,Disponible
+PROP00239,House,Residential,Medellín,El Poblado,4,264,504755.0,Vendida
+PROP00240,Apartment,Residential,Medellín,Envigado,1,101,236415.0,Vendida
+PROP00241,Apartment,Residential,Medellín,Belén,4,81,452553.0,Vendida
+PROP00242,House,Residential,Bogotá,Kennedy,2,111,925383.0,Disponible
+PROP00243,House,Residential,Barranquilla,Riomar,1,289,474643.0,Vendida
+PROP00244,Apartment,Residential,Cartagena,Bocagrande,2,188,254534.0,Vendida
+PROP00245,House,Residential,Barranquilla,El Prado,1,286,417094.0,Disponible
+PROP00246,House,Residential,Cali,Ciudad Jardín,1,226,276234.0,Vendida
+PROP00247,Apartment,Residential,Cali,Ciudad Jardín,4,210,334686.0,Vendida
+PROP00248,House,Residential,Bogotá,Teusaquillo,3,331,435881.0,Disponible
+PROP00249,Apartment,Residential,Barranquilla,Villa Country,2,240,430951.0,Reservada
+PROP00250,Apartment,Residential,Cali,Granada,1,119,210641.0,Disponible
+PROP00251,Office,Commercial,Bogotá,Usaquén,0,96,559400.0,Disponible
+PROP00252,Apartment,Residential,Medellín,Laureles,4,142,319718.0,Vendida
+PROP00253,House,Residential,Bucaramanga,Cabecera,4,277,682228.0,Disponible
+PROP00254,Apartment,Residential,Cali,Granada,3,143,191632.0,Disponible
+PROP00255,Apartment,Residential,Medellín,El Poblado,1,223,306629.0,Disponible
+PROP00256,Commercial,Commercial,Cali,Ciudad Jardín,0,106,847099.0,Disponible
+PROP00257,Apartment,Residential,Medellín,El Poblado,1,158,265805.0,Disponible
+PROP00258,Apartment,Residential,Medellín,El Poblado,1,137,439342.0,Reservada
+PROP00259,Commercial,Commercial,Bogotá,Chapinero,0,168,768922.0,Disponible
+PROP00260,Office,Commercial,Medellín,Envigado,0,182,409385.0,Disponible
+PROP00261,House,Residential,Barranquilla,Alto Prado,1,386,281265.0,Vendida
+PROP00262,Apartment,Residential,Bogotá,Teusaquillo,5,162,209760.0,Vendida
+PROP00263,Apartment,Residential,Barranquilla,El Prado,2,63,309892.0,Disponible
+PROP00264,House,Residential,Bogotá,Usaquén,4,117,536017.0,Disponible
+PROP00265,Apartment,Residential,Barranquilla,Riomar,5,135,438242.0,Disponible
+PROP00266,Apartment,Residential,Cali,Chipichape,5,188,410439.0,Disponible
+PROP00267,Office,Commercial,Cali,Granada,0,112,297433.0,Disponible
+PROP00268,Apartment,Residential,Cali,El Peñón,2,111,347233.0,Vendida
+PROP00269,Apartment,Residential,Bucaramanga,La Ciudadela,3,229,302682.0,Vendida
+PROP00270,Apartment,Residential,Medellín,El Poblado,3,48,187871.0,Disponible
+PROP00271,House,Residential,Barranquilla,Riomar,1,119,719480.0,Vendida
+PROP00272,House,Residential,Barranquilla,Villa Country,4,147,630659.0,Disponible
+PROP00273,Commercial,Commercial,Bogotá,Suba,0,453,410840.0,Disponible
+PROP00274,Apartment,Residential,Bogotá,Suba,3,151,307127.0,Disponible
+PROP00275,Apartment,Residential,Medellín,Belén,2,79,392791.0,Disponible
+PROP00276,House,Residential,Bogotá,Teusaquillo,3,204,485707.0,Vendida
+PROP00277,Apartment,Residential,Medellín,Belén,4,253,270989.0,Disponible
+PROP00278,House,Residential,Medellín,Belén,1,346,336010.0,Vendida
+PROP00279,Commercial,Commercial,Cali,Centenario,0,172,505514.0,Disponible
+PROP00280,House,Residential,Bogotá,Chapinero,4,179,936967.0,Vendida
+PROP00281,Apartment,Residential,Cartagena,Bocagrande,5,61,356759.0,Vendida
+PROP00282,Land,Land,Medellín,Belén,0,1293,142214.0,Reservada
+PROP00283,Apartment,Residential,Barranquilla,Riomar,4,74,311894.0,Disponible
+PROP00284,Commercial,Commercial,Bogotá,Usaquén,0,195,496121.0,Vendida
+PROP00285,House,Residential,Medellín,El Poblado,4,218,565490.0,Reservada
+PROP00286,House,Residential,Bogotá,Teusaquillo,1,319,360452.0,Disponible
+PROP00287,Commercial,Commercial,Cali,Chipichape,0,314,841229.0,Vendida
+PROP00288,House,Residential,Medellín,Envigado,4,385,653433.0,Disponible
+PROP00289,House,Residential,Bucaramanga,Cabecera,4,199,697069.0,Disponible
+PROP00290,Apartment,Residential,Medellín,Laureles,3,127,299192.0,Reservada
+PROP00291,House,Residential,Cali,Chipichape,3,233,457324.0,Disponible
+PROP00292,House,Residential,Bogotá,Suba,4,107,432194.0,Disponible
+PROP00293,Apartment,Residential,Cali,Chipichape,1,203,224922.0,Disponible
+PROP00294,Office,Commercial,Medellín,Envigado,0,160,446182.0,Disponible
+PROP00295,House,Residential,Medellín,Belén,2,266,571508.0,Disponible
+PROP00296,Apartment,Residential,Bogotá,Kennedy,4,259,373894.0,Disponible
+PROP00297,Apartment,Residential,Bogotá,Usaquén,5,83,172041.0,Vendida
+PROP00298,House,Residential,Bogotá,Chapinero,2,448,454373.0,Reservada
+PROP00299,Apartment,Residential,Bucaramanga,Lagos,3,191,432103.0,Reservada
+PROP00300,Apartment,Residential,Medellín,El Poblado,5,92,452454.0,Disponible
+PROP00301,House,Residential,Bogotá,Usaquén,1,341,902325.0,Vendida
+PROP00302,Apartment,Residential,Bucaramanga,Cabecera,2,207,254562.0,Disponible
+PROP00303,Apartment,Residential,Bogotá,Usaquén,1,122,199567.0,Disponible
+PROP00304,House,Residential,Medellín,Laureles,2,217,396743.0,Vendida
+PROP00305,Apartment,Residential,Barranquilla,El Prado,4,224,197859.0,Disponible
+PROP00306,Land,Land,Cartagena,Manga,0,466,395234.0,Vendida
+PROP00307,Commercial,Commercial,Barranquilla,Villa Country,0,94,1055543.0,Vendida
+PROP00308,House,Residential,Medellín,El Poblado,2,336,819286.0,Vendida
+PROP00309,Land,Land,Bucaramanga,Lagos,0,1473,322185.0,Disponible
+PROP00310,Commercial,Commercial,Bogotá,Suba,0,275,617941.0,Disponible
+PROP00311,Apartment,Residential,Bucaramanga,Provenza,5,74,309598.0,Disponible
+PROP00312,Office,Commercial,Cartagena,Manga,0,160,672787.0,Vendida
+PROP00313,Apartment,Residential,Bucaramanga,La Ciudadela,5,99,419669.0,Vendida
+PROP00314,House,Residential,Bogotá,Chapinero,5,396,617981.0,Vendida
+PROP00315,House,Residential,Bogotá,Suba,4,316,837917.0,Disponible
+PROP00316,Apartment,Residential,Cali,Centenario,4,117,267694.0,Vendida
+PROP00317,Apartment,Residential,Medellín,Belén,3,179,289388.0,Reservada
+PROP00318,Land,Land,Medellín,Belén,0,1150,357873.0,Vendida
+PROP00319,Apartment,Residential,Bucaramanga,Provenza,5,190,277338.0,Reservada
+PROP00320,Apartment,Residential,Cali,El Peñón,1,123,399453.0,Disponible
+PROP00321,Apartment,Residential,Medellín,El Poblado,4,167,302317.0,Disponible
+PROP00322,House,Residential,Medellín,Belén,1,105,465533.0,Vendida
+PROP00323,Commercial,Commercial,Bogotá,Teusaquillo,0,239,517255.0,Disponible
+PROP00324,Office,Commercial,Bogotá,Usaquén,0,126,543673.0,Disponible
+PROP00325,House,Residential,Bogotá,Teusaquillo,2,287,590965.0,Disponible
+PROP00326,Apartment,Residential,Cartagena,Crespo,2,249,275051.0,Disponible
+PROP00327,Apartment,Residential,Barranquilla,El Prado,4,250,396525.0,Vendida
+PROP00328,House,Residential,Cali,Ciudad Jardín,4,268,260725.0,Disponible
+PROP00329,Office,Commercial,Medellín,Envigado,0,183,260706.0,Disponible
+PROP00330,Office,Commercial,Cali,Ciudad Jardín,0,68,738998.0,Vendida
+PROP00331,Apartment,Residential,Cartagena,El Cabrero,1,148,370647.0,Reservada
+PROP00332,House,Residential,Cartagena,Crespo,4,344,639244.0,Disponible
+PROP00333,House,Residential,Cali,Chipichape,2,342,270166.0,Disponible
+PROP00334,House,Residential,Cartagena,Crespo,1,446,672918.0,Disponible
+PROP00335,House,Residential,Medellín,Sabaneta,3,262,560009.0,Disponible
+PROP00336,House,Residential,Medellín,Sabaneta,3,425,673925.0,Disponible
+PROP00337,House,Residential,Cartagena,Crespo,2,452,288290.0,Disponible
+PROP00338,Land,Land,Medellín,Laureles,0,1022,263958.0,Vendida
+PROP00339,House,Residential,Medellín,El Poblado,2,123,658729.0,Vendida
+PROP00340,Apartment,Residential,Medellín,El Poblado,5,125,249265.0,Vendida
+PROP00341,Apartment,Residential,Medellín,Laureles,2,209,172716.0,Disponible
+PROP00342,House,Residential,Cali,Chipichape,5,304,930387.0,Disponible
+PROP00343,House,Residential,Cali,Ciudad Jardín,5,436,749476.0,Vendida
+PROP00344,House,Residential,Medellín,Belén,2,391,688951.0,Vendida
+PROP00345,Office,Commercial,Bogotá,Chapinero,0,58,631899.0,Reservada
+PROP00346,Apartment,Residential,Cartagena,El Cabrero,3,230,373049.0,Disponible
+PROP00347,House,Residential,Medellín,Laureles,4,222,352731.0,Disponible
+PROP00348,Office,Commercial,Bucaramanga,Lagos,0,221,460136.0,Reservada
+PROP00349,Apartment,Residential,Bogotá,Chapinero,3,154,443817.0,Reservada
+PROP00350,Apartment,Residential,Cali,El Peñón,3,142,248554.0,Disponible
+PROP00351,Apartment,Residential,Cali,Granada,2,60,470967.0,Vendida
+PROP00352,Apartment,Residential,Cartagena,Manga,1,70,175913.0,Reservada
+PROP00353,Office,Commercial,Bogotá,Teusaquillo,0,172,391897.0,Reservada
+PROP00354,Commercial,Commercial,Cartagena,Manga,0,300,623686.0,Disponible
+PROP00355,House,Residential,Cali,Ciudad Jardín,1,295,686018.0,Vendida
+PROP00356,Apartment,Residential,Cali,El Peñón,2,78,212231.0,Vendida
+PROP00357,House,Residential,Medellín,Laureles,4,278,418107.0,Disponible
+PROP00358,Office,Commercial,Bogotá,Kennedy,0,58,574148.0,Reservada
+PROP00359,Apartment,Residential,Medellín,Sabaneta,2,75,247505.0,Vendida
+PROP00360,Office,Commercial,Bogotá,Kennedy,0,152,693452.0,Vendida
+PROP00361,Apartment,Residential,Medellín,Envigado,1,177,437812.0,Disponible
+PROP00362,Apartment,Residential,Cali,Ciudad Jardín,2,185,253395.0,Vendida
+PROP00363,Apartment,Residential,Medellín,El Poblado,3,256,336983.0,Disponible
+PROP00364,Apartment,Residential,Bogotá,Kennedy,2,228,263186.0,Disponible
+PROP00365,Commercial,Commercial,Bogotá,Teusaquillo,0,230,619346.0,Disponible
+PROP00366,House,Residential,Bogotá,Suba,2,379,722551.0,Disponible
+PROP00367,Apartment,Residential,Bogotá,Chapinero,1,65,250265.0,Disponible
+PROP00368,House,Residential,Cali,Chipichape,2,407,362997.0,Reservada
+PROP00369,Apartment,Residential,Bogotá,Teusaquillo,2,128,239212.0,Vendida
+PROP00370,Apartment,Residential,Cartagena,Bocagrande,5,208,457067.0,Disponible
+PROP00371,Apartment,Residential,Bogotá,Chapinero,5,253,239280.0,Vendida
+PROP00372,House,Residential,Bogotá,Kennedy,2,350,511054.0,Disponible
+PROP00373,Apartment,Residential,Cartagena,Manga,1,242,359365.0,Reservada
+PROP00374,Office,Commercial,Bogotá,Kennedy,0,47,265659.0,Vendida
+PROP00375,Apartment,Residential,Medellín,Envigado,1,81,242249.0,Vendida
+PROP00376,Office,Commercial,Bucaramanga,La Ciudadela,0,179,306076.0,Vendida
+PROP00377,Office,Commercial,Bucaramanga,Cabecera,0,161,718399.0,Vendida
+PROP00378,Apartment,Residential,Barranquilla,Alto Prado,2,70,458142.0,Disponible
+PROP00379,Apartment,Residential,Bogotá,Suba,3,199,400613.0,Disponible
+PROP00380,Land,Land,Cali,Centenario,0,329,165313.0,Disponible
+PROP00381,House,Residential,Bucaramanga,La Ciudadela,3,456,685326.0,Disponible
+PROP00382,House,Residential,Bucaramanga,Cabecera,2,147,716965.0,Disponible
+PROP00383,Apartment,Residential,Bogotá,Teusaquillo,2,140,437548.0,Disponible
+PROP00384,Apartment,Residential,Medellín,Envigado,2,222,205753.0,Vendida
+PROP00385,House,Residential,Medellín,Envigado,3,280,768015.0,Vendida
+PROP00386,Commercial,Commercial,Bogotá,Teusaquillo,0,365,497222.0,Vendida
+PROP00387,Apartment,Residential,Barranquilla,Villa Country,4,196,339825.0,Vendida
+PROP00388,Office,Commercial,Bogotá,Teusaquillo,0,248,693581.0,Disponible
+PROP00389,House,Residential,Medellín,Envigado,1,261,302830.0,Disponible
+PROP00390,Apartment,Residential,Bogotá,Suba,3,255,203110.0,Vendida
+PROP00391,Apartment,Residential,Medellín,El Poblado,4,156,419267.0,Vendida
+PROP00392,Apartment,Residential,Bogotá,Kennedy,4,237,161093.0,Disponible
+PROP00393,House,Residential,Medellín,Envigado,3,361,732737.0,Disponible
+PROP00394,House,Residential,Bogotá,Teusaquillo,3,139,605850.0,Reservada
+PROP00395,House,Residential,Bucaramanga,Provenza,4,328,499156.0,Disponible
+PROP00396,Apartment,Residential,Bogotá,Suba,2,233,435386.0,Disponible
+PROP00397,Office,Commercial,Medellín,Belén,0,72,676927.0,Disponible
+PROP00398,House,Residential,Bogotá,Chapinero,3,400,484933.0,Reservada
+PROP00399,House,Residential,Bogotá,Chapinero,2,129,263055.0,Vendida
+PROP00400,House,Residential,Bogotá,Chapinero,3,412,348431.0,Reservada
+PROP00401,Apartment,Residential,Bogotá,Teusaquillo,1,214,189893.0,Vendida
+PROP00402,House,Residential,Bogotá,Kennedy,2,146,937739.0,Vendida
+PROP00403,Apartment,Residential,Medellín,Laureles,1,201,348989.0,Disponible
+PROP00404,Apartment,Residential,Cali,Ciudad Jardín,2,70,374940.0,Vendida
+PROP00405,Apartment,Residential,Bogotá,Suba,3,167,230044.0,Reservada
+PROP00406,House,Residential,Medellín,Laureles,3,431,846976.0,Reservada
+PROP00407,House,Residential,Cali,Ciudad Jardín,5,166,758641.0,Disponible
+PROP00408,Apartment,Residential,Bogotá,Usaquén,1,82,399444.0,Vendida
+PROP00409,Commercial,Commercial,Medellín,Envigado,0,246,719277.0,Vendida
+PROP00410,Commercial,Commercial,Bogotá,Kennedy,0,226,905576.0,Disponible
+PROP00411,Apartment,Residential,Bogotá,Chapinero,5,55,331816.0,Disponible
+PROP00412,Office,Commercial,Medellín,Belén,0,143,421510.0,Disponible
+PROP00413,Apartment,Residential,Bucaramanga,Lagos,2,100,348210.0,Vendida
+PROP00414,Land,Land,Bucaramanga,Lagos,0,417,190410.0,Reservada
+PROP00415,Apartment,Residential,Bucaramanga,Lagos,4,104,464675.0,Disponible
+PROP00416,Apartment,Residential,Medellín,Envigado,4,49,388011.0,Vendida
+PROP00417,House,Residential,Bogotá,Chapinero,5,428,769899.0,Disponible
+PROP00418,Apartment,Residential,Medellín,Sabaneta,1,258,387931.0,Disponible
+PROP00419,Office,Commercial,Bogotá,Kennedy,0,124,456589.0,Disponible
+PROP00420,House,Residential,Bogotá,Teusaquillo,5,414,915905.0,Reservada
+PROP00421,Apartment,Residential,Bogotá,Teusaquillo,1,144,222555.0,Reservada
+PROP00422,House,Residential,Medellín,Laureles,5,427,652375.0,Disponible
+PROP00423,Commercial,Commercial,Medellín,El Poblado,0,154,396225.0,Disponible
+PROP00424,Office,Commercial,Bogotá,Kennedy,0,106,372041.0,Vendida
+PROP00425,House,Residential,Barranquilla,Riomar,4,363,656437.0,Reservada
+PROP00426,Apartment,Residential,Medellín,El Poblado,3,92,314096.0,Vendida
+PROP00427,Apartment,Residential,Cartagena,Manga,2,222,460877.0,Reservada
+PROP00428,Commercial,Commercial,Bogotá,Teusaquillo,0,247,837108.0,Vendida
+PROP00429,Office,Commercial,Cali,El Peñón,0,131,436310.0,Disponible
+PROP00430,House,Residential,Bogotá,Usaquén,1,257,554443.0,Vendida
+PROP00431,Commercial,Commercial,Medellín,Envigado,0,385,835390.0,Disponible
+PROP00432,Apartment,Residential,Bogotá,Kennedy,5,46,412118.0,Disponible
+PROP00433,House,Residential,Bogotá,Usaquén,4,367,450806.0,Disponible
+PROP00434,Apartment,Residential,Cali,Centenario,5,212,344999.0,Disponible
+PROP00435,Apartment,Residential,Bogotá,Suba,4,221,341785.0,Vendida
+PROP00436,House,Residential,Bogotá,Chapinero,5,458,266510.0,Vendida
+PROP00437,Apartment,Residential,Bucaramanga,La Ciudadela,5,213,451650.0,Vendida
+PROP00438,Land,Land,Bogotá,Teusaquillo,0,963,270197.0,Disponible
+PROP00439,Apartment,Residential,Cali,Granada,3,145,233675.0,Vendida
+PROP00440,Office,Commercial,Cali,Granada,0,128,558482.0,Vendida
+PROP00441,Office,Commercial,Bogotá,Kennedy,0,222,582797.0,Disponible
+PROP00442,House,Residential,Medellín,Belén,4,235,891530.0,Reservada
+PROP00443,Commercial,Commercial,Bogotá,Usaquén,0,301,367600.0,Vendida
+PROP00444,Apartment,Residential,Barranquilla,Riomar,2,65,289459.0,Disponible
+PROP00445,Apartment,Residential,Bogotá,Chapinero,4,113,213550.0,Reservada
+PROP00446,Apartment,Residential,Bogotá,Usaquén,4,102,341701.0,Vendida
+PROP00447,Apartment,Residential,Medellín,Laureles,3,138,318022.0,Disponible
+PROP00448,Commercial,Commercial,Cartagena,El Cabrero,0,275,724747.0,Disponible
+PROP00449,House,Residential,Barranquilla,Alto Prado,4,355,937598.0,Reservada
+PROP00450,Apartment,Residential,Bucaramanga,Lagos,2,137,327788.0,Vendida
+PROP00451,Apartment,Residential,Cali,Granada,4,77,288579.0,Vendida
+PROP00452,House,Residential,Cali,El Peñón,3,291,306439.0,Vendida
+PROP00453,Office,Commercial,Medellín,Laureles,0,56,369284.0,Vendida
+PROP00454,Apartment,Residential,Cartagena,El Cabrero,2,227,446617.0,Reservada
+PROP00455,Office,Commercial,Medellín,Belén,0,210,458418.0,Reservada
+PROP00456,House,Residential,Medellín,Sabaneta,5,173,888184.0,Reservada
+PROP00457,Office,Commercial,Cali,Centenario,0,101,502945.0,Disponible
+PROP00458,Apartment,Residential,Cali,Chipichape,1,50,333119.0,Vendida
+PROP00459,House,Residential,Bogotá,Chapinero,4,224,556613.0,Vendida
+PROP00460,Apartment,Residential,Medellín,El Poblado,2,53,335880.0,Reservada
+PROP00461,Apartment,Residential,Medellín,Sabaneta,2,246,176672.0,Vendida
+PROP00462,Office,Commercial,Cartagena,Crespo,0,73,241655.0,Vendida
+PROP00463,House,Residential,Medellín,Laureles,1,333,588284.0,Disponible
+PROP00464,Apartment,Residential,Cartagena,Bocagrande,1,167,349333.0,Disponible
+PROP00465,Commercial,Commercial,Medellín,Envigado,0,177,786202.0,Disponible
+PROP00466,Apartment,Residential,Barranquilla,Alto Prado,1,218,294474.0,Disponible
+PROP00467,House,Residential,Bogotá,Teusaquillo,5,130,462877.0,Disponible
+PROP00468,Land,Land,Bucaramanga,Provenza,0,1447,315439.0,Disponible
+PROP00469,House,Residential,Medellín,Envigado,5,363,677250.0,Disponible
+PROP00470,Office,Commercial,Bogotá,Kennedy,0,181,235918.0,Disponible
+PROP00471,House,Residential,Bogotá,Chapinero,3,415,572144.0,Vendida
+PROP00472,Office,Commercial,Bogotá,Chapinero,0,131,600988.0,Vendida
+PROP00473,House,Residential,Medellín,Envigado,1,194,801079.0,Disponible
+PROP00474,Office,Commercial,Barranquilla,El Prado,0,78,367791.0,Disponible
+PROP00475,Apartment,Residential,Bucaramanga,Cabecera,5,243,455615.0,Disponible
+PROP00476,Office,Commercial,Cali,Chipichape,0,131,568437.0,Disponible
+PROP00477,Apartment,Residential,Cali,El Peñón,4,223,297243.0,Disponible
+PROP00478,Land,Land,Medellín,El Poblado,0,698,288815.0,Disponible
+PROP00479,Apartment,Residential,Cartagena,Bocagrande,3,250,438245.0,Disponible
+PROP00480,Apartment,Residential,Cartagena,Manga,5,232,228723.0,Vendida
+PROP00481,Commercial,Commercial,Bogotá,Kennedy,0,203,461797.0,Reservada
+PROP00482,Apartment,Residential,Bucaramanga,Provenza,3,149,298147.0,Vendida
+PROP00483,Apartment,Residential,Medellín,Sabaneta,2,215,182275.0,Disponible
+PROP00484,Office,Commercial,Cartagena,El Cabrero,0,93,669598.0,Disponible
+PROP00485,Apartment,Residential,Bucaramanga,Lagos,4,50,470393.0,Vendida
+PROP00486,Apartment,Residential,Barranquilla,El Prado,3,107,351817.0,Disponible
+PROP00487,House,Residential,Bogotá,Usaquén,4,308,936096.0,Vendida
+PROP00488,Apartment,Residential,Cali,El Peñón,4,74,177339.0,Vendida
+PROP00489,Apartment,Residential,Bogotá,Chapinero,5,116,360576.0,Reservada
+PROP00490,Apartment,Residential,Barranquilla,Villa Country,2,242,298945.0,Disponible
+PROP00491,Apartment,Residential,Bogotá,Usaquén,1,61,245143.0,Reservada
+PROP00492,Apartment,Residential,Barranquilla,Riomar,3,55,256325.0,Disponible
+PROP00493,Apartment,Residential,Cartagena,Manga,4,136,332183.0,Disponible
+PROP00494,House,Residential,Bogotá,Chapinero,5,94,702735.0,Disponible
+PROP00495,House,Residential,Medellín,Sabaneta,2,100,373166.0,Vendida
+PROP00496,Apartment,Residential,Cali,El Peñón,4,84,354733.0,Vendida
+PROP00497,Apartment,Residential,Medellín,El Poblado,5,66,456126.0,Disponible
+PROP00498,Commercial,Commercial,Bogotá,Usaquén,0,390,348422.0,Disponible
+PROP00499,House,Residential,Bogotá,Chapinero,5,135,866067.0,Vendida
+PROP00500,Apartment,Residential,Medellín,Sabaneta,5,157,352501.0,Vendida
+PROP00501,House,Residential,Cali,Granada,5,350,496131.0,Disponible
+PROP00502,Apartment,Residential,Cali,El Peñón,4,179,393826.0,Disponible
+PROP00503,Office,Commercial,Bogotá,Usaquén,0,185,549782.0,Vendida
+PROP00504,Commercial,Commercial,Medellín,El Poblado,0,222,962671.0,Vendida
+PROP00505,Commercial,Commercial,Medellín,El Poblado,0,418,405843.0,Vendida
+PROP00506,Apartment,Residential,Bogotá,Suba,2,59,174167.0,Disponible
+PROP00507,Apartment,Residential,Barranquilla,El Prado,3,68,363654.0,Disponible
+PROP00508,Apartment,Residential,Medellín,El Poblado,4,229,253688.0,Disponible
+PROP00509,Apartment,Residential,Cali,El Peñón,2,59,232438.0,Disponible
+PROP00510,Apartment,Residential,Bucaramanga,La Ciudadela,4,86,291913.0,Vendida
+PROP00511,House,Residential,Cali,Ciudad Jardín,3,154,760398.0,Disponible
+PROP00512,Apartment,Residential,Cali,Centenario,4,52,213425.0,Vendida
+PROP00513,Commercial,Commercial,Bogotá,Usaquén,0,133,1128287.0,Vendida
+PROP00514,Apartment,Residential,Bogotá,Kennedy,3,168,291738.0,Vendida
+PROP00515,Apartment,Residential,Bogotá,Kennedy,4,187,203938.0,Vendida
+PROP00516,Commercial,Commercial,Barranquilla,El Prado,0,120,397614.0,Vendida
+PROP00517,Office,Commercial,Cartagena,El Cabrero,0,247,681494.0,Disponible
+PROP00518,Apartment,Residential,Bogotá,Suba,1,65,191795.0,Disponible
+PROP00519,House,Residential,Bogotá,Suba,4,344,549084.0,Disponible
+PROP00520,Apartment,Residential,Medellín,El Poblado,5,217,372325.0,Vendida
+PROP00521,Apartment,Residential,Cali,Ciudad Jardín,5,156,321756.0,Vendida
+PROP00522,House,Residential,Cali,Granada,5,271,441174.0,Disponible
+PROP00523,Apartment,Residential,Barranquilla,Villa Country,2,68,190076.0,Disponible
+PROP00524,House,Residential,Cartagena,El Cabrero,1,179,750870.0,Disponible
+PROP00525,Apartment,Residential,Bogotá,Chapinero,4,227,314343.0,Disponible
+PROP00526,House,Residential,Cali,Ciudad Jardín,1,218,293194.0,Vendida
+PROP00527,Office,Commercial,Cali,Centenario,0,52,309659.0,Disponible
+PROP00528,Apartment,Residential,Medellín,Envigado,2,201,337878.0,Vendida
+PROP00529,Apartment,Residential,Cartagena,Manga,4,191,209725.0,Reservada
+PROP00530,House,Residential,Bogotá,Teusaquillo,3,114,530099.0,Disponible
+PROP00531,Office,Commercial,Barranquilla,El Prado,0,55,278487.0,Disponible
+PROP00532,House,Residential,Barranquilla,El Prado,4,133,809910.0,Vendida
+PROP00533,Office,Commercial,Cartagena,Bocagrande,0,55,556725.0,Reservada
+PROP00534,Apartment,Residential,Medellín,Sabaneta,4,177,409784.0,Disponible
+PROP00535,Apartment,Residential,Medellín,Envigado,1,73,172046.0,Disponible
+PROP00536,House,Residential,Cartagena,El Cabrero,4,314,519136.0,Vendida
+PROP00537,Apartment,Residential,Barranquilla,Alto Prado,3,82,241975.0,Vendida
+PROP00538,Office,Commercial,Medellín,Laureles,0,254,552492.0,Vendida
+PROP00539,Apartment,Residential,Barranquilla,El Prado,3,201,421986.0,Reservada
+PROP00540,Apartment,Residential,Bogotá,Teusaquillo,3,125,228953.0,Vendida
+PROP00541,House,Residential,Cali,Centenario,3,248,791116.0,Disponible
+PROP00542,House,Residential,Cartagena,Bocagrande,3,114,660480.0,Vendida
+PROP00543,House,Residential,Medellín,El Poblado,2,110,828600.0,Disponible
+PROP00544,House,Residential,Medellín,Belén,2,288,316072.0,Reservada
+PROP00545,Commercial,Commercial,Bucaramanga,Cabecera,0,98,1142647.0,Vendida
+PROP00546,Commercial,Commercial,Barranquilla,Alto Prado,0,326,692029.0,Vendida
+PROP00547,Commercial,Commercial,Cartagena,Crespo,0,231,566866.0,Reservada
+PROP00548,House,Residential,Medellín,Laureles,1,141,386082.0,Reservada
+PROP00549,House,Residential,Bucaramanga,La Ciudadela,2,288,939588.0,Vendida
+PROP00550,House,Residential,Bogotá,Teusaquillo,2,294,869533.0,Vendida
+PROP00551,House,Residential,Medellín,Laureles,3,366,350522.0,Vendida
+PROP00552,Apartment,Residential,Medellín,Laureles,5,87,299592.0,Disponible
+PROP00553,House,Residential,Barranquilla,El Prado,1,292,766140.0,Disponible
+PROP00554,Apartment,Residential,Cartagena,Crespo,2,226,347001.0,Vendida
+PROP00555,Apartment,Residential,Barranquilla,Villa Country,1,103,216436.0,Vendida
+PROP00556,Commercial,Commercial,Cali,Granada,0,399,631909.0,Vendida
+PROP00557,Apartment,Residential,Medellín,Sabaneta,5,200,274644.0,Vendida
+PROP00558,House,Residential,Medellín,El Poblado,4,248,459231.0,Disponible
+PROP00559,House,Residential,Medellín,El Poblado,2,416,922884.0,Disponible
+PROP00560,Apartment,Residential,Bogotá,Usaquén,3,252,220948.0,Vendida
+PROP00561,Commercial,Commercial,Medellín,Belén,0,177,912354.0,Disponible
+PROP00562,Apartment,Residential,Cartagena,Crespo,4,255,451358.0,Vendida
+PROP00563,Commercial,Commercial,Barranquilla,Alto Prado,0,90,983798.0,Vendida
+PROP00564,Office,Commercial,Barranquilla,El Prado,0,72,649706.0,Vendida
+PROP00565,Apartment,Residential,Medellín,Belén,5,54,206613.0,Disponible
+PROP00566,Apartment,Residential,Medellín,Sabaneta,3,124,198309.0,Vendida
+PROP00567,Apartment,Residential,Bogotá,Kennedy,2,246,409448.0,Disponible
+PROP00568,Apartment,Residential,Medellín,Laureles,4,174,397685.0,Disponible
+PROP00569,Apartment,Residential,Medellín,El Poblado,4,177,396115.0,Disponible
+PROP00570,Land,Land,Bogotá,Suba,0,364,221022.0,Disponible
+PROP00571,Apartment,Residential,Bogotá,Suba,4,155,325119.0,Vendida
+PROP00572,Commercial,Commercial,Barranquilla,Riomar,0,231,352471.0,Vendida
+PROP00573,Apartment,Residential,Medellín,El Poblado,1,148,249584.0,Disponible
+PROP00574,Land,Land,Medellín,El Poblado,0,602,256719.0,Vendida
+PROP00575,Apartment,Residential,Bogotá,Suba,4,88,195860.0,Reservada
+PROP00576,House,Residential,Cali,Centenario,1,442,349732.0,Vendida
+PROP00577,House,Residential,Medellín,Belén,5,296,291197.0,Vendida
+PROP00578,Apartment,Residential,Medellín,Belén,5,133,223228.0,Reservada
+PROP00579,Office,Commercial,Cali,Centenario,0,60,756082.0,Disponible
+PROP00580,Apartment,Residential,Bogotá,Kennedy,3,208,381213.0,Disponible
+PROP00581,House,Residential,Cartagena,El Cabrero,4,264,914295.0,Reservada
+PROP00582,House,Residential,Bogotá,Suba,1,233,437428.0,Vendida
+PROP00583,House,Residential,Medellín,Envigado,5,336,673206.0,Reservada
+PROP00584,Apartment,Residential,Bogotá,Suba,2,73,444863.0,Disponible
+PROP00585,Apartment,Residential,Medellín,Envigado,2,159,269409.0,Disponible
+PROP00586,Apartment,Residential,Bogotá,Kennedy,4,230,368580.0,Vendida
+PROP00587,Apartment,Residential,Cartagena,Crespo,5,144,380171.0,Disponible
+PROP00588,Apartment,Residential,Medellín,Sabaneta,3,45,425492.0,Vendida
+PROP00589,Commercial,Commercial,Cali,El Peñón,0,175,1125278.0,Vendida
+PROP00590,House,Residential,Bogotá,Kennedy,3,110,684480.0,Disponible
+PROP00591,House,Residential,Bogotá,Chapinero,3,275,661948.0,Disponible
+PROP00592,Apartment,Residential,Medellín,Belén,2,123,437376.0,Disponible
+PROP00593,Apartment,Residential,Cali,Centenario,3,73,377470.0,Disponible
+PROP00594,House,Residential,Medellín,Envigado,5,344,509562.0,Vendida
+PROP00595,Apartment,Residential,Bucaramanga,La Ciudadela,2,82,359795.0,Vendida
+PROP00596,Apartment,Residential,Barranquilla,Alto Prado,4,118,333470.0,Disponible
+PROP00597,House,Residential,Bucaramanga,La Ciudadela,4,455,417842.0,Reservada
+PROP00598,House,Residential,Bogotá,Suba,5,114,615964.0,Disponible
+PROP00599,Land,Land,Barranquilla,El Prado,0,584,287659.0,Disponible
+PROP00600,Apartment,Residential,Cali,Chipichape,4,113,448731.0,Vendida
+PROP00601,House,Residential,Cali,Granada,5,278,660525.0,Vendida
+PROP00602,Apartment,Residential,Bucaramanga,La Ciudadela,4,97,208597.0,Vendida
+PROP00603,Apartment,Residential,Cali,Centenario,5,253,475984.0,Disponible
+PROP00604,Office,Commercial,Cartagena,Crespo,0,46,527933.0,Reservada
+PROP00605,Apartment,Residential,Barranquilla,Riomar,4,248,248309.0,Disponible
+PROP00606,House,Residential,Bogotá,Teusaquillo,5,287,780557.0,Vendida
+PROP00607,Apartment,Residential,Barranquilla,El Prado,5,53,280028.0,Vendida
+PROP00608,Apartment,Residential,Medellín,Sabaneta,5,70,275266.0,Vendida
+PROP00609,Commercial,Commercial,Cartagena,Manga,0,128,1019944.0,Disponible
+PROP00610,Apartment,Residential,Cartagena,Crespo,3,106,436963.0,Disponible
+PROP00611,Office,Commercial,Bogotá,Teusaquillo,0,116,498159.0,Vendida
+PROP00612,Apartment,Residential,Bogotá,Kennedy,4,182,276229.0,Disponible
+PROP00613,Commercial,Commercial,Bogotá,Kennedy,0,205,1039253.0,Vendida
+PROP00614,Apartment,Residential,Medellín,Envigado,5,200,211325.0,Reservada
+PROP00615,Apartment,Residential,Bogotá,Usaquén,2,108,397838.0,Vendida
+PROP00616,Office,Commercial,Barranquilla,El Prado,0,101,531226.0,Disponible
+PROP00617,Apartment,Residential,Cali,El Peñón,1,104,432568.0,Vendida
+PROP00618,Apartment,Residential,Cartagena,Manga,5,115,291684.0,Disponible
+PROP00619,Land,Land,Bogotá,Kennedy,0,1380,355408.0,Disponible
+PROP00620,House,Residential,Medellín,Laureles,4,181,270481.0,Reservada
+PROP00621,House,Residential,Bogotá,Suba,3,191,783204.0,Disponible
+PROP00622,House,Residential,Cartagena,Bocagrande,4,444,308188.0,Vendida
+PROP00623,Office,Commercial,Bogotá,Chapinero,0,185,563321.0,Vendida
+PROP00624,Commercial,Commercial,Bogotá,Teusaquillo,0,160,498174.0,Vendida
+PROP00625,House,Residential,Bogotá,Teusaquillo,1,411,924793.0,Vendida
+PROP00626,Apartment,Residential,Cartagena,Crespo,3,84,405032.0,Vendida
+PROP00627,Apartment,Residential,Bogotá,Usaquén,2,79,189000.0,Disponible
+PROP00628,House,Residential,Cali,Ciudad Jardín,2,254,875507.0,Vendida
+PROP00629,Office,Commercial,Barranquilla,Alto Prado,0,193,348568.0,Disponible
+PROP00630,House,Residential,Barranquilla,Riomar,5,160,636492.0,Vendida
+PROP00631,Apartment,Residential,Bogotá,Kennedy,3,206,182714.0,Reservada
+PROP00632,Apartment,Residential,Bogotá,Kennedy,1,78,189308.0,Vendida
+PROP00633,House,Residential,Medellín,Belén,2,379,426507.0,Disponible
+PROP00634,Commercial,Commercial,Bogotá,Suba,0,125,772879.0,Disponible
+PROP00635,Apartment,Residential,Barranquilla,Riomar,2,144,331441.0,Disponible
+PROP00636,House,Residential,Medellín,Sabaneta,5,326,850367.0,Disponible
+PROP00637,Office,Commercial,Medellín,Sabaneta,0,102,300826.0,Disponible
+PROP00638,Commercial,Commercial,Bogotá,Teusaquillo,0,316,947076.0,Disponible
+PROP00639,Apartment,Residential,Cali,Chipichape,2,193,156911.0,Disponible
+PROP00640,Commercial,Commercial,Bogotá,Usaquén,0,330,575789.0,Reservada
+PROP00641,House,Residential,Cali,Chipichape,2,236,380757.0,Disponible
+PROP00642,Office,Commercial,Bogotá,Usaquén,0,211,278139.0,Vendida
+PROP00643,Apartment,Residential,Bucaramanga,Lagos,2,202,344970.0,Disponible
+PROP00644,House,Residential,Barranquilla,Riomar,1,210,881470.0,Reservada
+PROP00645,House,Residential,Bogotá,Suba,4,361,720213.0,Disponible
+PROP00646,Apartment,Residential,Bogotá,Chapinero,3,242,432578.0,Reservada
+PROP00647,House,Residential,Medellín,El Poblado,3,392,668095.0,Reservada
+PROP00648,House,Residential,Bogotá,Usaquén,2,361,297063.0,Vendida
+PROP00649,House,Residential,Bogotá,Suba,4,373,498731.0,Disponible
+PROP00650,Apartment,Residential,Cartagena,Bocagrande,1,218,422694.0,Reservada
+PROP00651,House,Residential,Cali,Centenario,5,196,290504.0,Disponible
+PROP00652,Apartment,Residential,Bogotá,Chapinero,3,200,186594.0,Disponible
+PROP00653,Commercial,Commercial,Cali,Centenario,0,163,1015379.0,Disponible
+PROP00654,Land,Land,Bogotá,Usaquén,0,733,105567.0,Vendida
+PROP00655,Apartment,Residential,Bucaramanga,La Ciudadela,2,245,466819.0,Disponible
+PROP00656,Apartment,Residential,Bogotá,Chapinero,3,105,401545.0,Vendida
+PROP00657,Apartment,Residential,Barranquilla,Villa Country,5,226,371162.0,Disponible
+PROP00658,House,Residential,Barranquilla,Alto Prado,1,246,630054.0,Disponible
+PROP00659,Commercial,Commercial,Bogotá,Chapinero,0,167,412365.0,Disponible
+PROP00660,House,Residential,Bogotá,Chapinero,3,125,546038.0,Disponible
+PROP00661,Apartment,Residential,Medellín,Envigado,3,162,417521.0,Reservada
+PROP00662,Apartment,Residential,Cartagena,Crespo,5,142,448755.0,Vendida
+PROP00663,Apartment,Residential,Cali,Granada,3,154,300268.0,Vendida
+PROP00664,Commercial,Commercial,Cali,El Peñón,0,105,1019835.0,Disponible
+PROP00665,House,Residential,Barranquilla,Alto Prado,4,189,795850.0,Disponible
+PROP00666,House,Residential,Cartagena,Bocagrande,4,91,299760.0,Vendida
+PROP00667,Apartment,Residential,Medellín,Laureles,5,110,356556.0,Disponible
+PROP00668,Commercial,Commercial,Medellín,El Poblado,0,434,839030.0,Disponible
+PROP00669,Apartment,Residential,Barranquilla,Riomar,2,77,331435.0,Vendida
+PROP00670,Commercial,Commercial,Bogotá,Kennedy,0,345,965536.0,Disponible
+PROP00671,Commercial,Commercial,Cartagena,Manga,0,92,1060493.0,Disponible
+PROP00672,House,Residential,Bogotá,Usaquén,4,297,639838.0,Disponible
+PROP00673,Commercial,Commercial,Bogotá,Suba,0,430,599513.0,Reservada
+PROP00674,Apartment,Residential,Cartagena,El Cabrero,2,118,474476.0,Disponible
+PROP00675,House,Residential,Medellín,El Poblado,5,162,924903.0,Vendida
+PROP00676,Apartment,Residential,Bogotá,Chapinero,5,167,377965.0,Disponible
+PROP00677,House,Residential,Bogotá,Chapinero,2,193,702039.0,Disponible
+PROP00678,Apartment,Residential,Cali,Centenario,3,236,188846.0,Disponible
+PROP00679,Apartment,Residential,Cartagena,El Cabrero,5,227,285525.0,Vendida
+PROP00680,Apartment,Residential,Bogotá,Chapinero,1,185,219446.0,Disponible
+PROP00681,Apartment,Residential,Bogotá,Usaquén,4,182,322340.0,Vendida
+PROP00682,House,Residential,Medellín,Belén,5,312,830109.0,Disponible
+PROP00683,House,Residential,Bucaramanga,Cabecera,5,362,414925.0,Disponible
+PROP00684,Apartment,Residential,Bogotá,Teusaquillo,1,143,478945.0,Disponible
+PROP00685,Land,Land,Bucaramanga,Lagos,0,1559,127097.0,Reservada
+PROP00686,Commercial,Commercial,Cartagena,Bocagrande,0,217,419654.0,Disponible
+PROP00687,Apartment,Residential,Bogotá,Chapinero,4,46,471703.0,Vendida
+PROP00688,Apartment,Residential,Cartagena,Manga,4,195,187607.0,Vendida
+PROP00689,House,Residential,Barranquilla,Alto Prado,1,335,767276.0,Vendida
+PROP00690,Office,Commercial,Medellín,Sabaneta,0,255,629862.0,Reservada
+PROP00691,Apartment,Residential,Medellín,Laureles,4,129,262285.0,Reservada
+PROP00692,Office,Commercial,Cartagena,Manga,0,136,245394.0,Vendida
+PROP00693,Apartment,Residential,Barranquilla,El Prado,4,165,255257.0,Disponible
+PROP00694,Apartment,Residential,Barranquilla,El Prado,5,129,177282.0,Vendida
+PROP00695,Office,Commercial,Bucaramanga,Cabecera,0,213,579732.0,Vendida
+PROP00696,House,Residential,Medellín,Belén,1,248,873283.0,Disponible
+PROP00697,Commercial,Commercial,Cartagena,El Cabrero,0,379,1147638.0,Vendida
+PROP00698,Apartment,Residential,Cartagena,Bocagrande,5,136,415146.0,Vendida
+PROP00699,Apartment,Residential,Bogotá,Usaquén,3,93,406755.0,Disponible
+PROP00700,Apartment,Residential,Bogotá,Teusaquillo,2,257,441508.0,Vendida
+PROP00701,Apartment,Residential,Medellín,Sabaneta,2,158,405208.0,Disponible
+PROP00702,Apartment,Residential,Cartagena,El Cabrero,4,196,366416.0,Disponible
+PROP00703,House,Residential,Bogotá,Suba,5,308,947415.0,Disponible
+PROP00704,House,Residential,Barranquilla,Alto Prado,2,222,482550.0,Reservada
+PROP00705,House,Residential,Bogotá,Usaquén,5,449,544805.0,Disponible
+PROP00706,Apartment,Residential,Medellín,Laureles,4,124,449551.0,Vendida
+PROP00707,Apartment,Residential,Cali,El Peñón,1,258,256082.0,Disponible
+PROP00708,House,Residential,Bogotá,Kennedy,3,249,466119.0,Disponible
+PROP00709,Apartment,Residential,Cartagena,El Cabrero,5,49,204427.0,Vendida
+PROP00710,Commercial,Commercial,Bogotá,Kennedy,0,103,563163.0,Disponible
+PROP00711,Apartment,Residential,Cartagena,El Cabrero,1,254,347934.0,Vendida
+PROP00712,House,Residential,Bogotá,Chapinero,1,285,871616.0,Disponible
+PROP00713,Commercial,Commercial,Bucaramanga,Provenza,0,233,450373.0,Vendida
+PROP00714,House,Residential,Cali,Centenario,1,390,729767.0,Vendida
+PROP00715,House,Residential,Bogotá,Kennedy,3,318,788774.0,Disponible
+PROP00716,House,Residential,Bogotá,Suba,1,334,878013.0,Disponible
+PROP00717,Apartment,Residential,Bogotá,Usaquén,5,192,398765.0,Disponible
+PROP00718,House,Residential,Cali,Chipichape,1,163,367571.0,Vendida
+PROP00719,Commercial,Commercial,Cartagena,Manga,0,122,736019.0,Vendida
+PROP00720,Land,Land,Medellín,Laureles,0,1232,394496.0,Disponible
+PROP00721,House,Residential,Medellín,Belén,1,98,886804.0,Disponible
+PROP00722,Apartment,Residential,Cali,Granada,2,199,354141.0,Vendida
+PROP00723,Office,Commercial,Cali,Centenario,0,72,739754.0,Disponible
+PROP00724,House,Residential,Barranquilla,Alto Prado,4,187,720944.0,Vendida
+PROP00725,Apartment,Residential,Medellín,Laureles,5,197,176089.0,Vendida
+PROP00726,Apartment,Residential,Barranquilla,Villa Country,2,178,452069.0,Disponible
+PROP00727,Apartment,Residential,Bucaramanga,Cabecera,3,213,209647.0,Reservada
+PROP00728,House,Residential,Medellín,Laureles,4,316,522719.0,Disponible
+PROP00729,Apartment,Residential,Bogotá,Kennedy,4,55,232383.0,Disponible
+PROP00730,Apartment,Residential,Bogotá,Chapinero,1,225,388861.0,Vendida
+PROP00731,Apartment,Residential,Cali,Chipichape,5,91,164745.0,Vendida
+PROP00732,Commercial,Commercial,Medellín,Sabaneta,0,140,858675.0,Vendida
+PROP00733,Apartment,Residential,Bucaramanga,Provenza,5,233,435923.0,Reservada
+PROP00734,Apartment,Residential,Cali,El Peñón,4,86,411019.0,Disponible
+PROP00735,House,Residential,Medellín,Envigado,3,288,471823.0,Vendida
+PROP00736,Apartment,Residential,Barranquilla,Riomar,2,149,446506.0,Reservada
+PROP00737,Land,Land,Bogotá,Kennedy,0,1288,202663.0,Disponible
+PROP00738,Commercial,Commercial,Cartagena,El Cabrero,0,106,890849.0,Disponible
+PROP00739,Apartment,Residential,Bogotá,Chapinero,5,67,319668.0,Vendida
+PROP00740,House,Residential,Cali,Granada,5,243,306671.0,Vendida
+PROP00741,Apartment,Residential,Bucaramanga,Cabecera,3,146,155954.0,Disponible
+PROP00742,Apartment,Residential,Barranquilla,El Prado,4,214,214520.0,Vendida
+PROP00743,Apartment,Residential,Cartagena,Manga,2,175,458762.0,Disponible
+PROP00744,Apartment,Residential,Medellín,El Poblado,4,76,465042.0,Disponible
+PROP00745,Apartment,Residential,Cartagena,Crespo,1,255,288284.0,Disponible
+PROP00746,House,Residential,Cali,Centenario,5,260,928368.0,Vendida
+PROP00747,Apartment,Residential,Cali,Granada,3,252,171073.0,Disponible
+PROP00748,Apartment,Residential,Bogotá,Usaquén,3,257,469409.0,Reservada
+PROP00749,House,Residential,Bogotá,Kennedy,1,109,419332.0,Disponible
+PROP00750,House,Residential,Cali,Chipichape,3,277,285391.0,Vendida
+PROP00751,Apartment,Residential,Bogotá,Suba,1,135,401306.0,Vendida
+PROP00752,Apartment,Residential,Barranquilla,Villa Country,5,152,279295.0,Disponible
+PROP00753,Apartment,Residential,Cartagena,El Cabrero,4,111,250007.0,Vendida
+PROP00754,Apartment,Residential,Bucaramanga,Provenza,3,165,401893.0,Disponible
+PROP00755,Office,Commercial,Bogotá,Suba,0,150,393183.0,Disponible
+PROP00756,Commercial,Commercial,Bucaramanga,Provenza,0,158,949837.0,Reservada
+PROP00757,Apartment,Residential,Bogotá,Usaquén,5,107,218454.0,Vendida
+PROP00758,Apartment,Residential,Medellín,Belén,5,76,182920.0,Disponible
+PROP00759,Office,Commercial,Cartagena,Crespo,0,226,388706.0,Reservada
+PROP00760,House,Residential,Bogotá,Usaquén,1,340,680547.0,Disponible
+PROP00761,Apartment,Residential,Bogotá,Chapinero,1,128,228117.0,Reservada
+PROP00762,Apartment,Residential,Bogotá,Suba,2,130,201432.0,Vendida
+PROP00763,House,Residential,Medellín,Envigado,1,119,776913.0,Vendida
+PROP00764,House,Residential,Cartagena,Crespo,3,197,600314.0,Disponible
+PROP00765,Apartment,Residential,Bogotá,Suba,3,243,295223.0,Vendida
+PROP00766,Apartment,Residential,Bogotá,Kennedy,3,51,232897.0,Reservada
+PROP00767,Apartment,Residential,Cali,El Peñón,1,76,160750.0,Disponible
+PROP00768,Apartment,Residential,Bogotá,Suba,5,226,172277.0,Disponible
+PROP00769,House,Residential,Barranquilla,Riomar,5,282,730232.0,Vendida
+PROP00770,House,Residential,Bucaramanga,La Ciudadela,3,101,315213.0,Disponible
+PROP00771,House,Residential,Barranquilla,Alto Prado,1,271,430380.0,Vendida
+PROP00772,Apartment,Residential,Cartagena,Crespo,2,206,451040.0,Disponible
+PROP00773,Apartment,Residential,Medellín,Laureles,4,119,266792.0,Vendida
+PROP00774,Office,Commercial,Cartagena,Bocagrande,0,127,619555.0,Disponible
+PROP00775,House,Residential,Bogotá,Teusaquillo,4,323,496892.0,Vendida
+PROP00776,Apartment,Residential,Bogotá,Teusaquillo,2,173,457842.0,Vendida
+PROP00777,Apartment,Residential,Cali,Centenario,5,239,422105.0,Disponible
+PROP00778,Office,Commercial,Bogotá,Usaquén,0,98,468494.0,Vendida
+PROP00779,Office,Commercial,Cartagena,El Cabrero,0,104,586424.0,Reservada
+PROP00780,Commercial,Commercial,Barranquilla,Alto Prado,0,147,674766.0,Disponible
+PROP00781,House,Residential,Bucaramanga,Lagos,5,336,911640.0,Disponible
+PROP00782,House,Residential,Medellín,Sabaneta,3,287,507301.0,Vendida
+PROP00783,House,Residential,Medellín,Sabaneta,2,218,837155.0,Vendida
+PROP00784,Apartment,Residential,Barranquilla,Riomar,3,194,355299.0,Disponible
+PROP00785,House,Residential,Bogotá,Chapinero,1,229,704143.0,Vendida
+PROP00786,House,Residential,Cali,Granada,3,162,502575.0,Disponible
+PROP00787,Apartment,Residential,Cali,Centenario,1,161,425683.0,Disponible
+PROP00788,Commercial,Commercial,Bucaramanga,Lagos,0,251,944481.0,Reservada
+PROP00789,Apartment,Residential,Barranquilla,El Prado,1,132,419969.0,Disponible
+PROP00790,Apartment,Residential,Bogotá,Usaquén,3,140,415428.0,Disponible
+PROP00791,Apartment,Residential,Medellín,Laureles,3,241,206222.0,Reservada
+PROP00792,Commercial,Commercial,Cali,El Peñón,0,169,1049434.0,Disponible
+PROP00793,Commercial,Commercial,Bogotá,Kennedy,0,192,1021893.0,Disponible
+PROP00794,House,Residential,Medellín,Belén,5,299,427532.0,Vendida
+PROP00795,Land,Land,Bogotá,Suba,0,313,404036.0,Reservada
+PROP00796,Commercial,Commercial,Bogotá,Suba,0,143,766887.0,Vendida
+PROP00797,Office,Commercial,Medellín,Envigado,0,166,387051.0,Reservada
+PROP00798,Commercial,Commercial,Bogotá,Kennedy,0,278,520990.0,Reservada
+PROP00799,Apartment,Residential,Cali,Granada,3,185,273532.0,Disponible
+PROP00800,Office,Commercial,Bogotá,Chapinero,0,69,230655.0,Vendida
+PROP00801,House,Residential,Barranquilla,Riomar,5,405,736586.0,Disponible
+PROP00802,Office,Commercial,Bogotá,Suba,0,149,599303.0,Disponible
+PROP00803,Apartment,Residential,Cartagena,Crespo,5,78,372027.0,Vendida
+PROP00804,Office,Commercial,Bogotá,Teusaquillo,0,111,511939.0,Vendida
+PROP00805,Land,Land,Medellín,Envigado,0,557,202891.0,Reservada
+PROP00806,Apartment,Residential,Medellín,El Poblado,2,142,390276.0,Disponible
+PROP00807,Land,Land,Bogotá,Chapinero,0,883,368199.0,Disponible
+PROP00808,Apartment,Residential,Medellín,Belén,5,138,183477.0,Reservada
+PROP00809,Apartment,Residential,Cartagena,El Cabrero,3,144,279436.0,Vendida
+PROP00810,Apartment,Residential,Cartagena,El Cabrero,3,240,478546.0,Disponible
+PROP00811,Office,Commercial,Medellín,El Poblado,0,251,684083.0,Disponible
+PROP00812,House,Residential,Bogotá,Teusaquillo,1,271,946100.0,Disponible
+PROP00813,Apartment,Residential,Barranquilla,Riomar,2,252,214570.0,Reservada
+PROP00814,House,Residential,Cali,Ciudad Jardín,3,392,580849.0,Vendida
+PROP00815,Apartment,Residential,Bogotá,Chapinero,2,221,197365.0,Disponible
+PROP00816,House,Residential,Barranquilla,Villa Country,3,173,857580.0,Disponible
+PROP00817,Commercial,Commercial,Medellín,Belén,0,252,760242.0,Disponible
+PROP00818,House,Residential,Cali,El Peñón,1,220,428062.0,Disponible
+PROP00819,Office,Commercial,Medellín,Laureles,0,65,259678.0,Reservada
+PROP00820,House,Residential,Medellín,Laureles,2,117,768920.0,Disponible
+PROP00821,Land,Land,Bogotá,Chapinero,0,1090,348849.0,Vendida
+PROP00822,Apartment,Residential,Barranquilla,Villa Country,4,135,440748.0,Vendida
+PROP00823,Apartment,Residential,Bogotá,Teusaquillo,4,222,470697.0,Vendida
+PROP00824,Apartment,Residential,Barranquilla,Villa Country,5,188,419766.0,Vendida
+PROP00825,House,Residential,Barranquilla,Riomar,5,121,802558.0,Disponible
+PROP00826,House,Residential,Barranquilla,Alto Prado,5,400,820124.0,Disponible
+PROP00827,Office,Commercial,Bogotá,Suba,0,151,759284.0,Disponible
+PROP00828,Apartment,Residential,Bogotá,Suba,1,166,305483.0,Vendida
+PROP00829,Apartment,Residential,Medellín,Belén,4,252,401537.0,Disponible
+PROP00830,House,Residential,Cali,Ciudad Jardín,2,326,825793.0,Disponible
+PROP00831,Land,Land,Cartagena,Crespo,0,280,122791.0,Disponible
+PROP00832,Apartment,Residential,Medellín,El Poblado,2,83,379479.0,Disponible
+PROP00833,Apartment,Residential,Cartagena,Bocagrande,2,136,265120.0,Vendida
+PROP00834,Apartment,Residential,Bogotá,Teusaquillo,3,52,198046.0,Vendida
+PROP00835,House,Residential,Medellín,Sabaneta,1,151,377551.0,Reservada
+PROP00836,Apartment,Residential,Bogotá,Teusaquillo,3,215,192109.0,Vendida
+PROP00837,Apartment,Residential,Barranquilla,Riomar,1,75,446767.0,Disponible
+PROP00838,House,Residential,Bogotá,Suba,3,151,792626.0,Disponible
+PROP00839,Apartment,Residential,Bogotá,Chapinero,4,153,188198.0,Disponible
+PROP00840,Apartment,Residential,Barranquilla,Riomar,1,64,358275.0,Vendida
+PROP00841,Apartment,Residential,Cali,Chipichape,1,99,369639.0,Reservada
+PROP00842,Commercial,Commercial,Bogotá,Usaquén,0,436,760694.0,Disponible
+PROP00843,Apartment,Residential,Bogotá,Suba,5,180,351985.0,Vendida
+PROP00844,Apartment,Residential,Medellín,El Poblado,4,252,449860.0,Disponible
+PROP00845,Apartment,Residential,Medellín,Belén,2,121,323627.0,Disponible
+PROP00846,House,Residential,Bogotá,Kennedy,5,318,715117.0,Vendida
+PROP00847,Commercial,Commercial,Cali,Ciudad Jardín,0,178,802589.0,Vendida
+PROP00848,Apartment,Residential,Bogotá,Suba,2,126,283747.0,Vendida
+PROP00849,Apartment,Residential,Cali,Centenario,5,82,444527.0,Vendida
+PROP00850,Apartment,Residential,Medellín,Laureles,1,224,289527.0,Disponible
+PROP00851,House,Residential,Bogotá,Usaquén,4,158,811966.0,Reservada
+PROP00852,Commercial,Commercial,Bogotá,Kennedy,0,165,830247.0,Vendida
+PROP00853,House,Residential,Bogotá,Suba,1,261,732619.0,Reservada
+PROP00854,Apartment,Residential,Bogotá,Teusaquillo,1,137,402089.0,Disponible
+PROP00855,Office,Commercial,Medellín,El Poblado,0,112,614765.0,Vendida
+PROP00856,Office,Commercial,Cartagena,Bocagrande,0,121,520394.0,Disponible
+PROP00857,Apartment,Residential,Cartagena,Manga,3,108,355032.0,Disponible
+PROP00858,Apartment,Residential,Medellín,Belén,1,241,320347.0,Vendida
+PROP00859,Apartment,Residential,Cali,Centenario,3,169,265217.0,Vendida
+PROP00860,Office,Commercial,Cali,Ciudad Jardín,0,242,609795.0,Vendida
+PROP00861,Office,Commercial,Cartagena,Manga,0,257,693384.0,Vendida
+PROP00862,House,Residential,Bogotá,Chapinero,2,330,746632.0,Disponible
+PROP00863,Office,Commercial,Bogotá,Suba,0,222,634693.0,Vendida
+PROP00864,Apartment,Residential,Medellín,Belén,1,68,424862.0,Disponible
+PROP00865,Apartment,Residential,Bogotá,Suba,5,249,274392.0,Vendida
+PROP00866,Apartment,Residential,Medellín,Envigado,5,148,175329.0,Disponible
+PROP00867,Commercial,Commercial,Cartagena,Manga,0,353,613433.0,Vendida
+PROP00868,House,Residential,Cartagena,Bocagrande,5,180,780916.0,Reservada
+PROP00869,Apartment,Residential,Bogotá,Chapinero,1,65,420109.0,Vendida
+PROP00870,Apartment,Residential,Medellín,El Poblado,2,235,321972.0,Disponible
+PROP00871,Office,Commercial,Medellín,Envigado,0,141,638224.0,Disponible
+PROP00872,Office,Commercial,Medellín,Sabaneta,0,74,251081.0,Disponible
+PROP00873,House,Residential,Cali,Centenario,2,333,704447.0,Disponible
+PROP00874,Apartment,Residential,Bogotá,Usaquén,2,56,375678.0,Vendida
+PROP00875,Commercial,Commercial,Cartagena,Bocagrande,0,256,751350.0,Disponible
+PROP00876,Office,Commercial,Bucaramanga,Provenza,0,196,604097.0,Reservada
+PROP00877,House,Residential,Cali,Granada,3,356,599112.0,Disponible
+PROP00878,House,Residential,Cali,Chipichape,3,257,621302.0,Disponible
+PROP00879,Commercial,Commercial,Medellín,Laureles,0,226,829212.0,Vendida
+PROP00880,Commercial,Commercial,Medellín,Sabaneta,0,400,982977.0,Disponible
+PROP00881,House,Residential,Bogotá,Kennedy,3,158,431606.0,Disponible
+PROP00882,Apartment,Residential,Cali,Chipichape,2,61,252580.0,Disponible
+PROP00883,Apartment,Residential,Bogotá,Suba,5,78,291124.0,Disponible
+PROP00884,Office,Commercial,Cartagena,Crespo,0,217,321048.0,Vendida
+PROP00885,House,Residential,Medellín,Belén,5,263,490614.0,Disponible
+PROP00886,Apartment,Residential,Medellín,Envigado,2,53,268988.0,Disponible
+PROP00887,Apartment,Residential,Medellín,Laureles,2,81,257127.0,Vendida
+PROP00888,Commercial,Commercial,Bucaramanga,La Ciudadela,0,100,672140.0,Reservada
+PROP00889,Commercial,Commercial,Bogotá,Teusaquillo,0,391,748873.0,Reservada
+PROP00890,Land,Land,Bogotá,Usaquén,0,872,311178.0,Disponible
+PROP00891,House,Residential,Bogotá,Chapinero,3,115,469028.0,Vendida
+PROP00892,Office,Commercial,Cali,El Peñón,0,92,675035.0,Disponible
+PROP00893,Office,Commercial,Bucaramanga,La Ciudadela,0,177,473685.0,Disponible
+PROP00894,Apartment,Residential,Bogotá,Suba,2,172,389298.0,Vendida
+PROP00895,Apartment,Residential,Cartagena,Bocagrande,5,221,192312.0,Vendida
+PROP00896,Land,Land,Bogotá,Chapinero,0,284,141545.0,Reservada
+PROP00897,Apartment,Residential,Cali,El Peñón,3,59,302408.0,Vendida
+PROP00898,House,Residential,Bogotá,Suba,1,103,512689.0,Disponible
+PROP00899,House,Residential,Medellín,El Poblado,1,235,602324.0,Vendida
+PROP00900,House,Residential,Cali,El Peñón,1,359,369305.0,Vendida

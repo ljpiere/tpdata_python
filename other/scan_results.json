@@ -1,0 +1,458 @@
+[
+  {
+    "filename": "Sprint0_Webinar00_Intro.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "## Cierre de la sesi\u00f3n 0\n\n> **Kahoot sesion 0 Begin:** Identificaci\u00f3n de expectativas\n\n- Ya conoces ",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sesi\u00f3n 0 \u2014 Introducci\u00f3n y Bienvenida (100 min)",
+      "## Objetivos de la Sesi\u00f3n 0",
+      "## Agenda",
+      "## 1) Bienvenida y log\u00edstica (0\u201310)",
+      "### Presentaci\u00f3n de su tutor",
+      "## 2) Introducci\u00f3n a la futura profesi\u00f3n en Data Analytics (10\u201325)",
+      "### 2.1) Expectativas del curso",
+      "#### 2.1.1) Lo que esperamos de ti",
+      "#### 2.1.2) Lo que puedes esperar de nosotros",
+      "#### 2.1.3) Lo que aprenderemos"
+    ]
+  },
+  {
+    "filename": "Sprint1_Webinar01_Teorico.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "---\n## R\u00fabrica sugerida (evaluaci\u00f3n formativa)\n- Identificaci\u00f3n de problemas de calidad y propuesta ",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 1 - Webinar 1: Introduction to Your Future Profession",
+      "## Introducci\u00f3n",
+      "## Objetivos de aprendizaje",
+      "## Material",
+      "## Agenda",
+      "## 1) Role of the DA",
+      "## 2) Un mundo lleno de herramientas",
+      "## 3) DA en diferentes tipos de organizaciones",
+      "## 4) Tipos de Seniority",
+      "## 5) Work Process (de la pregunta a la entrega)"
+    ]
+  },
+  {
+    "filename": "Sprint1_Webinar02_Practico.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "---\n## R\u00fabrica sugerida (evaluaci\u00f3n formativa)\n- Detecci\u00f3n/correcci\u00f3n de calidad (duplicados, faltan",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Clase pr\u00e1ctica (90 min) \u2014 Limpieza y an\u00e1lisis en **Google Sheets** con dataset de Taylor Swift",
+      "## Introducci\u00f3n",
+      "## Agenda (90 min)",
+      "## 0) Setup inicial",
+      "## 1) Normalizaci\u00f3n b\u00e1sica (\u00e1lbum, fechas, booleanos, num\u00e9ricos)",
+      "### 1.1 Normalizar nombre de \u00e1lbum (`album_norm`)",
+      "### 1.2 Fechas a formato ISO `yyyy-mm-dd` (`release_iso`)",
+      "### 1.3 Booleanos como TRUE/FALSE (`explicit_bool`, `is_single`)",
+      "### 1.4 N\u00fameros limpios (`streams_num`, `chart_peak_num`)",
+      "## 2) Duraci\u00f3n uniforme y *split* de autores"
+    ]
+  },
+  {
+    "filename": "Sprint2_Webinar03_Teorico.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "---\n## Cierre\n\n\n**Kahoot de repaso (5 min):**\n- Validar aprendizajes clave de la sesi\u00f3n.\n- Q&A y pr\u00f3",
+    "has_next_steps": true,
+    "next_steps_snippet": "---\n## Cierre\n\n\n**Kahoot de repaso (5 min):**\n- Validar aprendizajes clave de la sesi\u00f3n.\n- Q&A y pr\u00f3",
+    "headers": [
+      "# Sprint 2 - Webinar 3: Formulaci\u00f3n de Preguntas de Negocio y Preparaci\u00f3n de Datos en Excel/Sheets (80 min)",
+      "## Objetivos de Aprendizaje",
+      "## Agenda (85 min)",
+      "## 0. Setup (Docente)",
+      "# 1) Analytical Questions in a Business Context (10 + 25 min)",
+      "### 1.1 Framing Data Questions from Business Needs (5 min)",
+      "### 1.2 Matching Business Questions with the Right Metrics (10 min)",
+      "### 1.3 Leading vs. Lagging Indicators (5 min)",
+      "### 1.4 Writing Focused Analysis Questions (3 min)",
+      "### 1.5 \ud83e\udd16 AI: Using an LLM for stakeholder & metrics (2 min)"
+    ]
+  },
+  {
+    "filename": "Sprint2_Webinar04_Practico.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "---\n## Ap\u00e9ndice: f\u00f3rmulas \u00fatiles y tips\n- `=TRIM()`, `=CLEAN()`, `=PROPER()`, validaci\u00f3n de datos (l",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 2 - Webinar 4: Walmart Project \u2014 Limpieza, Enriquecimiento y Resumen con KPIs (80 min)",
+      "## Objetivos de la sesi\u00f3n",
+      "## Material",
+      "## Agenda (80 min, pr\u00e1ctica)",
+      "## Cierre",
+      "## 0) Setup (descarga y vista previa)",
+      "# Parte 1 \u2014 Limpieza de datos (20\u201330 min)",
+      "### 0. Break rooms:",
+      "### 1.1 Normaliza columnas",
+      "### 1.2 Estandariza semana (clave temporal)"
+    ]
+  },
+  {
+    "filename": "Sprint2_Webinar05_Teorico.ipynb",
+    "has_cierre": false,
+    "cierre_snippet": "",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 2 - Webinar 5 (Parte 1 de 2): PivotTables y Visualizaci\u00f3n (Excel/Google Sheets)",
+      "## Objetivos de aprendizaje",
+      "## Agenda (120 min)",
+      "## Preparaci\u00f3n (antes de la clase)",
+      "# 4. Analyzing Data with PivotTables (Dataset: `sp2_w5_almacen_ventas.xlsx`)",
+      "## 4.1 Building Your First PivotTable (25 min)",
+      "## 4.2 Filtering and Sorting Inside PivotTables (15 min)",
+      "## 4.3 Summarizing with Different Calculations (20 min)",
+      "## 4.4 Refining Layout & Interpreting Results (10 min)",
+      "## 4.5 AI \ud83e\udd16 Using LLMs to Propose Cuts/QA (10 min)"
+    ]
+  },
+  {
+    "filename": "Sprint2_Webinar06_Pr\u00e1ctico.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "## Agenda (\u2264 190 min)\n1. **Preparaci\u00f3n** (5 min)  \n2. **Parte 1 \u2014 Limpieza** (25 min)  \n3. **Parte 2",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 2 - Webinar 6 - Clase 120 min: Warm\u2011Up Proyecto Walmart",
+      "## Material",
+      "## Objetivos de la sesi\u00f3n",
+      "## Agenda (\u2264 190 min)",
+      "## Cierre",
+      "## Preparaci\u00f3n (5 min)",
+      "# Parte 1 \u2014 Limpieza (12 min) - Breakout rooms",
+      "### 1.1 Duplica y renombra",
+      "### 1.2 Normaliza tipos y texto",
+      "### 1.3 Semana est\u00e1ndar"
+    ]
+  },
+  {
+    "filename": "Sprint3_Webinar07_Teorico.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "---\n## Cierre\n\n\n**Kahoot de repaso (5 min)**\n- Navegamos un esquema relacional e identificamos PK/FK",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 3 \u2014 Webinar 7 Te\u00f3rico",
+      "## Explorar KPIs Financieros con SQL (con esquema *Books*)",
+      "### \ud83c\udfaf Objetivos de aprendizaje",
+      "### Conexi\u00f3n a la base de datos",
+      "## \ud83e\udde0 Introducci\u00f3n a SQL (Structured Query Language)",
+      "### \u00bfQu\u00e9 es SQL?",
+      "### \u00bfC\u00f3mo funciona una consulta?",
+      "### \u00bfEn qu\u00e9 \u00e1mbitos se usa?",
+      "### Comandos fundamentales",
+      "### Importancia para Data Analyst"
+    ]
+  },
+  {
+    "filename": "Sprint3_Webinar08_Practico.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "## Cierre\n**Kahoot de repaso (5 min)**\n- Practicaste DDL, DML y SELECT con JOIN/GROUP BY y KPIs de n",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 3 \u00b7 Webinar 8 \u2014 Clase Practica de SQL (RunSQL)",
+      "## Objetivos de aprendizaje",
+      "## Agenda",
+      "## 0) Configuracion rapida en RunSQL",
+      "## 1) Reset y creacion de tablas (DDL)",
+      "## 2) Insercion de datos (DML)",
+      "## 3) Consultas base",
+      "### 3.1) SELECT + WHERE + ORDER BY (ventas de septiembre) (Breakout rooms)",
+      "## 4) JOINs y agregaciones para KPIs",
+      "### 4.1) Ingresos y costos por producto"
+    ]
+  },
+  {
+    "filename": "Sprint3_Webinar09_Te\u00f3rico.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "## Cierre\n**Kahoot de repaso (5 min)**\n- Guarda tus consultas clave en un script comentado.\n- Export",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 3 \u2013 Webinar 9: KPIs financieros con SQL (90 min)",
+      "## Agenda",
+      "## Esquema de pr\u00e1ctica",
+      "# 3. Calculating Key Financial Metrics",
+      "### 3.1 Aggregating Revenue and Cost Data",
+      "#### Exercise 3.1",
+      "### 3.2 Calculating Profit and Margin",
+      "#### Exercise 3.2",
+      "### 3.3 Measuring ROI by Campaign",
+      "#### Exercise 3.3"
+    ]
+  },
+  {
+    "filename": "Sprint3_Webinar10_Practico.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "## Cierre\n**Kahoot de repaso (5 min)**\n- Guarda tus consultas clave en un script comentado.\n- Export",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 3 \u00b7 Webinar 10 \u2014 Clase Pr\u00e1ctica de SQL (RunSQL)",
+      "## Objetivos",
+      "## Agenda",
+      "## 0) Configuraci\u00f3n r\u00e1pida RunSQL (Breakout Rooms)",
+      "## 1) Reset y creaci\u00f3n de tablas (extendido)",
+      "## 2) Inserci\u00f3n de datos (extendido para tendencias)",
+      "## 2.1) Calculemos el Revenue total y el costo total",
+      "## 2bis) KPIs con CTE y CASE",
+      "## 3) ROI por canal/campa\u00f1a (con daily tracking)",
+      "## 4) Validaci\u00f3n y verificaci\u00f3n de resultados"
+    ]
+  },
+  {
+    "filename": "Sprint4_Webinar11_Teorico.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "## Cierre\n**Kahoot de repaso (5 min)**\n- Guarda tus consultas clave en un script comentado.\n- Export",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 4 \u2014 Webinar 11 (Te\u00f3rico)",
+      "## Agenda y Objetivos de Aprendizaje",
+      "## Requisitos previos y conexi\u00f3n a PostgreSQL",
+      "# 0) Scripts de creaci\u00f3n e inserci\u00f3n de datos (PostgreSQL)",
+      "# 1) Understand the User Journey and Prepare Data",
+      "### 1.1 \u00bfQu\u00e9 es un *user journey*?",
+      "### 1.2 Identificar eventos y campos clave en BD",
+      "### 1.3 Validaci\u00f3n de calidad de datos",
+      "# 2) Building Funnel Analyses with SQL",
+      "### 2.1 Extraer y filtrar eventos relevantes (CTEs)"
+    ]
+  },
+  {
+    "filename": "Sprint4_Webinar12_Practico.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "## Cierre\n**Kahoot de repaso (5 min)**\n- Guarda tus consultas clave en un script comentado.\n- Export",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 4 \u2014 Webinar 12 (Pr\u00e1ctica)",
+      "## Estructura y timeboxing",
+      "## Objetivos de la sesi\u00f3n",
+      "## 0) Preparaci\u00f3n de entorno: nueva BD / esquema",
+      "# Ejercicio 0 \u2014 Breakout rooms (10 minutos)",
+      "# 1) Coding Together (~60 min)",
+      "## 1.1 Funnel por etapas con CTEs (Feb 2021)",
+      "## 1.2 Tiempos entre etapas + cuello de botella",
+      "## 1.3 Cohorts semanales y retenci\u00f3n (0..6 semanas)",
+      "## 1.4 Retenci\u00f3n segmentada (free vs paid)"
+    ]
+  },
+  {
+    "filename": "Sprint4_Webinar13_Teorico.ipynb",
+    "has_cierre": false,
+    "cierre_snippet": "",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 4 \u2014 Webinar 13 (Pr\u00e1ctica)",
+      "### Agenda \u2013 Webinar 13 (Pr\u00e1ctico)",
+      "## 0. Objetivos de aprendizaje",
+      "## 0.1. C\u00f3mo usar este notebook con SQLite Online",
+      "## 1. Recordatorio te\u00f3rico \u2014 Funnels y A/B testing",
+      "### 1.1 Funnels de conversi\u00f3n",
+      "### 1.2 A/B testing en funnels",
+      "### 1.3 Del funnel al impacto de negocio",
+      "### 1.4 Segmentos y heterogeneidad",
+      "### 1.5 Visualizaci\u00f3n para stakeholders"
+    ]
+  },
+  {
+    "filename": "Sprint4_Webinar14_Practico.ipynb",
+    "has_cierre": false,
+    "cierre_snippet": "",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 4 \u2014 Webinar 14 (Pr\u00e1ctica)",
+      "### Agenda \u2013 Webinar 14 (Pr\u00e1ctico)",
+      "## 0. Objetivos de aprendizaje",
+      "## 0.1. C\u00f3mo usar este notebook con SQLite Online",
+      "## 1. Recordatorio te\u00f3rico \u2014 Funnels, CTEs y escenarios",
+      "### 1.1 Funnels de conversi\u00f3n",
+      "### 1.2 CTEs para modelar funnels",
+      "### 1.3 Escenarios de negocio",
+      "## 1.4 Script DDL de la sesi\u00f3n (ejecutar primero)",
+      "## 2. Ejercicio 1 \u2014 Funnel base y tasas de conversi\u00f3n por variante"
+    ]
+  },
+  {
+    "filename": "Sprint5_Webinar15_Teorico.ipynb",
+    "has_cierre": false,
+    "cierre_snippet": "",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 5 \u00b7 Webinar 15 \u00b7 Introducci\u00f3n a Python y Pandas (Sesi\u00f3n te\u00f3rica)",
+      "## Objetivos de la sesi\u00f3n",
+      "## Agenda sugerida (100 minutos)",
+      "## 1. Python para Anal\u00edtica de Datos",
+      "## 2. Jupyter Notebook: nuestro cuaderno interactivo",
+      "## 3. Introducci\u00f3n a Pandas y DataFrames",
+      "### 3.1. Cargar un archivo CSV en un DataFrame",
+      "### 3.2. Exploraci\u00f3n b\u00e1sica del DataFrame",
+      "## 4. Esquema de datos y diccionario de columnas",
+      "### 4.1. Buenas pr\u00e1cticas al nombrar columnas"
+    ]
+  },
+  {
+    "filename": "Sprint5_Webinar16_Pr\u00e1ctico.ipynb",
+    "has_cierre": false,
+    "cierre_snippet": "",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 5 \u00b7 Webinar 16 \u00b7 Introducci\u00f3n a Python y Pandas (Sesi\u00f3n pr\u00e1ctica)",
+      "## Fecha",
+      "## Objetivos de la sesi\u00f3n pr\u00e1ctica",
+      "## Agenda sugerida (100 minutos)",
+      "## Ejercicio 0 \u00b7 Calentamiento en breakout rooms (10\u201315 min)",
+      "### En grupos (breakout rooms):",
+      "### Pista",
+      "# T\u00edtulo nivel 1",
+      "## T\u00edtulo nivel 2",
+      "### T\u00edtulo nivel 3"
+    ]
+  },
+  {
+    "filename": "Sprint5_Webinar17_Teorico.ipynb",
+    "has_cierre": false,
+    "cierre_snippet": "",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 5 \u00b7 Webinar 17 \u00b7 Data Analytics te\u00f3rico (Caso licores latinoamericanos)",
+      "## Fecha",
+      "## Objetivos de la sesi\u00f3n te\u00f3rica",
+      "## Agenda sugerida (100 minutos)",
+      "## Ejercicio 0 \u00b7 Calentamiento en breakout rooms (discusi\u00f3n conceptual, 10 min)",
+      "## Ejercicio 1 \u00b7 Cargar y explorar el dataset de licores",
+      "### 1.1. Carga de datos y vista r\u00e1pida",
+      "### Preguntas guiadas para el Ejercicio 1",
+      "## Ejercicio 2 \u00b7 Limpieza y preparaci\u00f3n de datos",
+      "## Ejercicio 3 \u00b7 Enriquecimiento, an\u00e1lisis exploratorio y visualizaci\u00f3n"
+    ]
+  },
+  {
+    "filename": "Sprint5_Webinar18_Practico.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "## Cierre de la sesi\u00f3n\n\n- Hoy pasaste por el flujo completo de trabajo pr\u00e1ctico sobre un dataset rea",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 5 \u00b7 Webinar 18 \u00b7 Sesi\u00f3n Pr\u00e1ctica (Caso licores latinoamericanos)",
+      "## Ejercicio 0 \u00b7 Reto inicial (filtrado + razonamiento)",
+      "## Ejercicio 1 \u00b7 Validaci\u00f3n y exploraci\u00f3n estructural del dataset",
+      "### Preguntas guiadas (Ejercicio 1)",
+      "## Ejercicio 2 \u00b7 Limpieza avanzada (normalizaci\u00f3n, variables derivadas, outliers)",
+      "### Parte A: Normalizaci\u00f3n de texto",
+      "### Parte B: Creaci\u00f3n de variables derivadas",
+      "### Parte C: Detecci\u00f3n de outliers con IQR",
+      "### Secci\u00f3n extra Ejercicio 2 \u00b7 Manejo de datos faltantes en `pandas`",
+      "### Parte A: Normalizaci\u00f3n de texto"
+    ]
+  },
+  {
+    "filename": "Sprint7_Webinar19_Teorico.ipynb",
+    "has_cierre": false,
+    "cierre_snippet": "",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 7 \u00b7 Webinar 19 \u00b7 Data Analytics te\u00f3rico (Preparaci\u00f3n de datos + distribuciones + Git/GitHub)",
+      "## Fecha",
+      "## Objetivos de la sesi\u00f3n te\u00f3rica",
+      "## Agenda sugerida (100 minutos)",
+      "## Ejercicio 0 \u00b7 Calentamiento en breakout rooms (discusi\u00f3n conceptual, 10 min)",
+      "## Ejercicio 1 \u00b7 Preparaci\u00f3n de datos para an\u00e1lisis estad\u00edstico (7.1)",
+      "### 7.1.1 Identificando variables relevantes para el an\u00e1lisis",
+      "### 7.1.2 Manejando valores ausentes o inv\u00e1lidos",
+      "### 7.1.3 Funciones de Python para automatizar la limpieza de datos",
+      "## Ejercicio 2 \u00b7 Automatizaci\u00f3n con iterables, bucles y mini-funciones (7.1.4\u20137.1.5)"
+    ]
+  },
+  {
+    "filename": "Sprint7_Webinar20_Practico.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "## Cierre de la sesi\u00f3n\n\n- Guarda tu notebook final y tu dataset limpio (`df_enriched`) como punto de",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 6 \u00b7 Webinar 20 \u00b7 Sesi\u00f3n Pr\u00e1ctica (Preparaci\u00f3n de datos + distribuciones + Git)",
+      "## Fecha",
+      "## Objetivos de la sesi\u00f3n pr\u00e1ctica",
+      "## Agenda sugerida (100 minutos)",
+      "## Preparaci\u00f3n del entorno (ejecuta primero)",
+      "## Ejercicio 0 \u00b7 Reto inicial (10 min)",
+      "### Tu reto",
+      "### Pistas",
+      "#### Soluci\u00f3n:",
+      "## Ejercicio 1 \u00b7 Identificando variables relevantes (7.1.1) y validaci\u00f3n estructural (15 min)"
+    ]
+  },
+  {
+    "filename": "Sprint7_Webinar21_Teorico.ipynb",
+    "has_cierre": false,
+    "cierre_snippet": "",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 7 \u00b7 Webinar 21 \u00b7 Data Analytics te\u00f3rico (Valores at\u00edpicos, segmentaci\u00f3n y GitHub)",
+      "## Fecha",
+      "## Objetivos de la sesi\u00f3n te\u00f3rica",
+      "## Agenda sugerida (100 minutos)",
+      "## Ejercicio 0 \u00b7 Calentamiento en breakout rooms (discusi\u00f3n conceptual, 10 min)",
+      "## Ejercicio 1 \u00b7 Crear y explorar un dataset extenso para an\u00e1lisis (15 min)",
+      "### 1.1 Generaci\u00f3n del dataset",
+      "### Preguntas guiadas para el Ejercicio 1",
+      "## 7.3 An\u00e1lisis de valores at\u00edpicos y segmentaci\u00f3n",
+      "### 7.3.1 Identificando valores at\u00edpicos con reglas estad\u00edsticas (20 min)"
+    ]
+  },
+  {
+    "filename": "Sprint7_Webinar22_Practico.ipynb",
+    "has_cierre": true,
+    "cierre_snippet": "## Cierre (5 min)\n\nChecklist final del proyecto:\n\n- [ ] `data/clinic_transactions.csv` generado\n- [ ",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 7 \u00b7 Webinar 22 \u00b7 Data Analytics pr\u00e1ctico (Proyecto: outliers, segmentaci\u00f3n y GitHub)",
+      "## Fecha",
+      "## Objetivos de la sesi\u00f3n pr\u00e1ctica",
+      "## Agenda sugerida (100 minutos)",
+      "## Ejercicio 0 \u00b7 Kickoff del proyecto (5 min)",
+      "## Proyecto pr\u00e1ctico: \u201cCl\u00ednica Agendada\u201d (Customer Analytics)",
+      "### Entregables del proyecto (lo que publicaremos en GitHub)",
+      "## Diccionario de datos (CSV)",
+      "## Ejercicio 1 \u00b7 Generar el dataset sint\u00e9tico (CSV)",
+      "## Ejercicio 2 \u00b7 Cargar el CSV y revisar calidad de datos (EDA r\u00e1pido)"
+    ]
+  },
+  {
+    "filename": "Sprint8_Webinar23_Teorico.ipynb",
+    "has_cierre": false,
+    "cierre_snippet": "",
+    "has_next_steps": false,
+    "next_steps_snippet": "",
+    "headers": [
+      "# Sprint 8 \u00b7 Webinar 23 \u00b7 Data Analytics te\u00f3rico (Explorar conexiones con correlaciones)",
+      "## Fecha",
+      "## Objetivos de la sesi\u00f3n te\u00f3rica",
+      "## Agenda sugerida (120 minutos)",
+      "## Ejercicio 0 \u00b7 Calentamiento en breakout rooms (discusi\u00f3n conceptual, 10 min)",
+      "## Ejercicio 1 \u00b7 Crear y explorar un dataset extenso para an\u00e1lisis (20 min)",
+      "### Preguntas guiadas para el Ejercicio 1",
+      "## 8.1 Exploring Relationships Visually",
+      "### 8.1.1 Understanding Lineal Correlation & Relationships",
+      "### 8.1.2 Scatterplots for Relationships"
+    ]
+  }
+]

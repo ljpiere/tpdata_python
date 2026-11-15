@@ -1,0 +1,81 @@
+product_id,country,category,brand,price_usd,abv_percent,export_volume_liters,rating,distributor,launch_year,sales_channel,is_premium
+LIC001,Colombia,Aguardiente,Caña Fina,8.32,28.9,3396,4.4,Mercado Central,2024,Retail,False
+LIC002,Colombia,Ron,Caribe Reserva,14.12,37.8,4475,3.7,,2022,Mayorista,False
+LIC003,Argentina,Vino,Valle Sur,11.55,12.0,5211,3.4,Bebidas Andinas,2020,Retail,False
+LIC004,Colombia,Aguardiente,Montaña Azul,13.26,27.9,6246,4.1,,2022,Mayorista,False
+LIC005,República Dominicana,Ron,Andes Gold,18.56,34.6,,4.0,Latam Spirits,2018,Retail,False
+LIC006,México,Cerveza,Pacífico Malt,2.17,3.0,1761,3.0,Latam Spirits,2021,Duty Free,False
+LIC007,Chile,Vino,Altura Roja,120.0,11.1,3537,3.1,Mercado Central,2018,Retail,True
+LIC008,México,Tequila,Azul Norte,29.46,38.3,4416,3.8,,2024,E-commerce,True
+LIC009,Chile,Cerveza,Pacífico Malt,4.36,5.4,3069,3.8,,2022,Retail,False
+LIC010,Colombia,Cerveza,Norte IPA,4.29,3.6,3446,4.3,Bebidas Andinas,2019,E-commerce,False
+LIC011,México,Cerveza,Brava Lager,4.84,5.5,3829,,Bebidas Andinas,2020,Mayorista,False
+LIC012,Colombia,Aguardiente,Caña Fina,7.65,30.4,445,4.2,Bebidas Andinas,2021,Retail,False
+LIC013,México,Cerveza,Brava Lager,5.42,,2169,3.3,Latam Spirits,2022,Mayorista,False
+LIC014,Argentina,Vino,Cordillera Wines,11.94,15.2,1500,4.0,Mercado Central,2021,Retail,False
+LIC015,Chile,Cerveza,Brava Lager,3.34,2.6,1633,3.4,,2022,Retail,False
+LIC016,Colombia,Aguardiente,Caña Fina,,29.1,2810,3.8,Latam Spirits,2019,Duty Free,False
+LIC017,Colombia,Aguardiente,Caña Fina,7.13,28.1,4107,3.2,Bebidas Andinas,2020,Duty Free,False
+LIC018,Colombia,Aguardiente,Caña Fina,8.97,30.3,2419,3.1,Distribuciones Norte,2020,Mayorista,False
+LIC019,Chile,Pisco,Valle Claro,22.91,37.5,1558,4.7,Mercado Central,2021,Retail,False
+LIC020,México,Tequila,Sol de Jalisco,16.92,37.7,2490,3.1,Latam Spirits,2022,E-commerce,False
+LIC021,Chile,Pisco,Pisco del Sur,26.89,40.5,6774,3.5,Bebidas Andinas,2020,Retail,True
+LIC022,Colombia,Cerveza,Pacífico Malt,3.87,3.1,6831,4.8,Bebidas Andinas,2021,Mayorista,False
+LIC023,Perú,Cerveza,Norte IPA,2.29,4.9,4729,3.9,Bebidas Andinas,2021,E-commerce,False
+LIC024,México,Cerveza,Norte IPA,4.15,6.5,2829,3.8,,2020,Retail,False
+LIC025,Chile,Pisco,Quebranta Alta,19.85,40.8,2003,4.6,Mercado Central,2022,Duty Free,False
+LIC026,Chile,Pisco,Pisco del Sur,11.26,38.4,4190,4.3,,2021,E-commerce,False
+LIC027,Argentina,Vino,Cordillera Wines,14.73,14.6,1300,3.7,Bebidas Andinas,2021,Retail,False
+LIC028,México,Tequila,Sol de Jalisco,35.68,37.7,1420,4.0,Mercado Central,2018,E-commerce,True
+LIC029,Chile,Vino,Valle Sur,23.16,11.8,5064,4.2,Mercado Central,2023,Retail,False
+LIC030,Chile,Pisco,Quebranta Alta,23.54,41.9,3161,3.9,,2018,Retail,False
+LIC031,México,Tequila,Sol de Jalisco,37.92,37.7,3757,3.2,Distribuciones Norte,2021,E-commerce,True
+LIC032,Colombia,Aguardiente,Caña Fina,17.58,28.0,4613,3.7,Bebidas Andinas,2019,Duty Free,False
+LIC033,México,Cerveza,Norte IPA,3.74,6.9,,4.2,Bebidas Andinas,2021,E-commerce,False
+LIC034,México,Tequila,Agave Real,11.95,40.0,4396,3.9,Latam Spirits,2023,E-commerce,False
+LIC035,República Dominicana,Ron,Caribe Reserva,23.3,39.3,3695,4.3,Mercado Central,2024,Mayorista,False
+LIC036,México,Tequila,Agave Real,30.45,37.3,4773,3.6,Latam Spirits,2018,Duty Free,True
+LIC037,Perú,Pisco,Valle Claro,120.0,41.4,2391,3.4,Latam Spirits,2019,E-commerce,True
+LIC038,México,Cerveza,Pacífico Malt,1.67,5.7,1304,3.6,Mercado Central,2018,Mayorista,False
+LIC039,Colombia,Aguardiente,Antioquia Cristal,13.89,28.6,3034,3.4,,2020,Mayorista,False
+LIC040,México,Tequila,Agave Real,30.88,39.9,3527,4.5,Mercado Central,2018,E-commerce,True
+LIC041,México,Tequila,Sol de Jalisco,38.86,,3209,4.5,Distribuciones Norte,2020,Retail,True
+LIC042,Argentina,Vino,Altura Roja,6.58,15.2,2292,3.2,Bebidas Andinas,2021,Retail,False
+LIC043,Perú,Cerveza,Norte IPA,4.25,2.8,3225,4.6,Latam Spirits,2023,Duty Free,False
+LIC044,Colombia,Ron,Andes Gold,23.06,37.0,3348,3.2,,2019,Duty Free,False
+LIC045,Argentina,Vino,Altura Roja,7.79,14.9,2455,4.2,Mercado Central,2022,Duty Free,False
+LIC046,Chile,Pisco,Valle Claro,17.24,38.7,5498,3.7,Latam Spirits,2022,Mayorista,False
+LIC047,República Dominicana,Ron,Caribe Reserva,19.19,38.7,4559,3.9,Bebidas Andinas,2023,Retail,False
+LIC048,Colombia,Ron,Caribe Reserva,,35.5,3602,4.6,,2019,E-commerce,True
+LIC049,México,Tequila,Agave Real,26.72,36.9,1709,4.9,Bebidas Andinas,2022,Mayorista,True
+LIC050,México,Tequila,Azul Norte,29.35,39.4,4910,4.1,Distribuciones Norte,2019,Mayorista,True
+LIC051,Cuba,Ron,Andes Gold,15.28,34.8,4174,3.9,Latam Spirits,2022,Retail,False
+LIC052,Chile,Vino,Valle Sur,16.47,14.4,3639,,,2020,Duty Free,False
+LIC053,Colombia,Aguardiente,Antioquia Cristal,18.46,28.6,3772,3.2,Mercado Central,2018,Retail,False
+LIC054,Perú,Pisco,Quebranta Alta,20.11,40.7,4314,4.0,Latam Spirits,2021,Mayorista,False
+LIC055,Argentina,Vino,Valle Sur,21.63,14.8,5252,4.2,,2023,E-commerce,False
+LIC056,Chile,Vino,Altura Roja,6.57,12.5,5345,4.4,Latam Spirits,2021,Mayorista,False
+LIC057,Colombia,Aguardiente,Caña Fina,16.62,28.9,3099,3.2,Distribuciones Norte,2018,Duty Free,False
+LIC058,Cuba,Ron,Santa Caña,15.68,34.8,4406,4.8,,2020,Retail,False
+LIC059,Argentina,Vino,Altura Roja,20.67,15.3,1915,4.1,Latam Spirits,2018,E-commerce,False
+LIC060,México,Tequila,Sol de Jalisco,24.65,39.7,4555,3.7,Latam Spirits,2022,E-commerce,False
+LIC061,Chile,Vino,Valle Sur,9.04,14.0,2317,3.1,Latam Spirits,2023,Mayorista,False
+LIC062,Perú,Pisco,Pisco del Sur,17.3,40.8,4608,3.1,Distribuciones Norte,2018,E-commerce,False
+LIC063,Argentina,Vino,Altura Roja,12.27,14.1,5094,4.5,,2022,Retail,False
+LIC064,Colombia,Ron,Andes Gold,18.06,34.9,3288,3.8,Mercado Central,2021,Duty Free,False
+LIC065,Chile,Vino,Altura Roja,15.08,12.6,3013,3.5,,2021,Mayorista,False
+LIC066,República Dominicana,Ron,Andes Gold,89.9,36.0,3747,3.4,Bebidas Andinas,2024,Mayorista,True
+LIC067,Perú,Pisco,Pisco del Sur,25.27,38.4,3928,3.7,Bebidas Andinas,2022,Mayorista,True
+LIC068,Cuba,Ron,Caribe Reserva,19.18,39.1,3881,4.6,,2021,Duty Free,False
+LIC069,Colombia,Aguardiente,Montaña Azul,10.04,31.3,5380,3.3,,2021,Mayorista,False
+LIC070,Colombia,Ron,Caribe Reserva,18.35,37.1,5931,3.8,Latam Spirits,2023,Mayorista,False
+LIC071,México,Tequila,Agave Real,34.55,38.2,4846,3.4,Latam Spirits,2020,E-commerce,True
+LIC072,México,Tequila,Azul Norte,23.81,36.3,,4.4,Distribuciones Norte,2019,Duty Free,False
+LIC073,Argentina,Vino,Valle Sur,10.45,13.7,796,4.9,Latam Spirits,2024,Mayorista,False
+LIC074,México,Tequila,Agave Real,12.36,39.5,4238,4.1,Latam Spirits,2022,Retail,False
+LIC075,Chile,Pisco,Pisco del Sur,21.22,38.9,4159,4.2,Distribuciones Norte,2022,Duty Free,False
+LIC076,Chile,Vino,Valle Sur,5.91,13.8,4705,3.6,Mercado Central,2022,E-commerce,False
+LIC077,Colombia,Ron,Caribe Reserva,22.49,39.4,971,3.2,Bebidas Andinas,2018,E-commerce,False
+LIC078,Colombia,Aguardiente,Caña Fina,5.78,28.3,3469,4.7,Mercado Central,2021,Mayorista,False
+LIC079,Colombia,Aguardiente,Montaña Azul,12.36,26.8,1559,3.2,Mercado Central,2020,Mayorista,False
+LIC080,Colombia,Aguardiente,Montaña Azul,8.45,27.2,5631,3.7,Mercado Central,2019,Retail,False

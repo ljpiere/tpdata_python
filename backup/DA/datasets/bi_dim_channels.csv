@@ -1,0 +1,13 @@
+channel_id,channel,campaign,device
+10,Email,Influencers,Desktop
+11,Afiliados,Always-on,Desktop
+12,Afiliados,Always-on,Mobile
+13,Email,Retargeting,Desktop
+14,Afiliados,Seasonal,Mobile
+15,Orgánico,Seasonal,Mobile
+16,Referidos,Always-on,Mobile
+17,Email,Seasonal,Desktop
+18,Afiliados,Seasonal,Desktop
+19,Email,Influencers,Desktop
+20,Búsqueda paga,Lanzamiento,Desktop
+21,Referidos,Lanzamiento,Desktop

@@ -1,0 +1,11 @@
+id,name,username,email,city,lat,lng,company_name,company_bs_len,username_len,name_len,posts_count,comments_received,avg_title_len,avg_body_len,avg_comment_len,engagement_score
+1,Leanne Graham,Bret,Sincere@april.biz,Gwenborough,-37.3159,81.1496,Romaguera-Crona,27,4,13,10,50,33.8,164.5,149.74,20.0
+2,Ervin Howell,Antonette,Shanna@melissa.tv,Wisokyburgh,-43.9509,-34.4618,Deckow-Crist,32,9,12,10,50,40.0,162.9,163.3,20.0
+3,Clementine Bauch,Samantha,Nathan@yesenia.net,McKenziehaven,-68.6102,-47.0653,Romaguera-Jacobson,31,8,16,10,50,37.1,153.8,163.78,20.0
+4,Patricia Lebsack,Karianne,Julianne.OConner@kory.org,South Elvis,29.4572,-164.299,Robel-Corkery,36,8,16,10,50,35.1,182.3,153.56,20.0
+5,Chelsey Dietrich,Kamren,,Roscoeview,-31.8129,62.5342,Keebler LLC,32,6,16,10,50,48.4,162.5,159.38,20.0
+6,Mrs. Dennis Schulist,Leopoldo_Corkery,Karley_Dach@jasper.info,South Christy,-71.4197,71.7478,Considine-Lockman,32,16,20,10,50,42.1,147.0,164.2,20.0
+7,Kurtis Weissnat,Elwyn.Skiles,Telly.Hoeger@billy.biz,Howemouth,24.8918,21.8984,Johns Group,29,12,15,10,50,37.4,163.5,164.52,20.0
+8,Nicholas Runolfsdottir V,Maxime_Nienow,Sherwood@rosamond.me,Aliyaview,-14.399,-120.7677,,29,13,24,10,50,,160.6,169.1,20.0
+9,Glenna Reichert,Delphine,,Bartholomebury,24.6463,-168.8889,Yost and Sons,32,8,15,10,50,42.3,154.6,166.04,20.0
+10,Clementina DuBuque,Moriah.Stanton,Rey.Padberg@karina.biz,Lebsackbury,-38.2386,57.2232,Hoeger LLC,24,14,18,10,50,35.4,154.7,161.66,20.0

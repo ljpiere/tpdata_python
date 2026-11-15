@@ -1,0 +1,73 @@
+review_id,texto,sentimiento,canal
+1005,EXCELENTE CALIDAD Y ENTREGA RÁPIDA VISITA HTTPS://EJEMPLO.COM 100%,positivo,app
+1063,LA EXPERIENCIA FUE FRUSTRANTE DE PRINCIPIO A FIN... VISITA HTTPS://EJEMPLO.COM,negativo,encuesta
+1019,Buen servicio y atención muy rápida!!! #enojo,positivo,encuesta
+1001,"ME ENCANTÓ EL PRODUCTO, FUNCIONA PERFECTO EN SERIO...",positivo,encuesta
+1029,VOLVERÍA A COMPRAR SIN PENSARLO :) @SOPORTE,positivo,encuesta
+1051,La app falla y se cierra sola :( :),negativo,chat
+1011,El soporte fue amable y resolvió todo @marca...,positivo,encuesta
+1035,"Me gustó mucho, superó mis expectativas... por favor",positivo,app
+1013,La app es fácil de usar y muy útil #feliz...,positivo,chat
+1055,MAL SERVICIO Y ATENCIÓN MUY LENTA POR FAVOR #ENOJO,negativo,chat
+1048,El soporte no respondió mi problema :( visita https://ejemplo.com,negativo,encuesta
+1032,El curso estuvo claro y bien explicado visita https://ejemplo.com visita https://ejemplo.com,positivo,chat
+1010,El soporte fue amable y resolvió todo 100% #feliz,positivo,web
+1046,El soporte no respondió mi problema en serio en serio,negativo,chat
+1006,Excelente calidad y entrega rápida por favor en serio,positivo,chat
+1023,Todo llegó en buen estado y a tiempo :( :),positivo,web
+1057,Mal servicio y atención muy lenta :)...,negativo,app
+1050,La app falla y se cierra sola!!! en serio,negativo,web
+1034,"ME GUSTÓ MUCHO, SUPERÓ MIS EXPECTATIVAS :(!!!",positivo,web
+1040,Pésima calidad y demora en la entrega #enojo!!!,negativo,app
+1060,El pedido llegó tarde y en mal estado #feliz :(,negativo,encuesta
+1017,La comida estuvo deliciosa y fresca :) @soporte,positivo,app
+1036,"Me gustó mucho, superó mis expectativas :) en serio",positivo,encuesta
+1045,Muy decepcionado con la compra en serio @marca,negativo,web
+1070,"Esperaba mucho más, fue una mala experiencia visita https://ejemplo.com @soporte",negativo,web
+1008,"Muy satisfecho con la compra, lo recomiendo por favor @marca",positivo,encuesta
+1056,MAL SERVICIO Y ATENCIÓN MUY LENTA VISITA HTTPS://EJEMPLO.COM VISITA HTTPS://EJEMPLO.COM,negativo,web
+1043,Muy decepcionado con la compra #feliz en serio,negativo,chat
+1031,El curso estuvo claro y bien explicado en serio visita https://ejemplo.com,positivo,app
+1047,El soporte no respondió mi problema por favor #enojo,negativo,app
+1072,"Esperaba mucho más, fue una mala experiencia #enojo :)",negativo,chat
+1020,Buen servicio y atención muy rápida :( en serio,positivo,chat
+1059,El pedido llegó tarde y en mal estado 100%...,negativo,encuesta
+1026,La experiencia fue excelente de principio a fin visita https://ejemplo.com #feliz,positivo,web
+1041,Pésima calidad y demora en la entrega!!!...,negativo,web
+1014,La app es fácil de usar y muy útil #feliz @soporte,positivo,encuesta
+1065,No volvería a comprar #feliz :),negativo,encuesta
+1004,EXCELENTE CALIDAD Y ENTREGA RÁPIDA!!!!!!,positivo,app
+1018,La comida estuvo deliciosa y fresca en serio #enojo,positivo,app
+1039,"No me gustó el producto, llegó dañado @soporte visita https://ejemplo.com",negativo,web
+1009,"Muy satisfecho con la compra, lo recomiendo......",positivo,encuesta
+1058,El pedido llegó tarde y en mal estado @marca...,negativo,web
+1007,"Muy satisfecho con la compra, lo recomiendo 100% #feliz",positivo,app
+1037,"No me gustó el producto, llegó dañado visita https://ejemplo.com 100%",negativo,app
+1067,El curso estuvo confuso y mal explicado en serio...,negativo,web
+1054,La comida llegó fría y sin sabor :) :(,negativo,web
+1071,"Esperaba mucho más, fue una mala experiencia... en serio",negativo,web
+1016,LA COMIDA ESTUVO DELICIOSA Y FRESCA 100% EN SERIO,positivo,app
+1028,VOLVERÍA A COMPRAR SIN PENSARLO EN SERIO #ENOJO,positivo,chat
+1042,PÉSIMA CALIDAD Y DEMORA EN LA ENTREGA!!! #ENOJO,negativo,app
+1027,LA EXPERIENCIA FUE EXCELENTE DE PRINCIPIO A FIN EN SERIO POR FAVOR,positivo,encuesta
+1049,La app falla y se cierra sola @soporte :(,negativo,web
+1025,La experiencia fue excelente de principio a fin 100%...,positivo,chat
+1062,La experiencia fue frustrante de principio a fin...!!!,negativo,web
+1066,No volvería a comprar 100% en serio,negativo,encuesta
+1012,El soporte fue amable y resolvió todo 100% :(,positivo,app
+1033,El curso estuvo claro y bien explicado!!!...,positivo,encuesta
+1069,EL CURSO ESTUVO CONFUSO Y MAL EXPLICADO POR FAVOR #ENOJO,negativo,encuesta
+1064,No volvería a comprar :) #enojo,negativo,encuesta
+1038,"No me gustó el producto, llegó dañado por favor #feliz",negativo,encuesta
+1030,Volvería a comprar sin pensarlo visita https://ejemplo.com :),positivo,encuesta
+1044,Muy decepcionado con la compra :( @soporte,negativo,web
+1068,El curso estuvo confuso y mal explicado... por favor,negativo,app
+1002,"ME ENCANTÓ EL PRODUCTO, FUNCIONA PERFECTO :( :(",positivo,web
+1053,La comida llegó fría y sin sabor @soporte #feliz,negativo,chat
+1022,Todo llegó en buen estado y a tiempo por favor 100%,positivo,encuesta
+1003,"Me encantó el producto, funciona perfecto en serio por favor",positivo,chat
+1024,Todo llegó en buen estado y a tiempo... :),positivo,chat
+1021,BUEN SERVICIO Y ATENCIÓN MUY RÁPIDA :) #FELIZ,positivo,encuesta
+1061,La experiencia fue frustrante de principio a fin @marca :),negativo,encuesta
+1015,La app es fácil de usar y muy útil #enojo :(,positivo,web
+1052,La comida llegó fría y sin sabor!!! :),negativo,encuesta
